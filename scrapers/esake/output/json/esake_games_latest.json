@@ -1,0 +1,1102 @@
+{
+  "export_date": "2026-02-01T14:24:18.055665",
+  "season": "2025-26",
+  "league": "Greek Basket League (ESAKE)",
+  "source": "esake.gr",
+  "game_count": 156,
+  "played_count": 5,
+  "games": [
+    {
+      "game_id": "24EFFB78",
+      "date": null,
+      "opponent": null,
+      "score": "026-18",
+      "played": true
+    },
+    {
+      "game_id": "B9FAB9B9",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "31448FA0",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "DF3AE35B",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "39066761",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "900D8447",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "AC22547F",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "CB858B59",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "64A6314C",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "56E6EEB7",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "BD81985E",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "B799FCEB",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "859AC058",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "F4315E6B",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "B52DF9AA",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "84A0F897",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "7597E994",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "5127A994",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "CF1AD33A",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "F2EB952B",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "5252B5CD",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "AC1351AC",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "915C8F9A",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "D6867DA7",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "FFFD9924",
+      "date": null,
+      "opponent": null,
+      "score": "026-16",
+      "played": true
+    },
+    {
+      "game_id": "6780FFBC",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "331F8F82",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "BDDDDB35",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "064626C4",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "A10DD10B",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "A00CEF40",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "00055AF3",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "C78F3907",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "55C6FDE8",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "AECFE989",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "393D321D",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "A1CF2292",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "40C60417",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "4BF3B604",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "0D646AB1",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "CCF0757A",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "C433D68C",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "14A8ACD9",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "C8894FC8",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "A5B74B4D",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "7A54A45E",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "E442A1C9",
+      "date": null,
+      "opponent": null,
+      "score": "026-16",
+      "played": true
+    },
+    {
+      "game_id": "A1AEF8F6",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "7A483C8C",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "2108E5AB",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "62AC2D49",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "6FD7C967",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "D2BB31D1",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "701AEB05",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "B98153F7",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "0A425AAD",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "5D87F283",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "8651C013",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "872A2AA0",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "B7782DA2",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "66C256EC",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "123B4DCC",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "022AEC1F",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "39A37733",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "A6D8234E",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "2494140D",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "AE00F69F",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "333BA441",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "5F8914F1",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "70F692DD",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "5CFAAFD8",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "35D959A5",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "4ED36E3B",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "3E969D1E",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "BD1731F0",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "D7932E4C",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "1997C6CC",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "425EDB1F",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "712DDD76",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "56353A8B",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "FE13D470",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "03193B50",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "14699D4F",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "176152C4",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "E6D9A3DA",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "C0F74D68",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "6A0C10C6",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "A005D853",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "55E5DE1E",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "30CD53A5",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "30BD1BFF",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "CD6D52BF",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "CC99C65A",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "B8B0047F",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "EA08402E",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "F3C35D25",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "E370C037",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "B30837F8",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "D38441E9",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "4911CC8D",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "2C63DE97",
+      "date": null,
+      "opponent": null,
+      "score": "026-13",
+      "played": true
+    },
+    {
+      "game_id": "33442BD1",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "C1300683",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "AF21351D",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "BBFBAB5C",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "2442E726",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "2066CA02",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "3806106E",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "5B6E37DA",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "0089DAAC",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "E1FC2E1E",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "60B638ED",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "9D6C5A4F",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "6C6DE291",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "3DE5EF09",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "3CE69266",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "E998B875",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "4C54AEAE",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "2A7D1A13",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "6AF63BE2",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "38AB985A",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "433817A1",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "0A235BB1",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "56E1EBA3",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "5C09FC92",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "3F46EFAD",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "D539C11A",
+      "date": null,
+      "opponent": null,
+      "score": "026-18",
+      "played": true
+    },
+    {
+      "game_id": "907EFEB1",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "64261AE3",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "E9755EB1",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "D3C8F8A2",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "F35A0A9B",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "A62783DB",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "F8A32D69",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "F6DA23FB",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "E3457596",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "49D5AD1C",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "B33C93F6",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "45DC000F",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "EE108CA4",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "54F1EFCF",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "EA65E932",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "5ADBAB0D",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "2187F881",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "10CF19E6",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "3C16D7AC",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "B024DA99",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "C8AE513C",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "319B09BE",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "C9BC9C9D",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "6FB09486",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "18629A2F",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "B8BF420A",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "DE88109D",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "9934A636",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    },
+    {
+      "game_id": "160AAA9F",
+      "date": null,
+      "opponent": null,
+      "score": null,
+      "played": false
+    }
+  ]
+}
