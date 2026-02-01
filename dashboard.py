@@ -8,7 +8,6 @@ basketball leagues with easy league switching.
 
 import json
 import os
-from glob import glob
 from flask import Flask, render_template_string, request, redirect, url_for
 
 app = Flask(__name__)
@@ -126,38 +125,35 @@ def get_available_leagues():
     return available
 
 
-BASE_TEMPLATE = """
-<!DOCTYPE html>
-<html>
-<head>
-    <title>{% block title %}International Basketball - American Players{% endblock %}</title>
-    <style>
-        * { box-sizing: border-box; }
-        body {
+def get_styles(league_color='#333'):
+    """Return CSS styles with the given league color."""
+    return f"""
+        * {{ box-sizing: border-box; }}
+        body {{
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             max-width: 1600px;
             margin: 0 auto;
             padding: 20px;
             background: #f5f5f5;
-        }
-        header {
+        }}
+        header {{
             display: flex;
             justify-content: space-between;
             align-items: center;
             margin-bottom: 20px;
             flex-wrap: wrap;
             gap: 15px;
-        }
-        h1 {
-            color: {{ league_color or '#333' }};
+        }}
+        h1 {{
+            color: {league_color};
             margin: 0;
-        }
-        .league-selector {
+        }}
+        .league-selector {{
             display: flex;
             gap: 8px;
             flex-wrap: wrap;
-        }
-        .league-btn {
+        }}
+        .league-btn {{
             padding: 8px 16px;
             border: 2px solid #ddd;
             border-radius: 20px;
@@ -167,100 +163,100 @@ BASE_TEMPLATE = """
             color: #333;
             font-size: 0.9em;
             transition: all 0.2s;
-        }
-        .league-btn:hover {
+        }}
+        .league-btn:hover {{
             border-color: #999;
             background: #f9f9f9;
-        }
-        .league-btn.active {
-            border-color: {{ league_color or '#333' }};
-            background: {{ league_color or '#333' }};
+        }}
+        .league-btn.active {{
+            border-color: {league_color};
+            background: {league_color};
             color: white;
-        }
-        .filters {
+        }}
+        .filters {{
             background: white;
             padding: 15px;
             border-radius: 8px;
             margin-bottom: 20px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
-        .filters select, .filters input {
+        }}
+        .filters select, .filters input {{
             padding: 8px;
             margin-right: 10px;
             border: 1px solid #ddd;
             border-radius: 4px;
-        }
-        table {
+        }}
+        table {{
             width: 100%;
             background: white;
             border-collapse: collapse;
             border-radius: 8px;
             overflow: hidden;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
-        th {
-            background: {{ league_color or '#333' }};
+        }}
+        th {{
+            background: {league_color};
             color: white;
             padding: 12px 8px;
             text-align: left;
             font-size: 0.85em;
-        }
-        th a { color: white; text-decoration: none; }
-        td {
+        }}
+        th a {{ color: white; text-decoration: none; }}
+        td {{
             padding: 10px 8px;
             border-bottom: 1px solid #eee;
             font-size: 0.9em;
-        }
-        tr:hover { background: #f9f9f9; }
-        a { color: {{ league_color or '#0066cc' }}; text-decoration: none; }
-        a:hover { text-decoration: underline; }
-        .stats { font-weight: bold; }
-        .hometown { color: #666; font-size: 0.85em; }
-        .last-updated {
+        }}
+        tr:hover {{ background: #f9f9f9; }}
+        a {{ color: {league_color}; text-decoration: none; }}
+        a:hover {{ text-decoration: underline; }}
+        .stats {{ font-weight: bold; }}
+        .hometown {{ color: #666; font-size: 0.85em; }}
+        .last-updated {{
             color: #666;
             font-size: 0.85em;
             margin-bottom: 10px;
-        }
-        .player-card {
+        }}
+        .player-card {{
             background: white;
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
             margin-bottom: 20px;
-        }
-        .game-log { font-size: 0.9em; }
-        .badge {
+        }}
+        .game-log {{ font-size: 0.9em; }}
+        .badge {{
             display: inline-block;
             padding: 2px 8px;
             border-radius: 4px;
             font-size: 0.85em;
             color: white;
-        }
-        .badge.win { background: #28a745; }
-        .badge.loss { background: #dc3545; }
-        .player-header {
+        }}
+        .badge.win {{ background: #28a745; }}
+        .badge.loss {{ background: #dc3545; }}
+        .player-header {{
             display: flex;
             gap: 20px;
             align-items: flex-start;
-        }
-        .player-headshot {
+        }}
+        .player-headshot {{
             width: 150px;
             height: auto;
             border-radius: 8px;
             object-fit: cover;
-        }
-        .player-info { flex: 1; }
-        .player-info h2 {
+        }}
+        .player-info {{ flex: 1; }}
+        .player-info h2 {{
             margin-top: 0;
-            color: {{ league_color or '#333' }};
-        }
-        .home-grid {
+            color: {league_color};
+        }}
+        .home-grid {{
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
             gap: 20px;
             margin-top: 30px;
-        }
-        .league-card {
+        }}
+        .league-card {{
             background: white;
             border-radius: 12px;
             padding: 25px;
@@ -268,39 +264,38 @@ BASE_TEMPLATE = """
             transition: transform 0.2s, box-shadow 0.2s;
             text-decoration: none;
             color: inherit;
-        }
-        .league-card:hover {
+        }}
+        .league-card:hover {{
             transform: translateY(-4px);
             box-shadow: 0 4px 16px rgba(0,0,0,0.15);
-        }
-        .league-card h3 {
+        }}
+        .league-card h3 {{
             margin: 0 0 8px 0;
-        }
-        .league-card .country {
+        }}
+        .league-card .country {{
             color: #666;
             font-size: 0.9em;
-        }
-        .league-card .player-count {
+        }}
+        .league-card .player-count {{
             margin-top: 15px;
             font-size: 1.5em;
             font-weight: bold;
-        }
-        @media (max-width: 768px) {
-            th, td { padding: 8px 4px; font-size: 0.8em; }
-            .player-header { flex-direction: column; }
-        }
-    </style>
-</head>
-<body>
-    {% block content %}{% endblock %}
-</body>
-</html>
-"""
+        }}
+        @media (max-width: 768px) {{
+            th, td {{ padding: 8px 4px; font-size: 0.8em; }}
+            .player-header {{ flex-direction: column; }}
+        }}
+    """
+
 
 HOME_TEMPLATE = """
-{% extends "base" %}
-{% block title %}International Basketball - American Players Dashboard{% endblock %}
-{% block content %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>International Basketball - American Players Dashboard</title>
+    <style>{{ styles }}</style>
+</head>
+<body>
 <header>
     <h1>International Basketball</h1>
     <p style="color: #666; margin: 0;">American Players Dashboard</p>
@@ -313,7 +308,7 @@ HOME_TEMPLATE = """
     <a href="/league/{{ league.code }}" class="league-card" style="border-left: 4px solid {{ league.color }};">
         <h3 style="color: {{ league.color }};">{{ league.name }}</h3>
         <div class="country">{{ league.country }}</div>
-        <div class="player-count">{{ league.player_count or '—' }} players</div>
+        <div class="player-count">{{ league.player_count if league.player_count else '—' }} players</div>
     </a>
     {% endfor %}
 </div>
@@ -323,13 +318,18 @@ HOME_TEMPLATE = """
     <p>This dashboard tracks American basketball players in international leagues. Data is updated daily via automated scrapers.</p>
     <p><strong>Leagues:</strong> EuroLeague, Liga ACB (Spain), Turkish BSL, CBA (China), NBL (Australia), LNB Pro A (France), Lega Basket Serie A (Italy), Basketball Bundesliga (Germany), Greek Basket League</p>
 </div>
-{% endblock %}
+</body>
+</html>
 """
 
 LEAGUE_TEMPLATE = """
-{% extends "base" %}
-{% block title %}{{ league_name }} - American Players{% endblock %}
-{% block content %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ league_name }} - American Players</title>
+    <style>{{ styles }}</style>
+</head>
+<body>
 <header>
     <div>
         <a href="/" style="color: #666; font-size: 0.9em;">&larr; All Leagues</a>
@@ -401,13 +401,18 @@ LEAGUE_TEMPLATE = """
 </table>
 
 <p>Showing {{ players|length }} American players</p>
-{% endblock %}
+</body>
+</html>
 """
 
 PLAYER_TEMPLATE = """
-{% extends "base" %}
-{% block title %}{{ player.name }} - {{ league_name }}{% endblock %}
-{% block content %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ player.name }} - {{ league_name }}</title>
+    <style>{{ styles }}</style>
+</head>
+<body>
 <header>
     <div>
         <a href="/league/{{ current_league }}" style="color: #666; font-size: 0.9em;">&larr; Back to {{ league_name }}</a>
@@ -512,7 +517,8 @@ PLAYER_TEMPLATE = """
     </table>
 </div>
 {% endif %}
-{% endblock %}
+</body>
+</html>
 """
 
 
@@ -543,10 +549,9 @@ def home():
     leagues.sort(key=lambda x: (x['player_count'] is None, x['name']))
 
     return render_template_string(
-        BASE_TEMPLATE.replace('{% block content %}{% endblock %}',
-                              HOME_TEMPLATE.replace('{% extends "base" %}', '')),
+        HOME_TEMPLATE,
         leagues=leagues,
-        league_color='#333'
+        styles=get_styles('#333')
     )
 
 
@@ -589,20 +594,19 @@ def league_view(league_code):
     all_leagues = get_available_leagues()
 
     return render_template_string(
-        BASE_TEMPLATE.replace('{% block content %}{% endblock %}',
-                              LEAGUE_TEMPLATE.replace('{% extends "base" %}', '')),
+        LEAGUE_TEMPLATE,
         players=players,
         export_date=export_date,
         league_name=league['name'],
         league_country=league['country'],
-        league_color=league['color'],
         current_league=league_code,
         all_leagues=all_leagues,
         teams=teams,
         states=states,
         search=search,
         selected_team=selected_team,
-        selected_state=selected_state
+        selected_state=selected_state,
+        styles=get_styles(league['color'])
     )
 
 
@@ -619,12 +623,11 @@ def player_detail(league_code, player_code):
         return "Player not found", 404
 
     return render_template_string(
-        BASE_TEMPLATE.replace('{% block content %}{% endblock %}',
-                              PLAYER_TEMPLATE.replace('{% extends "base" %}', '')),
+        PLAYER_TEMPLATE,
         player=player,
         league_name=league['name'],
-        league_color=league['color'],
-        current_league=league_code
+        current_league=league_code,
+        styles=get_styles(league['color'])
     )
 
 
