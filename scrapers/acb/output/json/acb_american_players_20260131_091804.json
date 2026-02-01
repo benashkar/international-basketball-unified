@@ -1,0 +1,46 @@
+{
+  "export_date": "2026-01-31T09:23:21.696479",
+  "season": "2025-2026",
+  "league": "Liga ACB",
+  "player_count": 1,
+  "players": [
+    {
+      "acb_id": "30003945",
+      "name": "Grant GoldenGrant Golden",
+      "team_id": 10,
+      "game_log": [
+        {
+          "name": "G. Golden",
+          "acb_id": "30003945",
+          "minutes": "21:37",
+          "points": 18,
+          "assists": 5,
+          "match_id": "104461",
+          "jornada": 1
+        },
+        {
+          "name": "G. Golden",
+          "acb_id": "30003945",
+          "minutes": "19:45",
+          "points": 12,
+          "assists": 2,
+          "match_id": "104471",
+          "jornada": 1
+        },
+        {
+          "name": "G. Golden",
+          "acb_id": "30003945",
+          "minutes": "11:35",
+          "points": 4,
+          "assists": 1,
+          "match_id": "104477",
+          "jornada": 1
+        }
+      ],
+      "games_tracked": 3,
+      "calculated_ppg": 11.3,
+      "calculated_rpg": 0.0,
+      "calculated_apg": 2.7
+    }
+  ]
+}

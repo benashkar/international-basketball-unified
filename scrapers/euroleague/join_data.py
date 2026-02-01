@@ -58,6 +58,9 @@ import logging
 # glob: For finding files matching a pattern (e.g., "clubs_*.json")
 from glob import glob
 
+# positions: For converting position numbers to names (1=PG, 2=SG, etc.)
+from positions import get_position_name
+
 # =============================================================================
 # LOGGING CONFIGURATION
 # =============================================================================
@@ -358,7 +361,8 @@ def main():
             'name': name,                              # Cleaned name
             'team': player.get('team_name'),           # Current team
             'team_code': player.get('team_code'),      # Team code (e.g., 'BAR')
-            'position': player.get('position'),        # Guard, Forward, Center
+            # Convert position number to name (1=PG, 2=SG, 3=SF, 4=PF, 5=C)
+            'position': get_position_name(player.get('position')),
             'jersey': player.get('jersey'),            # Jersey number
             'height_cm': height_cm,                    # Height in centimeters
             'height_feet': height_feet,                # Height feet component

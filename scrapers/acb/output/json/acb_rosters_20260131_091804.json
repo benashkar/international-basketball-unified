@@ -1,0 +1,111 @@
+{
+  "export_date": "2026-01-31T09:23:21.695394",
+  "season": "2025-2026",
+  "league": "Liga ACB",
+  "player_count": 14,
+  "players": [
+    {
+      "acb_id": "30003998",
+      "name": "Hamidou DialloHamidou Diallo",
+      "team_id": 3
+    },
+    {
+      "acb_id": "20212330",
+      "name": "Luka SamanicLuka Samanic",
+      "team_id": 3
+    },
+    {
+      "acb_id": "30003950",
+      "name": "Braian AngolaBraian Angola",
+      "team_id": 5
+    },
+    {
+      "acb_id": "30003852",
+      "name": "Bruno FernandoBruno Fernando",
+      "team_id": 9
+    },
+    {
+      "acb_id": "30003945",
+      "name": "Grant GoldenGrant Golden",
+      "team_id": 10,
+      "game_log": [
+        {
+          "name": "G. Golden",
+          "acb_id": "30003945",
+          "minutes": "21:37",
+          "points": 18,
+          "assists": 5,
+          "match_id": "104461",
+          "jornada": 1
+        },
+        {
+          "name": "G. Golden",
+          "acb_id": "30003945",
+          "minutes": "19:45",
+          "points": 12,
+          "assists": 2,
+          "match_id": "104471",
+          "jornada": 1
+        },
+        {
+          "name": "G. Golden",
+          "acb_id": "30003945",
+          "minutes": "11:35",
+          "points": 4,
+          "assists": 1,
+          "match_id": "104477",
+          "jornada": 1
+        }
+      ],
+      "games_tracked": 3,
+      "calculated_ppg": 11.3,
+      "calculated_rpg": 0.0,
+      "calculated_apg": 2.7
+    },
+    {
+      "acb_id": "30003996",
+      "name": "Alfonso PlummerAlfonso Plummer",
+      "team_id": 10
+    },
+    {
+      "acb_id": "30003942",
+      "name": "Archange Izaw-BolavieArchange Izaw-Bolavie",
+      "team_id": 10
+    },
+    {
+      "acb_id": "30004089",
+      "name": "Zach HicksZach Hicks",
+      "team_id": 12
+    },
+    {
+      "acb_id": "30002683",
+      "name": "Ike IroegbuIke Iroegbu",
+      "team_id": 13
+    },
+    {
+      "acb_id": "30004087",
+      "name": "Vincent Valerio-BodonVincent Valerio-Bodon",
+      "team_id": 13
+    },
+    {
+      "acb_id": "30003967",
+      "name": "Xavier CastañedaXavier Castañeda",
+      "team_id": 14
+    },
+    {
+      "acb_id": "30003963",
+      "name": "Emir KabacaEmir Kabaca",
+      "team_id": 16
+    },
+    {
+      "acb_id": "20213218",
+      "name": "Lucas LangaritaLucas Langarita",
+      "team_id": 16
+    },
+    {
+      "acb_id": "30003995",
+      "name": "Erik StevensonErik Stevenson",
+      "team_id": 16
+    }
+  ]
+}

@@ -1,0 +1,1116 @@
+{
+  "export_date": "2026-01-31T05:12:05.283933",
+  "season": "2025-2026",
+  "league": "Liga ACB",
+  "player_count": 19,
+  "players": [
+    {
+      "player_name": "Nathan Reuvers",
+      "games_played": 6,
+      "total_points": 391,
+      "total_rebounds": 37,
+      "total_assists": 36,
+      "performances": [
+        {
+          "player_name": "Nathan Reuvers",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1005_145_100.aspx",
+          "minutes": 67,
+          "rebounds": 6,
+          "assists": 5,
+          "steals": 5,
+          "turnovers": 5,
+          "points": 66
+        },
+        {
+          "player_name": "Nathan Reuvers",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1012_259_145.aspx",
+          "minutes": 62,
+          "rebounds": 8,
+          "assists": 6,
+          "steals": 6,
+          "turnovers": 4,
+          "points": 66
+        },
+        {
+          "player_name": "Nathan Reuvers",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1019_3343_145.aspx",
+          "minutes": 86,
+          "rebounds": 4,
+          "assists": 5,
+          "steals": 6,
+          "turnovers": 6,
+          "points": 68
+        },
+        {
+          "player_name": "Nathan Reuvers",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1026_145_95.aspx",
+          "minutes": 67,
+          "rebounds": 8,
+          "assists": 6,
+          "steals": 6,
+          "turnovers": 5,
+          "points": 64
+        },
+        {
+          "player_name": "Nathan Reuvers",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1102_145_1162.aspx",
+          "minutes": 85,
+          "rebounds": 3,
+          "assists": 6,
+          "steals": 5,
+          "turnovers": 6,
+          "points": 63
+        },
+        {
+          "player_name": "Nathan Reuvers",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1109_403_145.aspx",
+          "minutes": 67,
+          "rebounds": 8,
+          "assists": 8,
+          "steals": 5,
+          "turnovers": 5,
+          "points": 64
+        }
+      ],
+      "ppg": 65.2,
+      "rpg": 6.2,
+      "apg": 6.0
+    },
+    {
+      "player_name": "Caleb Agada",
+      "games_played": 6,
+      "total_points": 377,
+      "total_rebounds": 26,
+      "total_assists": 24,
+      "performances": [
+        {
+          "player_name": "Caleb Agada",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1004_3343_259.aspx",
+          "minutes": 86,
+          "rebounds": 9,
+          "assists": 1,
+          "steals": 6,
+          "turnovers": 6,
+          "points": 63
+        },
+        {
+          "player_name": "Caleb Agada",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1012_100_3343.aspx",
+          "minutes": 85,
+          "rebounds": 0,
+          "assists": 4,
+          "steals": 5,
+          "turnovers": 4,
+          "points": 62
+        },
+        {
+          "player_name": "Caleb Agada",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1019_3343_145.aspx",
+          "minutes": 61,
+          "rebounds": 5,
+          "assists": 8,
+          "steals": 8,
+          "turnovers": 8,
+          "points": 65
+        },
+        {
+          "player_name": "Caleb Agada",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1025_3343_403.aspx",
+          "minutes": 85,
+          "rebounds": 3,
+          "assists": 4,
+          "steals": 5,
+          "turnovers": 8,
+          "points": 61
+        },
+        {
+          "player_name": "Caleb Agada",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1102_95_3343.aspx",
+          "minutes": 83,
+          "rebounds": 8,
+          "assists": 3,
+          "steals": 8,
+          "turnovers": 6,
+          "points": 64
+        },
+        {
+          "player_name": "Caleb Agada",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1109_3343_108.aspx",
+          "minutes": 85,
+          "rebounds": 1,
+          "assists": 4,
+          "steals": 8,
+          "turnovers": 6,
+          "points": 62
+        }
+      ],
+      "ppg": 62.8,
+      "rpg": 4.3,
+      "apg": 4.0
+    },
+    {
+      "player_name": "Kevin Punter",
+      "games_played": 6,
+      "total_points": 332,
+      "total_rebounds": 36,
+      "total_assists": 33,
+      "performances": [
+        {
+          "player_name": "Kevin Punter",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1005_145_100.aspx",
+          "minutes": 88,
+          "rebounds": 8,
+          "assists": 6,
+          "steals": 6,
+          "turnovers": 6,
+          "points": 2
+        },
+        {
+          "player_name": "Kevin Punter",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1012_100_3343.aspx",
+          "minutes": 85,
+          "rebounds": 6,
+          "assists": 6,
+          "steals": 5,
+          "turnovers": 6,
+          "points": 63
+        },
+        {
+          "player_name": "Kevin Punter",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1019_138_100.aspx",
+          "minutes": 87,
+          "rebounds": 0,
+          "assists": 4,
+          "steals": 8,
+          "turnovers": 8,
+          "points": 69
+        },
+        {
+          "player_name": "Kevin Punter",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1025_100_259.aspx",
+          "minutes": 84,
+          "rebounds": 8,
+          "assists": 8,
+          "steals": 6,
+          "turnovers": 8,
+          "points": 65
+        },
+        {
+          "player_name": "Kevin Punter",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1102_100_258.aspx",
+          "minutes": 84,
+          "rebounds": 8,
+          "assists": 4,
+          "steals": 5,
+          "turnovers": 4,
+          "points": 65
+        },
+        {
+          "player_name": "Kevin Punter",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1109_16169_100.aspx",
+          "minutes": 85,
+          "rebounds": 6,
+          "assists": 5,
+          "steals": 6,
+          "turnovers": 5,
+          "points": 68
+        }
+      ],
+      "ppg": 55.3,
+      "rpg": 6.0,
+      "apg": 5.5
+    },
+    {
+      "player_name": "Michael Forrest",
+      "games_played": 5,
+      "total_points": 260,
+      "total_rebounds": 27,
+      "total_assists": 24,
+      "performances": [
+        {
+          "player_name": "Michael Forrest",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1005_258_139.aspx",
+          "minutes": 85,
+          "rebounds": 3,
+          "assists": 1,
+          "steals": 5,
+          "turnovers": 3,
+          "points": 66
+        },
+        {
+          "player_name": "Michael Forrest",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1011_16169_258.aspx",
+          "minutes": 85,
+          "rebounds": 4,
+          "assists": 6,
+          "steals": 5,
+          "turnovers": 8,
+          "points": 61
+        },
+        {
+          "player_name": "Michael Forrest",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1018_402_258.aspx",
+          "minutes": 69,
+          "rebounds": 6,
+          "assists": 5,
+          "steals": 6,
+          "turnovers": 8,
+          "points": 0
+        },
+        {
+          "player_name": "Michael Forrest",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1026_258_108.aspx",
+          "minutes": 61,
+          "rebounds": 8,
+          "assists": 8,
+          "steals": 6,
+          "turnovers": 6,
+          "points": 66
+        },
+        {
+          "player_name": "Michael Forrest",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1102_100_258.aspx",
+          "minutes": 85,
+          "rebounds": 6,
+          "assists": 4,
+          "steals": 5,
+          "turnovers": 4,
+          "points": 67
+        }
+      ],
+      "ppg": 52.0,
+      "rpg": 5.4,
+      "apg": 4.8
+    },
+    {
+      "player_name": "Kameron Taylor",
+      "games_played": 4,
+      "total_points": 206,
+      "total_rebounds": 18,
+      "total_assists": 15,
+      "performances": [
+        {
+          "player_name": "Kameron Taylor",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1005_145_100.aspx",
+          "minutes": 83,
+          "rebounds": 3,
+          "assists": 0,
+          "steals": 5,
+          "turnovers": 6,
+          "points": 66
+        },
+        {
+          "player_name": "Kameron Taylor",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1012_259_145.aspx",
+          "minutes": 85,
+          "rebounds": 4,
+          "assists": 3,
+          "steals": 6,
+          "turnovers": 6,
+          "points": 8
+        },
+        {
+          "player_name": "Kameron Taylor",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1019_3343_145.aspx",
+          "minutes": 67,
+          "rebounds": 3,
+          "assists": 6,
+          "steals": 6,
+          "turnovers": 8,
+          "points": 63
+        },
+        {
+          "player_name": "Kameron Taylor",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1026_145_95.aspx",
+          "minutes": 85,
+          "rebounds": 8,
+          "assists": 6,
+          "steals": 6,
+          "turnovers": 5,
+          "points": 69
+        }
+      ],
+      "ppg": 51.5,
+      "rpg": 4.5,
+      "apg": 3.8
+    },
+    {
+      "player_name": "Matt Thomas",
+      "games_played": 6,
+      "total_points": 292,
+      "total_rebounds": 37,
+      "total_assists": 36,
+      "performances": [
+        {
+          "player_name": "Matt Thomas",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1004_403_95.aspx",
+          "minutes": 48,
+          "rebounds": 8,
+          "assists": 3,
+          "steals": 5,
+          "turnovers": 4,
+          "points": 7
+        },
+        {
+          "player_name": "Matt Thomas",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1011_318_403.aspx",
+          "minutes": 87,
+          "rebounds": 3,
+          "assists": 5,
+          "steals": 5,
+          "turnovers": 6,
+          "points": 63
+        },
+        {
+          "player_name": "Matt Thomas",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1019_403_108.aspx",
+          "minutes": 45,
+          "rebounds": 6,
+          "assists": 6,
+          "steals": 5,
+          "turnovers": 6,
+          "points": 68
+        },
+        {
+          "player_name": "Matt Thomas",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1025_3343_403.aspx",
+          "minutes": 89,
+          "rebounds": 4,
+          "assists": 8,
+          "steals": 5,
+          "turnovers": 6,
+          "points": 85
+        },
+        {
+          "player_name": "Matt Thomas",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1101_259_403.aspx",
+          "minutes": 69,
+          "rebounds": 8,
+          "assists": 8,
+          "steals": 6,
+          "turnovers": 8,
+          "points": 9
+        },
+        {
+          "player_name": "Matt Thomas",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1109_403_145.aspx",
+          "minutes": 89,
+          "rebounds": 8,
+          "assists": 6,
+          "steals": 8,
+          "turnovers": 6,
+          "points": 60
+        }
+      ],
+      "ppg": 48.7,
+      "rpg": 6.2,
+      "apg": 6.0
+    },
+    {
+      "player_name": "Trent Forrest",
+      "games_played": 2,
+      "total_points": 82,
+      "total_rebounds": 9,
+      "total_assists": 9,
+      "performances": [
+        {
+          "player_name": "Trent Forrest",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1005_1998_108.aspx",
+          "minutes": 84,
+          "rebounds": 6,
+          "assists": 0,
+          "steals": 5,
+          "turnovers": 6,
+          "points": 1
+        },
+        {
+          "player_name": "Trent Forrest",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1012_108_86.aspx",
+          "minutes": 45,
+          "rebounds": 3,
+          "assists": 9,
+          "steals": 4,
+          "turnovers": 4,
+          "points": 81
+        }
+      ],
+      "ppg": 41.0,
+      "rpg": 4.5,
+      "apg": 4.5
+    },
+    {
+      "player_name": "Grant Golden",
+      "games_played": 5,
+      "total_points": 196,
+      "total_rebounds": 6,
+      "total_assists": 28,
+      "performances": [
+        {
+          "player_name": "Grant Golden",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1004_402_318.aspx",
+          "minutes": 88,
+          "rebounds": 4,
+          "assists": 0,
+          "steals": 5,
+          "turnovers": 8,
+          "points": 62
+        },
+        {
+          "player_name": "Grant Golden",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1011_318_403.aspx",
+          "minutes": 85,
+          "rebounds": 2,
+          "assists": 8,
+          "steals": 6,
+          "turnovers": 6,
+          "points": 68
+        },
+        {
+          "player_name": "Grant Golden",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1018_318_1312.aspx",
+          "minutes": 68,
+          "rebounds": 0,
+          "assists": 6,
+          "steals": 5,
+          "turnovers": 4,
+          "points": 3
+        },
+        {
+          "player_name": "Grant Golden",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1026_86_318.aspx",
+          "minutes": 85,
+          "rebounds": 0,
+          "assists": 8,
+          "steals": 6,
+          "turnovers": 8,
+          "points": 62
+        },
+        {
+          "player_name": "Grant Golden",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1101_318_1324.aspx",
+          "minutes": 69,
+          "rebounds": 0,
+          "assists": 6,
+          "steals": 5,
+          "turnovers": 4,
+          "points": 1
+        }
+      ],
+      "ppg": 39.2,
+      "rpg": 1.2,
+      "apg": 5.6
+    },
+    {
+      "player_name": "Darius Thompson",
+      "games_played": 6,
+      "total_points": 206,
+      "total_rebounds": 33,
+      "total_assists": 17,
+      "performances": [
+        {
+          "player_name": "Darius Thompson",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1005_145_100.aspx",
+          "minutes": 62,
+          "rebounds": 0,
+          "assists": 3,
+          "steals": 6,
+          "turnovers": 5,
+          "points": 61
+        },
+        {
+          "player_name": "Darius Thompson",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1012_259_145.aspx",
+          "minutes": 88,
+          "rebounds": 8,
+          "assists": 2,
+          "steals": 4,
+          "turnovers": 5,
+          "points": 68
+        },
+        {
+          "player_name": "Darius Thompson",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1019_3343_145.aspx",
+          "minutes": 86,
+          "rebounds": 8,
+          "assists": 1,
+          "steals": 6,
+          "turnovers": 8,
+          "points": 63
+        },
+        {
+          "player_name": "Darius Thompson",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1026_145_95.aspx",
+          "minutes": 86,
+          "rebounds": 4,
+          "assists": 4,
+          "steals": 6,
+          "turnovers": 5,
+          "points": 9
+        },
+        {
+          "player_name": "Darius Thompson",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1102_145_1162.aspx",
+          "minutes": 69,
+          "rebounds": 8,
+          "assists": 4,
+          "steals": 6,
+          "turnovers": 8,
+          "points": 2
+        },
+        {
+          "player_name": "Darius Thompson",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1109_403_145.aspx",
+          "minutes": 63,
+          "rebounds": 5,
+          "assists": 3,
+          "steals": 6,
+          "turnovers": 5,
+          "points": 3
+        }
+      ],
+      "ppg": 34.3,
+      "rpg": 5.5,
+      "apg": 2.8
+    },
+    {
+      "player_name": "Omari Moore",
+      "games_played": 6,
+      "total_points": 148,
+      "total_rebounds": 28,
+      "total_assists": 37,
+      "performances": [
+        {
+          "player_name": "Omari Moore",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1005_145_100.aspx",
+          "minutes": 84,
+          "rebounds": 1,
+          "assists": 6,
+          "steals": 5,
+          "turnovers": 3,
+          "points": 7
+        },
+        {
+          "player_name": "Omari Moore",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1012_259_145.aspx",
+          "minutes": 86,
+          "rebounds": 8,
+          "assists": 8,
+          "steals": 5,
+          "turnovers": 8,
+          "points": 63
+        },
+        {
+          "player_name": "Omari Moore",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1019_3343_145.aspx",
+          "minutes": 62,
+          "rebounds": 0,
+          "assists": 4,
+          "steals": 6,
+          "turnovers": 6,
+          "points": 2
+        },
+        {
+          "player_name": "Omari Moore",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1026_145_95.aspx",
+          "minutes": 63,
+          "rebounds": 6,
+          "assists": 3,
+          "steals": 5,
+          "turnovers": 5,
+          "points": 8
+        },
+        {
+          "player_name": "Omari Moore",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1102_145_1162.aspx",
+          "minutes": 69,
+          "rebounds": 9,
+          "assists": 8,
+          "steals": 5,
+          "turnovers": 8,
+          "points": 4
+        },
+        {
+          "player_name": "Omari Moore",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1109_403_145.aspx",
+          "minutes": 88,
+          "rebounds": 4,
+          "assists": 8,
+          "steals": 8,
+          "turnovers": 8,
+          "points": 64
+        }
+      ],
+      "ppg": 24.7,
+      "rpg": 4.7,
+      "apg": 6.2
+    },
+    {
+      "player_name": "David Kravish",
+      "games_played": 4,
+      "total_points": 84,
+      "total_rebounds": 12,
+      "total_assists": 19,
+      "performances": [
+        {
+          "player_name": "David Kravish",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1004_138_1324.aspx",
+          "minutes": 85,
+          "rebounds": 0,
+          "assists": 3,
+          "steals": 5,
+          "turnovers": 8,
+          "points": 9
+        },
+        {
+          "player_name": "David Kravish",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1011_1312_138.aspx",
+          "minutes": 65,
+          "rebounds": 6,
+          "assists": 5,
+          "steals": 5,
+          "turnovers": 5,
+          "points": 1
+        },
+        {
+          "player_name": "David Kravish",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1019_138_100.aspx",
+          "minutes": 83,
+          "rebounds": 1,
+          "assists": 6,
+          "steals": 5,
+          "turnovers": 8,
+          "points": 66
+        },
+        {
+          "player_name": "David Kravish",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1025_402_138.aspx",
+          "minutes": 68,
+          "rebounds": 5,
+          "assists": 5,
+          "steals": 5,
+          "turnovers": 5,
+          "points": 8
+        }
+      ],
+      "ppg": 21.0,
+      "rpg": 3.0,
+      "apg": 4.8
+    },
+    {
+      "player_name": "DJ Stephens",
+      "games_played": 4,
+      "total_points": 79,
+      "total_rebounds": 23,
+      "total_assists": 20,
+      "performances": [
+        {
+          "player_name": "DJ Stephens",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1005_1998_108.aspx",
+          "minutes": 85,
+          "rebounds": 4,
+          "assists": 5,
+          "steals": 8,
+          "turnovers": 6,
+          "points": 2
+        },
+        {
+          "player_name": "DJ Stephens",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1012_95_1998.aspx",
+          "minutes": 60,
+          "rebounds": 8,
+          "assists": 5,
+          "steals": 5,
+          "turnovers": 5,
+          "points": 8
+        },
+        {
+          "player_name": "DJ Stephens",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1018_1998_259.aspx",
+          "minutes": 69,
+          "rebounds": 3,
+          "assists": 5,
+          "steals": 5,
+          "turnovers": 6,
+          "points": 3
+        },
+        {
+          "player_name": "DJ Stephens",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1025_1162_1998.aspx",
+          "minutes": 64,
+          "rebounds": 8,
+          "assists": 5,
+          "steals": 5,
+          "turnovers": 4,
+          "points": 66
+        }
+      ],
+      "ppg": 19.8,
+      "rpg": 5.8,
+      "apg": 5.0
+    },
+    {
+      "player_name": "James Webb III",
+      "games_played": 4,
+      "total_points": 76,
+      "total_rebounds": 15,
+      "total_assists": 22,
+      "performances": [
+        {
+          "player_name": "James Webb III",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1011_1312_138.aspx",
+          "minutes": 83,
+          "rebounds": 3,
+          "assists": 6,
+          "steals": 5,
+          "turnovers": 8,
+          "points": 7
+        },
+        {
+          "player_name": "James Webb III",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1019_138_100.aspx",
+          "minutes": 86,
+          "rebounds": 4,
+          "assists": 5,
+          "steals": 6,
+          "turnovers": 6,
+          "points": 2
+        },
+        {
+          "player_name": "James Webb III",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1025_402_138.aspx",
+          "minutes": 62,
+          "rebounds": 4,
+          "assists": 5,
+          "steals": 6,
+          "turnovers": 6,
+          "points": 65
+        },
+        {
+          "player_name": "James Webb III",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1101_138_16169.aspx",
+          "minutes": 63,
+          "rebounds": 4,
+          "assists": 6,
+          "steals": 6,
+          "turnovers": 4,
+          "points": 2
+        }
+      ],
+      "ppg": 19.0,
+      "rpg": 3.8,
+      "apg": 5.5
+    },
+    {
+      "player_name": "John Shurna",
+      "games_played": 4,
+      "total_points": 76,
+      "total_rebounds": 23,
+      "total_assists": 20,
+      "performances": [
+        {
+          "player_name": "John Shurna",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1019_3343_145.aspx",
+          "minutes": 68,
+          "rebounds": 3,
+          "assists": 4,
+          "steals": 5,
+          "turnovers": 5,
+          "points": 5
+        },
+        {
+          "player_name": "John Shurna",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1025_3343_403.aspx",
+          "minutes": 86,
+          "rebounds": 9,
+          "assists": 6,
+          "steals": 5,
+          "turnovers": 5,
+          "points": 65
+        },
+        {
+          "player_name": "John Shurna",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1102_95_3343.aspx",
+          "minutes": 85,
+          "rebounds": 5,
+          "assists": 5,
+          "steals": 5,
+          "turnovers": 5,
+          "points": 1
+        },
+        {
+          "player_name": "John Shurna",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1109_3343_108.aspx",
+          "minutes": 65,
+          "rebounds": 6,
+          "assists": 5,
+          "steals": 5,
+          "turnovers": 5,
+          "points": 5
+        }
+      ],
+      "ppg": 19.0,
+      "rpg": 5.8,
+      "apg": 5.0
+    },
+    {
+      "player_name": "Thomas Scrubb",
+      "games_played": 5,
+      "total_points": 84,
+      "total_rebounds": 26,
+      "total_assists": 28,
+      "performances": [
+        {
+          "player_name": "Thomas Scrubb",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1004_402_318.aspx",
+          "minutes": 63,
+          "rebounds": 8,
+          "assists": 5,
+          "steals": 8,
+          "turnovers": 5,
+          "points": 8
+        },
+        {
+          "player_name": "Thomas Scrubb",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1011_139_402.aspx",
+          "minutes": 61,
+          "rebounds": 3,
+          "assists": 4,
+          "steals": 5,
+          "turnovers": 5,
+          "points": 2
+        },
+        {
+          "player_name": "Thomas Scrubb",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1018_402_258.aspx",
+          "minutes": 61,
+          "rebounds": 3,
+          "assists": 5,
+          "steals": 5,
+          "turnovers": 5,
+          "points": 2
+        },
+        {
+          "player_name": "Thomas Scrubb",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1025_402_138.aspx",
+          "minutes": 84,
+          "rebounds": 8,
+          "assists": 6,
+          "steals": 5,
+          "turnovers": 5,
+          "points": 65
+        },
+        {
+          "player_name": "Thomas Scrubb",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1102_108_402.aspx",
+          "minutes": 80,
+          "rebounds": 4,
+          "assists": 8,
+          "steals": 8,
+          "turnovers": 6,
+          "points": 7
+        }
+      ],
+      "ppg": 16.8,
+      "rpg": 5.2,
+      "apg": 5.6
+    },
+    {
+      "player_name": "Myles Cale",
+      "games_played": 6,
+      "total_points": 81,
+      "total_rebounds": 26,
+      "total_assists": 34,
+      "performances": [
+        {
+          "player_name": "Myles Cale",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1005_145_100.aspx",
+          "minutes": 85,
+          "rebounds": 3,
+          "assists": 5,
+          "steals": 5,
+          "turnovers": 5,
+          "points": 0
+        },
+        {
+          "player_name": "Myles Cale",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1012_100_3343.aspx",
+          "minutes": 67,
+          "rebounds": 1,
+          "assists": 5,
+          "steals": 6,
+          "turnovers": 6,
+          "points": 3
+        },
+        {
+          "player_name": "Myles Cale",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1019_138_100.aspx",
+          "minutes": 69,
+          "rebounds": 4,
+          "assists": 5,
+          "steals": 6,
+          "turnovers": 8,
+          "points": 3
+        },
+        {
+          "player_name": "Myles Cale",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1025_100_259.aspx",
+          "minutes": 89,
+          "rebounds": 4,
+          "assists": 6,
+          "steals": 5,
+          "turnovers": 5,
+          "points": 64
+        },
+        {
+          "player_name": "Myles Cale",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1102_100_258.aspx",
+          "minutes": 86,
+          "rebounds": 6,
+          "assists": 5,
+          "steals": 6,
+          "turnovers": 5,
+          "points": 8
+        },
+        {
+          "player_name": "Myles Cale",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1109_16169_100.aspx",
+          "minutes": 84,
+          "rebounds": 8,
+          "assists": 8,
+          "steals": 6,
+          "turnovers": 5,
+          "points": 3
+        }
+      ],
+      "ppg": 13.5,
+      "rpg": 4.3,
+      "apg": 5.7
+    },
+    {
+      "player_name": "Tyler Kalinoski",
+      "games_played": 5,
+      "total_points": 13,
+      "total_rebounds": 24,
+      "total_assists": 40,
+      "performances": [
+        {
+          "player_name": "Tyler Kalinoski",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1004_138_1324.aspx",
+          "minutes": 69,
+          "rebounds": 4,
+          "assists": 8,
+          "steals": 5,
+          "turnovers": 6,
+          "points": 1
+        },
+        {
+          "player_name": "Tyler Kalinoski",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1011_1312_138.aspx",
+          "minutes": 67,
+          "rebounds": 6,
+          "assists": 8,
+          "steals": 5,
+          "turnovers": 5,
+          "points": 3
+        },
+        {
+          "player_name": "Tyler Kalinoski",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1019_138_100.aspx",
+          "minutes": 85,
+          "rebounds": 4,
+          "assists": 8,
+          "steals": 8,
+          "turnovers": 5,
+          "points": 4
+        },
+        {
+          "player_name": "Tyler Kalinoski",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1025_402_138.aspx",
+          "minutes": 81,
+          "rebounds": 4,
+          "assists": 8,
+          "steals": 6,
+          "turnovers": 6,
+          "points": 2
+        },
+        {
+          "player_name": "Tyler Kalinoski",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1101_138_16169.aspx",
+          "minutes": 86,
+          "rebounds": 6,
+          "assists": 8,
+          "steals": 6,
+          "turnovers": 5,
+          "points": 3
+        }
+      ],
+      "ppg": 2.6,
+      "rpg": 4.8,
+      "apg": 8.0
+    },
+    {
+      "player_name": "Chuma Okeke",
+      "games_played": 3,
+      "total_points": 5,
+      "total_rebounds": 10,
+      "total_assists": 17,
+      "performances": [
+        {
+          "player_name": "Chuma Okeke",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1004_86_1312.aspx",
+          "minutes": 86,
+          "rebounds": 6,
+          "assists": 6,
+          "steals": 5,
+          "turnovers": 5,
+          "points": 1
+        },
+        {
+          "player_name": "Chuma Okeke",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1019_86_1162.aspx",
+          "minutes": 69,
+          "rebounds": 4,
+          "assists": 6,
+          "steals": 6,
+          "turnovers": 5,
+          "points": 3
+        },
+        {
+          "player_name": "Chuma Okeke",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1026_86_318.aspx",
+          "minutes": 69,
+          "rebounds": 0,
+          "assists": 5,
+          "steals": 5,
+          "turnovers": 6,
+          "points": 1
+        }
+      ],
+      "ppg": 1.7,
+      "rpg": 3.3,
+      "apg": 5.7
+    },
+    {
+      "player_name": "Braxton Key",
+      "games_played": 1,
+      "total_points": 0,
+      "total_rebounds": 4,
+      "total_assists": 8,
+      "performances": [
+        {
+          "player_name": "Braxton Key",
+          "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1102_145_1162.aspx",
+          "minutes": 68,
+          "rebounds": 4,
+          "assists": 8,
+          "steals": 5,
+          "turnovers": 5,
+          "points": 0
+        }
+      ],
+      "ppg": 0.0,
+      "rpg": 4.0,
+      "apg": 8.0
+    }
+  ]
+}

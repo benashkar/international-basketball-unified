@@ -1,0 +1,888 @@
+{
+  "export_date": "2026-01-31T05:12:05.282493",
+  "season": "2025-2026",
+  "league": "Liga ACB",
+  "performance_count": 88,
+  "performances": [
+    {
+      "player_name": "Trent Forrest",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1005_1998_108.aspx",
+      "minutes": 84,
+      "rebounds": 6,
+      "assists": 0,
+      "steals": 5,
+      "turnovers": 6,
+      "points": 1
+    },
+    {
+      "player_name": "DJ Stephens",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1005_1998_108.aspx",
+      "minutes": 85,
+      "rebounds": 4,
+      "assists": 5,
+      "steals": 8,
+      "turnovers": 6,
+      "points": 2
+    },
+    {
+      "player_name": "Caleb Agada",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1004_3343_259.aspx",
+      "minutes": 86,
+      "rebounds": 9,
+      "assists": 1,
+      "steals": 6,
+      "turnovers": 6,
+      "points": 63
+    },
+    {
+      "player_name": "Matt Thomas",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1004_403_95.aspx",
+      "minutes": 48,
+      "rebounds": 8,
+      "assists": 3,
+      "steals": 5,
+      "turnovers": 4,
+      "points": 7
+    },
+    {
+      "player_name": "Michael Forrest",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1005_258_139.aspx",
+      "minutes": 85,
+      "rebounds": 3,
+      "assists": 1,
+      "steals": 5,
+      "turnovers": 3,
+      "points": 66
+    },
+    {
+      "player_name": "Chuma Okeke",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1004_86_1312.aspx",
+      "minutes": 86,
+      "rebounds": 6,
+      "assists": 6,
+      "steals": 5,
+      "turnovers": 5,
+      "points": 1
+    },
+    {
+      "player_name": "Grant Golden",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1004_402_318.aspx",
+      "minutes": 88,
+      "rebounds": 4,
+      "assists": 0,
+      "steals": 5,
+      "turnovers": 8,
+      "points": 62
+    },
+    {
+      "player_name": "Thomas Scrubb",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1004_402_318.aspx",
+      "minutes": 63,
+      "rebounds": 8,
+      "assists": 5,
+      "steals": 8,
+      "turnovers": 5,
+      "points": 8
+    },
+    {
+      "player_name": "David Kravish",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1004_138_1324.aspx",
+      "minutes": 85,
+      "rebounds": 0,
+      "assists": 3,
+      "steals": 5,
+      "turnovers": 8,
+      "points": 9
+    },
+    {
+      "player_name": "Tyler Kalinoski",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1004_138_1324.aspx",
+      "minutes": 69,
+      "rebounds": 4,
+      "assists": 8,
+      "steals": 5,
+      "turnovers": 6,
+      "points": 1
+    },
+    {
+      "player_name": "Kevin Punter",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1005_145_100.aspx",
+      "minutes": 88,
+      "rebounds": 8,
+      "assists": 6,
+      "steals": 6,
+      "turnovers": 6,
+      "points": 2
+    },
+    {
+      "player_name": "Myles Cale",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1005_145_100.aspx",
+      "minutes": 85,
+      "rebounds": 3,
+      "assists": 5,
+      "steals": 5,
+      "turnovers": 5,
+      "points": 0
+    },
+    {
+      "player_name": "Kameron Taylor",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1005_145_100.aspx",
+      "minutes": 83,
+      "rebounds": 3,
+      "assists": 0,
+      "steals": 5,
+      "turnovers": 6,
+      "points": 66
+    },
+    {
+      "player_name": "Omari Moore",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1005_145_100.aspx",
+      "minutes": 84,
+      "rebounds": 1,
+      "assists": 6,
+      "steals": 5,
+      "turnovers": 3,
+      "points": 7
+    },
+    {
+      "player_name": "Nathan Reuvers",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1005_145_100.aspx",
+      "minutes": 67,
+      "rebounds": 6,
+      "assists": 5,
+      "steals": 5,
+      "turnovers": 5,
+      "points": 66
+    },
+    {
+      "player_name": "Darius Thompson",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1005_145_100.aspx",
+      "minutes": 62,
+      "rebounds": 0,
+      "assists": 3,
+      "steals": 6,
+      "turnovers": 5,
+      "points": 61
+    },
+    {
+      "player_name": "Kevin Punter",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1012_100_3343.aspx",
+      "minutes": 85,
+      "rebounds": 6,
+      "assists": 6,
+      "steals": 5,
+      "turnovers": 6,
+      "points": 63
+    },
+    {
+      "player_name": "Myles Cale",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1012_100_3343.aspx",
+      "minutes": 67,
+      "rebounds": 1,
+      "assists": 5,
+      "steals": 6,
+      "turnovers": 6,
+      "points": 3
+    },
+    {
+      "player_name": "Caleb Agada",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1012_100_3343.aspx",
+      "minutes": 85,
+      "rebounds": 0,
+      "assists": 4,
+      "steals": 5,
+      "turnovers": 4,
+      "points": 62
+    },
+    {
+      "player_name": "Trent Forrest",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1012_108_86.aspx",
+      "minutes": 45,
+      "rebounds": 3,
+      "assists": 9,
+      "steals": 4,
+      "turnovers": 4,
+      "points": 81
+    },
+    {
+      "player_name": "Michael Forrest",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1011_16169_258.aspx",
+      "minutes": 85,
+      "rebounds": 4,
+      "assists": 6,
+      "steals": 5,
+      "turnovers": 8,
+      "points": 61
+    },
+    {
+      "player_name": "Darius Thompson",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1012_259_145.aspx",
+      "minutes": 88,
+      "rebounds": 8,
+      "assists": 2,
+      "steals": 4,
+      "turnovers": 5,
+      "points": 68
+    },
+    {
+      "player_name": "Omari Moore",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1012_259_145.aspx",
+      "minutes": 86,
+      "rebounds": 8,
+      "assists": 8,
+      "steals": 5,
+      "turnovers": 8,
+      "points": 63
+    },
+    {
+      "player_name": "Kameron Taylor",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1012_259_145.aspx",
+      "minutes": 85,
+      "rebounds": 4,
+      "assists": 3,
+      "steals": 6,
+      "turnovers": 6,
+      "points": 8
+    },
+    {
+      "player_name": "Nathan Reuvers",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1012_259_145.aspx",
+      "minutes": 62,
+      "rebounds": 8,
+      "assists": 6,
+      "steals": 6,
+      "turnovers": 4,
+      "points": 66
+    },
+    {
+      "player_name": "James Webb III",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1011_1312_138.aspx",
+      "minutes": 83,
+      "rebounds": 3,
+      "assists": 6,
+      "steals": 5,
+      "turnovers": 8,
+      "points": 7
+    },
+    {
+      "player_name": "Tyler Kalinoski",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1011_1312_138.aspx",
+      "minutes": 67,
+      "rebounds": 6,
+      "assists": 8,
+      "steals": 5,
+      "turnovers": 5,
+      "points": 3
+    },
+    {
+      "player_name": "David Kravish",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1011_1312_138.aspx",
+      "minutes": 65,
+      "rebounds": 6,
+      "assists": 5,
+      "steals": 5,
+      "turnovers": 5,
+      "points": 1
+    },
+    {
+      "player_name": "DJ Stephens",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1012_95_1998.aspx",
+      "minutes": 60,
+      "rebounds": 8,
+      "assists": 5,
+      "steals": 5,
+      "turnovers": 5,
+      "points": 8
+    },
+    {
+      "player_name": "Matt Thomas",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1011_318_403.aspx",
+      "minutes": 87,
+      "rebounds": 3,
+      "assists": 5,
+      "steals": 5,
+      "turnovers": 6,
+      "points": 63
+    },
+    {
+      "player_name": "Grant Golden",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1011_318_403.aspx",
+      "minutes": 85,
+      "rebounds": 2,
+      "assists": 8,
+      "steals": 6,
+      "turnovers": 6,
+      "points": 68
+    },
+    {
+      "player_name": "Thomas Scrubb",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1011_139_402.aspx",
+      "minutes": 61,
+      "rebounds": 3,
+      "assists": 4,
+      "steals": 5,
+      "turnovers": 5,
+      "points": 2
+    },
+    {
+      "player_name": "DJ Stephens",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1018_1998_259.aspx",
+      "minutes": 69,
+      "rebounds": 3,
+      "assists": 5,
+      "steals": 5,
+      "turnovers": 6,
+      "points": 3
+    },
+    {
+      "player_name": "Caleb Agada",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1019_3343_145.aspx",
+      "minutes": 61,
+      "rebounds": 5,
+      "assists": 8,
+      "steals": 8,
+      "turnovers": 8,
+      "points": 65
+    },
+    {
+      "player_name": "John Shurna",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1019_3343_145.aspx",
+      "minutes": 68,
+      "rebounds": 3,
+      "assists": 4,
+      "steals": 5,
+      "turnovers": 5,
+      "points": 5
+    },
+    {
+      "player_name": "Darius Thompson",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1019_3343_145.aspx",
+      "minutes": 86,
+      "rebounds": 8,
+      "assists": 1,
+      "steals": 6,
+      "turnovers": 8,
+      "points": 63
+    },
+    {
+      "player_name": "Nathan Reuvers",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1019_3343_145.aspx",
+      "minutes": 86,
+      "rebounds": 4,
+      "assists": 5,
+      "steals": 6,
+      "turnovers": 6,
+      "points": 68
+    },
+    {
+      "player_name": "Kameron Taylor",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1019_3343_145.aspx",
+      "minutes": 67,
+      "rebounds": 3,
+      "assists": 6,
+      "steals": 6,
+      "turnovers": 8,
+      "points": 63
+    },
+    {
+      "player_name": "Omari Moore",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1019_3343_145.aspx",
+      "minutes": 62,
+      "rebounds": 0,
+      "assists": 4,
+      "steals": 6,
+      "turnovers": 6,
+      "points": 2
+    },
+    {
+      "player_name": "Matt Thomas",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1019_403_108.aspx",
+      "minutes": 45,
+      "rebounds": 6,
+      "assists": 6,
+      "steals": 5,
+      "turnovers": 6,
+      "points": 68
+    },
+    {
+      "player_name": "Grant Golden",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1018_318_1312.aspx",
+      "minutes": 68,
+      "rebounds": 0,
+      "assists": 6,
+      "steals": 5,
+      "turnovers": 4,
+      "points": 3
+    },
+    {
+      "player_name": "Chuma Okeke",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1019_86_1162.aspx",
+      "minutes": 69,
+      "rebounds": 4,
+      "assists": 6,
+      "steals": 6,
+      "turnovers": 5,
+      "points": 3
+    },
+    {
+      "player_name": "Michael Forrest",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1018_402_258.aspx",
+      "minutes": 69,
+      "rebounds": 6,
+      "assists": 5,
+      "steals": 6,
+      "turnovers": 8,
+      "points": 0
+    },
+    {
+      "player_name": "Thomas Scrubb",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1018_402_258.aspx",
+      "minutes": 61,
+      "rebounds": 3,
+      "assists": 5,
+      "steals": 5,
+      "turnovers": 5,
+      "points": 2
+    },
+    {
+      "player_name": "Kevin Punter",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1019_138_100.aspx",
+      "minutes": 87,
+      "rebounds": 0,
+      "assists": 4,
+      "steals": 8,
+      "turnovers": 8,
+      "points": 69
+    },
+    {
+      "player_name": "Myles Cale",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1019_138_100.aspx",
+      "minutes": 69,
+      "rebounds": 4,
+      "assists": 5,
+      "steals": 6,
+      "turnovers": 8,
+      "points": 3
+    },
+    {
+      "player_name": "David Kravish",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1019_138_100.aspx",
+      "minutes": 83,
+      "rebounds": 1,
+      "assists": 6,
+      "steals": 5,
+      "turnovers": 8,
+      "points": 66
+    },
+    {
+      "player_name": "James Webb III",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1019_138_100.aspx",
+      "minutes": 86,
+      "rebounds": 4,
+      "assists": 5,
+      "steals": 6,
+      "turnovers": 6,
+      "points": 2
+    },
+    {
+      "player_name": "Tyler Kalinoski",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1019_138_100.aspx",
+      "minutes": 85,
+      "rebounds": 4,
+      "assists": 8,
+      "steals": 8,
+      "turnovers": 5,
+      "points": 4
+    },
+    {
+      "player_name": "Myles Cale",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1025_100_259.aspx",
+      "minutes": 89,
+      "rebounds": 4,
+      "assists": 6,
+      "steals": 5,
+      "turnovers": 5,
+      "points": 64
+    },
+    {
+      "player_name": "Kevin Punter",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1025_100_259.aspx",
+      "minutes": 84,
+      "rebounds": 8,
+      "assists": 8,
+      "steals": 6,
+      "turnovers": 8,
+      "points": 65
+    },
+    {
+      "player_name": "Matt Thomas",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1025_3343_403.aspx",
+      "minutes": 89,
+      "rebounds": 4,
+      "assists": 8,
+      "steals": 5,
+      "turnovers": 6,
+      "points": 85
+    },
+    {
+      "player_name": "John Shurna",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1025_3343_403.aspx",
+      "minutes": 86,
+      "rebounds": 9,
+      "assists": 6,
+      "steals": 5,
+      "turnovers": 5,
+      "points": 65
+    },
+    {
+      "player_name": "Caleb Agada",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1025_3343_403.aspx",
+      "minutes": 85,
+      "rebounds": 3,
+      "assists": 4,
+      "steals": 5,
+      "turnovers": 8,
+      "points": 61
+    },
+    {
+      "player_name": "Michael Forrest",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1026_258_108.aspx",
+      "minutes": 61,
+      "rebounds": 8,
+      "assists": 8,
+      "steals": 6,
+      "turnovers": 6,
+      "points": 66
+    },
+    {
+      "player_name": "Grant Golden",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1026_86_318.aspx",
+      "minutes": 85,
+      "rebounds": 0,
+      "assists": 8,
+      "steals": 6,
+      "turnovers": 8,
+      "points": 62
+    },
+    {
+      "player_name": "Chuma Okeke",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1026_86_318.aspx",
+      "minutes": 69,
+      "rebounds": 0,
+      "assists": 5,
+      "steals": 5,
+      "turnovers": 6,
+      "points": 1
+    },
+    {
+      "player_name": "DJ Stephens",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1025_1162_1998.aspx",
+      "minutes": 64,
+      "rebounds": 8,
+      "assists": 5,
+      "steals": 5,
+      "turnovers": 4,
+      "points": 66
+    },
+    {
+      "player_name": "Thomas Scrubb",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1025_402_138.aspx",
+      "minutes": 84,
+      "rebounds": 8,
+      "assists": 6,
+      "steals": 5,
+      "turnovers": 5,
+      "points": 65
+    },
+    {
+      "player_name": "Tyler Kalinoski",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1025_402_138.aspx",
+      "minutes": 81,
+      "rebounds": 4,
+      "assists": 8,
+      "steals": 6,
+      "turnovers": 6,
+      "points": 2
+    },
+    {
+      "player_name": "James Webb III",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1025_402_138.aspx",
+      "minutes": 62,
+      "rebounds": 4,
+      "assists": 5,
+      "steals": 6,
+      "turnovers": 6,
+      "points": 65
+    },
+    {
+      "player_name": "David Kravish",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1025_402_138.aspx",
+      "minutes": 68,
+      "rebounds": 5,
+      "assists": 5,
+      "steals": 5,
+      "turnovers": 5,
+      "points": 8
+    },
+    {
+      "player_name": "Darius Thompson",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1026_145_95.aspx",
+      "minutes": 86,
+      "rebounds": 4,
+      "assists": 4,
+      "steals": 6,
+      "turnovers": 5,
+      "points": 9
+    },
+    {
+      "player_name": "Kameron Taylor",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1026_145_95.aspx",
+      "minutes": 85,
+      "rebounds": 8,
+      "assists": 6,
+      "steals": 6,
+      "turnovers": 5,
+      "points": 69
+    },
+    {
+      "player_name": "Nathan Reuvers",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1026_145_95.aspx",
+      "minutes": 67,
+      "rebounds": 8,
+      "assists": 6,
+      "steals": 6,
+      "turnovers": 5,
+      "points": 64
+    },
+    {
+      "player_name": "Omari Moore",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1026_145_95.aspx",
+      "minutes": 63,
+      "rebounds": 6,
+      "assists": 3,
+      "steals": 5,
+      "turnovers": 5,
+      "points": 8
+    },
+    {
+      "player_name": "Kevin Punter",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1102_100_258.aspx",
+      "minutes": 84,
+      "rebounds": 8,
+      "assists": 4,
+      "steals": 5,
+      "turnovers": 4,
+      "points": 65
+    },
+    {
+      "player_name": "Myles Cale",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1102_100_258.aspx",
+      "minutes": 86,
+      "rebounds": 6,
+      "assists": 5,
+      "steals": 6,
+      "turnovers": 5,
+      "points": 8
+    },
+    {
+      "player_name": "Michael Forrest",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1102_100_258.aspx",
+      "minutes": 85,
+      "rebounds": 6,
+      "assists": 4,
+      "steals": 5,
+      "turnovers": 4,
+      "points": 67
+    },
+    {
+      "player_name": "Thomas Scrubb",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1102_108_402.aspx",
+      "minutes": 80,
+      "rebounds": 4,
+      "assists": 8,
+      "steals": 8,
+      "turnovers": 6,
+      "points": 7
+    },
+    {
+      "player_name": "Matt Thomas",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1101_259_403.aspx",
+      "minutes": 69,
+      "rebounds": 8,
+      "assists": 8,
+      "steals": 6,
+      "turnovers": 8,
+      "points": 9
+    },
+    {
+      "player_name": "Caleb Agada",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1102_95_3343.aspx",
+      "minutes": 83,
+      "rebounds": 8,
+      "assists": 3,
+      "steals": 8,
+      "turnovers": 6,
+      "points": 64
+    },
+    {
+      "player_name": "John Shurna",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1102_95_3343.aspx",
+      "minutes": 85,
+      "rebounds": 5,
+      "assists": 5,
+      "steals": 5,
+      "turnovers": 5,
+      "points": 1
+    },
+    {
+      "player_name": "Grant Golden",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1101_318_1324.aspx",
+      "minutes": 69,
+      "rebounds": 0,
+      "assists": 6,
+      "steals": 5,
+      "turnovers": 4,
+      "points": 1
+    },
+    {
+      "player_name": "Tyler Kalinoski",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1101_138_16169.aspx",
+      "minutes": 86,
+      "rebounds": 6,
+      "assists": 8,
+      "steals": 6,
+      "turnovers": 5,
+      "points": 3
+    },
+    {
+      "player_name": "James Webb III",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1101_138_16169.aspx",
+      "minutes": 63,
+      "rebounds": 4,
+      "assists": 6,
+      "steals": 6,
+      "turnovers": 4,
+      "points": 2
+    },
+    {
+      "player_name": "Nathan Reuvers",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1102_145_1162.aspx",
+      "minutes": 85,
+      "rebounds": 3,
+      "assists": 6,
+      "steals": 5,
+      "turnovers": 6,
+      "points": 63
+    },
+    {
+      "player_name": "Darius Thompson",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1102_145_1162.aspx",
+      "minutes": 69,
+      "rebounds": 8,
+      "assists": 4,
+      "steals": 6,
+      "turnovers": 8,
+      "points": 2
+    },
+    {
+      "player_name": "Omari Moore",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1102_145_1162.aspx",
+      "minutes": 69,
+      "rebounds": 9,
+      "assists": 8,
+      "steals": 5,
+      "turnovers": 8,
+      "points": 4
+    },
+    {
+      "player_name": "Braxton Key",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1102_145_1162.aspx",
+      "minutes": 68,
+      "rebounds": 4,
+      "assists": 8,
+      "steals": 5,
+      "turnovers": 5,
+      "points": 0
+    },
+    {
+      "player_name": "Myles Cale",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1109_16169_100.aspx",
+      "minutes": 84,
+      "rebounds": 8,
+      "assists": 8,
+      "steals": 6,
+      "turnovers": 5,
+      "points": 3
+    },
+    {
+      "player_name": "Kevin Punter",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1109_16169_100.aspx",
+      "minutes": 85,
+      "rebounds": 6,
+      "assists": 5,
+      "steals": 6,
+      "turnovers": 5,
+      "points": 68
+    },
+    {
+      "player_name": "Caleb Agada",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1109_3343_108.aspx",
+      "minutes": 85,
+      "rebounds": 1,
+      "assists": 4,
+      "steals": 8,
+      "turnovers": 6,
+      "points": 62
+    },
+    {
+      "player_name": "John Shurna",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1109_3343_108.aspx",
+      "minutes": 65,
+      "rebounds": 6,
+      "assists": 5,
+      "steals": 5,
+      "turnovers": 5,
+      "points": 5
+    },
+    {
+      "player_name": "Matt Thomas",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1109_403_145.aspx",
+      "minutes": 89,
+      "rebounds": 8,
+      "assists": 6,
+      "steals": 8,
+      "turnovers": 6,
+      "points": 60
+    },
+    {
+      "player_name": "Omari Moore",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1109_403_145.aspx",
+      "minutes": 88,
+      "rebounds": 4,
+      "assists": 8,
+      "steals": 8,
+      "turnovers": 8,
+      "points": 64
+    },
+    {
+      "player_name": "Nathan Reuvers",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1109_403_145.aspx",
+      "minutes": 67,
+      "rebounds": 8,
+      "assists": 8,
+      "steals": 5,
+      "turnovers": 5,
+      "points": 64
+    },
+    {
+      "player_name": "Darius Thompson",
+      "game_url": "https://www.eurobasket.com/boxScores/Spain/2025/1109_403_145.aspx",
+      "minutes": 63,
+      "rebounds": 5,
+      "assists": 3,
+      "steals": 6,
+      "turnovers": 5,
+      "points": 3
+    }
+  ]
+}

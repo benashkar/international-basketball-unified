@@ -24,6 +24,9 @@ from glob import glob
 from datetime import datetime
 import logging
 
+# positions: For converting position numbers to names (1=PG, 2=SG, etc.)
+from positions import get_position_name
+
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s'
@@ -449,7 +452,8 @@ def main():
             'name': player_name,
             'team': team_name,
             'team_code': player.get('team_code'),
-            'position': player.get('position'),
+            # Convert position number to name (1=PG, 2=SG, 3=SF, 4=PF, 5=C)
+            'position': get_position_name(player.get('position')),
             'jersey': player.get('jersey'),
 
             # Physical attributes

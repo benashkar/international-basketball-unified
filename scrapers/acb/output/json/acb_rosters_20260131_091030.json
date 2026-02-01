@@ -1,0 +1,1472 @@
+{
+  "export_date": "2026-01-31T09:16:04.285601",
+  "season": "2025-2026",
+  "league": "Liga ACB",
+  "player_count": 183,
+  "players": [
+    {
+      "acb_id": "30000108",
+      "name": "Juani Marcos",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 2
+    },
+    {
+      "acb_id": "30003948",
+      "name": "Myles Cale",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 2
+    },
+    {
+      "acb_id": "30004050",
+      "name": "Miles Norris",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 2
+    },
+    {
+      "acb_id": "30001949",
+      "name": "Jan Vesely",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 2
+    },
+    {
+      "acb_id": "20209919",
+      "name": "Darío Brizuela",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 2
+    },
+    {
+      "acb_id": "20202163",
+      "name": "Tomas Satoransky",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 2
+    },
+    {
+      "acb_id": "20209187",
+      "name": "Willy Hernangómez",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 2
+    },
+    {
+      "acb_id": "30000093",
+      "name": "Juan Núñez",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 2
+    },
+    {
+      "acb_id": "30000037",
+      "name": "Youssoupha Fall",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 2
+    },
+    {
+      "acb_id": "20211947",
+      "name": "Nico Laprovittola",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 2
+    },
+    {
+      "acb_id": "30003977",
+      "name": "Will Clyburn",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 2
+    },
+    {
+      "acb_id": "20203955",
+      "name": "Tornike Shengelia",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 2
+    },
+    {
+      "acb_id": "30003348",
+      "name": "Sayon Keita",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 2
+    },
+    {
+      "acb_id": "30004065",
+      "name": "Nikola Kusturica",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 2
+    },
+    {
+      "acb_id": "20212265",
+      "name": "Joel Parra",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 2
+    },
+    {
+      "acb_id": "30003937",
+      "name": "Dani González",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 2
+    },
+    {
+      "acb_id": "30003361",
+      "name": "Kevin Punter",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 2
+    },
+    {
+      "acb_id": "30004014",
+      "name": "Mamadi Diakite",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 3
+    },
+    {
+      "acb_id": "30004878",
+      "name": "Kobi Simmons",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 3
+    },
+    {
+      "acb_id": "30004081",
+      "name": "Markquis Nowell",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 3
+    },
+    {
+      "acb_id": "30001243",
+      "name": "Rafael Villar",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 3
+    },
+    {
+      "acb_id": "30005186",
+      "name": "Eugene Omoruyi",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 3
+    },
+    {
+      "acb_id": "20211797",
+      "name": "Rodions Kurucs",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 3
+    },
+    {
+      "acb_id": "20210830",
+      "name": "Tadas Sedekerskis",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 3
+    },
+    {
+      "acb_id": "30003351",
+      "name": "Timothé Luwawu-Cabarrot",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 3
+    },
+    {
+      "acb_id": "30000202",
+      "name": "Matteo Spagnolo",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 3
+    },
+    {
+      "acb_id": "30003408",
+      "name": "Trent Forrest",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 3
+    },
+    {
+      "acb_id": "30005184",
+      "name": "Gytis  Radzevicius",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 3
+    },
+    {
+      "acb_id": "20212905",
+      "name": "Khalifa Diop",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 3
+    },
+    {
+      "acb_id": "30003941",
+      "name": "Clement Frisch",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 3
+    },
+    {
+      "acb_id": "30004071",
+      "name": "Stefan Joksimovic",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 3
+    },
+    {
+      "acb_id": "30001957",
+      "name": "Markus Howard",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 3
+    },
+    {
+      "acb_id": "30003998",
+      "name": "Hamidou Diallo",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 3
+    },
+    {
+      "acb_id": "20212330",
+      "name": "Luka Samanic",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 3
+    },
+    {
+      "acb_id": "30004013",
+      "name": "Margiris Normantas",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 4
+    },
+    {
+      "acb_id": "30003398",
+      "name": "Harald Frey",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 4
+    },
+    {
+      "acb_id": "30004635",
+      "name": "Bingen Errasti",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 4
+    },
+    {
+      "acb_id": "30003944",
+      "name": "Justin Jaworski",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 4
+    },
+    {
+      "acb_id": "30004636",
+      "name": "Urko Madariaga",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 4
+    },
+    {
+      "acb_id": "30000192",
+      "name": "Martin Krampelj",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 4
+    },
+    {
+      "acb_id": "20212984",
+      "name": "Darrun Hilliard",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 4
+    },
+    {
+      "acb_id": "30004090",
+      "name": "Aleksandar Zecevic",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 4
+    },
+    {
+      "acb_id": "20213102",
+      "name": "Bassala Bagayoko",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 4
+    },
+    {
+      "acb_id": "30003947",
+      "name": "Luke Petrasek",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 4
+    },
+    {
+      "acb_id": "20212357",
+      "name": "Melwin Pantzar",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 4
+    },
+    {
+      "acb_id": "30002005",
+      "name": "Amar Sylla",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 4
+    },
+    {
+      "acb_id": "20210147",
+      "name": "Aleix Font",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 4
+    },
+    {
+      "acb_id": "20212461",
+      "name": "Tryggvi Hlinason",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 4
+    },
+    {
+      "acb_id": "30004012",
+      "name": "Stefan Lazarevic",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 4
+    },
+    {
+      "acb_id": "30003475",
+      "name": "Lucas Maniema",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 5
+    },
+    {
+      "acb_id": "30003992",
+      "name": "Isaiah Wong",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 5
+    },
+    {
+      "acb_id": "20211456",
+      "name": "Eric Vila",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 5
+    },
+    {
+      "acb_id": "30000291",
+      "name": "Ziga Samar",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 5
+    },
+    {
+      "acb_id": "20212190",
+      "name": "Andrew Albicy",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 5
+    },
+    {
+      "acb_id": "20212648",
+      "name": "Nico Brussino",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 5
+    },
+    {
+      "acb_id": "20212441",
+      "name": "Miquel Salvó",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 5
+    },
+    {
+      "acb_id": "20210357",
+      "name": "Carlos Alocén",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 5
+    },
+    {
+      "acb_id": "30002718",
+      "name": "Pierre Pelos",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 5
+    },
+    {
+      "acb_id": "20212399",
+      "name": "Mike Tobey",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 5
+    },
+    {
+      "acb_id": "20213002",
+      "name": "Louis Labeyrie",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 5
+    },
+    {
+      "acb_id": "30003949",
+      "name": "Kur Kuath",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 5
+    },
+    {
+      "acb_id": "30004713",
+      "name": "Mervedi Miteo",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 5
+    },
+    {
+      "acb_id": "30000287",
+      "name": "Kassius Robertson",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 5
+    },
+    {
+      "acb_id": "30003950",
+      "name": "Braian Angola",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 5
+    },
+    {
+      "acb_id": "30000095",
+      "name": "Yannick Kraag",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 8
+    },
+    {
+      "acb_id": "20201871",
+      "name": "Ricky Rubio",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 8
+    },
+    {
+      "acb_id": "20210498",
+      "name": "Ludde Hakanson",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 8
+    },
+    {
+      "acb_id": "20204158",
+      "name": "Guillem Vives",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 8
+    },
+    {
+      "acb_id": "30003529",
+      "name": "Sam Dekker",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 8
+    },
+    {
+      "acb_id": "30003447",
+      "name": "Adrián Torres",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 8
+    },
+    {
+      "acb_id": "20212073",
+      "name": "Miguel Allen",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 8
+    },
+    {
+      "acb_id": "30002869",
+      "name": "Michael Ruzic",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 8
+    },
+    {
+      "acb_id": "30003415",
+      "name": "Cameron Hunt",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 8
+    },
+    {
+      "acb_id": "30003464",
+      "name": "Ferran Mauri",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 8
+    },
+    {
+      "acb_id": "20212423",
+      "name": "Simon Birgander",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 8
+    },
+    {
+      "acb_id": "20202172",
+      "name": "Ante Tomic",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 8
+    },
+    {
+      "acb_id": "20209836",
+      "name": "Adam Hanga",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 8
+    },
+    {
+      "acb_id": "30003922",
+      "name": "Henri Drell",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 8
+    },
+    {
+      "acb_id": "30002716",
+      "name": "David Kramer",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 9
+    },
+    {
+      "acb_id": "20210088",
+      "name": "Alberto Abalde",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 9
+    },
+    {
+      "acb_id": "20211331",
+      "name": "Facu Campazzo",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 9
+    },
+    {
+      "acb_id": "30003981",
+      "name": "Chuma Okeke",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 9
+    },
+    {
+      "acb_id": "30003980",
+      "name": "Gabriele Procida",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 9
+    },
+    {
+      "acb_id": "20210501",
+      "name": "Mario Hezonja",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 9
+    },
+    {
+      "acb_id": "30003979",
+      "name": "Theo Maledon",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 9
+    },
+    {
+      "acb_id": "20212616",
+      "name": "Izan Almansa",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 9
+    },
+    {
+      "acb_id": "20212952",
+      "name": "Gabriel Deck",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 9
+    },
+    {
+      "acb_id": "20212174",
+      "name": "Usman Garuba",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 9
+    },
+    {
+      "acb_id": "30004076",
+      "name": "Egor Amosov",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 9
+    },
+    {
+      "acb_id": "20209407",
+      "name": "Edy Tavares",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 9
+    },
+    {
+      "acb_id": "20201774",
+      "name": "Sergio Llull",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 9
+    },
+    {
+      "acb_id": "30001114",
+      "name": "Andrés Feliz",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 9
+    },
+    {
+      "acb_id": "30004910",
+      "name": "Alex Len",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 9
+    },
+    {
+      "acb_id": "30001729",
+      "name": "Gunars Grinvalds",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 9
+    },
+    {
+      "acb_id": "30004061",
+      "name": "Trey Lyles",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 9
+    },
+    {
+      "acb_id": "30003852",
+      "name": "Bruno Fernando",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 9
+    },
+    {
+      "acb_id": "30003943",
+      "name": "Hugo Benitez",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 10
+    },
+    {
+      "acb_id": "20213406",
+      "name": "Max Gaspà",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 10
+    },
+    {
+      "acb_id": "20200243",
+      "name": "Ferran Bassas",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 10
+    },
+    {
+      "acb_id": "20204133",
+      "name": "Álex Reyes",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 10
+    },
+    {
+      "acb_id": "30001332",
+      "name": "Agustín Ubal",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 10
+    },
+    {
+      "acb_id": "30000133",
+      "name": "Marcis Steinbergs",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 10
+    },
+    {
+      "acb_id": "30000207",
+      "name": "Gustav Knudsen",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 10
+    },
+    {
+      "acb_id": "30003994",
+      "name": "Louis Olinde",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 10
+    },
+    {
+      "acb_id": "30005203",
+      "name": "Pauly Paulicap",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 10
+    },
+    {
+      "acb_id": "30005189",
+      "name": "Eli Brooks",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 10
+    },
+    {
+      "acb_id": "20202164",
+      "name": "Pierre Oriola",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 10
+    },
+    {
+      "acb_id": "30003414",
+      "name": "Retin Obasohan",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 10
+    },
+    {
+      "acb_id": "30001521",
+      "name": "Gerard Fernández",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 10
+    },
+    {
+      "acb_id": "20213051",
+      "name": "Ferran Torreblanca",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 10
+    },
+    {
+      "acb_id": "20203826",
+      "name": "Dani Pérez",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 10
+    },
+    {
+      "acb_id": "30003951",
+      "name": "Kaodirichi Akobundu",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 10
+    },
+    {
+      "acb_id": "30003945",
+      "name": "Grant Golden",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 10
+    },
+    {
+      "acb_id": "30003996",
+      "name": "Alfonso Plummer",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 10
+    },
+    {
+      "acb_id": "30003942",
+      "name": "Archange Izaw-Bolavie",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 10
+    },
+    {
+      "acb_id": "30003919",
+      "name": "Michael Forrest",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 12
+    },
+    {
+      "acb_id": "20212239",
+      "name": "Sander Raieste",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 12
+    },
+    {
+      "acb_id": "30003940",
+      "name": "David DeJulius",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 12
+    },
+    {
+      "acb_id": "30000015",
+      "name": "Dani García",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 12
+    },
+    {
+      "acb_id": "30002036",
+      "name": "Howard Sant-Roos",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 12
+    },
+    {
+      "acb_id": "30001917",
+      "name": "Jonah Radebaugh",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 12
+    },
+    {
+      "acb_id": "30000649",
+      "name": "Wilhelm Falk",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 12
+    },
+    {
+      "acb_id": "20210914",
+      "name": "Emanuel Cate",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 12
+    },
+    {
+      "acb_id": "30000132",
+      "name": "Rubén López De La Torre",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 12
+    },
+    {
+      "acb_id": "20210278",
+      "name": "Moussa Diagne",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 12
+    },
+    {
+      "acb_id": "30005200",
+      "name": "Kelan Martin",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 12
+    },
+    {
+      "acb_id": "20212941",
+      "name": "Dylan Ennis",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 12
+    },
+    {
+      "acb_id": "30001899",
+      "name": "Toni Nakic",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 12
+    },
+    {
+      "acb_id": "30004000",
+      "name": "Devontae Cacok",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 12
+    },
+    {
+      "acb_id": "30004089",
+      "name": "Zach Hicks",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 12
+    },
+    {
+      "acb_id": "30001981",
+      "name": "Kameron Taylor",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 13
+    },
+    {
+      "acb_id": "20210392",
+      "name": "Josep Puerto",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 13
+    },
+    {
+      "acb_id": "30002724",
+      "name": "Nate Reuvers",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 13
+    },
+    {
+      "acb_id": "20211129",
+      "name": "Jaime Pradilla",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 13
+    },
+    {
+      "acb_id": "30001360",
+      "name": "Sergio de Larrea",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 13
+    },
+    {
+      "acb_id": "20211660",
+      "name": "Xabi López-Arostegui",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 13
+    },
+    {
+      "acb_id": "30004884",
+      "name": "Braxton Key",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 13
+    },
+    {
+      "acb_id": "30000514",
+      "name": "Jean Montero",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 13
+    },
+    {
+      "acb_id": "30003991",
+      "name": "Omari Moore",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 13
+    },
+    {
+      "acb_id": "30003973",
+      "name": "Neal Sako",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 13
+    },
+    {
+      "acb_id": "30001900",
+      "name": "Darius Thompson",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 13
+    },
+    {
+      "acb_id": "30000032",
+      "name": "Matt Costello",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 13
+    },
+    {
+      "acb_id": "30004053",
+      "name": "Isaac Nogués",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 13
+    },
+    {
+      "acb_id": "20213230",
+      "name": "Yankuba Sima",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 13
+    },
+    {
+      "acb_id": "30000107",
+      "name": "Brancou Badio",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 13
+    },
+    {
+      "acb_id": "30002683",
+      "name": "Ike Iroegbu",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 13
+    },
+    {
+      "acb_id": "30004087",
+      "name": "Vincent Valerio-Bodon",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 13
+    },
+    {
+      "acb_id": "30005183",
+      "name": "Chase Audige",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 14
+    },
+    {
+      "acb_id": "20212243",
+      "name": "Olek Balcerowski",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 14
+    },
+    {
+      "acb_id": "30000954",
+      "name": "James Webb III",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 14
+    },
+    {
+      "acb_id": "30001169",
+      "name": "Tyler Kalinoski",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 14
+    },
+    {
+      "acb_id": "20200191",
+      "name": "Jonathan Barreiro",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 14
+    },
+    {
+      "acb_id": "20209226",
+      "name": "Alberto Díaz",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 14
+    },
+    {
+      "acb_id": "20202039",
+      "name": "Nihad Djedovic",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 14
+    },
+    {
+      "acb_id": "20210828",
+      "name": "Emir Sulejmanovic",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 14
+    },
+    {
+      "acb_id": "30005177",
+      "name": "Augustine Rubit",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 14
+    },
+    {
+      "acb_id": "30003470",
+      "name": "Manuel Trujillo",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 14
+    },
+    {
+      "acb_id": "30003966",
+      "name": "Chris Duarte",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 14
+    },
+    {
+      "acb_id": "30003424",
+      "name": "Killian Tillie",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 14
+    },
+    {
+      "acb_id": "30000023",
+      "name": "David Kravish",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 14
+    },
+    {
+      "acb_id": "30001977",
+      "name": "Kendrick Perry",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 14
+    },
+    {
+      "acb_id": "30003780",
+      "name": "Arturas Butajevas",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 14
+    },
+    {
+      "acb_id": "30000053",
+      "name": "Tyson Pérez",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 14
+    },
+    {
+      "acb_id": "30003967",
+      "name": "Xavier Castañeda",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 14
+    },
+    {
+      "acb_id": "30001171",
+      "name": "Trae Bell-Haynes",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 16
+    },
+    {
+      "acb_id": "20210918",
+      "name": "Santi Yusta",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 16
+    },
+    {
+      "acb_id": "20212476",
+      "name": "Miguel González",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 16
+    },
+    {
+      "acb_id": "30004678",
+      "name": "Matija Lukic",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 16
+    },
+    {
+      "acb_id": "20212348",
+      "name": "Jaime Fernández",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 16
+    },
+    {
+      "acb_id": "30005205",
+      "name": "Joshua Michael Richardson",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 16
+    },
+    {
+      "acb_id": "30003936",
+      "name": "Joel Soriano",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 16
+    },
+    {
+      "acb_id": "20210254",
+      "name": "Bojan Dubljevic",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 16
+    },
+    {
+      "acb_id": "30003403",
+      "name": "Joaquin Rodriguez",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 16
+    },
+    {
+      "acb_id": "20213222",
+      "name": "Carlos Alías",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 16
+    },
+    {
+      "acb_id": "30003817",
+      "name": "DJ Stephens",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 16
+    },
+    {
+      "acb_id": "30000550",
+      "name": "Christ Koumadje",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 16
+    },
+    {
+      "acb_id": "30002813",
+      "name": "Youssouf Traoré",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 16
+    },
+    {
+      "acb_id": "30001155",
+      "name": "Marco Spissu",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 16
+    },
+    {
+      "acb_id": "30002444",
+      "name": "Devin Robinson",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 16
+    },
+    {
+      "acb_id": "30003963",
+      "name": "Emir Kabaca",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 16
+    },
+    {
+      "acb_id": "20213218",
+      "name": "Lucas Langarita",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 16
+    },
+    {
+      "acb_id": "30002813",
+      "name": "Youssouf Traoré",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 16
+    },
+    {
+      "acb_id": "30003995",
+      "name": "Erik Stevenson",
+      "nationality": null,
+      "position": null,
+      "jersey": null,
+      "team_id": 16
+    }
+  ]
+}
