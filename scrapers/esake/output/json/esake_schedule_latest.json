@@ -1,0 +1,125 @@
+{
+  "export_date": "2026-02-01T10:57:26.593698",
+  "season": "2025-26",
+  "league": "Greek Basket League (ESAKE)",
+  "team_count": 13,
+  "teams": [
+    {
+      "id": "135626",
+      "name": "AEK BC",
+      "short_name": null,
+      "stadium": "Nikos Galis Olympic Indoor Hall",
+      "location": null,
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/qm1nux1753264474.png",
+      "founded": "1924"
+    },
+    {
+      "id": "135628",
+      "name": "Aris BC",
+      "short_name": "",
+      "stadium": "Nick Galis Hall",
+      "location": null,
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/l0tssh1739659466.png",
+      "founded": "1922"
+    },
+    {
+      "id": "146998",
+      "name": "ASK Karditsas BC",
+      "short_name": "",
+      "stadium": "",
+      "location": null,
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/jbnxms1757948183.png",
+      "founded": "2006"
+    },
+    {
+      "id": "137374",
+      "name": "Iraklis BC",
+      "short_name": "",
+      "stadium": "",
+      "location": null,
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/anc9bw1759328517.png",
+      "founded": "1924"
+    },
+    {
+      "id": "135631",
+      "name": "Kolossos BC",
+      "short_name": null,
+      "stadium": "Kallithea Palais des Sports",
+      "location": null,
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/acp9id1679682467.png",
+      "founded": "1963"
+    },
+    {
+      "id": "135875",
+      "name": "Maroussi B.C.",
+      "short_name": "",
+      "stadium": "",
+      "location": null,
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/owpnus1700046872.png",
+      "founded": "1950"
+    },
+    {
+      "id": "153413",
+      "name": "Mykonos BC",
+      "short_name": "",
+      "stadium": "",
+      "location": null,
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/ug2izi1760353764.png",
+      "founded": "1981"
+    },
+    {
+      "id": "135635",
+      "name": "Olympiacos BC",
+      "short_name": "",
+      "stadium": "Peace and Friendship Stadium",
+      "location": null,
+      "logo": "https://r2.thesportsdb.com/images/media/team/logo/r7b1lk1720039385.png",
+      "founded": "1931"
+    },
+    {
+      "id": "135636",
+      "name": "Panathinaikos BC",
+      "short_name": "",
+      "stadium": "Olympic Indoor Hall",
+      "location": null,
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/7cdjwz1767366987.png",
+      "founded": "1908"
+    },
+    {
+      "id": "136331",
+      "name": "Panionios BC",
+      "short_name": "",
+      "stadium": "",
+      "location": null,
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/ymw7951755535289.png",
+      "founded": "1919"
+    },
+    {
+      "id": "135637",
+      "name": "PAOK BC",
+      "short_name": "",
+      "stadium": "PAOK Sports Arena",
+      "location": null,
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/sa18sr1492424960.png",
+      "founded": "1926"
+    },
+    {
+      "id": "136327",
+      "name": "Peristeri BC",
+      "short_name": "",
+      "stadium": "",
+      "location": null,
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/8akygu1764154144.png",
+      "founded": "1971"
+    },
+    {
+      "id": "136332",
+      "name": "Promitheas Patras BC",
+      "short_name": "",
+      "stadium": "",
+      "location": null,
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/1o9c3f1739693075.png",
+      "founded": "1986"
+    }
+  ]
+}

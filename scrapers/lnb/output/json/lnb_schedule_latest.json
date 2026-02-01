@@ -1,0 +1,152 @@
+{
+  "export_date": "2026-02-01T10:54:16.154458",
+  "season": "2025-26",
+  "league": "French Betclic Elite (Pro A)",
+  "team_count": 16,
+  "teams": [
+    {
+      "id": "136263",
+      "name": "AS Monaco Basket",
+      "short_name": null,
+      "stadium": "Salle Gaston Médecin",
+      "location": null,
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/fl2ti01649168915.png",
+      "founded": "1928"
+    },
+    {
+      "id": "136264",
+      "name": "Boulazac Basket Dordogne",
+      "short_name": "",
+      "stadium": "",
+      "location": null,
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/68tu9p1570976593.png",
+      "founded": "1992"
+    },
+    {
+      "id": "135234",
+      "name": "Bourg-en-Bresse",
+      "short_name": "",
+      "stadium": "Ekinox",
+      "location": null,
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/643qz71523101349.png",
+      "founded": "1910"
+    },
+    {
+      "id": "135238",
+      "name": "Cholet",
+      "short_name": "",
+      "stadium": "La Meilleraie",
+      "location": null,
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/rjb2631570976454.png",
+      "founded": "1975"
+    },
+    {
+      "id": "135237",
+      "name": "Dijon",
+      "short_name": "",
+      "stadium": "Palais des Sports Jean-Michel-Geoffroy",
+      "location": null,
+      "logo": "https://r2.thesportsdb.com/images/media/team/logo/xk5tkk1666897265.png",
+      "founded": "1880"
+    },
+    {
+      "id": "135235",
+      "name": "Élan Chalon",
+      "short_name": "",
+      "stadium": "Le Colisée (Chalon-sur-Saône)",
+      "location": null,
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/f7jcdk1542825634.png",
+      "founded": "1955"
+    },
+    {
+      "id": "136265",
+      "name": "ESSM Le Portel",
+      "short_name": "",
+      "stadium": "Le Chaudron",
+      "location": null,
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/yhwnwu1649168935.png",
+      "founded": "1931"
+    },
+    {
+      "id": "135239",
+      "name": "Gravelines-Dunkerque",
+      "short_name": "",
+      "stadium": "Stades de Flandres",
+      "location": null,
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/1mft2j1757606561.png",
+      "founded": "1984"
+    },
+    {
+      "id": "135241",
+      "name": "Le Mans Sarthe Basket",
+      "short_name": "",
+      "stadium": "Antarès",
+      "location": null,
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/iouj5l1757607112.png",
+      "founded": "1939"
+    },
+    {
+      "id": "135242",
+      "name": "Limoges",
+      "short_name": "",
+      "stadium": "Palais des sports de Beaublanc",
+      "location": null,
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/rryxux1423605495.png",
+      "founded": "1929"
+    },
+    {
+      "id": "135243",
+      "name": "Lyon-Villeurbanne",
+      "short_name": "",
+      "stadium": "LDLC Arena",
+      "location": null,
+      "logo": "https://r2.thesportsdb.com/images/media/team/logo/trpgof1693582799.png",
+      "founded": "1948"
+    },
+    {
+      "id": "135245",
+      "name": "Nanterre",
+      "short_name": "",
+      "stadium": "Palais des Sports Maurice Thorez",
+      "location": null,
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/hdqr5m1523101484.png",
+      "founded": "1927"
+    },
+    {
+      "id": "141489",
+      "name": "Paris Basketball",
+      "short_name": "",
+      "stadium": "Halle Georges Carpentier",
+      "location": null,
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/9q0d6x1726681476.png",
+      "founded": "2018"
+    },
+    {
+      "id": "141490",
+      "name": "Saint-Quentin Basket-Ball",
+      "short_name": "",
+      "stadium": "Palais des sports Pierre Ratte",
+      "location": null,
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/x1jnik1697128652.png",
+      "founded": "1973"
+    },
+    {
+      "id": "137296",
+      "name": "SLUC Nancy Basket",
+      "short_name": "",
+      "stadium": "Palais des sports Jean-Weille",
+      "location": null,
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/6zbuwh1666897360.png",
+      "founded": "1967"
+    },
+    {
+      "id": "135250",
+      "name": "Strasbourg",
+      "short_name": "",
+      "stadium": "Rhénus Sport",
+      "location": null,
+      "logo": "https://r2.thesportsdb.com/images/media/team/badge/1opi561726732886.png",
+      "founded": "1928"
+    }
+  ]
+}
