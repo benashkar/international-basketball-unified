@@ -1,0 +1,355 @@
+"""
+=============================================================================
+JOIN DATA - TURKISH BSL
+=============================================================================
+
+PURPOSE:
+    Combines data from multiple JSON sources into unified player records.
+"""
+
+import json
+import os
+from glob import glob
+from datetime import datetime
+import logging
+
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s'
+)
+logger = logging.getLogger(__name__)
+
+
+# Team name mapping: TheSportsDB name -> TBLStat name
+TEAM_NAME_MAP = {
+    'Anadolu Efes SK': 'Anadolu Efes',
+    'Bahçeşehir Koleji SK': 'Bahçeşehir Koleji',
+    'Besiktas Basketbol': 'Beşiktaş GAİN',
+    'Büyükçekmece Basketbol': 'ONVO Büyükçekmece',
+    'Fenerbahçe Basketbol': 'Fenerbahçe Beko',
+    # These match already
+    'Bursaspor Basketbol': 'Bursaspor Basketbol',
+}
+
+
+def load_latest_json(pattern):
+    output_dir = os.path.join(os.path.dirname(__file__), 'output', 'json')
+    files = sorted(glob(os.path.join(output_dir, pattern)))
+
+    if not files:
+        logger.warning(f"No files found matching: {pattern}")
+        return None
+
+    filepath = files[-1]
+    logger.info(f"Loading: {os.path.basename(filepath)}")
+
+    with open(filepath, 'r', encoding='utf-8') as f:
+        return json.load(f)
+
+
+def load_bsl_stats():
+    """Load BSL statistics from bsl_scraper output."""
+    output_dir = os.path.join(os.path.dirname(__file__), 'output', 'json')
+    filepath = os.path.join(output_dir, 'bsl_american_stats_latest.json')
+
+    if not os.path.exists(filepath):
+        logger.warning("No BSL stats file found. Run bsl_scraper.py first.")
+        return {}
+
+    try:
+        with open(filepath, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+            players = data.get('players', [])
+            logger.info(f"Loaded BSL stats for {len(players)} American players")
+
+            # Build lookup by normalized name
+            import unicodedata
+            lookup = {}
+            for p in players:
+                name = p.get('name', '')
+                # Normalize name
+                name_norm = unicodedata.normalize('NFKD', name).encode('ASCII', 'ignore').decode('ASCII')
+                name_norm = name_norm.lower().strip()
+                lookup[name_norm] = p
+            return lookup
+    except Exception as e:
+        logger.warning(f"Error loading BSL stats: {e}")
+        return {}
+
+
+def load_best_schedule():
+    """Load the schedule file with the most games (BSL preferred over TheSportsDB)."""
+    output_dir = os.path.join(os.path.dirname(__file__), 'output', 'json')
+
+    # Prefer BSL schedule from TBLStat.net (more complete)
+    bsl_schedule = os.path.join(output_dir, 'bsl_schedule_latest.json')
+    if os.path.exists(bsl_schedule):
+        try:
+            with open(bsl_schedule, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                game_count = len(data.get('games', []))
+                logger.info(f"Loading BSL schedule: bsl_schedule_latest.json ({game_count} games)")
+                return data
+        except Exception as e:
+            logger.warning(f"Error reading BSL schedule: {e}")
+
+    # Fallback to TheSportsDB schedule files
+    files = sorted(glob(os.path.join(output_dir, 'schedule_*.json')))
+
+    if not files:
+        logger.warning("No schedule files found")
+        return None
+
+    # Find the file with the most games
+    best_file = None
+    best_count = 0
+
+    for filepath in files:
+        try:
+            with open(filepath, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                game_count = len(data.get('games', []))
+                if game_count > best_count:
+                    best_count = game_count
+                    best_file = filepath
+        except Exception as e:
+            logger.warning(f"Error reading {filepath}: {e}")
+
+    if best_file:
+        logger.info(f"Loading schedule: {os.path.basename(best_file)} ({best_count} games)")
+        with open(best_file, 'r', encoding='utf-8') as f:
+            return json.load(f)
+
+    return None
+
+
+def save_json(data, filename):
+    output_dir = os.path.join(os.path.dirname(__file__), 'output', 'json')
+    os.makedirs(output_dir, exist_ok=True)
+    filepath = os.path.join(output_dir, filename)
+
+    with open(filepath, 'w', encoding='utf-8') as f:
+        json.dump(data, f, indent=2, default=str, ensure_ascii=False)
+
+    logger.info(f"Saved: {filepath}")
+
+
+def main():
+    logger.info("=" * 60)
+    logger.info("TURKISH BSL - JOIN DATA")
+    logger.info("=" * 60)
+
+    timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+
+    players_data = load_latest_json('american_players_2*.json')  # Excludes summary files
+    hometowns_data = load_latest_json('american_hometowns_found_*.json')
+    schedule_data = load_best_schedule()  # Uses file with most games (handles rate limit fallback)
+    bsl_stats = load_bsl_stats()  # Player stats from TBLStat.net
+
+    if not players_data:
+        logger.error("No player data found. Run daily_scraper.py first.")
+        return
+
+    players = players_data.get('players', [])
+    logger.info(f"Loaded {len(players)} American players")
+
+    hometown_lookup = {}
+    if hometowns_data:
+        for p in hometowns_data.get('players', []):
+            code = p.get('code')
+            if code:
+                hometown_lookup[code] = p
+        logger.info(f"Loaded {len(hometown_lookup)} hometown records")
+
+    # Build all games by team (both past and upcoming)
+    past_by_team = {}
+    upcoming_by_team = {}
+    if schedule_data:
+        for game in schedule_data.get('games', []):
+            home_team = game.get('home_team')
+            away_team = game.get('away_team')
+            played = game.get('played', False)
+
+            game_info = {
+                'date': game.get('date'),
+                'round': game.get('round'),
+                'venue': game.get('venue'),
+                'home_team': home_team,
+                'away_team': away_team,
+                'home_score': game.get('home_score'),
+                'away_score': game.get('away_score'),
+                'played': played,
+            }
+
+            target_dict = past_by_team if played else upcoming_by_team
+
+            if home_team:
+                if home_team not in target_dict:
+                    target_dict[home_team] = []
+                target_dict[home_team].append({
+                    **game_info,
+                    'opponent': away_team,
+                    'home_away': 'Home',
+                    'team_score': game.get('home_score'),
+                    'opponent_score': game.get('away_score'),
+                    'result': 'W' if played and game.get('home_score', 0) > game.get('away_score', 0) else ('L' if played else None),
+                })
+
+            if away_team:
+                if away_team not in target_dict:
+                    target_dict[away_team] = []
+                target_dict[away_team].append({
+                    **game_info,
+                    'opponent': home_team,
+                    'home_away': 'Away',
+                    'team_score': game.get('away_score'),
+                    'opponent_score': game.get('home_score'),
+                    'result': 'W' if played and game.get('away_score', 0) > game.get('home_score', 0) else ('L' if played else None),
+                })
+
+        for team in past_by_team:
+            past_by_team[team].sort(key=lambda x: x.get('date', ''), reverse=True)
+        for team in upcoming_by_team:
+            upcoming_by_team[team].sort(key=lambda x: x.get('date', ''))
+
+        logger.info(f"Built past games for {len(past_by_team)} teams")
+        logger.info(f"Built upcoming games for {len(upcoming_by_team)} teams")
+
+    unified_players = []
+
+    import unicodedata
+
+    for player in players:
+        code = player.get('code')
+        hometown = hometown_lookup.get(code, {})
+        team_name = player.get('team_name')
+        # Map team name to TBLStat format for schedule matching
+        mapped_team = TEAM_NAME_MAP.get(team_name, team_name)
+        past_games = past_by_team.get(mapped_team, [])
+        upcoming_games = upcoming_by_team.get(mapped_team, [])
+
+        # Match to BSL stats by normalized name
+        player_name = player.get('name', '')
+        name_norm = unicodedata.normalize('NFKD', player_name).encode('ASCII', 'ignore').decode('ASCII')
+        name_norm = name_norm.lower().strip()
+        player_stats = bsl_stats.get(name_norm, {})
+
+        # Extract stats from BSL data
+        games_played = player_stats.get('games', 0)
+        ppg = player_stats.get('ppg', 0.0)
+        rpg = player_stats.get('rpg', 0.0)
+        apg = player_stats.get('apg', 0.0)
+        spg = player_stats.get('spg', 0.0)
+        minutes = player_stats.get('minutes', 0.0)
+
+        if games_played > 0:
+            logger.debug(f"  Matched BSL stats for {player_name}: {ppg:.1f} PPG")
+
+        unified = {
+            'code': code,
+            'name': player_name,
+            'team': team_name,
+            'team_code': player.get('team_code'),
+            'position': player.get('position'),
+            'jersey': player.get('jersey'),
+            'height_cm': player.get('height_cm'),
+            'height_feet': player.get('height_feet'),
+            'height_inches': player.get('height_inches'),
+            'weight': player.get('weight'),
+            'birth_date': player.get('birth_date'),
+            'nationality': player.get('nationality'),
+            'birth_location': player.get('birth_location'),
+            'hometown_city': hometown.get('hometown_city'),
+            'hometown_state': hometown.get('hometown_state'),
+            'hometown': f"{hometown.get('hometown_city')}, {hometown.get('hometown_state')}" if hometown.get('hometown_city') and hometown.get('hometown_state') else None,
+            'college': hometown.get('college'),
+            'high_school': hometown.get('high_school'),
+            'headshot_url': player.get('headshot_url'),
+            'instagram': player.get('instagram'),
+            'twitter': player.get('twitter'),
+            'games_played': games_played,
+            'ppg': ppg,
+            'rpg': rpg,
+            'apg': apg,
+            'spg': spg,
+            'minutes': minutes,
+            'ft_pct': player_stats.get('ft_pct', 0),
+            'fg2_pct': player_stats.get('fg2_pct', 0),
+            'fg3_pct': player_stats.get('fg3_pct', 0),
+            'efficiency': player_stats.get('efficiency', 0),
+            'game_log': player_stats.get('game_log', []),  # Individual game stats from TBLStat
+            'past_games': past_games,
+            'upcoming_games': upcoming_games,
+            'season': '2025-26',
+            'league': 'Turkish BSL',
+        }
+
+        unified_players.append(unified)
+
+    unified_players.sort(key=lambda x: x.get('name', ''))
+
+    logger.info(f"Created {len(unified_players)} unified player records")
+
+    unified_data = {
+        'export_date': datetime.now().isoformat(),
+        'season': '2025-26',
+        'league': 'Turkish BSL',
+        'player_count': len(unified_players),
+        'players': unified_players
+    }
+    save_json(unified_data, f'unified_american_players_{timestamp}.json')
+    save_json(unified_data, 'unified_american_players_latest.json')  # For dashboard
+
+    summary_players = []
+    for p in unified_players:
+        summary_players.append({
+            'code': p['code'],
+            'name': p['name'],
+            'team': p['team'],
+            'team_code': p['team_code'],
+            'position': p['position'],
+            'jersey': p['jersey'],
+            'height_feet': p['height_feet'],
+            'height_inches': p['height_inches'],
+            'birth_date': p['birth_date'],
+            'hometown': p['hometown'],
+            'hometown_state': p['hometown_state'],
+            'college': p['college'],
+            'high_school': p['high_school'],
+            'headshot_url': p['headshot_url'],
+            'games_played': p['games_played'],
+            'ppg': p['ppg'],
+            'rpg': p['rpg'],
+            'apg': p['apg'],
+        })
+
+    summary_data = {
+        'export_date': datetime.now().isoformat(),
+        'season': '2025-26',
+        'league': 'Turkish BSL',
+        'player_count': len(summary_players),
+        'players': summary_players
+    }
+    save_json(summary_data, f'american_players_summary_{timestamp}.json')
+    save_json(summary_data, 'american_players_summary_latest.json')  # For dashboard
+
+    logger.info("\n" + "=" * 60)
+    logger.info("SUMMARY")
+    logger.info("=" * 60)
+    logger.info(f"Total players: {len(unified_players)}")
+
+    with_hometown = sum(1 for p in unified_players if p.get('hometown'))
+    with_college = sum(1 for p in unified_players if p.get('college'))
+
+    logger.info(f"With hometown: {with_hometown}")
+    logger.info(f"With college: {with_college}")
+
+    if unified_players:
+        logger.info("\nPlayers:")
+        for p in unified_players[:15]:
+            ht = f"{p['hometown']}" if p.get('hometown') else "Unknown"
+            logger.info(f"  {p['name']} - {p['team']} | {ht}")
+
+
+if __name__ == '__main__':
+    main()
