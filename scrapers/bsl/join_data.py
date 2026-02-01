@@ -51,13 +51,18 @@ def load_latest_json(pattern):
 
 
 def load_bsl_stats():
-    """Load BSL statistics from bsl_scraper output."""
+    """Load BSL statistics from bsl_scraper output.
+
+    Returns both the full player list and a lookup dictionary.
+    The BSL scraper data is the PRIMARY source for American players
+    since it directly scrapes TBLStat.net and finds all 32+ Americans.
+    """
     output_dir = os.path.join(os.path.dirname(__file__), 'output', 'json')
     filepath = os.path.join(output_dir, 'bsl_american_stats_latest.json')
 
     if not os.path.exists(filepath):
         logger.warning("No BSL stats file found. Run bsl_scraper.py first.")
-        return {}
+        return [], {}
 
     try:
         with open(filepath, 'r', encoding='utf-8') as f:
@@ -65,7 +70,7 @@ def load_bsl_stats():
             players = data.get('players', [])
             logger.info(f"Loaded BSL stats for {len(players)} American players")
 
-            # Build lookup by normalized name
+            # Build lookup by normalized name for enrichment matching
             import unicodedata
             lookup = {}
             for p in players:
@@ -74,10 +79,10 @@ def load_bsl_stats():
                 name_norm = unicodedata.normalize('NFKD', name).encode('ASCII', 'ignore').decode('ASCII')
                 name_norm = name_norm.lower().strip()
                 lookup[name_norm] = p
-            return lookup
+            return players, lookup
     except Exception as e:
         logger.warning(f"Error loading BSL stats: {e}")
-        return {}
+        return [], {}
 
 
 def load_best_schedule():
@@ -144,18 +149,32 @@ def main():
 
     timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
 
-    players_data = load_latest_json('american_players_2*.json')  # Excludes summary files
-    hometowns_data = load_latest_json('american_hometowns_found_*.json')
-    schedule_data = load_best_schedule()  # Uses file with most games (handles rate limit fallback)
-    bsl_stats = load_bsl_stats()  # Player stats from TBLStat.net
+    # PRIMARY SOURCE: BSL scraper data (finds all 32+ American players)
+    bsl_players, bsl_lookup = load_bsl_stats()
 
-    if not players_data:
-        logger.error("No player data found. Run daily_scraper.py first.")
+    # ENRICHMENT SOURCES: TheSportsDB for bio info, Wikipedia for hometowns
+    thesportsdb_data = load_latest_json('american_players_2*.json')
+    hometowns_data = load_latest_json('american_hometowns_found_*.json')
+    schedule_data = load_best_schedule()
+
+    if not bsl_players:
+        logger.error("No BSL player data found. Run bsl_scraper.py first.")
         return
 
-    players = players_data.get('players', [])
-    logger.info(f"Loaded {len(players)} American players")
+    logger.info(f"Using {len(bsl_players)} American players from BSL scraper as primary source")
 
+    # Build TheSportsDB lookup by normalized name for enrichment
+    import unicodedata
+    thesportsdb_lookup = {}
+    if thesportsdb_data:
+        for p in thesportsdb_data.get('players', []):
+            name = p.get('name', '')
+            name_norm = unicodedata.normalize('NFKD', name).encode('ASCII', 'ignore').decode('ASCII')
+            name_norm = name_norm.lower().strip()
+            thesportsdb_lookup[name_norm] = p
+        logger.info(f"Loaded {len(thesportsdb_lookup)} players from TheSportsDB for enrichment")
+
+    # Build hometown lookup by TheSportsDB code
     hometown_lookup = {}
     if hometowns_data:
         for p in hometowns_data.get('players', []):
@@ -220,70 +239,88 @@ def main():
 
     unified_players = []
 
-    import unicodedata
+    # Loop through BSL players as primary source (all 32+ Americans)
+    for bsl_player in bsl_players:
+        player_name = bsl_player.get('name', '')
+        team_name = bsl_player.get('team', '')
 
-    for player in players:
-        code = player.get('code')
-        hometown = hometown_lookup.get(code, {})
-        team_name = player.get('team_name')
-        # Map team name to TBLStat format for schedule matching
-        mapped_team = TEAM_NAME_MAP.get(team_name, team_name)
-        past_games = past_by_team.get(mapped_team, [])
-        upcoming_games = upcoming_by_team.get(mapped_team, [])
-
-        # Match to BSL stats by normalized name
-        player_name = player.get('name', '')
+        # Normalize name for matching to TheSportsDB enrichment
         name_norm = unicodedata.normalize('NFKD', player_name).encode('ASCII', 'ignore').decode('ASCII')
         name_norm = name_norm.lower().strip()
-        player_stats = bsl_stats.get(name_norm, {})
 
-        # Extract stats from BSL data
-        games_played = player_stats.get('games', 0)
-        ppg = player_stats.get('ppg', 0.0)
-        rpg = player_stats.get('rpg', 0.0)
-        apg = player_stats.get('apg', 0.0)
-        spg = player_stats.get('spg', 0.0)
-        minutes = player_stats.get('minutes', 0.0)
+        # Try to find matching TheSportsDB data for enrichment (bio info)
+        tsdb_player = thesportsdb_lookup.get(name_norm, {})
+        code = tsdb_player.get('code') or bsl_player.get('tblstat_id')
 
-        if games_played > 0:
-            logger.debug(f"  Matched BSL stats for {player_name}: {ppg:.1f} PPG")
+        # Get hometown data if we have a TheSportsDB match
+        hometown = hometown_lookup.get(tsdb_player.get('code'), {})
+
+        # Get team schedule - try both BSL team name and TheSportsDB mapped name
+        past_games = past_by_team.get(team_name, [])
+        upcoming_games = upcoming_by_team.get(team_name, [])
+
+        # If no games found, try reverse mapping (TheSportsDB -> TBLStat)
+        if not past_games and not upcoming_games:
+            for tsdb_name, bsl_name in TEAM_NAME_MAP.items():
+                if bsl_name == team_name:
+                    past_games = past_by_team.get(tsdb_name, [])
+                    upcoming_games = upcoming_by_team.get(tsdb_name, [])
+                    break
+
+        # Stats come directly from BSL data
+        games_played = bsl_player.get('games', 0)
+        ppg = bsl_player.get('ppg', 0.0)
+        rpg = bsl_player.get('rpg', 0.0)
+        apg = bsl_player.get('apg', 0.0)
+        spg = bsl_player.get('spg', 0.0)
+        minutes = bsl_player.get('minutes', 0.0)
+
+        logger.debug(f"  {player_name} ({team_name}): {ppg:.1f} PPG, {games_played} games")
 
         unified = {
+            # Use TheSportsDB code if available, otherwise use TBLStat ID
             'code': code,
             'name': player_name,
             'team': team_name,
-            'team_code': player.get('team_code'),
-            # Convert position number to name (1=PG, 2=SG, 3=SF, 4=PF, 5=C)
-            'position': get_position_name(player.get('position')),
-            'jersey': player.get('jersey'),
-            'height_cm': player.get('height_cm'),
-            'height_feet': player.get('height_feet'),
-            'height_inches': player.get('height_inches'),
-            'weight': player.get('weight'),
-            'birth_date': player.get('birth_date'),
-            'nationality': player.get('nationality'),
-            'birth_location': player.get('birth_location'),
+            'team_code': tsdb_player.get('team_code'),
+            # Position from TheSportsDB if available
+            'position': get_position_name(tsdb_player.get('position')),
+            'jersey': tsdb_player.get('jersey'),
+            # Physical attributes from TheSportsDB
+            'height_cm': tsdb_player.get('height_cm'),
+            'height_feet': tsdb_player.get('height_feet'),
+            'height_inches': tsdb_player.get('height_inches'),
+            'weight': tsdb_player.get('weight'),
+            # Personal info from TheSportsDB
+            'birth_date': tsdb_player.get('birth_date'),
+            'nationality': 'United States',  # All are American
+            'birth_location': tsdb_player.get('birth_location'),
+            # Hometown from Wikipedia scraper
             'hometown_city': hometown.get('hometown_city'),
             'hometown_state': hometown.get('hometown_state'),
             'hometown': f"{hometown.get('hometown_city')}, {hometown.get('hometown_state')}" if hometown.get('hometown_city') and hometown.get('hometown_state') else None,
             'college': hometown.get('college'),
             'high_school': hometown.get('high_school'),
-            'headshot_url': player.get('headshot_url'),
-            'instagram': player.get('instagram'),
-            'twitter': player.get('twitter'),
+            # Media from TheSportsDB
+            'headshot_url': tsdb_player.get('headshot_url'),
+            'instagram': tsdb_player.get('instagram'),
+            'twitter': tsdb_player.get('twitter'),
+            # Stats directly from BSL scraper (TBLStat.net)
             'games_played': games_played,
             'ppg': ppg,
             'rpg': rpg,
             'apg': apg,
             'spg': spg,
             'minutes': minutes,
-            'ft_pct': player_stats.get('ft_pct', 0),
-            'fg2_pct': player_stats.get('fg2_pct', 0),
-            'fg3_pct': player_stats.get('fg3_pct', 0),
-            'efficiency': player_stats.get('efficiency', 0),
-            'game_log': player_stats.get('game_log', []),  # Individual game stats from TBLStat
+            'ft_pct': bsl_player.get('ft_pct', 0),
+            'fg2_pct': bsl_player.get('fg2_pct', 0),
+            'fg3_pct': bsl_player.get('fg3_pct', 0),
+            'efficiency': bsl_player.get('efficiency', 0),
+            'game_log': bsl_player.get('game_log', []),
+            # Team schedule
             'past_games': past_games,
             'upcoming_games': upcoming_games,
+            # Season info
             'season': '2025-26',
             'league': 'Turkish BSL',
         }
