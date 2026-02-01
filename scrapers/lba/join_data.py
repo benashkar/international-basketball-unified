@@ -8,9 +8,10 @@ PURPOSE:
     This creates the final "database" that the dashboard reads from.
 
 DATA SOURCES COMBINED:
+    - lba_american_stats_*.json: Stats from eurobasket.com (PRIMARY SOURCE)
     - american_players_*.json: Basic player info from TheSportsDB
     - american_hometowns_found_*.json: Wikipedia hometown/college data
-    - schedule_*.json: Game schedule for upcoming/past games
+    - lba_schedule_*.json: Full schedule with upcoming games
 
 OUTPUT:
     - unified_american_players_*.json: Complete player records with stats
@@ -162,6 +163,48 @@ def cm_to_feet_inches(height_str):
     return None, None
 
 
+def load_lba_stats():
+    """Load LBA scraper stats (PRIMARY SOURCE for stats)."""
+    output_dir = os.path.join(os.path.dirname(__file__), 'output', 'json')
+    latest_file = os.path.join(output_dir, 'lba_american_stats_latest.json')
+
+    if os.path.exists(latest_file):
+        try:
+            with open(latest_file, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                players = data.get('players', [])
+                logger.info(f"Loaded {len(players)} players from LBA scraper")
+                # Return both full list and lookup dict
+                lookup = {normalize_name(p.get('name', '')): p for p in players}
+                return players, lookup
+        except Exception as e:
+            logger.warning(f"Error loading LBA stats: {e}")
+
+    logger.warning("No LBA stats found. Run lba_scraper.py first.")
+    return [], {}
+
+
+def load_lba_schedule():
+    """Load LBA schedule from eurobasket.com scraper."""
+    output_dir = os.path.join(os.path.dirname(__file__), 'output', 'json')
+
+    # Try LBA schedule first (from lba_scraper.py)
+    lba_file = os.path.join(output_dir, 'lba_schedule_latest.json')
+    if os.path.exists(lba_file):
+        try:
+            with open(lba_file, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                game_count = len(data.get('games', []))
+                upcoming = data.get('upcoming', 0)
+                logger.info(f"Loading LBA schedule: {game_count} games ({upcoming} upcoming)")
+                return data
+        except Exception as e:
+            logger.warning(f"Error reading LBA schedule: {e}")
+
+    # Fallback to TheSportsDB schedule
+    return load_best_schedule()
+
+
 def main():
     """Main entry point."""
     logger.info("=" * 60)
@@ -173,16 +216,33 @@ def main():
     # =========================================================================
     # Load All Data Sources
     # =========================================================================
+    # LBA scraper stats - PRIMARY SOURCE for game stats
+    lba_players, lba_stats_lookup = load_lba_stats()
+
+    # TheSportsDB players - for enrichment (headshots, position, etc.)
     players_data = load_latest_json('american_players_*.json')
     hometowns_data = load_latest_json('american_hometowns_found_*.json')
-    schedule_data = load_best_schedule()
 
-    if not players_data:
-        logger.error("No player data found. Run daily_scraper.py first.")
-        return
+    # LBA schedule - for upcoming games
+    schedule_data = load_lba_schedule()
 
-    players = players_data.get('players', [])
-    logger.info(f"Loaded {len(players)} American players")
+    # Build TheSportsDB lookup for enrichment
+    tsdb_lookup = {}
+    if players_data:
+        for p in players_data.get('players', []):
+            norm_name = normalize_name(p.get('name', ''))
+            if norm_name:
+                tsdb_lookup[norm_name] = p
+        logger.info(f"Loaded {len(tsdb_lookup)} players from TheSportsDB for enrichment")
+
+    # If no LBA stats, fall back to TheSportsDB
+    if not lba_players:
+        if not players_data:
+            logger.error("No player data found. Run lba_scraper.py or daily_scraper.py first.")
+            return
+        # Use TheSportsDB as source
+        lba_players = players_data.get('players', [])
+        logger.warning("Using TheSportsDB as primary source (no LBA stats available)")
 
     # Build hometown lookup dictionary
     hometown_lookup = {}
@@ -249,54 +309,76 @@ def main():
         logger.info(f"Built upcoming games for {len(upcoming_by_team)} teams")
 
     # =========================================================================
-    # Build Unified Player Records
+    # Build Unified Player Records (LBA stats as PRIMARY SOURCE)
     # =========================================================================
     unified_players = []
 
-    for player in players:
-        code = player.get('code')
+    for player in lba_players:
         player_name = player.get('name', '')
+        norm_name = normalize_name(player_name)
+
+        # Get TheSportsDB data for enrichment
+        tsdb_player = tsdb_lookup.get(norm_name, {})
+        code = player.get('player_code') or tsdb_player.get('code')
 
         # Get hometown data if available
         hometown = hometown_lookup.get(code, {})
 
-        # Get games for player's team
-        team_name = player.get('team_name')
+        # Get team name (prefer LBA data, fallback to TheSportsDB)
+        team_name = player.get('team') or tsdb_player.get('team_name')
+
+        # Get games for player's team (try multiple team name formats)
         past_games = past_by_team.get(team_name, [])
         upcoming_games = upcoming_by_team.get(team_name, [])
 
-        # Parse height
-        height_feet, height_inches = cm_to_feet_inches(player.get('height_str'))
+        # Also try without full name (e.g., "Brescia" instead of "Germani Brescia")
+        if not upcoming_games and team_name:
+            for team_key in upcoming_by_team:
+                if team_name in team_key or team_key in team_name:
+                    upcoming_games = upcoming_by_team[team_key]
+                    break
+
+        # Parse height from TheSportsDB
+        height_feet, height_inches = cm_to_feet_inches(tsdb_player.get('height_str'))
+
+        # Get game log from LBA scraper
+        game_log = player.get('game_log', [])
+
+        # Get stats from LBA scraper (or calculate from game log)
+        games_played = player.get('games') or len(game_log)
+        ppg = player.get('ppg', 0.0)
+        rpg = player.get('rpg', 0.0)
+        apg = player.get('apg', 0.0)
 
         # Build unified record
         unified = {
             'code': code,
             'name': player_name,
             'team': team_name,
-            'team_code': player.get('team_code'),
-            'position': get_position_name(player.get('position')),
-            'jersey': player.get('jersey'),
+            'team_code': tsdb_player.get('team_code'),
+            'position': get_position_name(tsdb_player.get('position')),
+            'jersey': tsdb_player.get('jersey'),
             'height_cm': None,
             'height_feet': height_feet,
             'height_inches': height_inches,
-            'weight': player.get('weight'),
-            'birth_date': player.get('birth_date'),
-            'nationality': player.get('nationality'),
-            'birth_location': player.get('birth_location'),
+            'weight': tsdb_player.get('weight'),
+            'birth_date': (tsdb_player.get('birth_date', '') or '')[:10] or None,  # Truncate to YYYY-MM-DD
+            'nationality': tsdb_player.get('nationality') or 'United States',
+            'birth_location': tsdb_player.get('birth_location'),
             'hometown_city': hometown.get('hometown_city'),
             'hometown_state': hometown.get('hometown_state'),
             'hometown': f"{hometown.get('hometown_city')}, {hometown.get('hometown_state')}" if hometown.get('hometown_city') and hometown.get('hometown_state') else None,
             'college': hometown.get('college'),
             'high_school': hometown.get('high_school'),
-            'headshot_url': player.get('headshot_url'),
-            'instagram': player.get('instagram'),
-            'twitter': player.get('twitter'),
-            # No box score stats yet - would need legabasket.it scraper
-            'games_played': 0,
-            'ppg': 0.0,
-            'rpg': 0.0,
-            'apg': 0.0,
-            'game_log': [],
+            'headshot_url': tsdb_player.get('headshot_url'),
+            'instagram': tsdb_player.get('instagram'),
+            'twitter': tsdb_player.get('twitter'),
+            # Stats from LBA scraper (eurobasket.com)
+            'games_played': games_played,
+            'ppg': ppg,
+            'rpg': rpg,
+            'apg': apg,
+            'game_log': game_log,
             'past_games': past_games,
             'upcoming_games': upcoming_games,
             'season': '2025-26',
@@ -375,11 +457,22 @@ def main():
     logger.info(f"With hometown: {with_hometown}")
     logger.info(f"With college: {with_college}")
 
+    with_stats = sum(1 for p in unified_players if p.get('ppg', 0) > 0)
+    with_game_log = sum(1 for p in unified_players if p.get('game_log'))
+    with_upcoming = sum(1 for p in unified_players if p.get('upcoming_games'))
+
+    logger.info(f"With stats: {with_stats}")
+    logger.info(f"With game log: {with_game_log}")
+    logger.info(f"With upcoming games: {with_upcoming}")
+
     if unified_players:
-        logger.info("\nPlayers:")
-        for p in unified_players[:15]:
-            ht = f"{p['hometown']}" if p.get('hometown') else "Unknown"
-            logger.info(f"  {p['name']} - {p['team']} | {ht}")
+        # Sort by PPG for display
+        sorted_players = sorted(unified_players, key=lambda x: x.get('ppg', 0), reverse=True)
+        logger.info("\nTop Players:")
+        for p in sorted_players[:15]:
+            games = len(p.get('game_log', []))
+            upcoming = len(p.get('upcoming_games', []))
+            logger.info(f"  {p['name']} - {p['team']} | {p.get('ppg', 0):.1f} PPG ({games} games, {upcoming} upcoming)")
 
 
 if __name__ == '__main__':

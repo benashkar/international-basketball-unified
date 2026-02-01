@@ -3,7 +3,7 @@
 ## Project Goal
 Track American basketball players across international leagues, with focus on finding players who attended American high schools. Display their current season statistics, game logs, and upcoming games.
 
-## Current Status (January 2026)
+## Current Status (February 2026)
 
 ### Active Leagues
 | League | Players | Data Source | Notes |
@@ -11,9 +11,9 @@ Track American basketball players across international leagues, with focus on fi
 | EuroLeague | 109 | EuroLeague API | Best data quality, official API |
 | Liga ACB (Spain) | 28 | ACB.com scraping + TheSportsDB | Box scores from acb.com |
 | Turkish BSL | 32 | TBLStat.net + TheSportsDB | Uses TBLStat as primary source |
+| Lega Basket Serie A (Italy) | 43 | legabasket.it | Uses embedded JSON from Next.js |
 
 ### Pending Leagues (Need Scrapers)
-- Lega Basket Serie A (Italy) - legabasket.it
 - LNB Pro A (France) - lnb.fr
 - Basketball Bundesliga (Germany) - easycredit-bbl.de
 - Greek Basket League (ESAKE) - esake.gr
@@ -62,11 +62,45 @@ unified/
     │   ├── acb_scraper.py          # Scrapes ACB.com box scores
     │   ├── daily_scraper.py        # TheSportsDB + Wikipedia
     │   └── join_data.py            # Combines all sources
-    └── bsl/
-        ├── bsl_scraper.py          # Scrapes TBLStat.net
+    ├── bsl/
+    │   ├── bsl_scraper.py          # Scrapes TBLStat.net
+    │   ├── daily_scraper.py        # TheSportsDB + Wikipedia
+    │   └── join_data.py            # Uses BSL as PRIMARY source
+    └── lba/
+        ├── lba_scraper.py          # Scrapes legabasket.it embedded JSON
         ├── daily_scraper.py        # TheSportsDB + Wikipedia
-        └── join_data.py            # Uses BSL as PRIMARY source
+        └── join_data.py            # Uses LBA scraper as PRIMARY source
 ```
+
+---
+
+## CRITICAL: Requirements for Every New League
+
+**BEFORE MARKING A LEAGUE AS COMPLETE**, verify it has ALL THREE:
+
+1. **Player Roster with Nationality**
+   - List of all American players in the league
+   - Team assignments
+   - Basic bio info (position, height, etc.)
+
+2. **Box Score Stats (PER GAME)**
+   - Points, rebounds, assists per game
+   - Game-by-game log for each player
+   - Calculate season averages from game logs
+
+3. **Complete Schedule (PAST AND FUTURE)**
+   - All past games with scores
+   - All upcoming games with dates
+   - Must show on player detail pages
+
+**Common Mistake**: Using TheSportsDB alone - it provides rosters but NO box scores and LIMITED schedule. Always find a secondary source for stats.
+
+| League | Stats Source | Schedule Source |
+|--------|-------------|-----------------|
+| EuroLeague | EuroLeague API | EuroLeague API |
+| Liga ACB | ACB.com box scores | ACB.com |
+| Turkish BSL | TBLStat.net | TBLStat.net |
+| Italian LBA | legabasket.it embedded JSON | legabasket.it |
 
 ---
 
@@ -77,7 +111,29 @@ unified/
 - **League-specific scrapers** are more complete for stats and game data
 - **Best approach**: Use league scraper as PRIMARY source, enrich with TheSportsDB when available
 
-### 2. Turkish BSL Example (Best Practice)
+### 2. Italian LBA Example (Next.js Embedded JSON)
+legabasket.it uses Next.js with embedded JSON data in `__NEXT_DATA__` script tags:
+```python
+# In lba_scraper.py
+from bs4 import BeautifulSoup
+import json
+
+soup = BeautifulSoup(response.text, 'html.parser')
+script = soup.find('script', id='__NEXT_DATA__')
+data = json.loads(script.string)
+game = data['props']['pageProps']['game']
+
+# Player stats are in game['scores']['ht']['rows'] (home team)
+# and game['scores']['vt']['rows'] (visitor team)
+for player in game['scores']['ht']['rows']:
+    points = player.get('pun', 0)  # Italian abbreviations!
+    rebounds = player.get('rimbalzi_t', 0)
+    assists = player.get('ass', 0)
+```
+
+Key insight: Fetch games by ID range (e.g., 25009-25300) rather than trying to navigate the website.
+
+### 3. Turkish BSL Example (Best Practice)
 The BSL scraper finds 32 Americans but TheSportsDB only has 15. Solution:
 ```python
 # In join_data.py - Use BSL data as primary source
