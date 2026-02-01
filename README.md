@@ -4,17 +4,17 @@ A unified dashboard tracking American basketball players across multiple interna
 
 ## Leagues Tracked
 
-| League | Country | Status |
-|--------|---------|--------|
-| EuroLeague | Europe | Active |
-| Liga ACB | Spain | Active |
-| Turkish BSL | Turkey | Active |
-| CBA | China | Coming Soon |
-| NBL | Australia | Coming Soon |
-| LNB Pro A | France | Coming Soon |
-| Lega Basket Serie A | Italy | Coming Soon |
-| Basketball Bundesliga | Germany | Coming Soon |
-| Greek Basket League | Greece | Coming Soon |
+| League | Country | Players | Status |
+|--------|---------|---------|--------|
+| EuroLeague | Europe | 109 | Active |
+| Liga ACB | Spain | 28 | Active |
+| Turkish BSL | Turkey | 32 | Active |
+| Lega Basket Serie A | Italy | 43 | Active |
+| LNB Pro A | France | - | Coming Soon |
+| Basketball Bundesliga | Germany | - | Coming Soon |
+| Greek Basket League | Greece | - | Coming Soon |
+| NBL | Australia | - | Coming Soon |
+| CBA | China | - | Coming Soon |
 
 ## Features
 
@@ -35,7 +35,8 @@ unified/
 ├── scrapers/
 │   ├── euroleague/       # EuroLeague scraper
 │   ├── acb/              # Liga ACB scraper
-│   └── bsl/              # Turkish BSL scraper
+│   ├── bsl/              # Turkish BSL scraper
+│   └── lba/              # Italian LBA scraper
 └── .github/workflows/    # GitHub Actions for daily scraping
 ```
 
@@ -50,8 +51,9 @@ python dashboard.py
 ## Data Sources
 
 - **EuroLeague**: Official EuroLeague API
-- **Liga ACB**: ACB.com box scores
+- **Liga ACB**: ACB.com box scores + TheSportsDB
 - **Turkish BSL**: TBLStat.net + TheSportsDB
+- **Italian LBA**: TheSportsDB
 - **Hometown Data**: Wikipedia
 
 ## Deployment
