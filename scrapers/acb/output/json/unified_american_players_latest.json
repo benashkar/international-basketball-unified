@@ -1,5 +1,5 @@
 {
-  "export_date": "2026-01-31T22:25:57.186124",
+  "export_date": "2026-02-01T10:29:09.340490",
   "season": "2025-26",
   "league": "Liga ACB",
   "player_count": 28,
@@ -49,7 +49,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "2",
           "venue": null,
           "home_team": "Bilbao Basket",
           "away_team": "CB San Pablo Burgos",
@@ -64,7 +64,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "3",
           "venue": null,
           "home_team": "Real Madrid Baloncesto",
           "away_team": "CB San Pablo Burgos",
@@ -79,7 +79,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "4",
           "venue": null,
           "home_team": "CB San Pablo Burgos",
           "away_team": "Basket Zaragoza",
@@ -94,7 +94,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "5",
           "venue": null,
           "home_team": "Valencia Basket",
           "away_team": "CB San Pablo Burgos",
@@ -109,7 +109,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "6",
           "venue": null,
           "home_team": "CB 1939 Canarias",
           "away_team": "CB San Pablo Burgos",
@@ -124,7 +124,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "7",
           "venue": null,
           "home_team": "CB San Pablo Burgos",
           "away_team": "BC Andorra",
@@ -139,7 +139,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "8",
           "venue": null,
           "home_team": "Río Breogán",
           "away_team": "CB San Pablo Burgos",
@@ -154,7 +154,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "9",
           "venue": null,
           "home_team": "CB San Pablo Burgos",
           "away_team": "CB Murcia",
@@ -169,7 +169,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "10",
           "venue": null,
           "home_team": "Baloncesto Málaga",
           "away_team": "CB San Pablo Burgos",
@@ -184,7 +184,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "11",
           "venue": null,
           "home_team": "CB San Pablo Burgos",
           "away_team": "Basquet Manresa",
@@ -199,7 +199,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "12",
           "venue": null,
           "home_team": "Baskonia",
           "away_team": "CB San Pablo Burgos",
@@ -214,7 +214,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "13",
           "venue": null,
           "home_team": "CB San Pablo Burgos",
           "away_team": "CB Gran Canaria",
@@ -229,7 +229,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "14",
           "venue": null,
           "home_team": "Fundación CB Granada",
           "away_team": "CB San Pablo Burgos",
@@ -244,7 +244,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "15",
           "venue": null,
           "home_team": "CB San Pablo Burgos",
           "away_team": "Joventut Badalona",
@@ -259,7 +259,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "16",
           "venue": null,
           "home_team": "CB San Pablo Burgos",
           "away_team": "Barça",
@@ -274,7 +274,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "17",
           "venue": null,
           "home_team": "Hiopos Lleida",
           "away_team": "CB San Pablo Burgos",
@@ -289,7 +289,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "18",
           "venue": null,
           "home_team": "Basquet Girona",
           "away_team": "CB San Pablo Burgos",
@@ -352,7 +352,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "2",
           "venue": null,
           "home_team": "BC Andorra",
           "away_team": "CB 1939 Canarias",
@@ -367,7 +367,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "3",
           "venue": null,
           "home_team": "BC Andorra",
           "away_team": "Basquet Girona",
@@ -382,7 +382,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "4",
           "venue": null,
           "home_team": "Bilbao Basket",
           "away_team": "BC Andorra",
@@ -397,7 +397,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "5",
           "venue": null,
           "home_team": "CB Gran Canaria",
           "away_team": "BC Andorra",
@@ -412,7 +412,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "6",
           "venue": null,
           "home_team": "BC Andorra",
           "away_team": "Baloncesto Málaga",
@@ -427,7 +427,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "7",
           "venue": null,
           "home_team": "CB San Pablo Burgos",
           "away_team": "BC Andorra",
@@ -442,7 +442,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "8",
           "venue": null,
           "home_team": "BC Andorra",
           "away_team": "Joventut Badalona",
@@ -457,7 +457,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "9",
           "venue": null,
           "home_team": "Barça",
           "away_team": "BC Andorra",
@@ -472,7 +472,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "10",
           "venue": null,
           "home_team": "BC Andorra",
           "away_team": "Fundación CB Granada",
@@ -487,7 +487,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "11",
           "venue": null,
           "home_team": "Basket Zaragoza",
           "away_team": "BC Andorra",
@@ -502,7 +502,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "12",
           "venue": null,
           "home_team": "Valencia Basket",
           "away_team": "BC Andorra",
@@ -517,7 +517,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "13",
           "venue": null,
           "home_team": "BC Andorra",
           "away_team": "Hiopos Lleida",
@@ -532,7 +532,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "14",
           "venue": null,
           "home_team": "Baskonia",
           "away_team": "BC Andorra",
@@ -547,7 +547,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "15",
           "venue": null,
           "home_team": "BC Andorra",
           "away_team": "Real Madrid Baloncesto",
@@ -562,7 +562,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "16",
           "venue": null,
           "home_team": "BC Andorra",
           "away_team": "Río Breogán",
@@ -577,7 +577,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "17",
           "venue": null,
           "home_team": "Basquet Manresa",
           "away_team": "BC Andorra",
@@ -592,7 +592,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "18",
           "venue": null,
           "home_team": "BC Andorra",
           "away_team": "CB Gran Canaria",
@@ -655,7 +655,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "2",
           "venue": null,
           "home_team": "Río Breogán",
           "away_team": "Valencia Basket",
@@ -670,7 +670,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "3",
           "venue": null,
           "home_team": "Hiopos Lleida",
           "away_team": "Valencia Basket",
@@ -685,7 +685,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "4",
           "venue": null,
           "home_team": "Valencia Basket",
           "away_team": "Joventut Badalona",
@@ -700,7 +700,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "5",
           "venue": null,
           "home_team": "Valencia Basket",
           "away_team": "CB San Pablo Burgos",
@@ -715,7 +715,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "6",
           "venue": null,
           "home_team": "Fundación CB Granada",
           "away_team": "Valencia Basket",
@@ -730,7 +730,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "7",
           "venue": null,
           "home_team": "Valencia Basket",
           "away_team": "CB 1939 Canarias",
@@ -745,7 +745,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "8",
           "venue": null,
           "home_team": "Valencia Basket",
           "away_team": "Basquet Girona",
@@ -760,7 +760,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "9",
           "venue": null,
           "home_team": "Baskonia",
           "away_team": "Valencia Basket",
@@ -775,7 +775,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "10",
           "venue": null,
           "home_team": "Valencia Basket",
           "away_team": "Basket Zaragoza",
@@ -790,7 +790,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "11",
           "venue": null,
           "home_team": "CB Murcia",
           "away_team": "Valencia Basket",
@@ -805,7 +805,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "12",
           "venue": null,
           "home_team": "Valencia Basket",
           "away_team": "BC Andorra",
@@ -820,7 +820,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "13",
           "venue": null,
           "home_team": "Bilbao Basket",
           "away_team": "Valencia Basket",
@@ -835,7 +835,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "14",
           "venue": null,
           "home_team": "Valencia Basket",
           "away_team": "Basquet Manresa",
@@ -850,7 +850,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "15",
           "venue": null,
           "home_team": "Valencia Basket",
           "away_team": "Baloncesto Málaga",
@@ -865,7 +865,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "16",
           "venue": null,
           "home_team": "Real Madrid Baloncesto",
           "away_team": "Valencia Basket",
@@ -880,7 +880,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "17",
           "venue": null,
           "home_team": "CB Gran Canaria",
           "away_team": "Valencia Basket",
@@ -943,7 +943,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "2",
           "venue": null,
           "home_team": "Baskonia",
           "away_team": "Real Madrid Baloncesto",
@@ -958,7 +958,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "3",
           "venue": null,
           "home_team": "Fundación CB Granada",
           "away_team": "Baskonia",
@@ -973,7 +973,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "4",
           "venue": null,
           "home_team": "CB Murcia",
           "away_team": "Baskonia",
@@ -988,7 +988,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "5",
           "venue": null,
           "home_team": "Baskonia",
           "away_team": "CB 1939 Canarias",
@@ -1003,7 +1003,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "6",
           "venue": null,
           "home_team": "Hiopos Lleida",
           "away_team": "Baskonia",
@@ -1018,7 +1018,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "7",
           "venue": null,
           "home_team": "Barça",
           "away_team": "Baskonia",
@@ -1033,7 +1033,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "8",
           "venue": null,
           "home_team": "Baskonia",
           "away_team": "Bilbao Basket",
@@ -1048,7 +1048,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "9",
           "venue": null,
           "home_team": "Baskonia",
           "away_team": "Valencia Basket",
@@ -1063,7 +1063,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "11",
           "venue": null,
           "home_team": "Baloncesto Málaga",
           "away_team": "Baskonia",
@@ -1078,7 +1078,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "12",
           "venue": null,
           "home_team": "Baskonia",
           "away_team": "CB San Pablo Burgos",
@@ -1093,7 +1093,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "13",
           "venue": null,
           "home_team": "Río Breogán",
           "away_team": "Baskonia",
@@ -1108,7 +1108,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "14",
           "venue": null,
           "home_team": "Baskonia",
           "away_team": "BC Andorra",
@@ -1123,7 +1123,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "15",
           "venue": null,
           "home_team": "Basquet Girona",
           "away_team": "Baskonia",
@@ -1138,7 +1138,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "16",
           "venue": null,
           "home_team": "Baskonia",
           "away_team": "Basquet Manresa",
@@ -1153,7 +1153,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "17",
           "venue": null,
           "home_team": "Baskonia",
           "away_team": "Joventut Badalona",
@@ -1167,23 +1167,7 @@
           "result": "W"
         }
       ],
-      "upcoming_games": [
-        {
-          "date": "Dom 8-",
-          "round": "1",
-          "venue": null,
-          "home_team": "CB Gran Canaria",
-          "away_team": "Baskonia",
-          "home_score": null,
-          "away_score": null,
-          "played": false,
-          "opponent": "CB Gran Canaria",
-          "home_away": "Away",
-          "team_score": null,
-          "opponent_score": null,
-          "result": null
-        }
-      ],
+      "upcoming_games": [],
       "season": "2025-26",
       "league": "Liga ACB"
     },
@@ -1260,13 +1244,13 @@
           "blocks": 1,
           "rating": 7,
           "match_id": "104482",
-          "jornada": 1,
+          "jornada": 3,
           "opponent": "CB San Pablo Burgos",
           "home_away": "Home",
           "team_score": 90,
           "opponent_score": 80,
           "date": "2025-10-19",
-          "round": "1"
+          "round": "3"
         },
         {
           "name": "C. Okeke",
@@ -1287,13 +1271,13 @@
           "blocks": 1,
           "rating": 8,
           "match_id": "104494",
-          "jornada": 1,
+          "jornada": 4,
           "opponent": "Basquet Manresa",
           "home_away": "Home",
           "team_score": 87,
           "opponent_score": 75,
           "date": "2025-10-26",
-          "round": "1"
+          "round": "4"
         },
         {
           "name": "C. Okeke",
@@ -1314,13 +1298,13 @@
           "blocks": 0,
           "rating": 2,
           "match_id": "104519",
-          "jornada": 1,
+          "jornada": 7,
           "opponent": "Bilbao Basket",
           "home_away": "Home",
           "team_score": 82,
           "opponent_score": 70,
           "date": "2025-11-16",
-          "round": "1"
+          "round": "7"
         },
         {
           "name": "C. Okeke",
@@ -1341,13 +1325,13 @@
           "blocks": 2,
           "rating": 16,
           "match_id": "104523",
-          "jornada": 1,
+          "jornada": 8,
           "opponent": "Fundación CB Granada",
           "home_away": "Away",
           "team_score": 111,
           "opponent_score": 100,
           "date": "2025-11-22",
-          "round": "1"
+          "round": "8"
         },
         {
           "name": "C. Okeke",
@@ -1368,13 +1352,13 @@
           "blocks": 1,
           "rating": 9,
           "match_id": "104536",
-          "jornada": 1,
+          "jornada": 9,
           "opponent": "CB 1939 Canarias",
           "home_away": "Away",
           "team_score": 71,
           "opponent_score": 70,
           "date": "2025-12-07",
-          "round": "1"
+          "round": "9"
         },
         {
           "name": "C. Okeke",
@@ -1395,13 +1379,13 @@
           "blocks": 1,
           "rating": 3,
           "match_id": "104546",
-          "jornada": 1,
+          "jornada": 10,
           "opponent": "Basquet Girona",
           "home_away": "Home",
           "team_score": 112,
           "opponent_score": 76,
           "date": "2025-12-14",
-          "round": "1"
+          "round": "10"
         },
         {
           "name": "C. Okeke",
@@ -1422,13 +1406,13 @@
           "blocks": 0,
           "rating": -1,
           "match_id": "104550",
-          "jornada": 1,
+          "jornada": 11,
           "opponent": "Hiopos Lleida",
           "home_away": "Away",
           "team_score": 88,
           "opponent_score": 81,
           "date": "2025-12-20",
-          "round": "1"
+          "round": "11"
         },
         {
           "name": "C. Okeke",
@@ -1449,13 +1433,13 @@
           "blocks": 1,
           "rating": 9,
           "match_id": "104593",
-          "jornada": 1,
+          "jornada": 15,
           "opponent": "BC Andorra",
           "home_away": "Away",
           "team_score": 90,
           "opponent_score": 85,
           "date": "2026-01-11",
-          "round": "1"
+          "round": "15"
         },
         {
           "name": "C. Okeke",
@@ -1476,13 +1460,13 @@
           "blocks": 0,
           "rating": 15,
           "match_id": "104604",
-          "jornada": 1,
+          "jornada": 17,
           "opponent": "Río Breogán",
           "home_away": "Away",
           "team_score": 103,
           "opponent_score": 85,
           "date": "2026-01-24",
-          "round": "1"
+          "round": "17"
         }
       ],
       "past_games": [
@@ -1503,7 +1487,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "2",
           "venue": null,
           "home_team": "Baskonia",
           "away_team": "Real Madrid Baloncesto",
@@ -1518,7 +1502,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "3",
           "venue": null,
           "home_team": "Real Madrid Baloncesto",
           "away_team": "CB San Pablo Burgos",
@@ -1533,7 +1517,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "4",
           "venue": null,
           "home_team": "Real Madrid Baloncesto",
           "away_team": "Basquet Manresa",
@@ -1548,7 +1532,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "5",
           "venue": null,
           "home_team": "Basket Zaragoza",
           "away_team": "Real Madrid Baloncesto",
@@ -1563,7 +1547,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "6",
           "venue": null,
           "home_team": "Joventut Badalona",
           "away_team": "Real Madrid Baloncesto",
@@ -1578,7 +1562,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "7",
           "venue": null,
           "home_team": "Real Madrid Baloncesto",
           "away_team": "Bilbao Basket",
@@ -1593,7 +1577,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "8",
           "venue": null,
           "home_team": "Fundación CB Granada",
           "away_team": "Real Madrid Baloncesto",
@@ -1608,7 +1592,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "9",
           "venue": null,
           "home_team": "CB 1939 Canarias",
           "away_team": "Real Madrid Baloncesto",
@@ -1623,7 +1607,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "10",
           "venue": null,
           "home_team": "Real Madrid Baloncesto",
           "away_team": "Basquet Girona",
@@ -1638,7 +1622,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "11",
           "venue": null,
           "home_team": "Hiopos Lleida",
           "away_team": "Real Madrid Baloncesto",
@@ -1653,7 +1637,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "12",
           "venue": null,
           "home_team": "Real Madrid Baloncesto",
           "away_team": "Baloncesto Málaga",
@@ -1668,7 +1652,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "13",
           "venue": null,
           "home_team": "CB Murcia",
           "away_team": "Real Madrid Baloncesto",
@@ -1683,7 +1667,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "14",
           "venue": null,
           "home_team": "Real Madrid Baloncesto",
           "away_team": "Barça",
@@ -1698,7 +1682,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "15",
           "venue": null,
           "home_team": "BC Andorra",
           "away_team": "Real Madrid Baloncesto",
@@ -1713,7 +1697,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "16",
           "venue": null,
           "home_team": "Real Madrid Baloncesto",
           "away_team": "Valencia Basket",
@@ -1728,7 +1712,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "17",
           "venue": null,
           "home_team": "Río Breogán",
           "away_team": "Real Madrid Baloncesto",
@@ -1791,7 +1775,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "2",
           "venue": null,
           "home_team": "BC Andorra",
           "away_team": "CB 1939 Canarias",
@@ -1806,7 +1790,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "3",
           "venue": null,
           "home_team": "BC Andorra",
           "away_team": "Basquet Girona",
@@ -1821,7 +1805,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "4",
           "venue": null,
           "home_team": "Bilbao Basket",
           "away_team": "BC Andorra",
@@ -1836,7 +1820,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "5",
           "venue": null,
           "home_team": "CB Gran Canaria",
           "away_team": "BC Andorra",
@@ -1851,7 +1835,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "6",
           "venue": null,
           "home_team": "BC Andorra",
           "away_team": "Baloncesto Málaga",
@@ -1866,7 +1850,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "7",
           "venue": null,
           "home_team": "CB San Pablo Burgos",
           "away_team": "BC Andorra",
@@ -1881,7 +1865,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "8",
           "venue": null,
           "home_team": "BC Andorra",
           "away_team": "Joventut Badalona",
@@ -1896,7 +1880,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "9",
           "venue": null,
           "home_team": "Barça",
           "away_team": "BC Andorra",
@@ -1911,7 +1895,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "10",
           "venue": null,
           "home_team": "BC Andorra",
           "away_team": "Fundación CB Granada",
@@ -1926,7 +1910,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "11",
           "venue": null,
           "home_team": "Basket Zaragoza",
           "away_team": "BC Andorra",
@@ -1941,7 +1925,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "12",
           "venue": null,
           "home_team": "Valencia Basket",
           "away_team": "BC Andorra",
@@ -1956,7 +1940,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "13",
           "venue": null,
           "home_team": "BC Andorra",
           "away_team": "Hiopos Lleida",
@@ -1971,7 +1955,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "14",
           "venue": null,
           "home_team": "Baskonia",
           "away_team": "BC Andorra",
@@ -1986,7 +1970,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "15",
           "venue": null,
           "home_team": "BC Andorra",
           "away_team": "Real Madrid Baloncesto",
@@ -2001,7 +1985,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "16",
           "venue": null,
           "home_team": "BC Andorra",
           "away_team": "Río Breogán",
@@ -2016,7 +2000,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "17",
           "venue": null,
           "home_team": "Basquet Manresa",
           "away_team": "BC Andorra",
@@ -2031,7 +2015,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "18",
           "venue": null,
           "home_team": "BC Andorra",
           "away_team": "CB Gran Canaria",
@@ -2122,13 +2106,13 @@
           "blocks": 1,
           "rating": 2,
           "match_id": "104472",
-          "jornada": 1,
+          "jornada": 2,
           "opponent": "Joventut Badalona",
           "home_away": "Away",
           "team_score": 86,
           "opponent_score": 89,
           "date": "2025-10-12",
-          "round": "1"
+          "round": "2"
         },
         {
           "name": "D.J. Stephens",
@@ -2149,13 +2133,13 @@
           "blocks": 0,
           "rating": 4,
           "match_id": "104479",
-          "jornada": 1,
+          "jornada": 3,
           "opponent": "Río Breogán",
           "home_away": "Home",
           "team_score": 84,
           "opponent_score": 88,
           "date": "2025-10-18",
-          "round": "1"
+          "round": "3"
         },
         {
           "name": "D.J. Stephens",
@@ -2176,13 +2160,13 @@
           "blocks": 1,
           "rating": 7,
           "match_id": "104489",
-          "jornada": 1,
+          "jornada": 4,
           "opponent": "CB San Pablo Burgos",
           "home_away": "Away",
           "team_score": 102,
           "opponent_score": 89,
           "date": "2025-10-25",
-          "round": "1"
+          "round": "4"
         },
         {
           "name": "D.J. Stephens",
@@ -2203,13 +2187,13 @@
           "blocks": 0,
           "rating": -1,
           "match_id": "104514",
-          "jornada": 1,
+          "jornada": 7,
           "opponent": "Baloncesto Málaga",
           "home_away": "Home",
           "team_score": 79,
           "opponent_score": 86,
           "date": "2025-11-15",
-          "round": "1"
+          "round": "7"
         },
         {
           "name": "D.J. Stephens",
@@ -2230,13 +2214,13 @@
           "blocks": 0,
           "rating": 3,
           "match_id": "104529",
-          "jornada": 1,
+          "jornada": 8,
           "opponent": "CB 1939 Canarias",
           "home_away": "Home",
           "team_score": 76,
           "opponent_score": 84,
           "date": "2025-11-23",
-          "round": "1"
+          "round": "8"
         },
         {
           "name": "D.J. Stephens",
@@ -2257,13 +2241,13 @@
           "blocks": 0,
           "rating": -1,
           "match_id": "104547",
-          "jornada": 1,
+          "jornada": 10,
           "opponent": "Valencia Basket",
           "home_away": "Away",
           "team_score": 73,
           "opponent_score": 115,
           "date": "2026-01-12",
-          "round": "1"
+          "round": "10"
         },
         {
           "name": "D.J. Stephens",
@@ -2284,13 +2268,13 @@
           "blocks": 0,
           "rating": 9,
           "match_id": "104556",
-          "jornada": 1,
+          "jornada": 11,
           "opponent": "BC Andorra",
           "home_away": "Home",
           "team_score": 107,
           "opponent_score": 89,
           "date": "2025-12-21",
-          "round": "1"
+          "round": "11"
         },
         {
           "name": "D.J. Stephens",
@@ -2311,13 +2295,13 @@
           "blocks": 1,
           "rating": 3,
           "match_id": "104559",
-          "jornada": 1,
+          "jornada": 12,
           "opponent": "Basquet Manresa",
           "home_away": "Home",
           "team_score": 83,
           "opponent_score": 95,
           "date": "2025-12-27",
-          "round": "1"
+          "round": "12"
         },
         {
           "name": "D.J. Stephens",
@@ -2338,13 +2322,13 @@
           "blocks": 1,
           "rating": 11,
           "match_id": "104575",
-          "jornada": 1,
+          "jornada": 13,
           "opponent": "Barça",
           "home_away": "Away",
           "team_score": 80,
           "opponent_score": 100,
           "date": "2026-01-02",
-          "round": "1"
+          "round": "13"
         },
         {
           "name": "D.J. Stephens",
@@ -2365,13 +2349,13 @@
           "blocks": 1,
           "rating": 6,
           "match_id": "104581",
-          "jornada": 1,
+          "jornada": 14,
           "opponent": "Hiopos Lleida",
           "home_away": "Away",
           "team_score": 87,
           "opponent_score": 77,
           "date": "2026-01-04",
-          "round": "1"
+          "round": "14"
         },
         {
           "name": "D.J. Stephens",
@@ -2392,13 +2376,13 @@
           "blocks": 1,
           "rating": 12,
           "match_id": "104585",
-          "jornada": 1,
+          "jornada": 15,
           "opponent": "CB Gran Canaria",
           "home_away": "Home",
           "team_score": 95,
           "opponent_score": 84,
           "date": "2026-01-10",
-          "round": "1"
+          "round": "15"
         },
         {
           "name": "D.J. Stephens",
@@ -2419,13 +2403,13 @@
           "blocks": 3,
           "rating": 9,
           "match_id": "104601",
-          "jornada": 1,
+          "jornada": 16,
           "opponent": "CB Murcia",
           "home_away": "Away",
           "team_score": 84,
           "opponent_score": 90,
           "date": "2026-01-18",
-          "round": "1"
+          "round": "16"
         }
       ],
       "past_games": [
@@ -2446,7 +2430,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "2",
           "venue": null,
           "home_team": "Joventut Badalona",
           "away_team": "Basket Zaragoza",
@@ -2461,7 +2445,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "3",
           "venue": null,
           "home_team": "Basket Zaragoza",
           "away_team": "Río Breogán",
@@ -2476,7 +2460,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "4",
           "venue": null,
           "home_team": "CB San Pablo Burgos",
           "away_team": "Basket Zaragoza",
@@ -2491,7 +2475,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "5",
           "venue": null,
           "home_team": "Basket Zaragoza",
           "away_team": "Real Madrid Baloncesto",
@@ -2506,7 +2490,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "6",
           "venue": null,
           "home_team": "Bilbao Basket",
           "away_team": "Basket Zaragoza",
@@ -2521,7 +2505,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "7",
           "venue": null,
           "home_team": "Basket Zaragoza",
           "away_team": "Baloncesto Málaga",
@@ -2536,7 +2520,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "8",
           "venue": null,
           "home_team": "Basket Zaragoza",
           "away_team": "CB 1939 Canarias",
@@ -2551,7 +2535,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "9",
           "venue": null,
           "home_team": "Fundación CB Granada",
           "away_team": "Basket Zaragoza",
@@ -2566,7 +2550,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "10",
           "venue": null,
           "home_team": "Valencia Basket",
           "away_team": "Basket Zaragoza",
@@ -2581,7 +2565,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "11",
           "venue": null,
           "home_team": "Basket Zaragoza",
           "away_team": "BC Andorra",
@@ -2596,7 +2580,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "12",
           "venue": null,
           "home_team": "Basket Zaragoza",
           "away_team": "Basquet Manresa",
@@ -2611,7 +2595,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "13",
           "venue": null,
           "home_team": "Barça",
           "away_team": "Basket Zaragoza",
@@ -2626,7 +2610,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "14",
           "venue": null,
           "home_team": "Hiopos Lleida",
           "away_team": "Basket Zaragoza",
@@ -2641,7 +2625,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "15",
           "venue": null,
           "home_team": "Basket Zaragoza",
           "away_team": "CB Gran Canaria",
@@ -2656,7 +2640,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "16",
           "venue": null,
           "home_team": "CB Murcia",
           "away_team": "Basket Zaragoza",
@@ -2671,7 +2655,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "17",
           "venue": null,
           "home_team": "Basket Zaragoza",
           "away_team": "Basquet Girona",
@@ -2762,13 +2746,13 @@
           "blocks": 4,
           "rating": 22,
           "match_id": "104474",
-          "jornada": 1,
+          "jornada": 2,
           "opponent": "Río Breogán",
           "home_away": "Away",
           "team_score": 113,
           "opponent_score": 90,
           "date": "2025-10-12",
-          "round": "1"
+          "round": "2"
         },
         {
           "name": "D. Thompson",
@@ -2789,13 +2773,13 @@
           "blocks": 6,
           "rating": 22,
           "match_id": "104483",
-          "jornada": 1,
+          "jornada": 3,
           "opponent": "Hiopos Lleida",
           "home_away": "Away",
           "team_score": 99,
           "opponent_score": 78,
           "date": "2025-10-19",
-          "round": "1"
+          "round": "3"
         },
         {
           "name": "D. Thompson",
@@ -2816,13 +2800,13 @@
           "blocks": 1,
           "rating": 11,
           "match_id": "104493",
-          "jornada": 1,
+          "jornada": 4,
           "opponent": "Joventut Badalona",
           "home_away": "Home",
           "team_score": 102,
           "opponent_score": 90,
           "date": "2025-10-26",
-          "round": "1"
+          "round": "4"
         },
         {
           "name": "D. Thompson",
@@ -2843,13 +2827,13 @@
           "blocks": 1,
           "rating": 9,
           "match_id": "104502",
-          "jornada": 1,
+          "jornada": 5,
           "opponent": "CB San Pablo Burgos",
           "home_away": "Home",
           "team_score": 100,
           "opponent_score": 82,
           "date": "2025-11-02",
-          "round": "1"
+          "round": "5"
         },
         {
           "name": "D. Thompson",
@@ -2870,13 +2854,13 @@
           "blocks": 1,
           "rating": 7,
           "match_id": "104510",
-          "jornada": 1,
+          "jornada": 6,
           "opponent": "Fundación CB Granada",
           "home_away": "Away",
           "team_score": 79,
           "opponent_score": 85,
           "date": "2025-11-09",
-          "round": "1"
+          "round": "6"
         },
         {
           "name": "D. Thompson",
@@ -2897,13 +2881,13 @@
           "blocks": 1,
           "rating": -1,
           "match_id": "104518",
-          "jornada": 1,
+          "jornada": 7,
           "opponent": "CB 1939 Canarias",
           "home_away": "Home",
           "team_score": 96,
           "opponent_score": 79,
           "date": "2025-11-16",
-          "round": "1"
+          "round": "7"
         },
         {
           "name": "D. Thompson",
@@ -2924,13 +2908,13 @@
           "blocks": 1,
           "rating": 8,
           "match_id": "104528",
-          "jornada": 1,
+          "jornada": 8,
           "opponent": "Basquet Girona",
           "home_away": "Home",
           "team_score": 98,
           "opponent_score": 72,
           "date": "2025-11-23",
-          "round": "1"
+          "round": "8"
         },
         {
           "name": "D. Thompson",
@@ -2951,13 +2935,13 @@
           "blocks": 0,
           "rating": 6,
           "match_id": "104539",
-          "jornada": 1,
+          "jornada": 9,
           "opponent": "Baskonia",
           "home_away": "Away",
           "team_score": 91,
           "opponent_score": 89,
           "date": "2025-12-07",
-          "round": "1"
+          "round": "9"
         },
         {
           "name": "D. Thompson",
@@ -2978,13 +2962,13 @@
           "blocks": 1,
           "rating": 7,
           "match_id": "104555",
-          "jornada": 1,
+          "jornada": 11,
           "opponent": "CB Murcia",
           "home_away": "Away",
           "team_score": 80,
           "opponent_score": 92,
           "date": "2025-12-21",
-          "round": "1"
+          "round": "11"
         },
         {
           "name": "D. Thompson",
@@ -3005,13 +2989,13 @@
           "blocks": 2,
           "rating": 5,
           "match_id": "104565",
-          "jornada": 1,
+          "jornada": 12,
           "opponent": "BC Andorra",
           "home_away": "Home",
           "team_score": 84,
           "opponent_score": 79,
           "date": "2025-12-28",
-          "round": "1"
+          "round": "12"
         },
         {
           "name": "D. Thompson",
@@ -3032,13 +3016,13 @@
           "blocks": 0,
           "rating": 10,
           "match_id": "104572",
-          "jornada": 1,
+          "jornada": 13,
           "opponent": "Bilbao Basket",
           "home_away": "Away",
           "team_score": 116,
           "opponent_score": 72,
           "date": "2026-01-02",
-          "round": "1"
+          "round": "13"
         },
         {
           "name": "D. Thompson",
@@ -3059,13 +3043,13 @@
           "blocks": 1,
           "rating": 5,
           "match_id": "104590",
-          "jornada": 1,
+          "jornada": 15,
           "opponent": "Baloncesto Málaga",
           "home_away": "Home",
           "team_score": 70,
           "opponent_score": 76,
           "date": "2026-01-10",
-          "round": "1"
+          "round": "15"
         },
         {
           "name": "D. Thompson",
@@ -3086,13 +3070,13 @@
           "blocks": 2,
           "rating": 20,
           "match_id": "104602",
-          "jornada": 1,
+          "jornada": 16,
           "opponent": "Real Madrid Baloncesto",
           "home_away": "Away",
           "team_score": 79,
           "opponent_score": 94,
           "date": "2026-01-18",
-          "round": "1"
+          "round": "16"
         },
         {
           "name": "D. Thompson",
@@ -3113,13 +3097,13 @@
           "blocks": 3,
           "rating": 16,
           "match_id": "104608",
-          "jornada": 1,
+          "jornada": 17,
           "opponent": "CB Gran Canaria",
           "home_away": "Away",
           "team_score": 90,
           "opponent_score": 80,
           "date": "2026-01-25",
-          "round": "1"
+          "round": "17"
         }
       ],
       "past_games": [
@@ -3140,7 +3124,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "2",
           "venue": null,
           "home_team": "Río Breogán",
           "away_team": "Valencia Basket",
@@ -3155,7 +3139,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "3",
           "venue": null,
           "home_team": "Hiopos Lleida",
           "away_team": "Valencia Basket",
@@ -3170,7 +3154,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "4",
           "venue": null,
           "home_team": "Valencia Basket",
           "away_team": "Joventut Badalona",
@@ -3185,7 +3169,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "5",
           "venue": null,
           "home_team": "Valencia Basket",
           "away_team": "CB San Pablo Burgos",
@@ -3200,7 +3184,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "6",
           "venue": null,
           "home_team": "Fundación CB Granada",
           "away_team": "Valencia Basket",
@@ -3215,7 +3199,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "7",
           "venue": null,
           "home_team": "Valencia Basket",
           "away_team": "CB 1939 Canarias",
@@ -3230,7 +3214,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "8",
           "venue": null,
           "home_team": "Valencia Basket",
           "away_team": "Basquet Girona",
@@ -3245,7 +3229,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "9",
           "venue": null,
           "home_team": "Baskonia",
           "away_team": "Valencia Basket",
@@ -3260,7 +3244,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "10",
           "venue": null,
           "home_team": "Valencia Basket",
           "away_team": "Basket Zaragoza",
@@ -3275,7 +3259,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "11",
           "venue": null,
           "home_team": "CB Murcia",
           "away_team": "Valencia Basket",
@@ -3290,7 +3274,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "12",
           "venue": null,
           "home_team": "Valencia Basket",
           "away_team": "BC Andorra",
@@ -3305,7 +3289,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "13",
           "venue": null,
           "home_team": "Bilbao Basket",
           "away_team": "Valencia Basket",
@@ -3320,7 +3304,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "14",
           "venue": null,
           "home_team": "Valencia Basket",
           "away_team": "Basquet Manresa",
@@ -3335,7 +3319,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "15",
           "venue": null,
           "home_team": "Valencia Basket",
           "away_team": "Baloncesto Málaga",
@@ -3350,7 +3334,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "16",
           "venue": null,
           "home_team": "Real Madrid Baloncesto",
           "away_team": "Valencia Basket",
@@ -3365,7 +3349,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "17",
           "venue": null,
           "home_team": "CB Gran Canaria",
           "away_team": "Valencia Basket",
@@ -3456,13 +3440,13 @@
           "blocks": 0,
           "rating": 3,
           "match_id": "104470",
-          "jornada": 1,
+          "jornada": 2,
           "opponent": "CB Gran Canaria",
           "home_away": "Away",
           "team_score": 81,
           "opponent_score": 72,
           "date": "2025-10-11",
-          "round": "1"
+          "round": "2"
         },
         {
           "name": "D. Kravish",
@@ -3483,13 +3467,13 @@
           "blocks": 0,
           "rating": 10,
           "match_id": "104485",
-          "jornada": 1,
+          "jornada": 3,
           "opponent": "Barça",
           "home_away": "Home",
           "team_score": 77,
           "opponent_score": 83,
           "date": "2025-10-19",
-          "round": "1"
+          "round": "3"
         },
         {
           "name": "D. Kravish",
@@ -3510,13 +3494,13 @@
           "blocks": 0,
           "rating": -1,
           "match_id": "104488",
-          "jornada": 1,
+          "jornada": 4,
           "opponent": "CB 1939 Canarias",
           "home_away": "Away",
           "team_score": 79,
           "opponent_score": 95,
           "date": "2025-10-25",
-          "round": "1"
+          "round": "4"
         }
       ],
       "past_games": [
@@ -3537,7 +3521,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "2",
           "venue": null,
           "home_team": "CB Gran Canaria",
           "away_team": "Baloncesto Málaga",
@@ -3552,7 +3536,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "3",
           "venue": null,
           "home_team": "Baloncesto Málaga",
           "away_team": "Barça",
@@ -3567,7 +3551,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "4",
           "venue": null,
           "home_team": "CB 1939 Canarias",
           "away_team": "Baloncesto Málaga",
@@ -3582,7 +3566,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "5",
           "venue": null,
           "home_team": "Baloncesto Málaga",
           "away_team": "Basquet Girona",
@@ -3597,7 +3581,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "6",
           "venue": null,
           "home_team": "BC Andorra",
           "away_team": "Baloncesto Málaga",
@@ -3612,7 +3596,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "7",
           "venue": null,
           "home_team": "Basket Zaragoza",
           "away_team": "Baloncesto Málaga",
@@ -3627,7 +3611,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "8",
           "venue": null,
           "home_team": "Baloncesto Málaga",
           "away_team": "Basquet Manresa",
@@ -3642,7 +3626,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "9",
           "venue": null,
           "home_team": "Hiopos Lleida",
           "away_team": "Baloncesto Málaga",
@@ -3657,7 +3641,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "10",
           "venue": null,
           "home_team": "Baloncesto Málaga",
           "away_team": "CB San Pablo Burgos",
@@ -3672,7 +3656,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "11",
           "venue": null,
           "home_team": "Baloncesto Málaga",
           "away_team": "Baskonia",
@@ -3687,7 +3671,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "12",
           "venue": null,
           "home_team": "Real Madrid Baloncesto",
           "away_team": "Baloncesto Málaga",
@@ -3702,7 +3686,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "13",
           "venue": null,
           "home_team": "Baloncesto Málaga",
           "away_team": "Joventut Badalona",
@@ -3717,7 +3701,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "14",
           "venue": null,
           "home_team": "Río Breogán",
           "away_team": "Baloncesto Málaga",
@@ -3732,7 +3716,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "15",
           "venue": null,
           "home_team": "Valencia Basket",
           "away_team": "Baloncesto Málaga",
@@ -3747,7 +3731,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "16",
           "venue": null,
           "home_team": "Baloncesto Málaga",
           "away_team": "Fundación CB Granada",
@@ -3762,7 +3746,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "17",
           "venue": null,
           "home_team": "Baloncesto Málaga",
           "away_team": "CB Murcia",
@@ -3773,6 +3757,21 @@
           "home_away": "Home",
           "team_score": 92,
           "opponent_score": 88,
+          "result": "W"
+        },
+        {
+          "date": null,
+          "round": "18",
+          "venue": null,
+          "home_team": "Basquet Manresa",
+          "away_team": "Baloncesto Málaga",
+          "home_score": 92,
+          "away_score": 98,
+          "played": true,
+          "opponent": "Basquet Manresa",
+          "home_away": "Away",
+          "team_score": 98,
+          "opponent_score": 92,
           "result": "W"
         }
       ],
@@ -3825,7 +3824,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "2",
           "venue": null,
           "home_team": "Joventut Badalona",
           "away_team": "Basket Zaragoza",
@@ -3840,7 +3839,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "3",
           "venue": null,
           "home_team": "Joventut Badalona",
           "away_team": "Bilbao Basket",
@@ -3855,7 +3854,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "4",
           "venue": null,
           "home_team": "Valencia Basket",
           "away_team": "Joventut Badalona",
@@ -3870,7 +3869,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "5",
           "venue": null,
           "home_team": "Joventut Badalona",
           "away_team": "Hiopos Lleida",
@@ -3885,7 +3884,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "6",
           "venue": null,
           "home_team": "Joventut Badalona",
           "away_team": "Real Madrid Baloncesto",
@@ -3900,7 +3899,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "7",
           "venue": null,
           "home_team": "CB Gran Canaria",
           "away_team": "Joventut Badalona",
@@ -3915,7 +3914,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "8",
           "venue": null,
           "home_team": "BC Andorra",
           "away_team": "Joventut Badalona",
@@ -3930,7 +3929,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "9",
           "venue": null,
           "home_team": "Joventut Badalona",
           "away_team": "Basquet Manresa",
@@ -3945,7 +3944,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "10",
           "venue": null,
           "home_team": "CB Murcia",
           "away_team": "Joventut Badalona",
@@ -3960,7 +3959,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "11",
           "venue": null,
           "home_team": "Barça",
           "away_team": "Joventut Badalona",
@@ -3975,7 +3974,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "12",
           "venue": null,
           "home_team": "Joventut Badalona",
           "away_team": "Río Breogán",
@@ -3990,7 +3989,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "13",
           "venue": null,
           "home_team": "Baloncesto Málaga",
           "away_team": "Joventut Badalona",
@@ -4005,7 +4004,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "14",
           "venue": null,
           "home_team": "Joventut Badalona",
           "away_team": "CB 1939 Canarias",
@@ -4020,7 +4019,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "15",
           "venue": null,
           "home_team": "CB San Pablo Burgos",
           "away_team": "Joventut Badalona",
@@ -4035,7 +4034,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "16",
           "venue": null,
           "home_team": "Joventut Badalona",
           "away_team": "Basquet Girona",
@@ -4050,7 +4049,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "17",
           "venue": null,
           "home_team": "Baskonia",
           "away_team": "Joventut Badalona",
@@ -4065,7 +4064,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "18",
           "venue": null,
           "home_team": "Bilbao Basket",
           "away_team": "Joventut Badalona",
@@ -4129,13 +4128,13 @@
           "blocks": 4,
           "rating": 8,
           "match_id": "104531",
-          "jornada": 1,
+          "jornada": 9,
           "opponent": "CB Murcia",
           "home_away": "Home",
           "team_score": 88,
           "opponent_score": 110,
           "date": "2025-12-06",
-          "round": "1"
+          "round": "9"
         },
         {
           "name": "E. Happ",
@@ -4156,13 +4155,13 @@
           "blocks": 5,
           "rating": 18,
           "match_id": "104545",
-          "jornada": 1,
+          "jornada": 10,
           "opponent": "Baloncesto Málaga",
           "home_away": "Away",
           "team_score": 91,
           "opponent_score": 99,
           "date": "2025-12-13",
-          "round": "1"
+          "round": "10"
         },
         {
           "name": "E. Happ",
@@ -4183,13 +4182,13 @@
           "blocks": 5,
           "rating": 21,
           "match_id": "104552",
-          "jornada": 1,
+          "jornada": 11,
           "opponent": "Basquet Manresa",
           "home_away": "Home",
           "team_score": 100,
           "opponent_score": 102,
           "date": "2025-12-20",
-          "round": "1"
+          "round": "11"
         },
         {
           "name": "E. Happ",
@@ -4210,13 +4209,13 @@
           "blocks": 4,
           "rating": 9,
           "match_id": "104558",
-          "jornada": 1,
+          "jornada": 12,
           "opponent": "Baskonia",
           "home_away": "Away",
           "team_score": 77,
           "opponent_score": 89,
           "date": "2025-12-27",
-          "round": "1"
+          "round": "12"
         },
         {
           "name": "E. Happ",
@@ -4237,13 +4236,13 @@
           "blocks": 5,
           "rating": 10,
           "match_id": "104568",
-          "jornada": 1,
+          "jornada": 13,
           "opponent": "CB Gran Canaria",
           "home_away": "Home",
           "team_score": 94,
           "opponent_score": 81,
           "date": "2025-12-30",
-          "round": "1"
+          "round": "13"
         },
         {
           "name": "E. Happ",
@@ -4264,13 +4263,13 @@
           "blocks": 4,
           "rating": 17,
           "match_id": "104577",
-          "jornada": 1,
+          "jornada": 14,
           "opponent": "Fundación CB Granada",
           "home_away": "Away",
           "team_score": 107,
           "opponent_score": 90,
           "date": "2026-01-03",
-          "round": "1"
+          "round": "14"
         },
         {
           "name": "E. Happ",
@@ -4291,13 +4290,13 @@
           "blocks": 6,
           "rating": 30,
           "match_id": "104589",
-          "jornada": 1,
+          "jornada": 15,
           "opponent": "Joventut Badalona",
           "home_away": "Home",
           "team_score": 95,
           "opponent_score": 98,
           "date": "2026-01-11",
-          "round": "1"
+          "round": "15"
         },
         {
           "name": "E. Happ",
@@ -4318,13 +4317,13 @@
           "blocks": 2,
           "rating": 15,
           "match_id": "104598",
-          "jornada": 1,
+          "jornada": 16,
           "opponent": "Barça",
           "home_away": "Home",
           "team_score": 79,
           "opponent_score": 80,
           "date": "2026-01-18",
-          "round": "1"
+          "round": "16"
         },
         {
           "name": "E. Happ",
@@ -4345,13 +4344,13 @@
           "blocks": 6,
           "rating": 23,
           "match_id": "104605",
-          "jornada": 1,
+          "jornada": 17,
           "opponent": "Hiopos Lleida",
           "home_away": "Away",
           "team_score": 72,
           "opponent_score": 73,
           "date": "2026-01-24",
-          "round": "1"
+          "round": "17"
         },
         {
           "name": "E. Happ",
@@ -4372,13 +4371,13 @@
           "blocks": 4,
           "rating": 10,
           "match_id": "104615",
-          "jornada": 1,
+          "jornada": 18,
           "opponent": "Basquet Girona",
           "home_away": "Away",
           "team_score": 71,
           "opponent_score": 77,
           "date": "2026-01-31",
-          "round": "1"
+          "round": "18"
         }
       ],
       "past_games": [
@@ -4399,7 +4398,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "2",
           "venue": null,
           "home_team": "Bilbao Basket",
           "away_team": "CB San Pablo Burgos",
@@ -4414,7 +4413,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "3",
           "venue": null,
           "home_team": "Real Madrid Baloncesto",
           "away_team": "CB San Pablo Burgos",
@@ -4429,7 +4428,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "4",
           "venue": null,
           "home_team": "CB San Pablo Burgos",
           "away_team": "Basket Zaragoza",
@@ -4444,7 +4443,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "5",
           "venue": null,
           "home_team": "Valencia Basket",
           "away_team": "CB San Pablo Burgos",
@@ -4459,7 +4458,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "6",
           "venue": null,
           "home_team": "CB 1939 Canarias",
           "away_team": "CB San Pablo Burgos",
@@ -4474,7 +4473,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "7",
           "venue": null,
           "home_team": "CB San Pablo Burgos",
           "away_team": "BC Andorra",
@@ -4489,7 +4488,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "8",
           "venue": null,
           "home_team": "Río Breogán",
           "away_team": "CB San Pablo Burgos",
@@ -4504,7 +4503,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "9",
           "venue": null,
           "home_team": "CB San Pablo Burgos",
           "away_team": "CB Murcia",
@@ -4519,7 +4518,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "10",
           "venue": null,
           "home_team": "Baloncesto Málaga",
           "away_team": "CB San Pablo Burgos",
@@ -4534,7 +4533,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "11",
           "venue": null,
           "home_team": "CB San Pablo Burgos",
           "away_team": "Basquet Manresa",
@@ -4549,7 +4548,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "12",
           "venue": null,
           "home_team": "Baskonia",
           "away_team": "CB San Pablo Burgos",
@@ -4564,7 +4563,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "13",
           "venue": null,
           "home_team": "CB San Pablo Burgos",
           "away_team": "CB Gran Canaria",
@@ -4579,7 +4578,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "14",
           "venue": null,
           "home_team": "Fundación CB Granada",
           "away_team": "CB San Pablo Burgos",
@@ -4594,7 +4593,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "15",
           "venue": null,
           "home_team": "CB San Pablo Burgos",
           "away_team": "Joventut Badalona",
@@ -4609,7 +4608,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "16",
           "venue": null,
           "home_team": "CB San Pablo Burgos",
           "away_team": "Barça",
@@ -4624,7 +4623,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "17",
           "venue": null,
           "home_team": "Hiopos Lleida",
           "away_team": "CB San Pablo Burgos",
@@ -4639,7 +4638,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "18",
           "venue": null,
           "home_team": "Basquet Girona",
           "away_team": "CB San Pablo Burgos",
@@ -4730,13 +4729,13 @@
           "blocks": 2,
           "rating": 15,
           "match_id": "104471",
-          "jornada": 1,
+          "jornada": 2,
           "opponent": "Fundación CB Granada",
           "home_away": "Home",
           "team_score": 83,
           "opponent_score": 68,
           "date": "2025-10-11",
-          "round": "1"
+          "round": "2"
         },
         {
           "name": "G. Golden",
@@ -4757,13 +4756,13 @@
           "blocks": 0,
           "rating": 1,
           "match_id": "104477",
-          "jornada": 1,
+          "jornada": 3,
           "opponent": "CB Gran Canaria",
           "home_away": "Home",
           "team_score": 80,
           "opponent_score": 87,
           "date": "2025-10-18",
-          "round": "1"
+          "round": "3"
         },
         {
           "name": "G. Golden",
@@ -4784,13 +4783,13 @@
           "blocks": 3,
           "rating": 18,
           "match_id": "104494",
-          "jornada": 1,
+          "jornada": 4,
           "opponent": "Real Madrid Baloncesto",
           "home_away": "Away",
           "team_score": 75,
           "opponent_score": 87,
           "date": "2025-10-26",
-          "round": "1"
+          "round": "4"
         },
         {
           "name": "G. Golden",
@@ -4811,13 +4810,13 @@
           "blocks": 1,
           "rating": 2,
           "match_id": "104495",
-          "jornada": 1,
+          "jornada": 5,
           "opponent": "Bilbao Basket",
           "home_away": "Home",
           "team_score": 79,
           "opponent_score": 77,
           "date": "2025-11-01",
-          "round": "1"
+          "round": "5"
         },
         {
           "name": "G. Golden",
@@ -4838,13 +4837,13 @@
           "blocks": 2,
           "rating": 4,
           "match_id": "104504",
-          "jornada": 1,
+          "jornada": 6,
           "opponent": "CB Murcia",
           "home_away": "Away",
           "team_score": 65,
           "opponent_score": 84,
           "date": "2025-11-08",
-          "round": "1"
+          "round": "6"
         },
         {
           "name": "G. Golden",
@@ -4865,13 +4864,13 @@
           "blocks": 0,
           "rating": 2,
           "match_id": "104517",
-          "jornada": 1,
+          "jornada": 7,
           "opponent": "Hiopos Lleida",
           "home_away": "Home",
           "team_score": 99,
           "opponent_score": 86,
           "date": "2025-11-16",
-          "round": "1"
+          "round": "7"
         },
         {
           "name": "G. Golden",
@@ -4892,13 +4891,13 @@
           "blocks": 3,
           "rating": 9,
           "match_id": "104524",
-          "jornada": 1,
+          "jornada": 8,
           "opponent": "Baloncesto Málaga",
           "home_away": "Away",
           "team_score": 82,
           "opponent_score": 105,
           "date": "2025-11-22",
-          "round": "1"
+          "round": "8"
         },
         {
           "name": "G. Golden",
@@ -4919,13 +4918,13 @@
           "blocks": 0,
           "rating": -2,
           "match_id": "104535",
-          "jornada": 1,
+          "jornada": 9,
           "opponent": "Joventut Badalona",
           "home_away": "Away",
           "team_score": 79,
           "opponent_score": 83,
           "date": "2025-12-07",
-          "round": "1"
+          "round": "9"
         },
         {
           "name": "G. Golden",
@@ -4946,13 +4945,13 @@
           "blocks": 2,
           "rating": 5,
           "match_id": "104548",
-          "jornada": 1,
+          "jornada": 10,
           "opponent": "Barça",
           "home_away": "Home",
           "team_score": 62,
           "opponent_score": 89,
           "date": "2025-12-14",
-          "round": "1"
+          "round": "10"
         },
         {
           "name": "G. Golden",
@@ -4973,13 +4972,13 @@
           "blocks": 0,
           "rating": -1,
           "match_id": "104552",
-          "jornada": 1,
+          "jornada": 11,
           "opponent": "CB San Pablo Burgos",
           "home_away": "Away",
           "team_score": 102,
           "opponent_score": 100,
           "date": "2025-12-20",
-          "round": "1"
+          "round": "11"
         },
         {
           "name": "G. Golden",
@@ -5000,13 +4999,13 @@
           "blocks": 0,
           "rating": 6,
           "match_id": "104559",
-          "jornada": 1,
+          "jornada": 12,
           "opponent": "Basket Zaragoza",
           "home_away": "Away",
           "team_score": 95,
           "opponent_score": 83,
           "date": "2025-12-27",
-          "round": "1"
+          "round": "12"
         },
         {
           "name": "G. Golden",
@@ -5027,13 +5026,13 @@
           "blocks": 2,
           "rating": 1,
           "match_id": "104573",
-          "jornada": 1,
+          "jornada": 13,
           "opponent": "Basquet Girona",
           "home_away": "Home",
           "team_score": 95,
           "opponent_score": 97,
           "date": "2026-01-02",
-          "round": "1"
+          "round": "13"
         },
         {
           "name": "G. Golden",
@@ -5054,13 +5053,13 @@
           "blocks": 1,
           "rating": 5,
           "match_id": "104584",
-          "jornada": 1,
+          "jornada": 14,
           "opponent": "Valencia Basket",
           "home_away": "Away",
           "team_score": 76,
           "opponent_score": 103,
           "date": "2026-01-04",
-          "round": "1"
+          "round": "14"
         },
         {
           "name": "G. Golden",
@@ -5081,13 +5080,13 @@
           "blocks": 1,
           "rating": 2,
           "match_id": "104588",
-          "jornada": 1,
+          "jornada": 15,
           "opponent": "Río Breogán",
           "home_away": "Home",
           "team_score": 104,
           "opponent_score": 99,
           "date": "2026-01-10",
-          "round": "1"
+          "round": "15"
         }
       ],
       "past_games": [
@@ -5108,7 +5107,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "2",
           "venue": null,
           "home_team": "Basquet Manresa",
           "away_team": "Fundación CB Granada",
@@ -5123,7 +5122,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "3",
           "venue": null,
           "home_team": "Basquet Manresa",
           "away_team": "CB Gran Canaria",
@@ -5138,7 +5137,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "4",
           "venue": null,
           "home_team": "Real Madrid Baloncesto",
           "away_team": "Basquet Manresa",
@@ -5153,7 +5152,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "5",
           "venue": null,
           "home_team": "Basquet Manresa",
           "away_team": "Bilbao Basket",
@@ -5168,7 +5167,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "6",
           "venue": null,
           "home_team": "CB Murcia",
           "away_team": "Basquet Manresa",
@@ -5183,7 +5182,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "7",
           "venue": null,
           "home_team": "Basquet Manresa",
           "away_team": "Hiopos Lleida",
@@ -5198,7 +5197,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "8",
           "venue": null,
           "home_team": "Baloncesto Málaga",
           "away_team": "Basquet Manresa",
@@ -5213,7 +5212,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "9",
           "venue": null,
           "home_team": "Joventut Badalona",
           "away_team": "Basquet Manresa",
@@ -5228,7 +5227,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "10",
           "venue": null,
           "home_team": "Basquet Manresa",
           "away_team": "Barça",
@@ -5243,7 +5242,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "11",
           "venue": null,
           "home_team": "CB San Pablo Burgos",
           "away_team": "Basquet Manresa",
@@ -5258,7 +5257,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "12",
           "venue": null,
           "home_team": "Basket Zaragoza",
           "away_team": "Basquet Manresa",
@@ -5273,7 +5272,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "13",
           "venue": null,
           "home_team": "Basquet Manresa",
           "away_team": "Basquet Girona",
@@ -5288,7 +5287,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "14",
           "venue": null,
           "home_team": "Valencia Basket",
           "away_team": "Basquet Manresa",
@@ -5303,7 +5302,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "15",
           "venue": null,
           "home_team": "Basquet Manresa",
           "away_team": "Río Breogán",
@@ -5318,7 +5317,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "16",
           "venue": null,
           "home_team": "Baskonia",
           "away_team": "Basquet Manresa",
@@ -5333,7 +5332,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "17",
           "venue": null,
           "home_team": "Basquet Manresa",
           "away_team": "BC Andorra",
@@ -5345,6 +5344,21 @@
           "team_score": 91,
           "opponent_score": 84,
           "result": "W"
+        },
+        {
+          "date": null,
+          "round": "18",
+          "venue": null,
+          "home_team": "Basquet Manresa",
+          "away_team": "Baloncesto Málaga",
+          "home_score": 92,
+          "away_score": 98,
+          "played": true,
+          "opponent": "Baloncesto Málaga",
+          "home_away": "Home",
+          "team_score": 92,
+          "opponent_score": 98,
+          "result": "L"
         }
       ],
       "upcoming_games": [],
@@ -5396,7 +5410,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "2",
           "venue": null,
           "home_team": "Joventut Badalona",
           "away_team": "Basket Zaragoza",
@@ -5411,7 +5425,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "3",
           "venue": null,
           "home_team": "Basket Zaragoza",
           "away_team": "Río Breogán",
@@ -5426,7 +5440,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "4",
           "venue": null,
           "home_team": "CB San Pablo Burgos",
           "away_team": "Basket Zaragoza",
@@ -5441,7 +5455,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "5",
           "venue": null,
           "home_team": "Basket Zaragoza",
           "away_team": "Real Madrid Baloncesto",
@@ -5456,7 +5470,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "6",
           "venue": null,
           "home_team": "Bilbao Basket",
           "away_team": "Basket Zaragoza",
@@ -5471,7 +5485,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "7",
           "venue": null,
           "home_team": "Basket Zaragoza",
           "away_team": "Baloncesto Málaga",
@@ -5486,7 +5500,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "8",
           "venue": null,
           "home_team": "Basket Zaragoza",
           "away_team": "CB 1939 Canarias",
@@ -5501,7 +5515,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "9",
           "venue": null,
           "home_team": "Fundación CB Granada",
           "away_team": "Basket Zaragoza",
@@ -5516,7 +5530,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "10",
           "venue": null,
           "home_team": "Valencia Basket",
           "away_team": "Basket Zaragoza",
@@ -5531,7 +5545,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "11",
           "venue": null,
           "home_team": "Basket Zaragoza",
           "away_team": "BC Andorra",
@@ -5546,7 +5560,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "12",
           "venue": null,
           "home_team": "Basket Zaragoza",
           "away_team": "Basquet Manresa",
@@ -5561,7 +5575,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "13",
           "venue": null,
           "home_team": "Barça",
           "away_team": "Basket Zaragoza",
@@ -5576,7 +5590,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "14",
           "venue": null,
           "home_team": "Hiopos Lleida",
           "away_team": "Basket Zaragoza",
@@ -5591,7 +5605,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "15",
           "venue": null,
           "home_team": "Basket Zaragoza",
           "away_team": "CB Gran Canaria",
@@ -5606,7 +5620,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "16",
           "venue": null,
           "home_team": "CB Murcia",
           "away_team": "Basket Zaragoza",
@@ -5621,7 +5635,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "17",
           "venue": null,
           "home_team": "Basket Zaragoza",
           "away_team": "Basquet Girona",
@@ -5661,10 +5675,10 @@
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/ok73fv1700948962.jpg",
       "instagram": "",
       "twitter": "",
-      "games_played": 15,
-      "ppg": 9.1,
+      "games_played": 16,
+      "ppg": 9.2,
       "rpg": 3.7,
-      "apg": 0.5,
+      "apg": 0.6,
       "game_log": [
         {
           "name": "J. Webb",
@@ -5685,13 +5699,13 @@
           "blocks": 1,
           "rating": 7,
           "match_id": "104470",
-          "jornada": 1,
+          "jornada": 2,
           "opponent": "CB Gran Canaria",
           "home_away": "Away",
           "team_score": 81,
           "opponent_score": 72,
           "date": "2025-10-11",
-          "round": "1"
+          "round": "2"
         },
         {
           "name": "J. Webb",
@@ -5712,13 +5726,13 @@
           "blocks": 0,
           "rating": 4,
           "match_id": "104485",
-          "jornada": 1,
+          "jornada": 3,
           "opponent": "Barça",
           "home_away": "Home",
           "team_score": 77,
           "opponent_score": 83,
           "date": "2025-10-19",
-          "round": "1"
+          "round": "3"
         },
         {
           "name": "J. Webb",
@@ -5739,13 +5753,13 @@
           "blocks": 1,
           "rating": 8,
           "match_id": "104488",
-          "jornada": 1,
+          "jornada": 4,
           "opponent": "CB 1939 Canarias",
           "home_away": "Away",
           "team_score": 79,
           "opponent_score": 95,
           "date": "2025-10-25",
-          "round": "1"
+          "round": "4"
         },
         {
           "name": "J. Webb",
@@ -5766,13 +5780,13 @@
           "blocks": 2,
           "rating": 4,
           "match_id": "104496",
-          "jornada": 1,
+          "jornada": 5,
           "opponent": "Basquet Girona",
           "home_away": "Home",
           "team_score": 95,
           "opponent_score": 71,
           "date": "2025-11-01",
-          "round": "1"
+          "round": "5"
         },
         {
           "name": "J. Webb",
@@ -5793,13 +5807,13 @@
           "blocks": 0,
           "rating": 8,
           "match_id": "104507",
-          "jornada": 1,
+          "jornada": 6,
           "opponent": "BC Andorra",
           "home_away": "Away",
           "team_score": 74,
           "opponent_score": 98,
           "date": "2025-11-08",
-          "round": "1"
+          "round": "6"
         },
         {
           "name": "J. Webb",
@@ -5820,13 +5834,13 @@
           "blocks": 3,
           "rating": 13,
           "match_id": "104514",
-          "jornada": 1,
+          "jornada": 7,
           "opponent": "Basket Zaragoza",
           "home_away": "Away",
           "team_score": 86,
           "opponent_score": 79,
           "date": "2025-11-15",
-          "round": "1"
+          "round": "7"
         },
         {
           "name": "J. Webb",
@@ -5847,13 +5861,13 @@
           "blocks": 2,
           "rating": 12,
           "match_id": "104524",
-          "jornada": 1,
+          "jornada": 8,
           "opponent": "Basquet Manresa",
           "home_away": "Home",
           "team_score": 105,
           "opponent_score": 82,
           "date": "2025-11-22",
-          "round": "1"
+          "round": "8"
         },
         {
           "name": "J. Webb",
@@ -5874,13 +5888,13 @@
           "blocks": 2,
           "rating": 6,
           "match_id": "104532",
-          "jornada": 1,
+          "jornada": 9,
           "opponent": "Hiopos Lleida",
           "home_away": "Away",
           "team_score": 89,
           "opponent_score": 88,
           "date": "2025-12-06",
-          "round": "1"
+          "round": "9"
         },
         {
           "name": "J. Webb",
@@ -5901,13 +5915,13 @@
           "blocks": 3,
           "rating": 16,
           "match_id": "104545",
-          "jornada": 1,
+          "jornada": 10,
           "opponent": "CB San Pablo Burgos",
           "home_away": "Home",
           "team_score": 99,
           "opponent_score": 91,
           "date": "2025-12-13",
-          "round": "1"
+          "round": "10"
         },
         {
           "name": "J. Webb",
@@ -5928,13 +5942,13 @@
           "blocks": 1,
           "rating": 6,
           "match_id": "104557",
-          "jornada": 1,
+          "jornada": 11,
           "opponent": "Baskonia",
           "home_away": "Home",
           "team_score": 90,
           "opponent_score": 93,
           "date": "2025-12-21",
-          "round": "1"
+          "round": "11"
         },
         {
           "name": "J. Webb",
@@ -5955,13 +5969,13 @@
           "blocks": 0,
           "rating": -7,
           "match_id": "104566",
-          "jornada": 1,
+          "jornada": 12,
           "opponent": "Real Madrid Baloncesto",
           "home_away": "Away",
           "team_score": 82,
           "opponent_score": 91,
           "date": "2025-12-28",
-          "round": "1"
+          "round": "12"
         },
         {
           "name": "J. Webb",
@@ -5982,13 +5996,13 @@
           "blocks": 1,
           "rating": 8,
           "match_id": "104569",
-          "jornada": 1,
+          "jornada": 13,
           "opponent": "Joventut Badalona",
           "home_away": "Home",
           "team_score": 105,
           "opponent_score": 83,
           "date": "2025-12-30",
-          "round": "1"
+          "round": "13"
         },
         {
           "name": "J. Webb",
@@ -6009,13 +6023,13 @@
           "blocks": 4,
           "rating": 4,
           "match_id": "104590",
-          "jornada": 1,
+          "jornada": 15,
           "opponent": "Valencia Basket",
           "home_away": "Away",
           "team_score": 76,
           "opponent_score": 70,
           "date": "2026-01-10",
-          "round": "1"
+          "round": "15"
         },
         {
           "name": "J. Webb",
@@ -6036,13 +6050,13 @@
           "blocks": 1,
           "rating": 10,
           "match_id": "104594",
-          "jornada": 1,
+          "jornada": 16,
           "opponent": "Fundación CB Granada",
           "home_away": "Home",
           "team_score": 88,
           "opponent_score": 79,
           "date": "2026-01-17",
-          "round": "1"
+          "round": "16"
         },
         {
           "name": "J. Webb",
@@ -6063,13 +6077,40 @@
           "blocks": 2,
           "rating": 18,
           "match_id": "104610",
-          "jornada": 1,
+          "jornada": 17,
           "opponent": "CB Murcia",
           "home_away": "Home",
           "team_score": 92,
           "opponent_score": 88,
           "date": "2026-01-25",
-          "round": "1"
+          "round": "17"
+        },
+        {
+          "name": "J. Webb",
+          "acb_id": "30000954",
+          "def_rebounds": 3,
+          "minutes": "20:04",
+          "points": 11,
+          "fg2_made": 3,
+          "fg2_attempted": 3,
+          "fg3_made": 1,
+          "fg3_attempted": 2,
+          "ft_made": 2,
+          "ft_attempted": 2,
+          "rebounds": 4,
+          "off_rebounds": 1,
+          "assists": 1,
+          "steals": 2,
+          "blocks": 2,
+          "rating": 15,
+          "match_id": "104616",
+          "jornada": 18,
+          "opponent": "Basquet Manresa",
+          "home_away": "Away",
+          "team_score": 98,
+          "opponent_score": 92,
+          "date": "2026-02-01",
+          "round": "18"
         }
       ],
       "past_games": [
@@ -6090,7 +6131,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "2",
           "venue": null,
           "home_team": "CB Gran Canaria",
           "away_team": "Baloncesto Málaga",
@@ -6105,7 +6146,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "3",
           "venue": null,
           "home_team": "Baloncesto Málaga",
           "away_team": "Barça",
@@ -6120,7 +6161,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "4",
           "venue": null,
           "home_team": "CB 1939 Canarias",
           "away_team": "Baloncesto Málaga",
@@ -6135,7 +6176,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "5",
           "venue": null,
           "home_team": "Baloncesto Málaga",
           "away_team": "Basquet Girona",
@@ -6150,7 +6191,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "6",
           "venue": null,
           "home_team": "BC Andorra",
           "away_team": "Baloncesto Málaga",
@@ -6165,7 +6206,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "7",
           "venue": null,
           "home_team": "Basket Zaragoza",
           "away_team": "Baloncesto Málaga",
@@ -6180,7 +6221,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "8",
           "venue": null,
           "home_team": "Baloncesto Málaga",
           "away_team": "Basquet Manresa",
@@ -6195,7 +6236,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "9",
           "venue": null,
           "home_team": "Hiopos Lleida",
           "away_team": "Baloncesto Málaga",
@@ -6210,7 +6251,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "10",
           "venue": null,
           "home_team": "Baloncesto Málaga",
           "away_team": "CB San Pablo Burgos",
@@ -6225,7 +6266,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "11",
           "venue": null,
           "home_team": "Baloncesto Málaga",
           "away_team": "Baskonia",
@@ -6240,7 +6281,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "12",
           "venue": null,
           "home_team": "Real Madrid Baloncesto",
           "away_team": "Baloncesto Málaga",
@@ -6255,7 +6296,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "13",
           "venue": null,
           "home_team": "Baloncesto Málaga",
           "away_team": "Joventut Badalona",
@@ -6270,7 +6311,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "14",
           "venue": null,
           "home_team": "Río Breogán",
           "away_team": "Baloncesto Málaga",
@@ -6285,7 +6326,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "15",
           "venue": null,
           "home_team": "Valencia Basket",
           "away_team": "Baloncesto Málaga",
@@ -6300,7 +6341,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "16",
           "venue": null,
           "home_team": "Baloncesto Málaga",
           "away_team": "Fundación CB Granada",
@@ -6315,7 +6356,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "17",
           "venue": null,
           "home_team": "Baloncesto Málaga",
           "away_team": "CB Murcia",
@@ -6326,6 +6367,21 @@
           "home_away": "Home",
           "team_score": 92,
           "opponent_score": 88,
+          "result": "W"
+        },
+        {
+          "date": null,
+          "round": "18",
+          "venue": null,
+          "home_team": "Basquet Manresa",
+          "away_team": "Baloncesto Málaga",
+          "home_score": 92,
+          "away_score": 98,
+          "played": true,
+          "opponent": "Basquet Manresa",
+          "home_away": "Away",
+          "team_score": 98,
+          "opponent_score": 92,
           "result": "W"
         }
       ],
@@ -6365,10 +6421,10 @@
           "acb_id": "20210670",
           "def_rebounds": 22,
           "match_id": "104473",
-          "jornada": 1,
+          "jornada": 2,
           "opponent": "Barça vs Hiopos Lleida",
           "date": "2025-10-12",
-          "round": "1"
+          "round": "2"
         },
         {
           "name": "J. Shurna",
@@ -6389,10 +6445,10 @@
           "blocks": 0,
           "rating": 5,
           "match_id": "104483",
-          "jornada": 1,
+          "jornada": 3,
           "opponent": "Hiopos Lleida vs Valencia Basket",
           "date": "2025-10-19",
-          "round": "1"
+          "round": "3"
         },
         {
           "name": "J. Shurna",
@@ -6413,10 +6469,10 @@
           "blocks": 1,
           "rating": 16,
           "match_id": "104486",
-          "jornada": 1,
+          "jornada": 4,
           "opponent": "Hiopos Lleida vs Fundación CB Granada",
           "date": "2025-10-25",
-          "round": "1"
+          "round": "4"
         },
         {
           "name": "J. Shurna",
@@ -6437,10 +6493,10 @@
           "blocks": 0,
           "rating": 0,
           "match_id": "104499",
-          "jornada": 1,
+          "jornada": 5,
           "opponent": "Joventut Badalona vs Hiopos Lleida",
           "date": "2025-11-02",
-          "round": "1"
+          "round": "5"
         },
         {
           "name": "J. Shurna",
@@ -6461,10 +6517,10 @@
           "blocks": 0,
           "rating": -1,
           "match_id": "104508",
-          "jornada": 1,
+          "jornada": 6,
           "opponent": "Hiopos Lleida vs Baskonia",
           "date": "2025-11-09",
-          "round": "1"
+          "round": "6"
         },
         {
           "name": "J. Shurna",
@@ -6485,10 +6541,10 @@
           "blocks": 1,
           "rating": 7,
           "match_id": "104517",
-          "jornada": 1,
+          "jornada": 7,
           "opponent": "Basquet Manresa vs Hiopos Lleida",
           "date": "2025-11-16",
-          "round": "1"
+          "round": "7"
         },
         {
           "name": "J. Shurna",
@@ -6509,10 +6565,10 @@
           "blocks": 1,
           "rating": 4,
           "match_id": "104522",
-          "jornada": 1,
+          "jornada": 8,
           "opponent": "Hiopos Lleida vs CB Murcia",
           "date": "2025-11-22",
-          "round": "1"
+          "round": "8"
         },
         {
           "name": "J. Shurna",
@@ -6533,10 +6589,10 @@
           "blocks": 0,
           "rating": 13,
           "match_id": "104532",
-          "jornada": 1,
+          "jornada": 9,
           "opponent": "Hiopos Lleida vs Baloncesto Málaga",
           "date": "2025-12-06",
-          "round": "1"
+          "round": "9"
         },
         {
           "name": "J. Shurna",
@@ -6557,10 +6613,10 @@
           "blocks": 1,
           "rating": 5,
           "match_id": "104544",
-          "jornada": 1,
+          "jornada": 10,
           "opponent": "Bilbao Basket vs Hiopos Lleida",
           "date": "2025-12-14",
-          "round": "1"
+          "round": "10"
         },
         {
           "name": "J. Shurna",
@@ -6581,10 +6637,10 @@
           "blocks": 3,
           "rating": 11,
           "match_id": "104550",
-          "jornada": 1,
+          "jornada": 11,
           "opponent": "Hiopos Lleida vs Real Madrid Baloncesto",
           "date": "2025-12-20",
-          "round": "1"
+          "round": "11"
         },
         {
           "name": "J. Shurna",
@@ -6605,10 +6661,10 @@
           "blocks": 0,
           "rating": 2,
           "match_id": "104562",
-          "jornada": 1,
+          "jornada": 12,
           "opponent": "Basquet Girona vs Hiopos Lleida",
           "date": "2025-12-28",
-          "round": "1"
+          "round": "12"
         },
         {
           "name": "J. Shurna",
@@ -6629,10 +6685,10 @@
           "blocks": 0,
           "rating": 5,
           "match_id": "104574",
-          "jornada": 1,
+          "jornada": 13,
           "opponent": "BC Andorra vs Hiopos Lleida",
           "date": "2026-01-02",
-          "round": "1"
+          "round": "13"
         },
         {
           "name": "J. Shurna",
@@ -6653,10 +6709,10 @@
           "blocks": 0,
           "rating": 9,
           "match_id": "104581",
-          "jornada": 1,
+          "jornada": 14,
           "opponent": "Hiopos Lleida vs Basket Zaragoza",
           "date": "2026-01-04",
-          "round": "1"
+          "round": "14"
         },
         {
           "name": "J. Shurna",
@@ -6677,10 +6733,10 @@
           "blocks": 0,
           "rating": 14,
           "match_id": "104587",
-          "jornada": 1,
+          "jornada": 15,
           "opponent": "CB 1939 Canarias vs Hiopos Lleida",
           "date": "2026-01-10",
-          "round": "1"
+          "round": "15"
         },
         {
           "name": "J. Shurna",
@@ -6701,13 +6757,13 @@
           "blocks": 2,
           "rating": 8,
           "match_id": "104596",
-          "jornada": 1,
+          "jornada": 16,
           "opponent": "Hiopos Lleida",
           "home_away": "Home",
           "team_score": 50,
           "opponent_score": 68,
           "date": "2026-01-17",
-          "round": "1"
+          "round": "16"
         },
         {
           "name": "J. Shurna",
@@ -6728,10 +6784,10 @@
           "blocks": 1,
           "rating": 13,
           "match_id": "104605",
-          "jornada": 1,
+          "jornada": 17,
           "opponent": "Hiopos Lleida vs CB San Pablo Burgos",
           "date": "2026-01-24",
-          "round": "1"
+          "round": "17"
         }
       ],
       "past_games": [
@@ -6752,7 +6808,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "2",
           "venue": null,
           "home_team": "CB Gran Canaria",
           "away_team": "Baloncesto Málaga",
@@ -6767,7 +6823,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "3",
           "venue": null,
           "home_team": "Basquet Manresa",
           "away_team": "CB Gran Canaria",
@@ -6782,7 +6838,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "4",
           "venue": null,
           "home_team": "Basquet Girona",
           "away_team": "CB Gran Canaria",
@@ -6797,7 +6853,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "5",
           "venue": null,
           "home_team": "CB Gran Canaria",
           "away_team": "BC Andorra",
@@ -6812,7 +6868,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "6",
           "venue": null,
           "home_team": "Río Breogán",
           "away_team": "CB Gran Canaria",
@@ -6827,7 +6883,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "7",
           "venue": null,
           "home_team": "CB Gran Canaria",
           "away_team": "Joventut Badalona",
@@ -6842,7 +6898,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "8",
           "venue": null,
           "home_team": "CB Gran Canaria",
           "away_team": "Barça",
@@ -6857,7 +6913,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "9",
           "venue": null,
           "home_team": "Bilbao Basket",
           "away_team": "CB Gran Canaria",
@@ -6872,7 +6928,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "11",
           "venue": null,
           "home_team": "CB Gran Canaria",
           "away_team": "Fundación CB Granada",
@@ -6887,7 +6943,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "12",
           "venue": null,
           "home_team": "CB 1939 Canarias",
           "away_team": "CB Gran Canaria",
@@ -6902,7 +6958,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "13",
           "venue": null,
           "home_team": "CB San Pablo Burgos",
           "away_team": "CB Gran Canaria",
@@ -6917,7 +6973,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "14",
           "venue": null,
           "home_team": "CB Gran Canaria",
           "away_team": "CB Murcia",
@@ -6932,7 +6988,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "15",
           "venue": null,
           "home_team": "Basket Zaragoza",
           "away_team": "CB Gran Canaria",
@@ -6947,7 +7003,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "16",
           "venue": null,
           "home_team": "CB Gran Canaria",
           "away_team": "Hiopos Lleida",
@@ -6962,7 +7018,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "17",
           "venue": null,
           "home_team": "CB Gran Canaria",
           "away_team": "Valencia Basket",
@@ -6977,7 +7033,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "18",
           "venue": null,
           "home_team": "BC Andorra",
           "away_team": "CB Gran Canaria",
@@ -6991,23 +7047,7 @@
           "result": "L"
         }
       ],
-      "upcoming_games": [
-        {
-          "date": "Dom 8-",
-          "round": "1",
-          "venue": null,
-          "home_team": "CB Gran Canaria",
-          "away_team": "Baskonia",
-          "home_score": null,
-          "away_score": null,
-          "played": false,
-          "opponent": "Baskonia",
-          "home_away": "Home",
-          "team_score": null,
-          "opponent_score": null,
-          "result": null
-        }
-      ],
+      "upcoming_games": [],
       "season": "2025-26",
       "league": "Liga ACB"
     },
@@ -7084,13 +7124,13 @@
           "blocks": 0,
           "rating": 5,
           "match_id": "104474",
-          "jornada": 1,
+          "jornada": 2,
           "opponent": "Río Breogán",
           "home_away": "Away",
           "team_score": 113,
           "opponent_score": 90,
           "date": "2025-10-12",
-          "round": "1"
+          "round": "2"
         },
         {
           "name": "K. Taylor",
@@ -7111,13 +7151,13 @@
           "blocks": 3,
           "rating": 15,
           "match_id": "104483",
-          "jornada": 1,
+          "jornada": 3,
           "opponent": "Hiopos Lleida",
           "home_away": "Away",
           "team_score": 99,
           "opponent_score": 78,
           "date": "2025-10-19",
-          "round": "1"
+          "round": "3"
         },
         {
           "name": "K. Taylor",
@@ -7138,13 +7178,13 @@
           "blocks": 2,
           "rating": 22,
           "match_id": "104493",
-          "jornada": 1,
+          "jornada": 4,
           "opponent": "Joventut Badalona",
           "home_away": "Home",
           "team_score": 102,
           "opponent_score": 90,
           "date": "2025-10-26",
-          "round": "1"
+          "round": "4"
         },
         {
           "name": "K. Taylor",
@@ -7165,13 +7205,13 @@
           "blocks": 2,
           "rating": 30,
           "match_id": "104518",
-          "jornada": 1,
+          "jornada": 7,
           "opponent": "CB 1939 Canarias",
           "home_away": "Home",
           "team_score": 96,
           "opponent_score": 79,
           "date": "2025-11-16",
-          "round": "1"
+          "round": "7"
         },
         {
           "name": "K. Taylor",
@@ -7192,13 +7232,13 @@
           "blocks": 5,
           "rating": 16,
           "match_id": "104539",
-          "jornada": 1,
+          "jornada": 9,
           "opponent": "Baskonia",
           "home_away": "Away",
           "team_score": 91,
           "opponent_score": 89,
           "date": "2025-12-07",
-          "round": "1"
+          "round": "9"
         },
         {
           "name": "K. Taylor",
@@ -7219,13 +7259,13 @@
           "blocks": 0,
           "rating": 1,
           "match_id": "104547",
-          "jornada": 1,
+          "jornada": 10,
           "opponent": "Basket Zaragoza",
           "home_away": "Home",
           "team_score": 115,
           "opponent_score": 73,
           "date": "2026-01-12",
-          "round": "1"
+          "round": "10"
         },
         {
           "name": "K. Taylor",
@@ -7246,13 +7286,13 @@
           "blocks": 7,
           "rating": 18,
           "match_id": "104555",
-          "jornada": 1,
+          "jornada": 11,
           "opponent": "CB Murcia",
           "home_away": "Away",
           "team_score": 80,
           "opponent_score": 92,
           "date": "2025-12-21",
-          "round": "1"
+          "round": "11"
         },
         {
           "name": "K. Taylor",
@@ -7273,13 +7313,13 @@
           "blocks": 1,
           "rating": 9,
           "match_id": "104565",
-          "jornada": 1,
+          "jornada": 12,
           "opponent": "BC Andorra",
           "home_away": "Home",
           "team_score": 84,
           "opponent_score": 79,
           "date": "2025-12-28",
-          "round": "1"
+          "round": "12"
         },
         {
           "name": "K. Taylor",
@@ -7300,13 +7340,13 @@
           "blocks": 3,
           "rating": 9,
           "match_id": "104572",
-          "jornada": 1,
+          "jornada": 13,
           "opponent": "Bilbao Basket",
           "home_away": "Away",
           "team_score": 116,
           "opponent_score": 72,
           "date": "2026-01-02",
-          "round": "1"
+          "round": "13"
         },
         {
           "name": "K. Taylor",
@@ -7327,13 +7367,13 @@
           "blocks": 1,
           "rating": 2,
           "match_id": "104590",
-          "jornada": 1,
+          "jornada": 15,
           "opponent": "Baloncesto Málaga",
           "home_away": "Home",
           "team_score": 70,
           "opponent_score": 76,
           "date": "2026-01-10",
-          "round": "1"
+          "round": "15"
         },
         {
           "name": "K. Taylor",
@@ -7354,13 +7394,13 @@
           "blocks": 2,
           "rating": 4,
           "match_id": "104602",
-          "jornada": 1,
+          "jornada": 16,
           "opponent": "Real Madrid Baloncesto",
           "home_away": "Away",
           "team_score": 79,
           "opponent_score": 94,
           "date": "2026-01-18",
-          "round": "1"
+          "round": "16"
         },
         {
           "name": "K. Taylor",
@@ -7381,13 +7421,13 @@
           "blocks": 0,
           "rating": 12,
           "match_id": "104608",
-          "jornada": 1,
+          "jornada": 17,
           "opponent": "CB Gran Canaria",
           "home_away": "Away",
           "team_score": 90,
           "opponent_score": 80,
           "date": "2026-01-25",
-          "round": "1"
+          "round": "17"
         }
       ],
       "past_games": [
@@ -7408,7 +7448,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "2",
           "venue": null,
           "home_team": "Río Breogán",
           "away_team": "Valencia Basket",
@@ -7423,7 +7463,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "3",
           "venue": null,
           "home_team": "Hiopos Lleida",
           "away_team": "Valencia Basket",
@@ -7438,7 +7478,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "4",
           "venue": null,
           "home_team": "Valencia Basket",
           "away_team": "Joventut Badalona",
@@ -7453,7 +7493,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "5",
           "venue": null,
           "home_team": "Valencia Basket",
           "away_team": "CB San Pablo Burgos",
@@ -7468,7 +7508,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "6",
           "venue": null,
           "home_team": "Fundación CB Granada",
           "away_team": "Valencia Basket",
@@ -7483,7 +7523,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "7",
           "venue": null,
           "home_team": "Valencia Basket",
           "away_team": "CB 1939 Canarias",
@@ -7498,7 +7538,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "8",
           "venue": null,
           "home_team": "Valencia Basket",
           "away_team": "Basquet Girona",
@@ -7513,7 +7553,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "9",
           "venue": null,
           "home_team": "Baskonia",
           "away_team": "Valencia Basket",
@@ -7528,7 +7568,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "10",
           "venue": null,
           "home_team": "Valencia Basket",
           "away_team": "Basket Zaragoza",
@@ -7543,7 +7583,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "11",
           "venue": null,
           "home_team": "CB Murcia",
           "away_team": "Valencia Basket",
@@ -7558,7 +7598,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "12",
           "venue": null,
           "home_team": "Valencia Basket",
           "away_team": "BC Andorra",
@@ -7573,7 +7613,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "13",
           "venue": null,
           "home_team": "Bilbao Basket",
           "away_team": "Valencia Basket",
@@ -7588,7 +7628,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "14",
           "venue": null,
           "home_team": "Valencia Basket",
           "away_team": "Basquet Manresa",
@@ -7603,7 +7643,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "15",
           "venue": null,
           "home_team": "Valencia Basket",
           "away_team": "Baloncesto Málaga",
@@ -7618,7 +7658,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "16",
           "venue": null,
           "home_team": "Real Madrid Baloncesto",
           "away_team": "Valencia Basket",
@@ -7633,7 +7673,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "17",
           "venue": null,
           "home_team": "CB Gran Canaria",
           "away_team": "Valencia Basket",
@@ -7721,10 +7761,10 @@
           "blocks": 2,
           "rating": 12,
           "match_id": "104473",
-          "jornada": 1,
+          "jornada": 2,
           "opponent": "Barça vs Hiopos Lleida",
           "date": "2025-10-12",
-          "round": "1"
+          "round": "2"
         },
         {
           "name": "K. Punter",
@@ -7745,10 +7785,10 @@
           "blocks": 7,
           "rating": 21,
           "match_id": "104485",
-          "jornada": 1,
+          "jornada": 3,
           "opponent": "Baloncesto Málaga vs Barça",
           "date": "2025-10-19",
-          "round": "1"
+          "round": "3"
         },
         {
           "name": "K. Punter",
@@ -7769,10 +7809,10 @@
           "blocks": 2,
           "rating": 9,
           "match_id": "104487",
-          "jornada": 1,
+          "jornada": 4,
           "opponent": "Barça vs Río Breogán",
           "date": "2025-10-25",
-          "round": "1"
+          "round": "4"
         },
         {
           "name": "K. Punter",
@@ -7793,10 +7833,10 @@
           "blocks": 2,
           "rating": 5,
           "match_id": "104501",
-          "jornada": 1,
+          "jornada": 5,
           "opponent": "Barça vs CB Murcia",
           "date": "2025-11-02",
-          "round": "1"
+          "round": "5"
         },
         {
           "name": "K. Punter",
@@ -7817,10 +7857,10 @@
           "blocks": 1,
           "rating": 10,
           "match_id": "104509",
-          "jornada": 1,
+          "jornada": 6,
           "opponent": "Basquet Girona vs Barça",
           "date": "2025-11-09",
-          "round": "1"
+          "round": "6"
         },
         {
           "name": "K. Punter",
@@ -7841,10 +7881,10 @@
           "blocks": 4,
           "rating": 8,
           "match_id": "104521",
-          "jornada": 1,
+          "jornada": 7,
           "opponent": "Barça vs Baskonia",
           "date": "2025-11-16",
-          "round": "1"
+          "round": "7"
         },
         {
           "name": "K. Punter",
@@ -7865,10 +7905,10 @@
           "blocks": 3,
           "rating": 12,
           "match_id": "104530",
-          "jornada": 1,
+          "jornada": 8,
           "opponent": "CB Gran Canaria vs Barça",
           "date": "2025-11-23",
-          "round": "1"
+          "round": "8"
         },
         {
           "name": "K. Punter",
@@ -7889,10 +7929,10 @@
           "blocks": 4,
           "rating": 25,
           "match_id": "104537",
-          "jornada": 1,
+          "jornada": 9,
           "opponent": "Barça vs BC Andorra",
           "date": "2025-12-07",
-          "round": "1"
+          "round": "9"
         },
         {
           "name": "K. Punter",
@@ -7913,10 +7953,10 @@
           "blocks": 3,
           "rating": 8,
           "match_id": "104548",
-          "jornada": 1,
+          "jornada": 10,
           "opponent": "Basquet Manresa vs Barça",
           "date": "2025-12-14",
-          "round": "1"
+          "round": "10"
         },
         {
           "name": "K. Punter",
@@ -7937,10 +7977,10 @@
           "blocks": 2,
           "rating": 15,
           "match_id": "104554",
-          "jornada": 1,
+          "jornada": 11,
           "opponent": "Barça vs Joventut Badalona",
           "date": "2025-12-21",
-          "round": "1"
+          "round": "11"
         },
         {
           "name": "K. Punter",
@@ -7961,10 +8001,10 @@
           "blocks": 3,
           "rating": 6,
           "match_id": "104564",
-          "jornada": 1,
+          "jornada": 12,
           "opponent": "Bilbao Basket vs Barça",
           "date": "2025-12-28",
-          "round": "1"
+          "round": "12"
         },
         {
           "name": "K. Punter",
@@ -7985,10 +8025,10 @@
           "blocks": 0,
           "rating": 7,
           "match_id": "104575",
-          "jornada": 1,
+          "jornada": 13,
           "opponent": "Barça vs Basket Zaragoza",
           "date": "2026-01-02",
-          "round": "1"
+          "round": "13"
         },
         {
           "name": "K. Punter",
@@ -8009,10 +8049,10 @@
           "blocks": 3,
           "rating": 15,
           "match_id": "104580",
-          "jornada": 1,
+          "jornada": 14,
           "opponent": "Real Madrid Baloncesto vs Barça",
           "date": "2026-01-04",
-          "round": "1"
+          "round": "14"
         },
         {
           "name": "K. Punter",
@@ -8033,10 +8073,10 @@
           "blocks": 1,
           "rating": 13,
           "match_id": "104591",
-          "jornada": 1,
+          "jornada": 15,
           "opponent": "Barça vs Fundación CB Granada",
           "date": "2026-01-11",
-          "round": "1"
+          "round": "15"
         },
         {
           "name": "K. Punter",
@@ -8057,10 +8097,10 @@
           "blocks": 1,
           "rating": -4,
           "match_id": "104598",
-          "jornada": 1,
+          "jornada": 16,
           "opponent": "CB San Pablo Burgos vs Barça",
           "date": "2026-01-18",
-          "round": "1"
+          "round": "16"
         },
         {
           "name": "K. Punter",
@@ -8081,10 +8121,10 @@
           "blocks": 4,
           "rating": 16,
           "match_id": "104611",
-          "jornada": 1,
+          "jornada": 17,
           "opponent": "Barça vs CB 1939 Canarias",
           "date": "2026-01-25",
-          "round": "1"
+          "round": "17"
         }
       ],
       "past_games": [],
@@ -8165,13 +8205,13 @@
           "blocks": 4,
           "rating": 12,
           "match_id": "104471",
-          "jornada": 1,
+          "jornada": 2,
           "opponent": "Basquet Manresa",
           "home_away": "Away",
           "team_score": 68,
           "opponent_score": 83,
           "date": "2025-10-11",
-          "round": "1"
+          "round": "2"
         },
         {
           "name": "M. Thomas",
@@ -8192,13 +8232,13 @@
           "blocks": 1,
           "rating": 5,
           "match_id": "104484",
-          "jornada": 1,
+          "jornada": 3,
           "opponent": "Baskonia",
           "home_away": "Home",
           "team_score": 80,
           "opponent_score": 83,
           "date": "2025-10-19",
-          "round": "1"
+          "round": "3"
         },
         {
           "name": "M. Thomas",
@@ -8219,13 +8259,13 @@
           "blocks": 0,
           "rating": 14,
           "match_id": "104486",
-          "jornada": 1,
+          "jornada": 4,
           "opponent": "Hiopos Lleida",
           "home_away": "Away",
           "team_score": 90,
           "opponent_score": 99,
           "date": "2025-10-25",
-          "round": "1"
+          "round": "4"
         },
         {
           "name": "M. Thomas",
@@ -8246,13 +8286,13 @@
           "blocks": 1,
           "rating": 0,
           "match_id": "104498",
-          "jornada": 1,
+          "jornada": 5,
           "opponent": "Río Breogán",
           "home_away": "Away",
           "team_score": 74,
           "opponent_score": 95,
           "date": "2025-11-01",
-          "round": "1"
+          "round": "5"
         },
         {
           "name": "M. Thomas",
@@ -8273,13 +8313,13 @@
           "blocks": 4,
           "rating": 15,
           "match_id": "104510",
-          "jornada": 1,
+          "jornada": 6,
           "opponent": "Valencia Basket",
           "home_away": "Home",
           "team_score": 85,
           "opponent_score": 79,
           "date": "2025-11-09",
-          "round": "1"
+          "round": "6"
         },
         {
           "name": "M. Thomas",
@@ -8300,13 +8340,13 @@
           "blocks": 1,
           "rating": 10,
           "match_id": "104513",
-          "jornada": 1,
+          "jornada": 7,
           "opponent": "Basquet Girona",
           "home_away": "Away",
           "team_score": 76,
           "opponent_score": 82,
           "date": "2025-11-15",
-          "round": "1"
+          "round": "7"
         },
         {
           "name": "M. Thomas",
@@ -8327,13 +8367,13 @@
           "blocks": 2,
           "rating": 9,
           "match_id": "104523",
-          "jornada": 1,
+          "jornada": 8,
           "opponent": "Real Madrid Baloncesto",
           "home_away": "Home",
           "team_score": 100,
           "opponent_score": 111,
           "date": "2025-11-22",
-          "round": "1"
+          "round": "8"
         },
         {
           "name": "M. Thomas",
@@ -8354,13 +8394,13 @@
           "blocks": 2,
           "rating": 9,
           "match_id": "104533",
-          "jornada": 1,
+          "jornada": 9,
           "opponent": "Basket Zaragoza",
           "home_away": "Home",
           "team_score": 83,
           "opponent_score": 92,
           "date": "2025-12-06",
-          "round": "1"
+          "round": "9"
         },
         {
           "name": "M. Thomas",
@@ -8381,13 +8421,13 @@
           "blocks": 5,
           "rating": 25,
           "match_id": "104543",
-          "jornada": 1,
+          "jornada": 10,
           "opponent": "BC Andorra",
           "home_away": "Away",
           "team_score": 81,
           "opponent_score": 86,
           "date": "2025-12-13",
-          "round": "1"
+          "round": "10"
         },
         {
           "name": "M. Thomas",
@@ -8408,13 +8448,13 @@
           "blocks": 1,
           "rating": 10,
           "match_id": "104551",
-          "jornada": 1,
+          "jornada": 11,
           "opponent": "CB Gran Canaria",
           "home_away": "Away",
           "team_score": 85,
           "opponent_score": 90,
           "date": "2025-12-20",
-          "round": "1"
+          "round": "11"
         },
         {
           "name": "M. Thomas",
@@ -8435,13 +8475,13 @@
           "blocks": 1,
           "rating": 16,
           "match_id": "104560",
-          "jornada": 1,
+          "jornada": 12,
           "opponent": "CB Murcia",
           "home_away": "Home",
           "team_score": 79,
           "opponent_score": 86,
           "date": "2025-12-27",
-          "round": "1"
+          "round": "12"
         },
         {
           "name": "M. Thomas",
@@ -8462,13 +8502,13 @@
           "blocks": 1,
           "rating": 12,
           "match_id": "104570",
-          "jornada": 1,
+          "jornada": 13,
           "opponent": "CB 1939 Canarias",
           "home_away": "Away",
           "team_score": 75,
           "opponent_score": 80,
           "date": "2025-12-30",
-          "round": "1"
+          "round": "13"
         },
         {
           "name": "M. Thomas",
@@ -8489,13 +8529,13 @@
           "blocks": 2,
           "rating": 6,
           "match_id": "104577",
-          "jornada": 1,
+          "jornada": 14,
           "opponent": "CB San Pablo Burgos",
           "home_away": "Home",
           "team_score": 90,
           "opponent_score": 107,
           "date": "2026-01-03",
-          "round": "1"
+          "round": "14"
         }
       ],
       "past_games": [
@@ -8516,7 +8556,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "2",
           "venue": null,
           "home_team": "Basquet Manresa",
           "away_team": "Fundación CB Granada",
@@ -8531,7 +8571,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "3",
           "venue": null,
           "home_team": "Fundación CB Granada",
           "away_team": "Baskonia",
@@ -8546,7 +8586,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "4",
           "venue": null,
           "home_team": "Hiopos Lleida",
           "away_team": "Fundación CB Granada",
@@ -8561,7 +8601,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "5",
           "venue": null,
           "home_team": "Río Breogán",
           "away_team": "Fundación CB Granada",
@@ -8576,7 +8616,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "6",
           "venue": null,
           "home_team": "Fundación CB Granada",
           "away_team": "Valencia Basket",
@@ -8591,7 +8631,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "7",
           "venue": null,
           "home_team": "Basquet Girona",
           "away_team": "Fundación CB Granada",
@@ -8606,7 +8646,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "8",
           "venue": null,
           "home_team": "Fundación CB Granada",
           "away_team": "Real Madrid Baloncesto",
@@ -8621,7 +8661,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "9",
           "venue": null,
           "home_team": "Fundación CB Granada",
           "away_team": "Basket Zaragoza",
@@ -8636,7 +8676,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "10",
           "venue": null,
           "home_team": "BC Andorra",
           "away_team": "Fundación CB Granada",
@@ -8651,7 +8691,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "11",
           "venue": null,
           "home_team": "CB Gran Canaria",
           "away_team": "Fundación CB Granada",
@@ -8666,7 +8706,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "12",
           "venue": null,
           "home_team": "Fundación CB Granada",
           "away_team": "CB Murcia",
@@ -8681,7 +8721,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "13",
           "venue": null,
           "home_team": "CB 1939 Canarias",
           "away_team": "Fundación CB Granada",
@@ -8696,7 +8736,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "14",
           "venue": null,
           "home_team": "Fundación CB Granada",
           "away_team": "CB San Pablo Burgos",
@@ -8711,7 +8751,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "15",
           "venue": null,
           "home_team": "Barça",
           "away_team": "Fundación CB Granada",
@@ -8726,7 +8766,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "16",
           "venue": null,
           "home_team": "Baloncesto Málaga",
           "away_team": "Fundación CB Granada",
@@ -8741,7 +8781,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "17",
           "venue": null,
           "home_team": "Fundación CB Granada",
           "away_team": "Bilbao Basket",
@@ -8756,7 +8796,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "18",
           "venue": null,
           "home_team": "Fundación CB Granada",
           "away_team": "Río Breogán",
@@ -8820,10 +8860,10 @@
           "blocks": 1,
           "rating": 16,
           "match_id": "104548",
-          "jornada": 1,
+          "jornada": 10,
           "opponent": "Basquet Manresa vs Barça",
           "date": "2025-12-14",
-          "round": "1"
+          "round": "10"
         },
         {
           "name": "M. Norris",
@@ -8844,10 +8884,10 @@
           "blocks": 1,
           "rating": 11,
           "match_id": "104554",
-          "jornada": 1,
+          "jornada": 11,
           "opponent": "Barça vs Joventut Badalona",
           "date": "2025-12-21",
-          "round": "1"
+          "round": "11"
         },
         {
           "name": "M. Norris",
@@ -8868,10 +8908,10 @@
           "blocks": 0,
           "rating": 5,
           "match_id": "104564",
-          "jornada": 1,
+          "jornada": 12,
           "opponent": "Bilbao Basket vs Barça",
           "date": "2025-12-28",
-          "round": "1"
+          "round": "12"
         },
         {
           "name": "M. Norris",
@@ -8892,10 +8932,10 @@
           "blocks": 1,
           "rating": 15,
           "match_id": "104575",
-          "jornada": 1,
+          "jornada": 13,
           "opponent": "Barça vs Basket Zaragoza",
           "date": "2026-01-02",
-          "round": "1"
+          "round": "13"
         },
         {
           "name": "M. Norris",
@@ -8916,10 +8956,10 @@
           "blocks": 0,
           "rating": 2,
           "match_id": "104580",
-          "jornada": 1,
+          "jornada": 14,
           "opponent": "Real Madrid Baloncesto vs Barça",
           "date": "2026-01-04",
-          "round": "1"
+          "round": "14"
         },
         {
           "name": "M. Norris",
@@ -8940,10 +8980,10 @@
           "blocks": 2,
           "rating": 8,
           "match_id": "104591",
-          "jornada": 1,
+          "jornada": 15,
           "opponent": "Barça vs Fundación CB Granada",
           "date": "2026-01-11",
-          "round": "1"
+          "round": "15"
         },
         {
           "name": "M. Norris",
@@ -8964,10 +9004,10 @@
           "blocks": 1,
           "rating": 10,
           "match_id": "104598",
-          "jornada": 1,
+          "jornada": 16,
           "opponent": "CB San Pablo Burgos vs Barça",
           "date": "2026-01-18",
-          "round": "1"
+          "round": "16"
         },
         {
           "name": "M. Norris",
@@ -8988,10 +9028,10 @@
           "blocks": 0,
           "rating": 21,
           "match_id": "104611",
-          "jornada": 1,
+          "jornada": 17,
           "opponent": "Barça vs CB 1939 Canarias",
           "date": "2026-01-25",
-          "round": "1"
+          "round": "17"
         }
       ],
       "past_games": [],
@@ -9069,10 +9109,10 @@
           "blocks": 0,
           "rating": 7,
           "match_id": "104473",
-          "jornada": 1,
+          "jornada": 2,
           "opponent": "Barça vs Hiopos Lleida",
           "date": "2025-10-12",
-          "round": "1"
+          "round": "2"
         },
         {
           "name": "M. Cale",
@@ -9093,10 +9133,10 @@
           "blocks": 1,
           "rating": 4,
           "match_id": "104485",
-          "jornada": 1,
+          "jornada": 3,
           "opponent": "Baloncesto Málaga vs Barça",
           "date": "2025-10-19",
-          "round": "1"
+          "round": "3"
         },
         {
           "name": "M. Cale",
@@ -9117,10 +9157,10 @@
           "blocks": 3,
           "rating": 15,
           "match_id": "104487",
-          "jornada": 1,
+          "jornada": 4,
           "opponent": "Barça vs Río Breogán",
           "date": "2025-10-25",
-          "round": "1"
+          "round": "4"
         },
         {
           "name": "M. Cale",
@@ -9141,10 +9181,10 @@
           "blocks": 0,
           "rating": 0,
           "match_id": "104501",
-          "jornada": 1,
+          "jornada": 5,
           "opponent": "Barça vs CB Murcia",
           "date": "2025-11-02",
-          "round": "1"
+          "round": "5"
         },
         {
           "name": "M. Cale",
@@ -9165,10 +9205,10 @@
           "blocks": 2,
           "rating": 4,
           "match_id": "104509",
-          "jornada": 1,
+          "jornada": 6,
           "opponent": "Basquet Girona vs Barça",
           "date": "2025-11-09",
-          "round": "1"
+          "round": "6"
         },
         {
           "name": "M. Cale",
@@ -9189,10 +9229,10 @@
           "blocks": 0,
           "rating": 3,
           "match_id": "104521",
-          "jornada": 1,
+          "jornada": 7,
           "opponent": "Barça vs Baskonia",
           "date": "2025-11-16",
-          "round": "1"
+          "round": "7"
         },
         {
           "name": "M. Cale",
@@ -9213,10 +9253,10 @@
           "blocks": 1,
           "rating": 4,
           "match_id": "104530",
-          "jornada": 1,
+          "jornada": 8,
           "opponent": "CB Gran Canaria vs Barça",
           "date": "2025-11-23",
-          "round": "1"
+          "round": "8"
         },
         {
           "name": "M. Cale",
@@ -9237,10 +9277,10 @@
           "blocks": 0,
           "rating": 1,
           "match_id": "104537",
-          "jornada": 1,
+          "jornada": 9,
           "opponent": "Barça vs BC Andorra",
           "date": "2025-12-07",
-          "round": "1"
+          "round": "9"
         },
         {
           "name": "M. Cale",
@@ -9261,10 +9301,10 @@
           "blocks": 2,
           "rating": 11,
           "match_id": "104554",
-          "jornada": 1,
+          "jornada": 11,
           "opponent": "Barça vs Joventut Badalona",
           "date": "2025-12-21",
-          "round": "1"
+          "round": "11"
         },
         {
           "name": "M. Cale",
@@ -9285,10 +9325,10 @@
           "blocks": 2,
           "rating": 4,
           "match_id": "104564",
-          "jornada": 1,
+          "jornada": 12,
           "opponent": "Bilbao Basket vs Barça",
           "date": "2025-12-28",
-          "round": "1"
+          "round": "12"
         },
         {
           "name": "M. Cale",
@@ -9309,10 +9349,10 @@
           "blocks": 0,
           "rating": 0,
           "match_id": "104575",
-          "jornada": 1,
+          "jornada": 13,
           "opponent": "Barça vs Basket Zaragoza",
           "date": "2026-01-02",
-          "round": "1"
+          "round": "13"
         },
         {
           "name": "M. Cale",
@@ -9333,10 +9373,10 @@
           "blocks": 1,
           "rating": 5,
           "match_id": "104580",
-          "jornada": 1,
+          "jornada": 14,
           "opponent": "Real Madrid Baloncesto vs Barça",
           "date": "2026-01-04",
-          "round": "1"
+          "round": "14"
         },
         {
           "name": "M. Cale",
@@ -9357,10 +9397,10 @@
           "blocks": 2,
           "rating": 18,
           "match_id": "104591",
-          "jornada": 1,
+          "jornada": 15,
           "opponent": "Barça vs Fundación CB Granada",
           "date": "2026-01-11",
-          "round": "1"
+          "round": "15"
         },
         {
           "name": "M. Cale",
@@ -9381,10 +9421,10 @@
           "blocks": 0,
           "rating": 0,
           "match_id": "104598",
-          "jornada": 1,
+          "jornada": 16,
           "opponent": "CB San Pablo Burgos vs Barça",
           "date": "2026-01-18",
-          "round": "1"
+          "round": "16"
         },
         {
           "name": "M. Cale",
@@ -9405,10 +9445,10 @@
           "blocks": 1,
           "rating": 1,
           "match_id": "104611",
-          "jornada": 1,
+          "jornada": 17,
           "opponent": "Barça vs CB 1939 Canarias",
           "date": "2026-01-25",
-          "round": "1"
+          "round": "17"
         }
       ],
       "past_games": [],
@@ -9489,13 +9529,13 @@
           "blocks": 2,
           "rating": 10,
           "match_id": "104474",
-          "jornada": 1,
+          "jornada": 2,
           "opponent": "Río Breogán",
           "home_away": "Away",
           "team_score": 113,
           "opponent_score": 90,
           "date": "2025-10-12",
-          "round": "1"
+          "round": "2"
         },
         {
           "name": "N. Reuvers",
@@ -9516,13 +9556,13 @@
           "blocks": 1,
           "rating": 13,
           "match_id": "104483",
-          "jornada": 1,
+          "jornada": 3,
           "opponent": "Hiopos Lleida",
           "home_away": "Away",
           "team_score": 99,
           "opponent_score": 78,
           "date": "2025-10-19",
-          "round": "1"
+          "round": "3"
         },
         {
           "name": "N. Reuvers",
@@ -9543,13 +9583,13 @@
           "blocks": 4,
           "rating": 13,
           "match_id": "104493",
-          "jornada": 1,
+          "jornada": 4,
           "opponent": "Joventut Badalona",
           "home_away": "Home",
           "team_score": 102,
           "opponent_score": 90,
           "date": "2025-10-26",
-          "round": "1"
+          "round": "4"
         },
         {
           "name": "N. Reuvers",
@@ -9570,13 +9610,13 @@
           "blocks": 2,
           "rating": 13,
           "match_id": "104502",
-          "jornada": 1,
+          "jornada": 5,
           "opponent": "CB San Pablo Burgos",
           "home_away": "Home",
           "team_score": 100,
           "opponent_score": 82,
           "date": "2025-11-02",
-          "round": "1"
+          "round": "5"
         },
         {
           "name": "N. Reuvers",
@@ -9597,13 +9637,13 @@
           "blocks": 3,
           "rating": 15,
           "match_id": "104510",
-          "jornada": 1,
+          "jornada": 6,
           "opponent": "Fundación CB Granada",
           "home_away": "Away",
           "team_score": 79,
           "opponent_score": 85,
           "date": "2025-11-09",
-          "round": "1"
+          "round": "6"
         },
         {
           "name": "N. Reuvers",
@@ -9624,13 +9664,13 @@
           "blocks": 4,
           "rating": 13,
           "match_id": "104518",
-          "jornada": 1,
+          "jornada": 7,
           "opponent": "CB 1939 Canarias",
           "home_away": "Home",
           "team_score": 96,
           "opponent_score": 79,
           "date": "2025-11-16",
-          "round": "1"
+          "round": "7"
         },
         {
           "name": "N. Reuvers",
@@ -9651,13 +9691,13 @@
           "blocks": 5,
           "rating": 6,
           "match_id": "104528",
-          "jornada": 1,
+          "jornada": 8,
           "opponent": "Basquet Girona",
           "home_away": "Home",
           "team_score": 98,
           "opponent_score": 72,
           "date": "2025-11-23",
-          "round": "1"
+          "round": "8"
         },
         {
           "name": "N. Reuvers",
@@ -9678,13 +9718,13 @@
           "blocks": 3,
           "rating": 19,
           "match_id": "104539",
-          "jornada": 1,
+          "jornada": 9,
           "opponent": "Baskonia",
           "home_away": "Away",
           "team_score": 91,
           "opponent_score": 89,
           "date": "2025-12-07",
-          "round": "1"
+          "round": "9"
         },
         {
           "name": "N. Reuvers",
@@ -9705,13 +9745,13 @@
           "blocks": 0,
           "rating": 1,
           "match_id": "104547",
-          "jornada": 1,
+          "jornada": 10,
           "opponent": "Basket Zaragoza",
           "home_away": "Home",
           "team_score": 115,
           "opponent_score": 73,
           "date": "2026-01-12",
-          "round": "1"
+          "round": "10"
         },
         {
           "name": "N. Reuvers",
@@ -9732,13 +9772,13 @@
           "blocks": 0,
           "rating": 7,
           "match_id": "104555",
-          "jornada": 1,
+          "jornada": 11,
           "opponent": "CB Murcia",
           "home_away": "Away",
           "team_score": 80,
           "opponent_score": 92,
           "date": "2025-12-21",
-          "round": "1"
+          "round": "11"
         },
         {
           "name": "N. Reuvers",
@@ -9759,13 +9799,13 @@
           "blocks": 2,
           "rating": 3,
           "match_id": "104565",
-          "jornada": 1,
+          "jornada": 12,
           "opponent": "BC Andorra",
           "home_away": "Home",
           "team_score": 84,
           "opponent_score": 79,
           "date": "2025-12-28",
-          "round": "1"
+          "round": "12"
         },
         {
           "name": "N. Reuvers",
@@ -9786,13 +9826,13 @@
           "blocks": 1,
           "rating": 12,
           "match_id": "104572",
-          "jornada": 1,
+          "jornada": 13,
           "opponent": "Bilbao Basket",
           "home_away": "Away",
           "team_score": 116,
           "opponent_score": 72,
           "date": "2026-01-02",
-          "round": "1"
+          "round": "13"
         },
         {
           "name": "N. Reuvers",
@@ -9813,13 +9853,13 @@
           "blocks": 0,
           "rating": 6,
           "match_id": "104584",
-          "jornada": 1,
+          "jornada": 14,
           "opponent": "Basquet Manresa",
           "home_away": "Home",
           "team_score": 103,
           "opponent_score": 76,
           "date": "2026-01-04",
-          "round": "1"
+          "round": "14"
         },
         {
           "name": "N. Reuvers",
@@ -9840,13 +9880,13 @@
           "blocks": 5,
           "rating": 20,
           "match_id": "104590",
-          "jornada": 1,
+          "jornada": 15,
           "opponent": "Baloncesto Málaga",
           "home_away": "Home",
           "team_score": 70,
           "opponent_score": 76,
           "date": "2026-01-10",
-          "round": "1"
+          "round": "15"
         },
         {
           "name": "N. Reuvers",
@@ -9867,13 +9907,13 @@
           "blocks": 0,
           "rating": 4,
           "match_id": "104602",
-          "jornada": 1,
+          "jornada": 16,
           "opponent": "Real Madrid Baloncesto",
           "home_away": "Away",
           "team_score": 79,
           "opponent_score": 94,
           "date": "2026-01-18",
-          "round": "1"
+          "round": "16"
         },
         {
           "name": "N. Reuvers",
@@ -9894,13 +9934,13 @@
           "blocks": 0,
           "rating": 6,
           "match_id": "104608",
-          "jornada": 1,
+          "jornada": 17,
           "opponent": "CB Gran Canaria",
           "home_away": "Away",
           "team_score": 90,
           "opponent_score": 80,
           "date": "2026-01-25",
-          "round": "1"
+          "round": "17"
         }
       ],
       "past_games": [
@@ -9921,7 +9961,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "2",
           "venue": null,
           "home_team": "Río Breogán",
           "away_team": "Valencia Basket",
@@ -9936,7 +9976,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "3",
           "venue": null,
           "home_team": "Hiopos Lleida",
           "away_team": "Valencia Basket",
@@ -9951,7 +9991,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "4",
           "venue": null,
           "home_team": "Valencia Basket",
           "away_team": "Joventut Badalona",
@@ -9966,7 +10006,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "5",
           "venue": null,
           "home_team": "Valencia Basket",
           "away_team": "CB San Pablo Burgos",
@@ -9981,7 +10021,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "6",
           "venue": null,
           "home_team": "Fundación CB Granada",
           "away_team": "Valencia Basket",
@@ -9996,7 +10036,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "7",
           "venue": null,
           "home_team": "Valencia Basket",
           "away_team": "CB 1939 Canarias",
@@ -10011,7 +10051,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "8",
           "venue": null,
           "home_team": "Valencia Basket",
           "away_team": "Basquet Girona",
@@ -10026,7 +10066,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "9",
           "venue": null,
           "home_team": "Baskonia",
           "away_team": "Valencia Basket",
@@ -10041,7 +10081,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "10",
           "venue": null,
           "home_team": "Valencia Basket",
           "away_team": "Basket Zaragoza",
@@ -10056,7 +10096,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "11",
           "venue": null,
           "home_team": "CB Murcia",
           "away_team": "Valencia Basket",
@@ -10071,7 +10111,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "12",
           "venue": null,
           "home_team": "Valencia Basket",
           "away_team": "BC Andorra",
@@ -10086,7 +10126,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "13",
           "venue": null,
           "home_team": "Bilbao Basket",
           "away_team": "Valencia Basket",
@@ -10101,7 +10141,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "14",
           "venue": null,
           "home_team": "Valencia Basket",
           "away_team": "Basquet Manresa",
@@ -10116,7 +10156,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "15",
           "venue": null,
           "home_team": "Valencia Basket",
           "away_team": "Baloncesto Málaga",
@@ -10131,7 +10171,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "16",
           "venue": null,
           "home_team": "Real Madrid Baloncesto",
           "away_team": "Valencia Basket",
@@ -10146,7 +10186,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "17",
           "venue": null,
           "home_team": "CB Gran Canaria",
           "away_team": "Valencia Basket",
@@ -10209,7 +10249,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "2",
           "venue": null,
           "home_team": "Bilbao Basket",
           "away_team": "CB San Pablo Burgos",
@@ -10224,7 +10264,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "3",
           "venue": null,
           "home_team": "Real Madrid Baloncesto",
           "away_team": "CB San Pablo Burgos",
@@ -10239,7 +10279,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "4",
           "venue": null,
           "home_team": "CB San Pablo Burgos",
           "away_team": "Basket Zaragoza",
@@ -10254,7 +10294,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "5",
           "venue": null,
           "home_team": "Valencia Basket",
           "away_team": "CB San Pablo Burgos",
@@ -10269,7 +10309,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "6",
           "venue": null,
           "home_team": "CB 1939 Canarias",
           "away_team": "CB San Pablo Burgos",
@@ -10284,7 +10324,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "7",
           "venue": null,
           "home_team": "CB San Pablo Burgos",
           "away_team": "BC Andorra",
@@ -10299,7 +10339,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "8",
           "venue": null,
           "home_team": "Río Breogán",
           "away_team": "CB San Pablo Burgos",
@@ -10314,7 +10354,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "9",
           "venue": null,
           "home_team": "CB San Pablo Burgos",
           "away_team": "CB Murcia",
@@ -10329,7 +10369,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "10",
           "venue": null,
           "home_team": "Baloncesto Málaga",
           "away_team": "CB San Pablo Burgos",
@@ -10344,7 +10384,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "11",
           "venue": null,
           "home_team": "CB San Pablo Burgos",
           "away_team": "Basquet Manresa",
@@ -10359,7 +10399,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "12",
           "venue": null,
           "home_team": "Baskonia",
           "away_team": "CB San Pablo Burgos",
@@ -10374,7 +10414,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "13",
           "venue": null,
           "home_team": "CB San Pablo Burgos",
           "away_team": "CB Gran Canaria",
@@ -10389,7 +10429,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "14",
           "venue": null,
           "home_team": "Fundación CB Granada",
           "away_team": "CB San Pablo Burgos",
@@ -10404,7 +10444,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "15",
           "venue": null,
           "home_team": "CB San Pablo Burgos",
           "away_team": "Joventut Badalona",
@@ -10419,7 +10459,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "16",
           "venue": null,
           "home_team": "CB San Pablo Burgos",
           "away_team": "Barça",
@@ -10434,7 +10474,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "17",
           "venue": null,
           "home_team": "Hiopos Lleida",
           "away_team": "CB San Pablo Burgos",
@@ -10449,7 +10489,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "18",
           "venue": null,
           "home_team": "Basquet Girona",
           "away_team": "CB San Pablo Burgos",
@@ -10540,13 +10580,13 @@
           "blocks": 2,
           "rating": 12,
           "match_id": "104474",
-          "jornada": 1,
+          "jornada": 2,
           "opponent": "Río Breogán",
           "home_away": "Away",
           "team_score": 113,
           "opponent_score": 90,
           "date": "2025-10-12",
-          "round": "1"
+          "round": "2"
         },
         {
           "name": "O. Moore",
@@ -10567,13 +10607,13 @@
           "blocks": 2,
           "rating": 12,
           "match_id": "104483",
-          "jornada": 1,
+          "jornada": 3,
           "opponent": "Hiopos Lleida",
           "home_away": "Away",
           "team_score": 99,
           "opponent_score": 78,
           "date": "2025-10-19",
-          "round": "1"
+          "round": "3"
         },
         {
           "name": "O. Moore",
@@ -10594,13 +10634,13 @@
           "blocks": 1,
           "rating": 6,
           "match_id": "104493",
-          "jornada": 1,
+          "jornada": 4,
           "opponent": "Joventut Badalona",
           "home_away": "Home",
           "team_score": 102,
           "opponent_score": 90,
           "date": "2025-10-26",
-          "round": "1"
+          "round": "4"
         },
         {
           "name": "O. Moore",
@@ -10621,13 +10661,13 @@
           "blocks": 2,
           "rating": 4,
           "match_id": "104502",
-          "jornada": 1,
+          "jornada": 5,
           "opponent": "CB San Pablo Burgos",
           "home_away": "Home",
           "team_score": 100,
           "opponent_score": 82,
           "date": "2025-11-02",
-          "round": "1"
+          "round": "5"
         },
         {
           "name": "O. Moore",
@@ -10648,13 +10688,13 @@
           "blocks": 4,
           "rating": 16,
           "match_id": "104510",
-          "jornada": 1,
+          "jornada": 6,
           "opponent": "Fundación CB Granada",
           "home_away": "Away",
           "team_score": 79,
           "opponent_score": 85,
           "date": "2025-11-09",
-          "round": "1"
+          "round": "6"
         },
         {
           "name": "O. Moore",
@@ -10675,13 +10715,13 @@
           "blocks": 2,
           "rating": 15,
           "match_id": "104518",
-          "jornada": 1,
+          "jornada": 7,
           "opponent": "CB 1939 Canarias",
           "home_away": "Home",
           "team_score": 96,
           "opponent_score": 79,
           "date": "2025-11-16",
-          "round": "1"
+          "round": "7"
         },
         {
           "name": "O. Moore",
@@ -10702,13 +10742,13 @@
           "blocks": 3,
           "rating": 11,
           "match_id": "104539",
-          "jornada": 1,
+          "jornada": 9,
           "opponent": "Baskonia",
           "home_away": "Away",
           "team_score": 91,
           "opponent_score": 89,
           "date": "2025-12-07",
-          "round": "1"
+          "round": "9"
         },
         {
           "name": "O. Moore",
@@ -10729,13 +10769,13 @@
           "blocks": 2,
           "rating": 18,
           "match_id": "104547",
-          "jornada": 1,
+          "jornada": 10,
           "opponent": "Basket Zaragoza",
           "home_away": "Home",
           "team_score": 115,
           "opponent_score": 73,
           "date": "2026-01-12",
-          "round": "1"
+          "round": "10"
         },
         {
           "name": "O. Moore",
@@ -10756,13 +10796,13 @@
           "blocks": 3,
           "rating": 12,
           "match_id": "104555",
-          "jornada": 1,
+          "jornada": 11,
           "opponent": "CB Murcia",
           "home_away": "Away",
           "team_score": 80,
           "opponent_score": 92,
           "date": "2025-12-21",
-          "round": "1"
+          "round": "11"
         },
         {
           "name": "O. Moore",
@@ -10783,13 +10823,13 @@
           "blocks": 0,
           "rating": 6,
           "match_id": "104565",
-          "jornada": 1,
+          "jornada": 12,
           "opponent": "BC Andorra",
           "home_away": "Home",
           "team_score": 84,
           "opponent_score": 79,
           "date": "2025-12-28",
-          "round": "1"
+          "round": "12"
         },
         {
           "name": "O. Moore",
@@ -10810,13 +10850,13 @@
           "blocks": 2,
           "rating": 18,
           "match_id": "104584",
-          "jornada": 1,
+          "jornada": 14,
           "opponent": "Basquet Manresa",
           "home_away": "Home",
           "team_score": 103,
           "opponent_score": 76,
           "date": "2026-01-04",
-          "round": "1"
+          "round": "14"
         },
         {
           "name": "O. Moore",
@@ -10837,13 +10877,13 @@
           "blocks": 1,
           "rating": -1,
           "match_id": "104590",
-          "jornada": 1,
+          "jornada": 15,
           "opponent": "Baloncesto Málaga",
           "home_away": "Home",
           "team_score": 70,
           "opponent_score": 76,
           "date": "2026-01-10",
-          "round": "1"
+          "round": "15"
         },
         {
           "name": "O. Moore",
@@ -10864,13 +10904,13 @@
           "blocks": 1,
           "rating": 7,
           "match_id": "104602",
-          "jornada": 1,
+          "jornada": 16,
           "opponent": "Real Madrid Baloncesto",
           "home_away": "Away",
           "team_score": 79,
           "opponent_score": 94,
           "date": "2026-01-18",
-          "round": "1"
+          "round": "16"
         },
         {
           "name": "O. Moore",
@@ -10891,13 +10931,13 @@
           "blocks": 1,
           "rating": -1,
           "match_id": "104608",
-          "jornada": 1,
+          "jornada": 17,
           "opponent": "CB Gran Canaria",
           "home_away": "Away",
           "team_score": 90,
           "opponent_score": 80,
           "date": "2026-01-25",
-          "round": "1"
+          "round": "17"
         }
       ],
       "past_games": [
@@ -10918,7 +10958,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "2",
           "venue": null,
           "home_team": "Río Breogán",
           "away_team": "Valencia Basket",
@@ -10933,7 +10973,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "3",
           "venue": null,
           "home_team": "Hiopos Lleida",
           "away_team": "Valencia Basket",
@@ -10948,7 +10988,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "4",
           "venue": null,
           "home_team": "Valencia Basket",
           "away_team": "Joventut Badalona",
@@ -10963,7 +11003,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "5",
           "venue": null,
           "home_team": "Valencia Basket",
           "away_team": "CB San Pablo Burgos",
@@ -10978,7 +11018,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "6",
           "venue": null,
           "home_team": "Fundación CB Granada",
           "away_team": "Valencia Basket",
@@ -10993,7 +11033,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "7",
           "venue": null,
           "home_team": "Valencia Basket",
           "away_team": "CB 1939 Canarias",
@@ -11008,7 +11048,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "8",
           "venue": null,
           "home_team": "Valencia Basket",
           "away_team": "Basquet Girona",
@@ -11023,7 +11063,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "9",
           "venue": null,
           "home_team": "Baskonia",
           "away_team": "Valencia Basket",
@@ -11038,7 +11078,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "10",
           "venue": null,
           "home_team": "Valencia Basket",
           "away_team": "Basket Zaragoza",
@@ -11053,7 +11093,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "11",
           "venue": null,
           "home_team": "CB Murcia",
           "away_team": "Valencia Basket",
@@ -11068,7 +11108,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "12",
           "venue": null,
           "home_team": "Valencia Basket",
           "away_team": "BC Andorra",
@@ -11083,7 +11123,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "13",
           "venue": null,
           "home_team": "Bilbao Basket",
           "away_team": "Valencia Basket",
@@ -11098,7 +11138,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "14",
           "venue": null,
           "home_team": "Valencia Basket",
           "away_team": "Basquet Manresa",
@@ -11113,7 +11153,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "15",
           "venue": null,
           "home_team": "Valencia Basket",
           "away_team": "Baloncesto Málaga",
@@ -11128,7 +11168,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "16",
           "venue": null,
           "home_team": "Real Madrid Baloncesto",
           "away_team": "Valencia Basket",
@@ -11143,7 +11183,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "17",
           "venue": null,
           "home_team": "CB Gran Canaria",
           "away_team": "Valencia Basket",
@@ -11206,7 +11246,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "2",
           "venue": null,
           "home_team": "BC Andorra",
           "away_team": "CB 1939 Canarias",
@@ -11221,7 +11261,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "3",
           "venue": null,
           "home_team": "CB 1939 Canarias",
           "away_team": "CB Murcia",
@@ -11236,7 +11276,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "4",
           "venue": null,
           "home_team": "CB 1939 Canarias",
           "away_team": "Baloncesto Málaga",
@@ -11251,7 +11291,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "5",
           "venue": null,
           "home_team": "Baskonia",
           "away_team": "CB 1939 Canarias",
@@ -11266,7 +11306,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "6",
           "venue": null,
           "home_team": "CB 1939 Canarias",
           "away_team": "CB San Pablo Burgos",
@@ -11281,7 +11321,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "7",
           "venue": null,
           "home_team": "Valencia Basket",
           "away_team": "CB 1939 Canarias",
@@ -11296,7 +11336,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "8",
           "venue": null,
           "home_team": "Basket Zaragoza",
           "away_team": "CB 1939 Canarias",
@@ -11311,7 +11351,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "9",
           "venue": null,
           "home_team": "CB 1939 Canarias",
           "away_team": "Real Madrid Baloncesto",
@@ -11326,7 +11366,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "10",
           "venue": null,
           "home_team": "Río Breogán",
           "away_team": "CB 1939 Canarias",
@@ -11341,7 +11381,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "11",
           "venue": null,
           "home_team": "Basquet Girona",
           "away_team": "CB 1939 Canarias",
@@ -11356,7 +11396,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "12",
           "venue": null,
           "home_team": "CB 1939 Canarias",
           "away_team": "CB Gran Canaria",
@@ -11371,7 +11411,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "13",
           "venue": null,
           "home_team": "CB 1939 Canarias",
           "away_team": "Fundación CB Granada",
@@ -11386,7 +11426,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "14",
           "venue": null,
           "home_team": "Joventut Badalona",
           "away_team": "CB 1939 Canarias",
@@ -11401,7 +11441,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "15",
           "venue": null,
           "home_team": "CB 1939 Canarias",
           "away_team": "Hiopos Lleida",
@@ -11416,7 +11456,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "16",
           "venue": null,
           "home_team": "Bilbao Basket",
           "away_team": "CB 1939 Canarias",
@@ -11431,7 +11471,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "17",
           "venue": null,
           "home_team": "Barça",
           "away_team": "CB 1939 Canarias",
@@ -11494,7 +11534,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "2",
           "venue": null,
           "home_team": "Basquet Girona",
           "away_team": "CB Murcia",
@@ -11509,7 +11549,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "3",
           "venue": null,
           "home_team": "CB 1939 Canarias",
           "away_team": "CB Murcia",
@@ -11524,7 +11564,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "4",
           "venue": null,
           "home_team": "CB Murcia",
           "away_team": "Baskonia",
@@ -11539,7 +11579,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "5",
           "venue": null,
           "home_team": "Barça",
           "away_team": "CB Murcia",
@@ -11554,7 +11594,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "6",
           "venue": null,
           "home_team": "CB Murcia",
           "away_team": "Basquet Manresa",
@@ -11569,7 +11609,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "7",
           "venue": null,
           "home_team": "CB Murcia",
           "away_team": "Río Breogán",
@@ -11584,7 +11624,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "8",
           "venue": null,
           "home_team": "Hiopos Lleida",
           "away_team": "CB Murcia",
@@ -11599,7 +11639,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "9",
           "venue": null,
           "home_team": "CB San Pablo Burgos",
           "away_team": "CB Murcia",
@@ -11614,7 +11654,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "10",
           "venue": null,
           "home_team": "CB Murcia",
           "away_team": "Joventut Badalona",
@@ -11629,7 +11669,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "11",
           "venue": null,
           "home_team": "CB Murcia",
           "away_team": "Valencia Basket",
@@ -11644,7 +11684,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "12",
           "venue": null,
           "home_team": "Fundación CB Granada",
           "away_team": "CB Murcia",
@@ -11659,7 +11699,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "13",
           "venue": null,
           "home_team": "CB Murcia",
           "away_team": "Real Madrid Baloncesto",
@@ -11674,7 +11714,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "14",
           "venue": null,
           "home_team": "CB Gran Canaria",
           "away_team": "CB Murcia",
@@ -11689,7 +11729,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "15",
           "venue": null,
           "home_team": "Bilbao Basket",
           "away_team": "CB Murcia",
@@ -11704,7 +11744,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "16",
           "venue": null,
           "home_team": "CB Murcia",
           "away_team": "Basket Zaragoza",
@@ -11719,7 +11759,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "17",
           "venue": null,
           "home_team": "Baloncesto Málaga",
           "away_team": "CB Murcia",
@@ -11807,10 +11847,10 @@
           "blocks": 4,
           "rating": 13,
           "match_id": "104468",
-          "jornada": 1,
+          "jornada": 2,
           "opponent": "Basquet Girona vs CB Murcia",
           "date": "2025-10-11",
-          "round": "1"
+          "round": "2"
         },
         {
           "name": "M. Forrest",
@@ -11831,10 +11871,10 @@
           "blocks": 2,
           "rating": -2,
           "match_id": "104478",
-          "jornada": 1,
+          "jornada": 3,
           "opponent": "CB 1939 Canarias vs CB Murcia",
           "date": "2025-10-18",
-          "round": "1"
+          "round": "3"
         },
         {
           "name": "M. Forrest",
@@ -11855,13 +11895,13 @@
           "blocks": 3,
           "rating": 9,
           "match_id": "104491",
-          "jornada": 1,
+          "jornada": 4,
           "opponent": "CB Murcia",
           "home_away": "Away",
           "team_score": 84,
           "opponent_score": 89,
           "date": "2025-10-26",
-          "round": "1"
+          "round": "4"
         },
         {
           "name": "M. Forrest",
@@ -11882,10 +11922,10 @@
           "blocks": 5,
           "rating": 13,
           "match_id": "104501",
-          "jornada": 1,
+          "jornada": 5,
           "opponent": "Barça vs CB Murcia",
           "date": "2025-11-02",
-          "round": "1"
+          "round": "5"
         },
         {
           "name": "M. Forrest",
@@ -11906,10 +11946,10 @@
           "blocks": 3,
           "rating": -1,
           "match_id": "104504",
-          "jornada": 1,
+          "jornada": 6,
           "opponent": "CB Murcia vs Basquet Manresa",
           "date": "2025-11-08",
-          "round": "1"
+          "round": "6"
         },
         {
           "name": "M. Forrest",
@@ -11930,10 +11970,10 @@
           "blocks": 1,
           "rating": 7,
           "match_id": "104520",
-          "jornada": 1,
+          "jornada": 7,
           "opponent": "CB Murcia vs Río Breogán",
           "date": "2025-11-16",
-          "round": "1"
+          "round": "7"
         },
         {
           "name": "M. Forrest",
@@ -11954,10 +11994,10 @@
           "blocks": 3,
           "rating": 10,
           "match_id": "104522",
-          "jornada": 1,
+          "jornada": 8,
           "opponent": "Hiopos Lleida vs CB Murcia",
           "date": "2025-11-22",
-          "round": "1"
+          "round": "8"
         },
         {
           "name": "M. Forrest",
@@ -11978,10 +12018,10 @@
           "blocks": 3,
           "rating": 22,
           "match_id": "104531",
-          "jornada": 1,
+          "jornada": 9,
           "opponent": "CB San Pablo Burgos vs CB Murcia",
           "date": "2025-12-06",
-          "round": "1"
+          "round": "9"
         },
         {
           "name": "M. Forrest",
@@ -12002,10 +12042,10 @@
           "blocks": 1,
           "rating": 0,
           "match_id": "104540",
-          "jornada": 1,
+          "jornada": 10,
           "opponent": "CB Murcia vs Joventut Badalona",
           "date": "2025-12-14",
-          "round": "1"
+          "round": "10"
         },
         {
           "name": "M. Forrest",
@@ -12026,10 +12066,10 @@
           "blocks": 2,
           "rating": 25,
           "match_id": "104555",
-          "jornada": 1,
+          "jornada": 11,
           "opponent": "CB Murcia vs Valencia Basket",
           "date": "2025-12-21",
-          "round": "1"
+          "round": "11"
         },
         {
           "name": "M. Forrest",
@@ -12050,10 +12090,10 @@
           "blocks": 5,
           "rating": 1,
           "match_id": "104560",
-          "jornada": 1,
+          "jornada": 12,
           "opponent": "Fundación CB Granada vs CB Murcia",
           "date": "2025-12-27",
-          "round": "1"
+          "round": "12"
         },
         {
           "name": "M. Forrest",
@@ -12074,10 +12114,10 @@
           "blocks": 1,
           "rating": 6,
           "match_id": "104571",
-          "jornada": 1,
+          "jornada": 13,
           "opponent": "CB Murcia vs Real Madrid Baloncesto",
           "date": "2025-12-30",
-          "round": "1"
+          "round": "13"
         },
         {
           "name": "M. Forrest",
@@ -12098,10 +12138,10 @@
           "blocks": 2,
           "rating": 13,
           "match_id": "104578",
-          "jornada": 1,
+          "jornada": 14,
           "opponent": "CB Gran Canaria vs CB Murcia",
           "date": "2026-01-03",
-          "round": "1"
+          "round": "14"
         },
         {
           "name": "M. Forrest",
@@ -12122,10 +12162,10 @@
           "blocks": 1,
           "rating": 10,
           "match_id": "104586",
-          "jornada": 1,
+          "jornada": 15,
           "opponent": "Bilbao Basket vs CB Murcia",
           "date": "2026-01-10",
-          "round": "1"
+          "round": "15"
         },
         {
           "name": "M. Forrest",
@@ -12146,10 +12186,10 @@
           "blocks": 1,
           "rating": 7,
           "match_id": "104601",
-          "jornada": 1,
+          "jornada": 16,
           "opponent": "CB Murcia vs Basket Zaragoza",
           "date": "2026-01-18",
-          "round": "1"
+          "round": "16"
         },
         {
           "name": "M. Forrest",
@@ -12170,10 +12210,10 @@
           "blocks": 1,
           "rating": -7,
           "match_id": "104610",
-          "jornada": 1,
+          "jornada": 17,
           "opponent": "Baloncesto Málaga vs CB Murcia",
           "date": "2026-01-25",
-          "round": "1"
+          "round": "17"
         }
       ],
       "past_games": [
@@ -12194,7 +12234,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "2",
           "venue": null,
           "home_team": "Baskonia",
           "away_team": "Real Madrid Baloncesto",
@@ -12209,7 +12249,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "3",
           "venue": null,
           "home_team": "Fundación CB Granada",
           "away_team": "Baskonia",
@@ -12224,7 +12264,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "4",
           "venue": null,
           "home_team": "CB Murcia",
           "away_team": "Baskonia",
@@ -12239,7 +12279,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "5",
           "venue": null,
           "home_team": "Baskonia",
           "away_team": "CB 1939 Canarias",
@@ -12254,7 +12294,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "6",
           "venue": null,
           "home_team": "Hiopos Lleida",
           "away_team": "Baskonia",
@@ -12269,7 +12309,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "7",
           "venue": null,
           "home_team": "Barça",
           "away_team": "Baskonia",
@@ -12284,7 +12324,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "8",
           "venue": null,
           "home_team": "Baskonia",
           "away_team": "Bilbao Basket",
@@ -12299,7 +12339,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "9",
           "venue": null,
           "home_team": "Baskonia",
           "away_team": "Valencia Basket",
@@ -12314,7 +12354,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "11",
           "venue": null,
           "home_team": "Baloncesto Málaga",
           "away_team": "Baskonia",
@@ -12329,7 +12369,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "12",
           "venue": null,
           "home_team": "Baskonia",
           "away_team": "CB San Pablo Burgos",
@@ -12344,7 +12384,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "13",
           "venue": null,
           "home_team": "Río Breogán",
           "away_team": "Baskonia",
@@ -12359,7 +12399,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "14",
           "venue": null,
           "home_team": "Baskonia",
           "away_team": "BC Andorra",
@@ -12374,7 +12414,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "15",
           "venue": null,
           "home_team": "Basquet Girona",
           "away_team": "Baskonia",
@@ -12389,7 +12429,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "16",
           "venue": null,
           "home_team": "Baskonia",
           "away_team": "Basquet Manresa",
@@ -12404,7 +12444,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "17",
           "venue": null,
           "home_team": "Baskonia",
           "away_team": "Joventut Badalona",
@@ -12418,23 +12458,7 @@
           "result": "W"
         }
       ],
-      "upcoming_games": [
-        {
-          "date": "Dom 8-",
-          "round": "1",
-          "venue": null,
-          "home_team": "CB Gran Canaria",
-          "away_team": "Baskonia",
-          "home_score": null,
-          "away_score": null,
-          "played": false,
-          "opponent": "CB Gran Canaria",
-          "home_away": "Away",
-          "team_score": null,
-          "opponent_score": null,
-          "result": null
-        }
-      ],
+      "upcoming_games": [],
       "season": "2025-26",
       "league": "Liga ACB"
     },
@@ -12483,7 +12507,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "2",
           "venue": null,
           "home_team": "Basquet Girona",
           "away_team": "CB Murcia",
@@ -12498,7 +12522,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "3",
           "venue": null,
           "home_team": "CB 1939 Canarias",
           "away_team": "CB Murcia",
@@ -12513,7 +12537,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "4",
           "venue": null,
           "home_team": "CB Murcia",
           "away_team": "Baskonia",
@@ -12528,7 +12552,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "5",
           "venue": null,
           "home_team": "Barça",
           "away_team": "CB Murcia",
@@ -12543,7 +12567,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "6",
           "venue": null,
           "home_team": "CB Murcia",
           "away_team": "Basquet Manresa",
@@ -12558,7 +12582,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "7",
           "venue": null,
           "home_team": "CB Murcia",
           "away_team": "Río Breogán",
@@ -12573,7 +12597,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "8",
           "venue": null,
           "home_team": "Hiopos Lleida",
           "away_team": "CB Murcia",
@@ -12588,7 +12612,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "9",
           "venue": null,
           "home_team": "CB San Pablo Burgos",
           "away_team": "CB Murcia",
@@ -12603,7 +12627,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "10",
           "venue": null,
           "home_team": "CB Murcia",
           "away_team": "Joventut Badalona",
@@ -12618,7 +12642,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "11",
           "venue": null,
           "home_team": "CB Murcia",
           "away_team": "Valencia Basket",
@@ -12633,7 +12657,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "12",
           "venue": null,
           "home_team": "Fundación CB Granada",
           "away_team": "CB Murcia",
@@ -12648,7 +12672,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "13",
           "venue": null,
           "home_team": "CB Murcia",
           "away_team": "Real Madrid Baloncesto",
@@ -12663,7 +12687,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "14",
           "venue": null,
           "home_team": "CB Gran Canaria",
           "away_team": "CB Murcia",
@@ -12678,7 +12702,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "15",
           "venue": null,
           "home_team": "Bilbao Basket",
           "away_team": "CB Murcia",
@@ -12693,7 +12717,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "16",
           "venue": null,
           "home_team": "CB Murcia",
           "away_team": "Basket Zaragoza",
@@ -12708,7 +12732,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "17",
           "venue": null,
           "home_team": "Baloncesto Málaga",
           "away_team": "CB Murcia",
@@ -12748,8 +12772,8 @@
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/95db4y1619819099.jpg",
       "instagram": "",
       "twitter": "",
-      "games_played": 16,
-      "ppg": 5.8,
+      "games_played": 17,
+      "ppg": 6.1,
       "rpg": 2.2,
       "apg": 2.4,
       "game_log": [
@@ -12799,13 +12823,13 @@
           "blocks": 0,
           "rating": 0,
           "match_id": "104470",
-          "jornada": 1,
+          "jornada": 2,
           "opponent": "CB Gran Canaria",
           "home_away": "Away",
           "team_score": 81,
           "opponent_score": 72,
           "date": "2025-10-11",
-          "round": "1"
+          "round": "2"
         },
         {
           "name": "T. Kalinoski",
@@ -12826,13 +12850,13 @@
           "blocks": 1,
           "rating": -1,
           "match_id": "104485",
-          "jornada": 1,
+          "jornada": 3,
           "opponent": "Barça",
           "home_away": "Home",
           "team_score": 77,
           "opponent_score": 83,
           "date": "2025-10-19",
-          "round": "1"
+          "round": "3"
         },
         {
           "name": "T. Kalinoski",
@@ -12853,13 +12877,13 @@
           "blocks": 1,
           "rating": 8,
           "match_id": "104488",
-          "jornada": 1,
+          "jornada": 4,
           "opponent": "CB 1939 Canarias",
           "home_away": "Away",
           "team_score": 79,
           "opponent_score": 95,
           "date": "2025-10-25",
-          "round": "1"
+          "round": "4"
         },
         {
           "name": "T. Kalinoski",
@@ -12880,13 +12904,13 @@
           "blocks": 0,
           "rating": 2,
           "match_id": "104496",
-          "jornada": 1,
+          "jornada": 5,
           "opponent": "Basquet Girona",
           "home_away": "Home",
           "team_score": 95,
           "opponent_score": 71,
           "date": "2025-11-01",
-          "round": "1"
+          "round": "5"
         },
         {
           "name": "T. Kalinoski",
@@ -12907,13 +12931,13 @@
           "blocks": 0,
           "rating": -3,
           "match_id": "104507",
-          "jornada": 1,
+          "jornada": 6,
           "opponent": "BC Andorra",
           "home_away": "Away",
           "team_score": 74,
           "opponent_score": 98,
           "date": "2025-11-08",
-          "round": "1"
+          "round": "6"
         },
         {
           "name": "T. Kalinoski",
@@ -12934,13 +12958,13 @@
           "blocks": 2,
           "rating": 22,
           "match_id": "104514",
-          "jornada": 1,
+          "jornada": 7,
           "opponent": "Basket Zaragoza",
           "home_away": "Away",
           "team_score": 86,
           "opponent_score": 79,
           "date": "2025-11-15",
-          "round": "1"
+          "round": "7"
         },
         {
           "name": "T. Kalinoski",
@@ -12961,13 +12985,13 @@
           "blocks": 0,
           "rating": 2,
           "match_id": "104524",
-          "jornada": 1,
+          "jornada": 8,
           "opponent": "Basquet Manresa",
           "home_away": "Home",
           "team_score": 105,
           "opponent_score": 82,
           "date": "2025-11-22",
-          "round": "1"
+          "round": "8"
         },
         {
           "name": "T. Kalinoski",
@@ -12988,13 +13012,13 @@
           "blocks": 1,
           "rating": 3,
           "match_id": "104532",
-          "jornada": 1,
+          "jornada": 9,
           "opponent": "Hiopos Lleida",
           "home_away": "Away",
           "team_score": 89,
           "opponent_score": 88,
           "date": "2025-12-06",
-          "round": "1"
+          "round": "9"
         },
         {
           "name": "T. Kalinoski",
@@ -13015,13 +13039,13 @@
           "blocks": 1,
           "rating": 2,
           "match_id": "104545",
-          "jornada": 1,
+          "jornada": 10,
           "opponent": "CB San Pablo Burgos",
           "home_away": "Home",
           "team_score": 99,
           "opponent_score": 91,
           "date": "2025-12-13",
-          "round": "1"
+          "round": "10"
         },
         {
           "name": "T. Kalinoski",
@@ -13042,13 +13066,13 @@
           "blocks": 2,
           "rating": 5,
           "match_id": "104557",
-          "jornada": 1,
+          "jornada": 11,
           "opponent": "Baskonia",
           "home_away": "Home",
           "team_score": 90,
           "opponent_score": 93,
           "date": "2025-12-21",
-          "round": "1"
+          "round": "11"
         },
         {
           "name": "T. Kalinoski",
@@ -13069,13 +13093,13 @@
           "blocks": 1,
           "rating": 1,
           "match_id": "104566",
-          "jornada": 1,
+          "jornada": 12,
           "opponent": "Real Madrid Baloncesto",
           "home_away": "Away",
           "team_score": 82,
           "opponent_score": 91,
           "date": "2025-12-28",
-          "round": "1"
+          "round": "12"
         },
         {
           "name": "T. Kalinoski",
@@ -13096,13 +13120,13 @@
           "blocks": 0,
           "rating": 14,
           "match_id": "104569",
-          "jornada": 1,
+          "jornada": 13,
           "opponent": "Joventut Badalona",
           "home_away": "Home",
           "team_score": 105,
           "opponent_score": 83,
           "date": "2025-12-30",
-          "round": "1"
+          "round": "13"
         },
         {
           "name": "T. Kalinoski",
@@ -13123,13 +13147,13 @@
           "blocks": 1,
           "rating": -2,
           "match_id": "104576",
-          "jornada": 1,
+          "jornada": 14,
           "opponent": "Río Breogán",
           "home_away": "Away",
           "team_score": 82,
           "opponent_score": 98,
           "date": "2026-01-03",
-          "round": "1"
+          "round": "14"
         },
         {
           "name": "T. Kalinoski",
@@ -13150,13 +13174,13 @@
           "blocks": 0,
           "rating": -3,
           "match_id": "104590",
-          "jornada": 1,
+          "jornada": 15,
           "opponent": "Valencia Basket",
           "home_away": "Away",
           "team_score": 76,
           "opponent_score": 70,
           "date": "2026-01-10",
-          "round": "1"
+          "round": "15"
         },
         {
           "name": "T. Kalinoski",
@@ -13177,13 +13201,40 @@
           "blocks": 1,
           "rating": 3,
           "match_id": "104594",
-          "jornada": 1,
+          "jornada": 16,
           "opponent": "Fundación CB Granada",
           "home_away": "Home",
           "team_score": 88,
           "opponent_score": 79,
           "date": "2026-01-17",
-          "round": "1"
+          "round": "16"
+        },
+        {
+          "name": "T. Kalinoski",
+          "acb_id": "30001169",
+          "minutes": "21:41",
+          "points": 11,
+          "fg2_made": 2,
+          "fg2_attempted": 5,
+          "fg3_made": 2,
+          "fg3_attempted": 4,
+          "ft_made": 1,
+          "ft_attempted": 2,
+          "rebounds": 2,
+          "def_rebounds": 2,
+          "off_rebounds": 0,
+          "assists": 2,
+          "steals": 2,
+          "blocks": 2,
+          "rating": 10,
+          "match_id": "104616",
+          "jornada": 18,
+          "opponent": "Basquet Manresa",
+          "home_away": "Away",
+          "team_score": 98,
+          "opponent_score": 92,
+          "date": "2026-02-01",
+          "round": "18"
         }
       ],
       "past_games": [
@@ -13204,7 +13255,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "2",
           "venue": null,
           "home_team": "CB Gran Canaria",
           "away_team": "Baloncesto Málaga",
@@ -13219,7 +13270,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "3",
           "venue": null,
           "home_team": "Baloncesto Málaga",
           "away_team": "Barça",
@@ -13234,7 +13285,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "4",
           "venue": null,
           "home_team": "CB 1939 Canarias",
           "away_team": "Baloncesto Málaga",
@@ -13249,7 +13300,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "5",
           "venue": null,
           "home_team": "Baloncesto Málaga",
           "away_team": "Basquet Girona",
@@ -13264,7 +13315,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "6",
           "venue": null,
           "home_team": "BC Andorra",
           "away_team": "Baloncesto Málaga",
@@ -13279,7 +13330,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "7",
           "venue": null,
           "home_team": "Basket Zaragoza",
           "away_team": "Baloncesto Málaga",
@@ -13294,7 +13345,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "8",
           "venue": null,
           "home_team": "Baloncesto Málaga",
           "away_team": "Basquet Manresa",
@@ -13309,7 +13360,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "9",
           "venue": null,
           "home_team": "Hiopos Lleida",
           "away_team": "Baloncesto Málaga",
@@ -13324,7 +13375,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "10",
           "venue": null,
           "home_team": "Baloncesto Málaga",
           "away_team": "CB San Pablo Burgos",
@@ -13339,7 +13390,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "11",
           "venue": null,
           "home_team": "Baloncesto Málaga",
           "away_team": "Baskonia",
@@ -13354,7 +13405,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "12",
           "venue": null,
           "home_team": "Real Madrid Baloncesto",
           "away_team": "Baloncesto Málaga",
@@ -13369,7 +13420,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "13",
           "venue": null,
           "home_team": "Baloncesto Málaga",
           "away_team": "Joventut Badalona",
@@ -13384,7 +13435,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "14",
           "venue": null,
           "home_team": "Río Breogán",
           "away_team": "Baloncesto Málaga",
@@ -13399,7 +13450,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "15",
           "venue": null,
           "home_team": "Valencia Basket",
           "away_team": "Baloncesto Málaga",
@@ -13414,7 +13465,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "16",
           "venue": null,
           "home_team": "Baloncesto Málaga",
           "away_team": "Fundación CB Granada",
@@ -13429,7 +13480,7 @@
         },
         {
           "date": null,
-          "round": "1",
+          "round": "17",
           "venue": null,
           "home_team": "Baloncesto Málaga",
           "away_team": "CB Murcia",
@@ -13440,6 +13491,21 @@
           "home_away": "Home",
           "team_score": 92,
           "opponent_score": 88,
+          "result": "W"
+        },
+        {
+          "date": null,
+          "round": "18",
+          "venue": null,
+          "home_team": "Basquet Manresa",
+          "away_team": "Baloncesto Málaga",
+          "home_score": 92,
+          "away_score": 98,
+          "played": true,
+          "opponent": "Basquet Manresa",
+          "home_away": "Away",
+          "team_score": 98,
+          "opponent_score": 92,
           "result": "W"
         }
       ],

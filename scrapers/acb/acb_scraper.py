@@ -500,94 +500,142 @@ def fetch_box_score(match_id):
     return box_score
 
 
+def parse_jornada_date(header_text):
+    """
+    Parse date range from jornada header text.
+    Example: 'Liga Endesa 2025-2026 - Jornada 1831 Ene 2026 y 1 Feb 2026'
+    Returns tuple of (start_date, end_date) in YYYY-MM-DD format, or (None, None).
+    """
+    # Spanish month mapping
+    month_map = {
+        'ene': '01', 'feb': '02', 'mar': '03', 'abr': '04',
+        'may': '05', 'jun': '06', 'jul': '07', 'ago': '08',
+        'sep': '09', 'oct': '10', 'nov': '11', 'dic': '12'
+    }
+
+    # Try to find date patterns like "31 Ene 2026" or "4-5 Oct 2025"
+    date_pattern = re.compile(r'(\d{1,2})(?:-(\d{1,2}))?\s+(Ene|Feb|Mar|Abr|May|Jun|Jul|Ago|Sep|Oct|Nov|Dic)\s+(\d{4})', re.I)
+    matches = date_pattern.findall(header_text)
+
+    dates = []
+    for match in matches:
+        day1, day2, month, year = match
+        month_num = month_map.get(month.lower(), '01')
+        dates.append(f"{year}-{month_num}-{day1.zfill(2)}")
+        if day2:
+            dates.append(f"{year}-{month_num}-{day2.zfill(2)}")
+
+    if dates:
+        return dates[0], dates[-1] if len(dates) > 1 else dates[0]
+    return None, None
+
+
 def fetch_season_matches():
     """
     Fetch list of all matches for the current season.
     Returns list of match details including teams, dates, scores.
+
+    The ACB calendar page shows ALL jornadas on a single page, organized into
+    div.listado_partidos sections (one per jornada). We use the section index
+    to determine the jornada number.
     """
     matches = []
 
-    # Fetch calendar page for each jornada
-    for jornada in range(1, 35):  # 34 regular season rounds
-        url = f"{ACB_BASE_URL}/calendario/index/temporada_id/{SEASON_ID}/competicion_id/1/jornada_numero/{jornada}"
-        html = fetch_page(url)
+    # Fetch a single calendar page - it contains all jornadas
+    url = f"{ACB_BASE_URL}/calendario/index/temporada_id/{SEASON_ID}/competicion_id/1/jornada_numero/1"
+    logger.info(f"Fetching calendar page: {url}")
+    html = fetch_page(url)
 
-        if not html:
-            continue
+    if not html:
+        logger.error("Failed to fetch calendar page")
+        return matches
 
-        soup = BeautifulSoup(html, 'html.parser')
+    soup = BeautifulSoup(html, 'html.parser')
 
-        # Find all game containers
-        game_containers = soup.find_all('div', class_='partido')
-        if not game_containers:
-            game_containers = soup.find_all('article', class_='partido')
+    # Find all listado_partidos divs (one per jornada)
+    listados = soup.find_all('div', class_='listado_partidos')
+    logger.info(f"Found {len(listados)} jornada sections")
 
-        for container in game_containers:
+    # Process each jornada section
+    for i, listado in enumerate(listados):
+        jornada = i + 1  # Jornada 1 is index 0
+
+        # Get jornada date from preceding header
+        jornada_date_start = None
+        jornada_date_end = None
+        prev_sibling = listado.find_previous_sibling()
+        if prev_sibling:
+            header_text = prev_sibling.get_text(strip=True)
+            jornada_date_start, jornada_date_end = parse_jornada_date(header_text)
+
+        # Find all game articles within this jornada section
+        game_articles = listado.find_all('article', class_='partido')
+
+        for article in game_articles:
             match_data = {
                 'jornada': jornada,
                 'round': str(jornada),
+                'jornada_date_start': jornada_date_start,
+                'jornada_date_end': jornada_date_end,
             }
 
             # Find match ID from stats link
-            stats_link = container.find('a', href=re.compile(r'/partido/estadisticas/id/\d+'))
+            stats_link = article.find('a', href=re.compile(r'/partido/estadisticas/id/\d+'))
             if stats_link:
                 href = stats_link.get('href', '')
                 match_id_match = re.search(r'/partido/estadisticas/id/(\d+)', href)
                 if match_id_match:
                     match_data['match_id'] = match_id_match.group(1)
 
-            # Find team names
-            team_elements = container.find_all('span', class_='nombre_equipo')
-            if not team_elements:
-                team_elements = container.find_all('div', class_='equipo')
-            if len(team_elements) >= 2:
-                match_data['home_team'] = team_elements[0].get_text(strip=True)
-                match_data['away_team'] = team_elements[1].get_text(strip=True)
+            # Find team names from div.equipo elements
+            # Home team: div.equipo.local > span.nombre_largo
+            # Away team: div.equipo.visitante > span.nombre_largo
+            home_div = article.find('div', class_=lambda c: c and 'equipo' in c and 'local' in c)
+            away_div = article.find('div', class_=lambda c: c and 'equipo' in c and 'visitante' in c)
 
-            # Find scores
-            score_elements = container.find_all('span', class_='resultado')
-            if not score_elements:
-                score_elements = container.find_all('div', class_='resultado')
-            if len(score_elements) >= 2:
-                try:
-                    match_data['home_score'] = int(score_elements[0].get_text(strip=True))
-                    match_data['away_score'] = int(score_elements[1].get_text(strip=True))
-                    match_data['played'] = True
-                except (ValueError, TypeError):
+            if home_div:
+                name_span = home_div.find('span', class_='nombre_largo')
+                if not name_span:
+                    name_span = home_div.find('span', class_='nombre_corto')
+                if name_span:
+                    match_data['home_team'] = name_span.get_text(strip=True)
+
+            if away_div:
+                name_span = away_div.find('span', class_='nombre_largo')
+                if not name_span:
+                    name_span = away_div.find('span', class_='nombre_corto')
+                if name_span:
+                    match_data['away_team'] = name_span.get_text(strip=True)
+
+            # Find scores from div.resultado elements
+            # Home score: div.resultado.local > a
+            # Away score: div.resultado.visitante > a
+            home_score_div = article.find('div', class_=lambda c: c and 'resultado' in c and 'local' in c)
+            away_score_div = article.find('div', class_=lambda c: c and 'resultado' in c and 'visitante' in c)
+
+            if home_score_div and away_score_div:
+                home_score_link = home_score_div.find('a')
+                away_score_link = away_score_div.find('a')
+                if home_score_link and away_score_link:
+                    try:
+                        match_data['home_score'] = int(home_score_link.get_text(strip=True))
+                        match_data['away_score'] = int(away_score_link.get_text(strip=True))
+                        match_data['played'] = True
+                    except (ValueError, TypeError):
+                        match_data['played'] = False
+                else:
                     match_data['played'] = False
             else:
                 match_data['played'] = False
 
-            # Find date
-            date_element = container.find('span', class_='fecha')
-            if not date_element:
-                date_element = container.find('div', class_='fecha')
-            if date_element:
-                match_data['date_str'] = date_element.get_text(strip=True)
+            # Only add if we have a match_id
+            if match_data.get('match_id'):
+                matches.append(match_data)
 
-            # Only add if we have a match_id or team names
-            if match_data.get('match_id') or (match_data.get('home_team') and match_data.get('away_team')):
-                # Avoid duplicates
-                if match_data.get('match_id') not in [m.get('match_id') for m in matches]:
-                    matches.append(match_data)
+        played_in_jornada = sum(1 for m in matches if m.get('jornada') == jornada and m.get('played'))
+        logger.info(f"  Jornada {jornada}: {len(game_articles)} games found, {played_in_jornada} played")
 
-        # Also look for match links directly (fallback)
-        if not game_containers:
-            for link in soup.find_all('a', href=re.compile(r'/partido/estadisticas/id/\d+')):
-                href = link.get('href', '')
-                match_id_match = re.search(r'/partido/estadisticas/id/(\d+)', href)
-                if match_id_match:
-                    match_id = match_id_match.group(1)
-                    if match_id not in [m.get('match_id') for m in matches]:
-                        matches.append({
-                            'match_id': match_id,
-                            'jornada': jornada,
-                            'round': str(jornada),
-                        })
-
-        logger.info(f"  Jornada {jornada}: {len(matches)} total matches")
-        time.sleep(0.3)
-
+    logger.info(f"Total matches found: {len(matches)}")
     return matches
 
 

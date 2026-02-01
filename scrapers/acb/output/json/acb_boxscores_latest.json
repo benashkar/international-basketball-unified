@@ -1,8 +1,8 @@
 {
-  "export_date": "2026-01-31T22:25:23.534062",
+  "export_date": "2026-02-01T10:26:42.234400",
   "season": "2025-2026",
   "league": "Liga ACB",
-  "match_count": 156,
+  "match_count": 157,
   "box_scores": [
     {
       "match_id": "104459",
@@ -4313,7 +4313,7 @@
           "blocks": 4,
           "rating": 13,
           "match_id": "104468",
-          "jornada": 1
+          "jornada": 2
         },
         {
           "name": "S. Raieste",
@@ -5234,7 +5234,7 @@
           "blocks": 1,
           "rating": 7,
           "match_id": "104470",
-          "jornada": 1
+          "jornada": 2
         },
         {
           "name": "T. Kalinoski",
@@ -5255,7 +5255,7 @@
           "blocks": 0,
           "rating": 0,
           "match_id": "104470",
-          "jornada": 1
+          "jornada": 2
         },
         {
           "name": "J. Barreiro",
@@ -5390,7 +5390,7 @@
           "blocks": 0,
           "rating": 3,
           "match_id": "104470",
-          "jornada": 1
+          "jornada": 2
         },
         {
           "name": "K. Perry",
@@ -5590,7 +5590,7 @@
           "blocks": 2,
           "rating": 15,
           "match_id": "104471",
-          "jornada": 1
+          "jornada": 2
         },
         {
           "name": "A. Izaw-Bolavie",
@@ -5744,7 +5744,7 @@
           "blocks": 4,
           "rating": 12,
           "match_id": "104471",
-          "jornada": 1
+          "jornada": 2
         },
         {
           "name": "I. Aurrecoechea",
@@ -6296,7 +6296,7 @@
           "blocks": 1,
           "rating": 2,
           "match_id": "104472",
-          "jornada": 1
+          "jornada": 2
         }
       ],
       "date": "2025-10-12",
@@ -6325,7 +6325,7 @@
           "blocks": 2,
           "rating": 12,
           "match_id": "104473",
-          "jornada": 1
+          "jornada": 2
         },
         {
           "name": "J. Marcos",
@@ -6365,7 +6365,7 @@
           "blocks": 0,
           "rating": 7,
           "match_id": "104473",
-          "jornada": 1
+          "jornada": 2
         },
         {
           "name": "J. Vesely",
@@ -6481,7 +6481,7 @@
           "blocks": 1,
           "rating": 8,
           "match_id": "104473",
-          "jornada": 1
+          "jornada": 2
         },
         {
           "name": "T. Shengelia",
@@ -6735,7 +6735,7 @@
           "acb_id": "20210670",
           "def_rebounds": 22,
           "match_id": "104473",
-          "jornada": 1
+          "jornada": 2
         },
         {
           "name": "C. Krutwig",
@@ -7016,7 +7016,7 @@
           "blocks": 0,
           "rating": 5,
           "match_id": "104474",
-          "jornada": 1
+          "jornada": 2
         },
         {
           "name": "J. Puerto",
@@ -7056,7 +7056,7 @@
           "blocks": 2,
           "rating": 10,
           "match_id": "104474",
-          "jornada": 1
+          "jornada": 2
         },
         {
           "name": "J. Pradilla",
@@ -7115,7 +7115,7 @@
           "blocks": 2,
           "rating": 12,
           "match_id": "104474",
-          "jornada": 1
+          "jornada": 2
         },
         {
           "name": "N. Sako",
@@ -7155,7 +7155,7 @@
           "blocks": 4,
           "rating": 22,
           "match_id": "104474",
-          "jornada": 1
+          "jornada": 2
         },
         {
           "name": "I. Iroegbu",
@@ -7843,7 +7843,7 @@
           "blocks": 11,
           "rating": 43,
           "match_id": "104476",
-          "jornada": 1
+          "jornada": 2
         },
         {
           "name": "K. Diop",
@@ -8097,7 +8097,7 @@
           "blocks": 0,
           "rating": 0,
           "match_id": "104476",
-          "jornada": 1
+          "jornada": 2
         },
         {
           "name": "A. Feliz",
@@ -8283,7 +8283,7 @@
           "blocks": 0,
           "rating": 1,
           "match_id": "104477",
-          "jornada": 1
+          "jornada": 3
         },
         {
           "name": "A. Izaw-Bolavie",
@@ -9266,7 +9266,7 @@
           "blocks": 2,
           "rating": -2,
           "match_id": "104478",
-          "jornada": 1
+          "jornada": 3
         },
         {
           "name": "S. Raieste",
@@ -9680,7 +9680,7 @@
           "blocks": 0,
           "rating": 4,
           "match_id": "104479",
-          "jornada": 1
+          "jornada": 3
         },
         {
           "name": "B. Dibba",
@@ -10430,7 +10430,7 @@
           "blocks": 1,
           "rating": 7,
           "match_id": "104482",
-          "jornada": 1
+          "jornada": 3
         },
         {
           "name": "G. Procida",
@@ -10584,7 +10584,7 @@
           "blocks": 2,
           "rating": 1,
           "match_id": "104482",
-          "jornada": 1
+          "jornada": 3
         },
         {
           "name": "J. Samuels",
@@ -11031,7 +11031,7 @@
           "blocks": 0,
           "rating": 5,
           "match_id": "104483",
-          "jornada": 1
+          "jornada": 3
         },
         {
           "name": "C. Krutwig",
@@ -11090,7 +11090,7 @@
           "blocks": 3,
           "rating": 15,
           "match_id": "104483",
-          "jornada": 1
+          "jornada": 3
         },
         {
           "name": "J. Puerto",
@@ -11130,7 +11130,7 @@
           "blocks": 1,
           "rating": 13,
           "match_id": "104483",
-          "jornada": 1
+          "jornada": 3
         },
         {
           "name": "J. Pradilla",
@@ -11208,7 +11208,7 @@
           "blocks": 2,
           "rating": 12,
           "match_id": "104483",
-          "jornada": 1
+          "jornada": 3
         },
         {
           "name": "N. Sako",
@@ -11248,7 +11248,7 @@
           "blocks": 6,
           "rating": 22,
           "match_id": "104483",
-          "jornada": 1
+          "jornada": 3
         },
         {
           "name": "M. Costello",
@@ -11391,7 +11391,7 @@
           "blocks": 1,
           "rating": 5,
           "match_id": "104484",
-          "jornada": 1
+          "jornada": 3
         },
         {
           "name": "I. Aurrecoechea",
@@ -11753,7 +11753,7 @@
           "blocks": 0,
           "rating": 4,
           "match_id": "104485",
-          "jornada": 1
+          "jornada": 3
         },
         {
           "name": "T. Kalinoski",
@@ -11774,7 +11774,7 @@
           "blocks": 1,
           "rating": -1,
           "match_id": "104485",
-          "jornada": 1
+          "jornada": 3
         },
         {
           "name": "J. Barreiro",
@@ -11909,7 +11909,7 @@
           "blocks": 0,
           "rating": 10,
           "match_id": "104485",
-          "jornada": 1
+          "jornada": 3
         },
         {
           "name": "K. Perry",
@@ -11949,7 +11949,7 @@
           "blocks": 7,
           "rating": 21,
           "match_id": "104485",
-          "jornada": 1
+          "jornada": 3
         },
         {
           "name": "J. Marcos",
@@ -11989,7 +11989,7 @@
           "blocks": 1,
           "rating": 4,
           "match_id": "104485",
-          "jornada": 1
+          "jornada": 3
         },
         {
           "name": "J. Vesely",
@@ -12091,7 +12091,7 @@
           "blocks": 2,
           "rating": 12,
           "match_id": "104485",
-          "jornada": 1
+          "jornada": 3
         },
         {
           "name": "T. Shengelia",
@@ -12367,7 +12367,7 @@
           "blocks": 1,
           "rating": 16,
           "match_id": "104486",
-          "jornada": 1
+          "jornada": 4
         },
         {
           "name": "C. Krutwig",
@@ -12483,7 +12483,7 @@
           "blocks": 0,
           "rating": 14,
           "match_id": "104486",
-          "jornada": 1
+          "jornada": 4
         },
         {
           "name": "I. Aurrecoechea",
@@ -12631,7 +12631,7 @@
           "blocks": 2,
           "rating": 9,
           "match_id": "104487",
-          "jornada": 1
+          "jornada": 4
         },
         {
           "name": "J. Marcos",
@@ -12671,7 +12671,7 @@
           "blocks": 3,
           "rating": 15,
           "match_id": "104487",
-          "jornada": 1
+          "jornada": 4
         },
         {
           "name": "J. Vesely",
@@ -12787,7 +12787,7 @@
           "blocks": 1,
           "rating": 16,
           "match_id": "104487",
-          "jornada": 1
+          "jornada": 4
         },
         {
           "name": "T. Shengelia",
@@ -13325,7 +13325,7 @@
           "blocks": 1,
           "rating": 8,
           "match_id": "104488",
-          "jornada": 1
+          "jornada": 4
         },
         {
           "name": "T. Kalinoski",
@@ -13346,7 +13346,7 @@
           "blocks": 1,
           "rating": 8,
           "match_id": "104488",
-          "jornada": 1
+          "jornada": 4
         },
         {
           "name": "J. Barreiro",
@@ -13448,7 +13448,7 @@
           "blocks": 0,
           "rating": -1,
           "match_id": "104488",
-          "jornada": 1
+          "jornada": 4
         },
         {
           "name": "K. Perry",
@@ -13900,7 +13900,7 @@
           "blocks": 1,
           "rating": 7,
           "match_id": "104489",
-          "jornada": 1
+          "jornada": 4
         },
         {
           "name": "Y. Traoré",
@@ -14389,7 +14389,7 @@
           "blocks": 3,
           "rating": 9,
           "match_id": "104491",
-          "jornada": 1
+          "jornada": 4
         },
         {
           "name": "S. Raieste",
@@ -15263,7 +15263,7 @@
           "blocks": 2,
           "rating": 22,
           "match_id": "104493",
-          "jornada": 1
+          "jornada": 4
         },
         {
           "name": "N. Reuvers",
@@ -15284,7 +15284,7 @@
           "blocks": 4,
           "rating": 13,
           "match_id": "104493",
-          "jornada": 1
+          "jornada": 4
         },
         {
           "name": "J. Pradilla",
@@ -15381,7 +15381,7 @@
           "blocks": 1,
           "rating": 6,
           "match_id": "104493",
-          "jornada": 1
+          "jornada": 4
         },
         {
           "name": "N. Sako",
@@ -15421,7 +15421,7 @@
           "blocks": 1,
           "rating": 11,
           "match_id": "104493",
-          "jornada": 1
+          "jornada": 4
         },
         {
           "name": "M. Costello",
@@ -15773,7 +15773,7 @@
           "blocks": 1,
           "rating": 8,
           "match_id": "104494",
-          "jornada": 1
+          "jornada": 4
         },
         {
           "name": "G. Procida",
@@ -15908,7 +15908,7 @@
           "blocks": 1,
           "rating": -4,
           "match_id": "104494",
-          "jornada": 1
+          "jornada": 4
         },
         {
           "name": "K. Akobundu",
@@ -16100,7 +16100,7 @@
           "blocks": 3,
           "rating": 18,
           "match_id": "104494",
-          "jornada": 1
+          "jornada": 4
         },
         {
           "name": "A. Izaw-Bolavie",
@@ -16324,7 +16324,7 @@
           "blocks": 1,
           "rating": 2,
           "match_id": "104495",
-          "jornada": 1
+          "jornada": 5
         },
         {
           "name": "A. Izaw-Bolavie",
@@ -16643,7 +16643,7 @@
           "blocks": 2,
           "rating": 4,
           "match_id": "104496",
-          "jornada": 1
+          "jornada": 5
         },
         {
           "name": "T. Kalinoski",
@@ -16664,7 +16664,7 @@
           "blocks": 0,
           "rating": 2,
           "match_id": "104496",
-          "jornada": 1
+          "jornada": 5
         },
         {
           "name": "J. Barreiro",
@@ -17841,7 +17841,7 @@
           "blocks": 1,
           "rating": 0,
           "match_id": "104498",
-          "jornada": 1
+          "jornada": 5
         },
         {
           "name": "I. Aurrecoechea",
@@ -18374,7 +18374,7 @@
           "blocks": 0,
           "rating": 0,
           "match_id": "104499",
-          "jornada": 1
+          "jornada": 5
         },
         {
           "name": "C. Krutwig",
@@ -18831,7 +18831,7 @@
           "blocks": 1,
           "rating": 5,
           "match_id": "104500",
-          "jornada": 1
+          "jornada": 5
         },
         {
           "name": "A. Feliz",
@@ -18879,7 +18879,7 @@
           "blocks": 2,
           "rating": 5,
           "match_id": "104501",
-          "jornada": 1
+          "jornada": 5
         },
         {
           "name": "J. Marcos",
@@ -18919,7 +18919,7 @@
           "blocks": 0,
           "rating": 0,
           "match_id": "104501",
-          "jornada": 1
+          "jornada": 5
         },
         {
           "name": "J. Vesely",
@@ -19035,7 +19035,7 @@
           "blocks": 0,
           "rating": 3,
           "match_id": "104501",
-          "jornada": 1
+          "jornada": 5
         },
         {
           "name": "T. Shengelia",
@@ -19118,7 +19118,7 @@
           "blocks": 5,
           "rating": 13,
           "match_id": "104501",
-          "jornada": 1
+          "jornada": 5
         },
         {
           "name": "S. Raieste",
@@ -19361,7 +19361,7 @@
           "blocks": 2,
           "rating": 13,
           "match_id": "104502",
-          "jornada": 1
+          "jornada": 5
         },
         {
           "name": "J. Pradilla",
@@ -19477,7 +19477,7 @@
           "blocks": 2,
           "rating": 4,
           "match_id": "104502",
-          "jornada": 1
+          "jornada": 5
         },
         {
           "name": "N. Sako",
@@ -19517,7 +19517,7 @@
           "blocks": 1,
           "rating": 9,
           "match_id": "104502",
-          "jornada": 1
+          "jornada": 5
         },
         {
           "name": "M. Costello",
@@ -20229,7 +20229,7 @@
           "blocks": 3,
           "rating": -1,
           "match_id": "104504",
-          "jornada": 1
+          "jornada": 6
         },
         {
           "name": "S. Raieste",
@@ -20564,7 +20564,7 @@
           "blocks": 2,
           "rating": 4,
           "match_id": "104504",
-          "jornada": 1
+          "jornada": 6
         },
         {
           "name": "A. Izaw-Bolavie",
@@ -21788,7 +21788,7 @@
           "blocks": 0,
           "rating": 8,
           "match_id": "104507",
-          "jornada": 1
+          "jornada": 6
         },
         {
           "name": "T. Kalinoski",
@@ -21809,7 +21809,7 @@
           "blocks": 0,
           "rating": -3,
           "match_id": "104507",
-          "jornada": 1
+          "jornada": 6
         },
         {
           "name": "J. Barreiro",
@@ -22166,7 +22166,7 @@
           "blocks": 0,
           "rating": -1,
           "match_id": "104508",
-          "jornada": 1
+          "jornada": 6
         },
         {
           "name": "C. Krutwig",
@@ -22628,7 +22628,7 @@
           "blocks": 1,
           "rating": 10,
           "match_id": "104509",
-          "jornada": 1
+          "jornada": 6
         },
         {
           "name": "J. Marcos",
@@ -22668,7 +22668,7 @@
           "blocks": 2,
           "rating": 4,
           "match_id": "104509",
-          "jornada": 1
+          "jornada": 6
         },
         {
           "name": "J. Vesely",
@@ -22789,7 +22789,7 @@
           "blocks": 2,
           "rating": 3,
           "match_id": "104509",
-          "jornada": 1
+          "jornada": 6
         },
         {
           "name": "T. Shengelia",
@@ -22932,7 +22932,7 @@
           "blocks": 4,
           "rating": 15,
           "match_id": "104510",
-          "jornada": 1
+          "jornada": 6
         },
         {
           "name": "I. Aurrecoechea",
@@ -23110,7 +23110,7 @@
           "blocks": 3,
           "rating": 15,
           "match_id": "104510",
-          "jornada": 1
+          "jornada": 6
         },
         {
           "name": "J. Pradilla",
@@ -23207,7 +23207,7 @@
           "blocks": 4,
           "rating": 16,
           "match_id": "104510",
-          "jornada": 1
+          "jornada": 6
         },
         {
           "name": "N. Sako",
@@ -23247,7 +23247,7 @@
           "blocks": 1,
           "rating": 7,
           "match_id": "104510",
-          "jornada": 1
+          "jornada": 6
         },
         {
           "name": "M. Costello",
@@ -24135,7 +24135,7 @@
           "blocks": 0,
           "rating": 7,
           "match_id": "104512",
-          "jornada": 1
+          "jornada": 6
         },
         {
           "name": "A. Feliz",
@@ -24492,7 +24492,7 @@
           "blocks": 1,
           "rating": 10,
           "match_id": "104513",
-          "jornada": 1
+          "jornada": 7
         },
         {
           "name": "E. Durán",
@@ -24802,7 +24802,7 @@
           "blocks": 0,
           "rating": -1,
           "match_id": "104514",
-          "jornada": 1
+          "jornada": 7
         },
         {
           "name": "Y. Traoré",
@@ -24880,7 +24880,7 @@
           "blocks": 3,
           "rating": 13,
           "match_id": "104514",
-          "jornada": 1
+          "jornada": 7
         },
         {
           "name": "T. Kalinoski",
@@ -24901,7 +24901,7 @@
           "blocks": 2,
           "rating": 22,
           "match_id": "104514",
-          "jornada": 1
+          "jornada": 7
         },
         {
           "name": "J. Barreiro",
@@ -26092,7 +26092,7 @@
           "blocks": 0,
           "rating": 2,
           "match_id": "104517",
-          "jornada": 1
+          "jornada": 7
         },
         {
           "name": "A. Izaw-Bolavie",
@@ -26346,7 +26346,7 @@
           "blocks": 1,
           "rating": 7,
           "match_id": "104517",
-          "jornada": 1
+          "jornada": 7
         },
         {
           "name": "C. Krutwig",
@@ -26413,7 +26413,7 @@
           "blocks": 2,
           "rating": 30,
           "match_id": "104518",
-          "jornada": 1
+          "jornada": 7
         },
         {
           "name": "J. Puerto",
@@ -26453,7 +26453,7 @@
           "blocks": 4,
           "rating": 13,
           "match_id": "104518",
-          "jornada": 1
+          "jornada": 7
         },
         {
           "name": "J. Pradilla",
@@ -26512,7 +26512,7 @@
           "blocks": 2,
           "rating": 15,
           "match_id": "104518",
-          "jornada": 1
+          "jornada": 7
         },
         {
           "name": "N. Sako",
@@ -26552,7 +26552,7 @@
           "blocks": 1,
           "rating": -1,
           "match_id": "104518",
-          "jornada": 1
+          "jornada": 7
         },
         {
           "name": "M. Costello",
@@ -26895,7 +26895,7 @@
           "blocks": 0,
           "rating": 2,
           "match_id": "104519",
-          "jornada": 1
+          "jornada": 7
         },
         {
           "name": "G. Procida",
@@ -27035,7 +27035,7 @@
           "blocks": 1,
           "rating": 8,
           "match_id": "104519",
-          "jornada": 1
+          "jornada": 7
         },
         {
           "name": "M. Normantas",
@@ -27297,7 +27297,7 @@
           "blocks": 1,
           "rating": 7,
           "match_id": "104520",
-          "jornada": 1
+          "jornada": 7
         },
         {
           "name": "S. Raieste",
@@ -27711,7 +27711,7 @@
           "blocks": 4,
           "rating": 8,
           "match_id": "104521",
-          "jornada": 1
+          "jornada": 7
         },
         {
           "name": "J. Marcos",
@@ -27751,7 +27751,7 @@
           "blocks": 0,
           "rating": 3,
           "match_id": "104521",
-          "jornada": 1
+          "jornada": 7
         },
         {
           "name": "J. Vesely",
@@ -27872,7 +27872,7 @@
           "blocks": 1,
           "rating": 23,
           "match_id": "104521",
-          "jornada": 1
+          "jornada": 7
         },
         {
           "name": "T. Shengelia",
@@ -28343,7 +28343,7 @@
           "blocks": 1,
           "rating": 4,
           "match_id": "104522",
-          "jornada": 1
+          "jornada": 8
         },
         {
           "name": "C. Krutwig",
@@ -28402,7 +28402,7 @@
           "blocks": 3,
           "rating": 10,
           "match_id": "104522",
-          "jornada": 1
+          "jornada": 8
         },
         {
           "name": "S. Raieste",
@@ -28697,7 +28697,7 @@
           "blocks": 2,
           "rating": 9,
           "match_id": "104523",
-          "jornada": 1
+          "jornada": 8
         },
         {
           "name": "E. Durán",
@@ -28880,7 +28880,7 @@
           "blocks": 2,
           "rating": 16,
           "match_id": "104523",
-          "jornada": 1
+          "jornada": 8
         },
         {
           "name": "G. Procida",
@@ -29015,7 +29015,7 @@
           "blocks": 3,
           "rating": 12,
           "match_id": "104523",
-          "jornada": 1
+          "jornada": 8
         },
         {
           "name": "A. Feliz",
@@ -29101,7 +29101,7 @@
           "blocks": 2,
           "rating": 12,
           "match_id": "104524",
-          "jornada": 1
+          "jornada": 8
         },
         {
           "name": "T. Kalinoski",
@@ -29122,7 +29122,7 @@
           "blocks": 0,
           "rating": 2,
           "match_id": "104524",
-          "jornada": 1
+          "jornada": 8
         },
         {
           "name": "J. Barreiro",
@@ -29452,7 +29452,7 @@
           "blocks": 3,
           "rating": 9,
           "match_id": "104524",
-          "jornada": 1
+          "jornada": 8
         },
         {
           "name": "D. Pérez",
@@ -30869,7 +30869,7 @@
           "blocks": 5,
           "rating": 6,
           "match_id": "104528",
-          "jornada": 1
+          "jornada": 8
         },
         {
           "name": "J. Pradilla",
@@ -30985,7 +30985,7 @@
           "blocks": 1,
           "rating": 8,
           "match_id": "104528",
-          "jornada": 1
+          "jornada": 8
         },
         {
           "name": "M. Costello",
@@ -31461,7 +31461,7 @@
           "blocks": 0,
           "rating": 3,
           "match_id": "104529",
-          "jornada": 1
+          "jornada": 8
         },
         {
           "name": "Y. Traoré",
@@ -31951,7 +31951,7 @@
           "blocks": 3,
           "rating": 12,
           "match_id": "104530",
-          "jornada": 1
+          "jornada": 8
         },
         {
           "name": "J. Marcos",
@@ -31991,7 +31991,7 @@
           "blocks": 1,
           "rating": 4,
           "match_id": "104530",
-          "jornada": 1
+          "jornada": 8
         },
         {
           "name": "J. Vesely",
@@ -32112,7 +32112,7 @@
           "blocks": 4,
           "rating": 6,
           "match_id": "104530",
-          "jornada": 1
+          "jornada": 8
         },
         {
           "name": "T. Shengelia",
@@ -32350,7 +32350,7 @@
           "blocks": 4,
           "rating": 8,
           "match_id": "104531",
-          "jornada": 1
+          "jornada": 9
         },
         {
           "name": "L. Fischer",
@@ -32428,7 +32428,7 @@
           "blocks": 3,
           "rating": 22,
           "match_id": "104531",
-          "jornada": 1
+          "jornada": 9
         },
         {
           "name": "S. Raieste",
@@ -32823,7 +32823,7 @@
           "blocks": 0,
           "rating": 13,
           "match_id": "104532",
-          "jornada": 1
+          "jornada": 9
         },
         {
           "name": "C. Krutwig",
@@ -32920,7 +32920,7 @@
           "blocks": 2,
           "rating": 6,
           "match_id": "104532",
-          "jornada": 1
+          "jornada": 9
         },
         {
           "name": "T. Kalinoski",
@@ -32941,7 +32941,7 @@
           "blocks": 1,
           "rating": 3,
           "match_id": "104532",
-          "jornada": 1
+          "jornada": 9
         },
         {
           "name": "J. Barreiro",
@@ -33160,7 +33160,7 @@
           "blocks": 2,
           "rating": 9,
           "match_id": "104533",
-          "jornada": 1
+          "jornada": 9
         },
         {
           "name": "E. Durán",
@@ -34381,7 +34381,7 @@
           "blocks": 0,
           "rating": -2,
           "match_id": "104535",
-          "jornada": 1
+          "jornada": 9
         },
         {
           "name": "G. Fernández",
@@ -34681,7 +34681,7 @@
           "blocks": 1,
           "rating": 9,
           "match_id": "104536",
-          "jornada": 1
+          "jornada": 9
         },
         {
           "name": "G. Procida",
@@ -34816,7 +34816,7 @@
           "blocks": 3,
           "rating": 14,
           "match_id": "104536",
-          "jornada": 1
+          "jornada": 9
         },
         {
           "name": "A. Feliz",
@@ -34883,7 +34883,7 @@
           "blocks": 4,
           "rating": 25,
           "match_id": "104537",
-          "jornada": 1
+          "jornada": 9
         },
         {
           "name": "J. Marcos",
@@ -34923,7 +34923,7 @@
           "blocks": 0,
           "rating": 1,
           "match_id": "104537",
-          "jornada": 1
+          "jornada": 9
         },
         {
           "name": "J. Vesely",
@@ -35039,7 +35039,7 @@
           "blocks": 3,
           "rating": 15,
           "match_id": "104537",
-          "jornada": 1
+          "jornada": 9
         },
         {
           "name": "T. Shengelia",
@@ -36031,7 +36031,7 @@
           "blocks": 5,
           "rating": 16,
           "match_id": "104539",
-          "jornada": 1
+          "jornada": 9
         },
         {
           "name": "J. Puerto",
@@ -36071,7 +36071,7 @@
           "blocks": 3,
           "rating": 19,
           "match_id": "104539",
-          "jornada": 1
+          "jornada": 9
         },
         {
           "name": "J. Pradilla",
@@ -36149,7 +36149,7 @@
           "blocks": 3,
           "rating": 11,
           "match_id": "104539",
-          "jornada": 1
+          "jornada": 9
         },
         {
           "name": "N. Sako",
@@ -36189,7 +36189,7 @@
           "blocks": 0,
           "rating": 6,
           "match_id": "104539",
-          "jornada": 1
+          "jornada": 9
         },
         {
           "name": "M. Costello",
@@ -36294,7 +36294,7 @@
           "blocks": 3,
           "rating": 16,
           "match_id": "104545",
-          "jornada": 1
+          "jornada": 10
         },
         {
           "name": "T. Kalinoski",
@@ -36315,7 +36315,7 @@
           "blocks": 1,
           "rating": 2,
           "match_id": "104545",
-          "jornada": 1
+          "jornada": 10
         },
         {
           "name": "J. Barreiro",
@@ -36631,7 +36631,7 @@
           "blocks": 5,
           "rating": 18,
           "match_id": "104545",
-          "jornada": 1
+          "jornada": 10
         },
         {
           "name": "L. Fischer",
@@ -37428,7 +37428,7 @@
           "blocks": 5,
           "rating": 25,
           "match_id": "104543",
-          "jornada": 1
+          "jornada": 10
         },
         {
           "name": "L. Costa",
@@ -37980,7 +37980,7 @@
           "blocks": 1,
           "rating": 5,
           "match_id": "104544",
-          "jornada": 1
+          "jornada": 10
         },
         {
           "name": "C. Krutwig",
@@ -38028,7 +38028,7 @@
           "blocks": 1,
           "rating": 0,
           "match_id": "104540",
-          "jornada": 1
+          "jornada": 10
         },
         {
           "name": "S. Raieste",
@@ -38537,7 +38537,7 @@
           "blocks": 1,
           "rating": 3,
           "match_id": "104546",
-          "jornada": 1
+          "jornada": 10
         },
         {
           "name": "G. Procida",
@@ -38634,7 +38634,7 @@
           "blocks": 2,
           "rating": 5,
           "match_id": "104546",
-          "jornada": 1
+          "jornada": 10
         },
         {
           "name": "A. Feliz",
@@ -39100,7 +39100,7 @@
           "blocks": 2,
           "rating": 5,
           "match_id": "104548",
-          "jornada": 1
+          "jornada": 10
         },
         {
           "name": "G. Fernández",
@@ -39145,7 +39145,7 @@
           "blocks": 3,
           "rating": 8,
           "match_id": "104548",
-          "jornada": 1
+          "jornada": 10
         },
         {
           "name": "J. Marcos",
@@ -39185,7 +39185,7 @@
           "blocks": 1,
           "rating": 16,
           "match_id": "104548",
-          "jornada": 1
+          "jornada": 10
         },
         {
           "name": "J. Vesely",
@@ -39301,7 +39301,7 @@
           "blocks": 5,
           "rating": 9,
           "match_id": "104548",
-          "jornada": 1
+          "jornada": 10
         },
         {
           "name": "S. Keita",
@@ -39387,7 +39387,7 @@
           "blocks": 0,
           "rating": 1,
           "match_id": "104547",
-          "jornada": 1
+          "jornada": 10
         },
         {
           "name": "J. Puerto",
@@ -39427,7 +39427,7 @@
           "blocks": 0,
           "rating": 1,
           "match_id": "104547",
-          "jornada": 1
+          "jornada": 10
         },
         {
           "name": "J. Pradilla",
@@ -39543,7 +39543,7 @@
           "blocks": 2,
           "rating": 18,
           "match_id": "104547",
-          "jornada": 1
+          "jornada": 10
         },
         {
           "name": "N. Sako",
@@ -39778,7 +39778,7 @@
           "blocks": 0,
           "rating": -1,
           "match_id": "104547",
-          "jornada": 1
+          "jornada": 10
         },
         {
           "name": "Y. Traoré",
@@ -40433,7 +40433,7 @@
           "blocks": 3,
           "rating": 11,
           "match_id": "104550",
-          "jornada": 1
+          "jornada": 11
         },
         {
           "name": "C. Krutwig",
@@ -40497,7 +40497,7 @@
           "blocks": 0,
           "rating": -1,
           "match_id": "104550",
-          "jornada": 1
+          "jornada": 11
         },
         {
           "name": "G. Procida",
@@ -40632,7 +40632,7 @@
           "blocks": 3,
           "rating": 6,
           "match_id": "104550",
-          "jornada": 1
+          "jornada": 11
         },
         {
           "name": "A. Feliz",
@@ -40965,7 +40965,7 @@
           "blocks": 1,
           "rating": 10,
           "match_id": "104551",
-          "jornada": 1
+          "jornada": 11
         },
         {
           "name": "L. Costa",
@@ -41294,7 +41294,7 @@
           "blocks": 5,
           "rating": 21,
           "match_id": "104552",
-          "jornada": 1
+          "jornada": 11
         },
         {
           "name": "L. Fischer",
@@ -41543,7 +41543,7 @@
           "blocks": 0,
           "rating": -1,
           "match_id": "104552",
-          "jornada": 1
+          "jornada": 11
         },
         {
           "name": "G. Fernández",
@@ -42013,7 +42013,7 @@
           "blocks": 2,
           "rating": 15,
           "match_id": "104554",
-          "jornada": 1
+          "jornada": 11
         },
         {
           "name": "J. Marcos",
@@ -42053,7 +42053,7 @@
           "blocks": 2,
           "rating": 11,
           "match_id": "104554",
-          "jornada": 1
+          "jornada": 11
         },
         {
           "name": "M. Norris",
@@ -42074,7 +42074,7 @@
           "blocks": 1,
           "rating": 11,
           "match_id": "104554",
-          "jornada": 1
+          "jornada": 11
         },
         {
           "name": "J. Vesely",
@@ -42474,7 +42474,7 @@
           "blocks": 2,
           "rating": 25,
           "match_id": "104555",
-          "jornada": 1
+          "jornada": 11
         },
         {
           "name": "S. Raieste",
@@ -42676,7 +42676,7 @@
           "blocks": 7,
           "rating": 18,
           "match_id": "104555",
-          "jornada": 1
+          "jornada": 11
         },
         {
           "name": "J. Puerto",
@@ -42716,7 +42716,7 @@
           "blocks": 0,
           "rating": 7,
           "match_id": "104555",
-          "jornada": 1
+          "jornada": 11
         },
         {
           "name": "J. Pradilla",
@@ -42813,7 +42813,7 @@
           "blocks": 3,
           "rating": 12,
           "match_id": "104555",
-          "jornada": 1
+          "jornada": 11
         },
         {
           "name": "D. Thompson",
@@ -42834,7 +42834,7 @@
           "blocks": 1,
           "rating": 7,
           "match_id": "104555",
-          "jornada": 1
+          "jornada": 11
         },
         {
           "name": "M. Costello",
@@ -43044,7 +43044,7 @@
           "blocks": 0,
           "rating": 9,
           "match_id": "104556",
-          "jornada": 1
+          "jornada": 11
         },
         {
           "name": "C. Koumadje",
@@ -43368,7 +43368,7 @@
           "blocks": 1,
           "rating": 6,
           "match_id": "104557",
-          "jornada": 1
+          "jornada": 11
         },
         {
           "name": "T. Kalinoski",
@@ -43389,7 +43389,7 @@
           "blocks": 2,
           "rating": 5,
           "match_id": "104557",
-          "jornada": 1
+          "jornada": 11
         },
         {
           "name": "J. Barreiro",
@@ -43855,7 +43855,7 @@
           "blocks": 4,
           "rating": 12,
           "match_id": "104558",
-          "jornada": 1
+          "jornada": 12
         },
         {
           "name": "G. Radzevicius",
@@ -44109,7 +44109,7 @@
           "blocks": 4,
           "rating": 9,
           "match_id": "104558",
-          "jornada": 1
+          "jornada": 12
         },
         {
           "name": "L. Fischer",
@@ -44347,7 +44347,7 @@
           "blocks": 1,
           "rating": 3,
           "match_id": "104559",
-          "jornada": 1
+          "jornada": 12
         },
         {
           "name": "C. Koumadje",
@@ -44582,7 +44582,7 @@
           "blocks": 0,
           "rating": 6,
           "match_id": "104559",
-          "jornada": 1
+          "jornada": 12
         },
         {
           "name": "G. Fernández",
@@ -44668,7 +44668,7 @@
           "blocks": 1,
           "rating": 16,
           "match_id": "104560",
-          "jornada": 1
+          "jornada": 12
         },
         {
           "name": "L. Costa",
@@ -44851,7 +44851,7 @@
           "blocks": 5,
           "rating": 1,
           "match_id": "104560",
-          "jornada": 1
+          "jornada": 12
         },
         {
           "name": "S. Raieste",
@@ -45891,7 +45891,7 @@
           "blocks": 0,
           "rating": 2,
           "match_id": "104562",
-          "jornada": 1
+          "jornada": 12
         },
         {
           "name": "C. Krutwig",
@@ -46575,7 +46575,7 @@
           "blocks": 3,
           "rating": 6,
           "match_id": "104564",
-          "jornada": 1
+          "jornada": 12
         },
         {
           "name": "J. Marcos",
@@ -46615,7 +46615,7 @@
           "blocks": 2,
           "rating": 4,
           "match_id": "104564",
-          "jornada": 1
+          "jornada": 12
         },
         {
           "name": "M. Norris",
@@ -46636,7 +46636,7 @@
           "blocks": 0,
           "rating": 5,
           "match_id": "104564",
-          "jornada": 1
+          "jornada": 12
         },
         {
           "name": "J. Vesely",
@@ -46822,7 +46822,7 @@
           "blocks": 1,
           "rating": 9,
           "match_id": "104565",
-          "jornada": 1
+          "jornada": 12
         },
         {
           "name": "N. Reuvers",
@@ -46843,7 +46843,7 @@
           "blocks": 2,
           "rating": 3,
           "match_id": "104565",
-          "jornada": 1
+          "jornada": 12
         },
         {
           "name": "J. Pradilla",
@@ -46921,7 +46921,7 @@
           "blocks": 0,
           "rating": 6,
           "match_id": "104565",
-          "jornada": 1
+          "jornada": 12
         },
         {
           "name": "N. Sako",
@@ -46961,7 +46961,7 @@
           "blocks": 2,
           "rating": 5,
           "match_id": "104565",
-          "jornada": 1
+          "jornada": 12
         },
         {
           "name": "M. Costello",
@@ -47432,7 +47432,7 @@
           "blocks": 2,
           "rating": 1,
           "match_id": "104566",
-          "jornada": 1
+          "jornada": 12
         },
         {
           "name": "A. Feliz",
@@ -47548,7 +47548,7 @@
           "blocks": 0,
           "rating": -7,
           "match_id": "104566",
-          "jornada": 1
+          "jornada": 12
         },
         {
           "name": "T. Kalinoski",
@@ -47569,7 +47569,7 @@
           "blocks": 1,
           "rating": 1,
           "match_id": "104566",
-          "jornada": 1
+          "jornada": 12
         },
         {
           "name": "J. Barreiro",
@@ -48059,7 +48059,7 @@
           "blocks": 3,
           "rating": 15,
           "match_id": "104567",
-          "jornada": 1
+          "jornada": 13
         },
         {
           "name": "G. Radzevicius",
@@ -48279,7 +48279,7 @@
           "blocks": 5,
           "rating": 10,
           "match_id": "104568",
-          "jornada": 1
+          "jornada": 13
         },
         {
           "name": "L. Fischer",
@@ -48612,7 +48612,7 @@
           "blocks": 1,
           "rating": 8,
           "match_id": "104569",
-          "jornada": 1
+          "jornada": 13
         },
         {
           "name": "T. Kalinoski",
@@ -48633,7 +48633,7 @@
           "blocks": 0,
           "rating": 14,
           "match_id": "104569",
-          "jornada": 1
+          "jornada": 13
         },
         {
           "name": "J. Barreiro",
@@ -49261,7 +49261,7 @@
           "blocks": 1,
           "rating": 12,
           "match_id": "104570",
-          "jornada": 1
+          "jornada": 13
         },
         {
           "name": "L. Costa",
@@ -49452,7 +49452,7 @@
           "blocks": 1,
           "rating": 6,
           "match_id": "104571",
-          "jornada": 1
+          "jornada": 13
         },
         {
           "name": "S. Raieste",
@@ -49820,7 +49820,7 @@
           "blocks": 0,
           "rating": 7,
           "match_id": "104571",
-          "jornada": 1
+          "jornada": 13
         },
         {
           "name": "A. Feliz",
@@ -50120,7 +50120,7 @@
           "blocks": 3,
           "rating": 9,
           "match_id": "104572",
-          "jornada": 1
+          "jornada": 13
         },
         {
           "name": "J. Puerto",
@@ -50160,7 +50160,7 @@
           "blocks": 1,
           "rating": 12,
           "match_id": "104572",
-          "jornada": 1
+          "jornada": 13
         },
         {
           "name": "J. Pradilla",
@@ -50295,7 +50295,7 @@
           "blocks": 0,
           "rating": 10,
           "match_id": "104572",
-          "jornada": 1
+          "jornada": 13
         },
         {
           "name": "M. Costello",
@@ -50761,7 +50761,7 @@
           "blocks": 0,
           "rating": 5,
           "match_id": "104574",
-          "jornada": 1
+          "jornada": 13
         },
         {
           "name": "C. Krutwig",
@@ -50809,7 +50809,7 @@
           "blocks": 0,
           "rating": 7,
           "match_id": "104575",
-          "jornada": 1
+          "jornada": 13
         },
         {
           "name": "J. Marcos",
@@ -50849,7 +50849,7 @@
           "blocks": 0,
           "rating": 0,
           "match_id": "104575",
-          "jornada": 1
+          "jornada": 13
         },
         {
           "name": "M. Norris",
@@ -50870,7 +50870,7 @@
           "blocks": 1,
           "rating": 15,
           "match_id": "104575",
-          "jornada": 1
+          "jornada": 13
         },
         {
           "name": "D. Brizuela",
@@ -51233,7 +51233,7 @@
           "blocks": 1,
           "rating": 11,
           "match_id": "104575",
-          "jornada": 1
+          "jornada": 13
         },
         {
           "name": "C. Koumadje",
@@ -51471,7 +51471,7 @@
           "blocks": 2,
           "rating": 1,
           "match_id": "104573",
-          "jornada": 1
+          "jornada": 13
         },
         {
           "name": "G. Fernández",
@@ -52193,7 +52193,7 @@
           "blocks": 2,
           "rating": 6,
           "match_id": "104577",
-          "jornada": 1
+          "jornada": 14
         },
         {
           "name": "A. Alibegovic",
@@ -52495,7 +52495,7 @@
           "blocks": 4,
           "rating": 17,
           "match_id": "104577",
-          "jornada": 1
+          "jornada": 14
         },
         {
           "name": "L. Fischer",
@@ -52795,7 +52795,7 @@
           "blocks": 2,
           "rating": 13,
           "match_id": "104578",
-          "jornada": 1
+          "jornada": 14
         },
         {
           "name": "S. Raieste",
@@ -53299,7 +53299,7 @@
           "blocks": 1,
           "rating": -2,
           "match_id": "104576",
-          "jornada": 1
+          "jornada": 14
         },
         {
           "name": "J. Barreiro",
@@ -53637,7 +53637,7 @@
           "blocks": 0,
           "rating": 15,
           "match_id": "104580",
-          "jornada": 1
+          "jornada": 14
         },
         {
           "name": "A. Feliz",
@@ -53682,7 +53682,7 @@
           "blocks": 3,
           "rating": 15,
           "match_id": "104580",
-          "jornada": 1
+          "jornada": 14
         },
         {
           "name": "J. Marcos",
@@ -53722,7 +53722,7 @@
           "blocks": 1,
           "rating": 5,
           "match_id": "104580",
-          "jornada": 1
+          "jornada": 14
         },
         {
           "name": "M. Norris",
@@ -53743,7 +53743,7 @@
           "blocks": 0,
           "rating": 2,
           "match_id": "104580",
-          "jornada": 1
+          "jornada": 14
         },
         {
           "name": "T. Satoransky",
@@ -54081,7 +54081,7 @@
           "blocks": 0,
           "rating": 9,
           "match_id": "104581",
-          "jornada": 1
+          "jornada": 14
         },
         {
           "name": "C. Krutwig",
@@ -54316,7 +54316,7 @@
           "blocks": 1,
           "rating": 6,
           "match_id": "104581",
-          "jornada": 1
+          "jornada": 14
         }
       ],
       "date": "2026-01-04",
@@ -55255,7 +55255,7 @@
           "blocks": 0,
           "rating": 6,
           "match_id": "104584",
-          "jornada": 1
+          "jornada": 14
         },
         {
           "name": "J. Pradilla",
@@ -55371,7 +55371,7 @@
           "blocks": 2,
           "rating": 18,
           "match_id": "104584",
-          "jornada": 1
+          "jornada": 14
         },
         {
           "name": "N. Sako",
@@ -55639,7 +55639,7 @@
           "blocks": 1,
           "rating": 5,
           "match_id": "104584",
-          "jornada": 1
+          "jornada": 14
         },
         {
           "name": "G. Fernández",
@@ -55849,7 +55849,7 @@
           "blocks": 1,
           "rating": 12,
           "match_id": "104585",
-          "jornada": 1
+          "jornada": 15
         },
         {
           "name": "Y. Traoré",
@@ -56116,7 +56116,7 @@
           "blocks": 1,
           "rating": 2,
           "match_id": "104590",
-          "jornada": 1
+          "jornada": 15
         },
         {
           "name": "N. Reuvers",
@@ -56137,7 +56137,7 @@
           "blocks": 5,
           "rating": 20,
           "match_id": "104590",
-          "jornada": 1
+          "jornada": 15
         },
         {
           "name": "J. Pradilla",
@@ -56253,7 +56253,7 @@
           "blocks": 1,
           "rating": -1,
           "match_id": "104590",
-          "jornada": 1
+          "jornada": 15
         },
         {
           "name": "D. Thompson",
@@ -56274,7 +56274,7 @@
           "blocks": 1,
           "rating": 5,
           "match_id": "104590",
-          "jornada": 1
+          "jornada": 15
         },
         {
           "name": "M. Costello",
@@ -56390,7 +56390,7 @@
           "blocks": 4,
           "rating": 4,
           "match_id": "104590",
-          "jornada": 1
+          "jornada": 15
         },
         {
           "name": "T. Kalinoski",
@@ -56411,7 +56411,7 @@
           "blocks": 0,
           "rating": -3,
           "match_id": "104590",
-          "jornada": 1
+          "jornada": 15
         },
         {
           "name": "J. Barreiro",
@@ -56820,7 +56820,7 @@
           "blocks": 1,
           "rating": 10,
           "match_id": "104586",
-          "jornada": 1
+          "jornada": 15
         },
         {
           "name": "S. Raieste",
@@ -57410,7 +57410,7 @@
           "blocks": 0,
           "rating": 14,
           "match_id": "104587",
-          "jornada": 1
+          "jornada": 15
         },
         {
           "name": "C. Krutwig",
@@ -57639,7 +57639,7 @@
           "blocks": 1,
           "rating": 2,
           "match_id": "104588",
-          "jornada": 1
+          "jornada": 15
         },
         {
           "name": "G. Fernández",
@@ -58072,7 +58072,7 @@
           "blocks": 6,
           "rating": 30,
           "match_id": "104589",
-          "jornada": 1
+          "jornada": 15
         },
         {
           "name": "L. Fischer",
@@ -58348,7 +58348,7 @@
           "blocks": 1,
           "rating": 13,
           "match_id": "104591",
-          "jornada": 1
+          "jornada": 15
         },
         {
           "name": "J. Marcos",
@@ -58388,7 +58388,7 @@
           "blocks": 2,
           "rating": 18,
           "match_id": "104591",
-          "jornada": 1
+          "jornada": 15
         },
         {
           "name": "M. Norris",
@@ -58409,7 +58409,7 @@
           "blocks": 2,
           "rating": 8,
           "match_id": "104591",
-          "jornada": 1
+          "jornada": 15
         },
         {
           "name": "J. Vesely",
@@ -59132,7 +59132,7 @@
           "blocks": 5,
           "rating": 24,
           "match_id": "104592",
-          "jornada": 1
+          "jornada": 15
         },
         {
           "name": "G. Radzevicius",
@@ -59489,7 +59489,7 @@
           "blocks": 1,
           "rating": 9,
           "match_id": "104593",
-          "jornada": 1
+          "jornada": 15
         },
         {
           "name": "G. Procida",
@@ -59591,7 +59591,7 @@
           "blocks": 2,
           "rating": 10,
           "match_id": "104593",
-          "jornada": 1
+          "jornada": 15
         },
         {
           "name": "A. Feliz",
@@ -59715,7 +59715,7 @@
           "blocks": 1,
           "rating": 10,
           "match_id": "104594",
-          "jornada": 1
+          "jornada": 16
         },
         {
           "name": "T. Kalinoski",
@@ -59736,7 +59736,7 @@
           "blocks": 1,
           "rating": 3,
           "match_id": "104594",
-          "jornada": 1
+          "jornada": 16
         },
         {
           "name": "A. Díaz",
@@ -60933,7 +60933,7 @@
           "blocks": 2,
           "rating": 8,
           "match_id": "104596",
-          "jornada": 1
+          "jornada": 16
         },
         {
           "name": "C. Krutwig",
@@ -61565,7 +61565,7 @@
           "blocks": 2,
           "rating": 15,
           "match_id": "104598",
-          "jornada": 1
+          "jornada": 16
         },
         {
           "name": "A. Lima",
@@ -61624,7 +61624,7 @@
           "blocks": 1,
           "rating": -4,
           "match_id": "104598",
-          "jornada": 1
+          "jornada": 16
         },
         {
           "name": "J. Marcos",
@@ -61664,7 +61664,7 @@
           "blocks": 0,
           "rating": 0,
           "match_id": "104598",
-          "jornada": 1
+          "jornada": 16
         },
         {
           "name": "M. Norris",
@@ -61685,7 +61685,7 @@
           "blocks": 1,
           "rating": 10,
           "match_id": "104598",
-          "jornada": 1
+          "jornada": 16
         },
         {
           "name": "J. Vesely",
@@ -62407,7 +62407,7 @@
           "blocks": 1,
           "rating": 14,
           "match_id": "104600",
-          "jornada": 1
+          "jornada": 16
         },
         {
           "name": "G. Radzevicius",
@@ -62759,7 +62759,7 @@
           "blocks": 1,
           "rating": 7,
           "match_id": "104601",
-          "jornada": 1
+          "jornada": 16
         },
         {
           "name": "S. Raieste",
@@ -63099,7 +63099,7 @@
           "blocks": 3,
           "rating": 9,
           "match_id": "104601",
-          "jornada": 1
+          "jornada": 16
         },
         {
           "name": "C. Koumadje",
@@ -63337,7 +63337,7 @@
           "blocks": 1,
           "rating": 15,
           "match_id": "104602",
-          "jornada": 1
+          "jornada": 16
         },
         {
           "name": "A. Feliz",
@@ -63401,7 +63401,7 @@
           "blocks": 2,
           "rating": 4,
           "match_id": "104602",
-          "jornada": 1
+          "jornada": 16
         },
         {
           "name": "J. Puerto",
@@ -63441,7 +63441,7 @@
           "blocks": 0,
           "rating": 4,
           "match_id": "104602",
-          "jornada": 1
+          "jornada": 16
         },
         {
           "name": "J. Pradilla",
@@ -63538,7 +63538,7 @@
           "blocks": 1,
           "rating": 7,
           "match_id": "104602",
-          "jornada": 1
+          "jornada": 16
         },
         {
           "name": "D. Thompson",
@@ -63559,7 +63559,7 @@
           "blocks": 2,
           "rating": 20,
           "match_id": "104602",
-          "jornada": 1
+          "jornada": 16
         },
         {
           "name": "M. Costello",
@@ -64319,7 +64319,7 @@
           "blocks": 0,
           "rating": 15,
           "match_id": "104604",
-          "jornada": 1
+          "jornada": 17
         },
         {
           "name": "G. Procida",
@@ -64435,7 +64435,7 @@
           "blocks": 1,
           "rating": 6,
           "match_id": "104604",
-          "jornada": 1
+          "jornada": 17
         },
         {
           "name": "A. Feliz",
@@ -64673,7 +64673,7 @@
           "blocks": 1,
           "rating": 13,
           "match_id": "104605",
-          "jornada": 1
+          "jornada": 17
         },
         {
           "name": "C. Krutwig",
@@ -64870,7 +64870,7 @@
           "blocks": 6,
           "rating": 23,
           "match_id": "104605",
-          "jornada": 1
+          "jornada": 17
         },
         {
           "name": "A. Lima",
@@ -66056,7 +66056,7 @@
           "blocks": 0,
           "rating": 12,
           "match_id": "104608",
-          "jornada": 1
+          "jornada": 17
         },
         {
           "name": "N. Reuvers",
@@ -66077,7 +66077,7 @@
           "blocks": 0,
           "rating": 6,
           "match_id": "104608",
-          "jornada": 1
+          "jornada": 17
         },
         {
           "name": "J. Pradilla",
@@ -66160,7 +66160,7 @@
           "blocks": 1,
           "rating": -1,
           "match_id": "104608",
-          "jornada": 1
+          "jornada": 17
         },
         {
           "name": "N. Sako",
@@ -66200,7 +66200,7 @@
           "blocks": 3,
           "rating": 16,
           "match_id": "104608",
-          "jornada": 1
+          "jornada": 17
         },
         {
           "name": "M. Costello",
@@ -66400,7 +66400,7 @@
           "blocks": 4,
           "rating": 21,
           "match_id": "104609",
-          "jornada": 1
+          "jornada": 17
         },
         {
           "name": "G. Radzevicius",
@@ -66762,7 +66762,7 @@
           "blocks": 2,
           "rating": 18,
           "match_id": "104610",
-          "jornada": 1
+          "jornada": 17
         },
         {
           "name": "J. Barreiro",
@@ -66940,7 +66940,7 @@
           "blocks": 1,
           "rating": -7,
           "match_id": "104610",
-          "jornada": 1
+          "jornada": 17
         },
         {
           "name": "S. Raieste",
@@ -67145,7 +67145,7 @@
           "blocks": 4,
           "rating": 16,
           "match_id": "104611",
-          "jornada": 1
+          "jornada": 17
         },
         {
           "name": "J. Marcos",
@@ -67171,7 +67171,7 @@
           "blocks": 1,
           "rating": 1,
           "match_id": "104611",
-          "jornada": 1
+          "jornada": 17
         },
         {
           "name": "M. Norris",
@@ -67192,7 +67192,7 @@
           "blocks": 0,
           "rating": 21,
           "match_id": "104611",
-          "jornada": 1
+          "jornada": 17
         },
         {
           "name": "J. Vesely",
@@ -69247,7 +69247,7 @@
           "blocks": 4,
           "rating": 10,
           "match_id": "104615",
-          "jornada": 1
+          "jornada": 18
         },
         {
           "name": "A. Lima",
@@ -69308,6 +69308,460 @@
         }
       ],
       "date": "2026-01-31",
+      "home_team": "Coviran Granada",
+      "away_team": "Río Breogán"
+    },
+    {
+      "match_id": "104616",
+      "players": [
+        {
+          "name": "K. Akobundu",
+          "acb_id": "30003951",
+          "minutes": "14:37",
+          "points": 6,
+          "fg2_made": 3,
+          "fg2_attempted": 3,
+          "fg3_made": 0,
+          "fg3_attempted": 0,
+          "ft_made": 0,
+          "ft_attempted": 0,
+          "rebounds": 3,
+          "def_rebounds": 2,
+          "off_rebounds": 1,
+          "assists": 1,
+          "steals": 0,
+          "blocks": 0,
+          "rating": 7
+        },
+        {
+          "name": "M. Gaspà",
+          "acb_id": "20213406",
+          "def_rebounds": 4
+        },
+        {
+          "name": "F. Bassas",
+          "acb_id": "20200243",
+          "def_rebounds": 3,
+          "minutes": "19:36",
+          "points": 13,
+          "fg2_made": 1,
+          "fg2_attempted": 2,
+          "fg3_made": 3,
+          "fg3_attempted": 10,
+          "ft_made": 2,
+          "ft_attempted": 4,
+          "rebounds": 3,
+          "off_rebounds": 0,
+          "assists": 6,
+          "steals": 0,
+          "blocks": 1,
+          "rating": 5
+        },
+        {
+          "name": "A. Reyes",
+          "acb_id": "20204133",
+          "minutes": "27:34",
+          "points": 17,
+          "fg2_made": 1,
+          "fg2_attempted": 2,
+          "fg3_made": 4,
+          "fg3_attempted": 9,
+          "ft_made": 3,
+          "ft_attempted": 4,
+          "rebounds": 3,
+          "def_rebounds": 2,
+          "off_rebounds": 1,
+          "assists": 0,
+          "steals": 0,
+          "blocks": 5,
+          "rating": 15
+        },
+        {
+          "name": "M. Steinbergs",
+          "acb_id": "30000133",
+          "minutes": "19:29",
+          "points": 5,
+          "fg2_made": 1,
+          "fg2_attempted": 2,
+          "fg3_made": 1,
+          "fg3_attempted": 2,
+          "ft_made": 0,
+          "ft_attempted": 0,
+          "rebounds": 4,
+          "def_rebounds": 3,
+          "off_rebounds": 1,
+          "assists": 2,
+          "steals": 0,
+          "blocks": 0,
+          "rating": 9
+        },
+        {
+          "name": "G. Knudsen",
+          "acb_id": "30000207",
+          "def_rebounds": 0,
+          "minutes": "07:58",
+          "points": 4,
+          "fg2_made": 1,
+          "fg2_attempted": 1,
+          "fg3_made": 0,
+          "fg3_attempted": 1,
+          "ft_made": 2,
+          "ft_attempted": 2,
+          "rebounds": 0,
+          "off_rebounds": 0,
+          "assists": 0,
+          "steals": 2,
+          "blocks": 1,
+          "rating": 4
+        },
+        {
+          "name": "L. Olinde",
+          "acb_id": "30003994",
+          "def_rebounds": 1,
+          "minutes": "26:10",
+          "points": 14,
+          "fg2_made": 3,
+          "fg2_attempted": 3,
+          "fg3_made": 1,
+          "fg3_attempted": 3,
+          "ft_made": 5,
+          "ft_attempted": 5,
+          "rebounds": 4,
+          "off_rebounds": 3,
+          "assists": 0,
+          "steals": 0,
+          "blocks": 5,
+          "rating": 16
+        },
+        {
+          "name": "P. Paulicap",
+          "acb_id": "30005203",
+          "def_rebounds": 0,
+          "minutes": "04:55",
+          "points": 2,
+          "fg2_made": 0,
+          "fg2_attempted": 0,
+          "fg3_made": 0,
+          "fg3_attempted": 0,
+          "ft_made": 2,
+          "ft_attempted": 2,
+          "rebounds": 0,
+          "off_rebounds": 0,
+          "assists": 0,
+          "steals": 0,
+          "blocks": 1,
+          "rating": 2
+        },
+        {
+          "name": "P. Oriola",
+          "acb_id": "20202164",
+          "def_rebounds": 2,
+          "minutes": "21:09",
+          "points": 10,
+          "fg2_made": 3,
+          "fg2_attempted": 3,
+          "fg3_made": 0,
+          "fg3_attempted": 0,
+          "ft_made": 4,
+          "ft_attempted": 5,
+          "rebounds": 4,
+          "off_rebounds": 2,
+          "assists": 1,
+          "steals": 0,
+          "blocks": 5,
+          "rating": 17
+        },
+        {
+          "name": "R. Obasohan",
+          "acb_id": "30003414",
+          "minutes": "28:02",
+          "points": 16,
+          "fg2_made": 5,
+          "fg2_attempted": 8,
+          "fg3_made": 0,
+          "fg3_attempted": 3,
+          "ft_made": 6,
+          "ft_attempted": 8,
+          "rebounds": 6,
+          "def_rebounds": 5,
+          "off_rebounds": 1,
+          "assists": 4,
+          "steals": 0,
+          "blocks": 8,
+          "rating": 19
+        },
+        {
+          "name": "G. Fernández",
+          "acb_id": "30001521",
+          "def_rebounds": 0,
+          "minutes": "11:25",
+          "points": 3,
+          "fg2_made": 1,
+          "fg2_attempted": 1,
+          "fg3_made": 0,
+          "fg3_attempted": 1,
+          "ft_made": 1,
+          "ft_attempted": 3,
+          "rebounds": 0,
+          "off_rebounds": 0,
+          "assists": 0,
+          "steals": 1,
+          "blocks": 2,
+          "rating": 1
+        },
+        {
+          "name": "D. Pérez",
+          "acb_id": "20203826",
+          "minutes": "19:05",
+          "points": 2,
+          "fg2_made": 1,
+          "fg2_attempted": 5,
+          "fg3_made": 0,
+          "fg3_attempted": 3,
+          "ft_made": 0,
+          "ft_attempted": 2,
+          "rebounds": 2,
+          "def_rebounds": 2,
+          "off_rebounds": 0,
+          "assists": 5,
+          "steals": 0,
+          "blocks": 3,
+          "rating": 0
+        },
+        {
+          "name": "T. Pérez",
+          "acb_id": "30000053",
+          "minutes": "17:26",
+          "points": 4,
+          "fg2_made": 1,
+          "fg2_attempted": 3,
+          "fg3_made": 0,
+          "fg3_attempted": 1,
+          "ft_made": 2,
+          "ft_attempted": 2,
+          "rebounds": 5,
+          "def_rebounds": 3,
+          "off_rebounds": 2,
+          "assists": 0,
+          "steals": 0,
+          "blocks": 2,
+          "rating": 7
+        },
+        {
+          "name": "C. Audige",
+          "acb_id": "30005183",
+          "minutes": "15:52",
+          "points": 5,
+          "fg2_made": 1,
+          "fg2_attempted": 1,
+          "fg3_made": 1,
+          "fg3_attempted": 2,
+          "ft_made": 0,
+          "ft_attempted": 0,
+          "rebounds": 2,
+          "def_rebounds": 1,
+          "off_rebounds": 1,
+          "assists": 0,
+          "steals": 0,
+          "blocks": 0,
+          "rating": 1
+        },
+        {
+          "name": "O. Balcerowski",
+          "acb_id": "20212243",
+          "minutes": "22:57",
+          "points": 17,
+          "fg2_made": 5,
+          "fg2_attempted": 8,
+          "fg3_made": 0,
+          "fg3_attempted": 2,
+          "ft_made": 7,
+          "ft_attempted": 8,
+          "rebounds": 1,
+          "def_rebounds": 1,
+          "off_rebounds": 0,
+          "assists": 2,
+          "steals": 1,
+          "blocks": 5,
+          "rating": 14
+        },
+        {
+          "name": "J. Webb",
+          "acb_id": "30000954",
+          "def_rebounds": 3,
+          "minutes": "20:04",
+          "points": 11,
+          "fg2_made": 3,
+          "fg2_attempted": 3,
+          "fg3_made": 1,
+          "fg3_attempted": 2,
+          "ft_made": 2,
+          "ft_attempted": 2,
+          "rebounds": 4,
+          "off_rebounds": 1,
+          "assists": 1,
+          "steals": 2,
+          "blocks": 2,
+          "rating": 15,
+          "match_id": "104616",
+          "jornada": 18
+        },
+        {
+          "name": "T. Kalinoski",
+          "acb_id": "30001169",
+          "minutes": "21:41",
+          "points": 11,
+          "fg2_made": 2,
+          "fg2_attempted": 5,
+          "fg3_made": 2,
+          "fg3_attempted": 4,
+          "ft_made": 1,
+          "ft_attempted": 2,
+          "rebounds": 2,
+          "def_rebounds": 2,
+          "off_rebounds": 0,
+          "assists": 2,
+          "steals": 2,
+          "blocks": 2,
+          "rating": 10,
+          "match_id": "104616",
+          "jornada": 18
+        },
+        {
+          "name": "J. Barreiro",
+          "acb_id": "20200191",
+          "def_rebounds": 0,
+          "minutes": "16:34",
+          "points": 5,
+          "fg2_made": 0,
+          "fg2_attempted": 2,
+          "fg3_made": 1,
+          "fg3_attempted": 3,
+          "ft_made": 2,
+          "ft_attempted": 2,
+          "rebounds": 4,
+          "off_rebounds": 4,
+          "assists": 1,
+          "steals": 0,
+          "blocks": 4,
+          "rating": 6
+        },
+        {
+          "name": "N. Djedovic",
+          "acb_id": "20202039",
+          "def_rebounds": 1,
+          "minutes": "20:18",
+          "points": 9,
+          "fg2_made": 3,
+          "fg2_attempted": 4,
+          "fg3_made": 0,
+          "fg3_attempted": 2,
+          "ft_made": 3,
+          "ft_attempted": 4,
+          "rebounds": 2,
+          "off_rebounds": 1,
+          "assists": 0,
+          "steals": 1,
+          "blocks": 2,
+          "rating": 7
+        },
+        {
+          "name": "E. Sulejmanovic",
+          "acb_id": "20210828",
+          "def_rebounds": 1,
+          "minutes": "11:53",
+          "points": 2,
+          "fg2_made": 1,
+          "fg2_attempted": 1,
+          "fg3_made": 0,
+          "fg3_attempted": 0,
+          "ft_made": 0,
+          "ft_attempted": 0,
+          "rebounds": 1,
+          "off_rebounds": 0,
+          "assists": 0,
+          "steals": 1,
+          "blocks": 0,
+          "rating": -2
+        },
+        {
+          "name": "A. Rubit",
+          "acb_id": "30005177",
+          "def_rebounds": 1,
+          "minutes": "07:40",
+          "points": 0,
+          "fg2_made": 0,
+          "fg2_attempted": 1,
+          "fg3_made": 0,
+          "fg3_attempted": 0,
+          "ft_made": 0,
+          "ft_attempted": 0,
+          "rebounds": 1,
+          "off_rebounds": 0,
+          "assists": 0,
+          "steals": 0,
+          "blocks": 0,
+          "rating": -4
+        },
+        {
+          "name": "M. Trujillo",
+          "acb_id": "30003470",
+          "def_rebounds": 0,
+          "minutes": "04:01",
+          "points": 0,
+          "fg2_made": 0,
+          "fg2_attempted": 0,
+          "fg3_made": 0,
+          "fg3_attempted": 0,
+          "ft_made": 0,
+          "ft_attempted": 0,
+          "rebounds": 1,
+          "off_rebounds": 1,
+          "assists": 0,
+          "steals": 0,
+          "blocks": 0,
+          "rating": -1
+        },
+        {
+          "name": "C. Duarte",
+          "acb_id": "30003966",
+          "def_rebounds": 0,
+          "minutes": "16:14",
+          "points": 17,
+          "fg2_made": 5,
+          "fg2_attempted": 5,
+          "fg3_made": 1,
+          "fg3_attempted": 2,
+          "ft_made": 4,
+          "ft_attempted": 5,
+          "rebounds": 0,
+          "off_rebounds": 0,
+          "assists": 3,
+          "steals": 0,
+          "blocks": 3,
+          "rating": 18
+        },
+        {
+          "name": "K. Perry",
+          "acb_id": "30001977",
+          "minutes": "25:20",
+          "points": 17,
+          "fg2_made": 1,
+          "fg2_attempted": 4,
+          "fg3_made": 4,
+          "fg3_attempted": 8,
+          "ft_made": 3,
+          "ft_attempted": 3,
+          "rebounds": 5,
+          "def_rebounds": 5,
+          "off_rebounds": 0,
+          "assists": 8,
+          "steals": 2,
+          "blocks": 7,
+          "rating": 28
+        }
+      ],
+      "date": "2026-02-01",
       "home_team": "Coviran Granada",
       "away_team": "Río Breogán"
     }
