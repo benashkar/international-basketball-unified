@@ -8,6 +8,7 @@ Combines TheSportsDB player data into unified format for the dashboard.
 import json
 import os
 import logging
+import re
 from datetime import datetime
 
 logging.basicConfig(
@@ -15,6 +16,126 @@ logging.basicConfig(
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
 logger = logging.getLogger(__name__)
+
+# Manual mapping: English name -> Greek box score name patterns
+# The box scores use Greek transliterated names in LASTNAME FIRSTNAME format
+AMERICAN_PLAYER_MAPPINGS = {
+    'Alec Peters': ['ΠΙΤΕΡΣAΛΕΚ'],
+    'Bryn Forbes': ['ΦΟΡΜΠΣΜΠΡAΙAΝ', '##ΦΟΡΜΠΣΜΠΡAΙAΝ'],
+    'Darral Willis': ['ΓΟΥΙΛΙΣΝΤΑΡΑΛ', 'ΓΟΥΙΛΛΙΣΝΤΑΡΑΛ'],
+    'Daryl Macon': ['ΜΕΪΚΟΝΝΤAΡΙΛ'],
+    'Devin Cannady': ['ΚAΝAΝΤΙΝΤΕΒΙΝ'],
+    'Donta Hall': ['ΧΟΛΝΤΟΝΤA'],
+    'Frank Bartley': ['ΜΠAΡΤΛΕΪΦΡAΝΚ'],
+    'Jacob Grandison': ['ΓΚΡΑΝΤΙΣΟΝΤΖΕΪΚΟΜΠ', 'ΓΚΡAΝΤΙΣΟΝΤΖΕΪΚΟΜΠ'],
+    'Jerian Grant': ['ΓΚΡAΝΤΤΖΕΡΙAΝ'],
+    'Jordan Davis': ['ΝΤΕΪΒΙΣΤΖΟΡΝΤΑΝ', 'ΝΤΑΒΙΣΤΖΟΡΝΤΑΝ'],
+    'Justin Wright-Foreman': ['ΡAΪΤ-ΦΟΡΕΜAΝΤΖAΣΤΙΝ'],
+    'Kendrick Nunn': ['ΝAΝΚΕΝΤΡΙΚ'],
+    'Kenneth Faried': ['ΦAΡΙΝΤΚΕΝΕΘ'],
+    'Monté Morris': ['ΜΟΡΙΣΜΟΝΤΕ ΡΟΜΠΕΡΤ', 'ΜΟΡΙΣΜΟΝΤΕ'],
+    'RaiQuan Gray': ['ΓΚΡΕΙΡAΙΚΟΥAΝ'],
+    'Rayjon Tucker': ['ΤAΚΕΡΡΕΪΤΖΟΝ', 'ΤΑΚΕΡΡΕΪΤΖΟΝ'],
+    'Sharife Cooper': ['ΚΟΥΠΕΡΣΑΡΙΦΕ', 'ΚΟΥΠΕΡΣΑΡΗΦΕ'],
+}
+
+# Greek to Latin transliteration map
+GREEK_TO_LATIN = {
+    'Α': 'A', 'Β': 'V', 'Γ': 'G', 'Δ': 'D', 'Ε': 'E', 'Ζ': 'Z', 'Η': 'I',
+    'Θ': 'TH', 'Ι': 'I', 'Κ': 'K', 'Λ': 'L', 'Μ': 'M', 'Ν': 'N', 'Ξ': 'X',
+    'Ο': 'O', 'Π': 'P', 'Ρ': 'R', 'Σ': 'S', 'Τ': 'T', 'Υ': 'Y', 'Φ': 'F',
+    'Χ': 'CH', 'Ψ': 'PS', 'Ω': 'O',
+    'α': 'a', 'β': 'v', 'γ': 'g', 'δ': 'd', 'ε': 'e', 'ζ': 'z', 'η': 'i',
+    'θ': 'th', 'ι': 'i', 'κ': 'k', 'λ': 'l', 'μ': 'm', 'ν': 'n', 'ξ': 'x',
+    'ο': 'o', 'π': 'p', 'ρ': 'r', 'σ': 's', 'ς': 's', 'τ': 't', 'υ': 'y',
+    'φ': 'f', 'χ': 'ch', 'ψ': 'ps', 'ω': 'o',
+    # Common digraphs
+    'ΓΚ': 'G', 'γκ': 'g', 'ΜΠ': 'B', 'μπ': 'b', 'ΝΤ': 'D', 'ντ': 'd',
+    'ΟΥ': 'U', 'ου': 'u', 'ΑΙ': 'E', 'αι': 'e', 'ΕΙ': 'I', 'ει': 'i',
+    'ΟΙ': 'I', 'οι': 'i', 'ΑΥ': 'AV', 'αυ': 'av', 'ΕΥ': 'EV', 'ευ': 'ev',
+}
+
+
+def transliterate_greek(text):
+    """Convert Greek text to Latin characters."""
+    if not text:
+        return ''
+
+    result = text
+    # Handle digraphs first (longer sequences)
+    for greek, latin in sorted(GREEK_TO_LATIN.items(), key=lambda x: -len(x[0])):
+        result = result.replace(greek, latin)
+
+    # Remove any remaining non-ASCII characters
+    result = ''.join(c if ord(c) < 128 else '' for c in result)
+    return result.strip()
+
+
+def normalize_name(name):
+    """Normalize a name for comparison."""
+    if not name:
+        return ''
+    # Transliterate if contains Greek
+    name = transliterate_greek(name)
+    # Lowercase, remove punctuation, extra spaces
+    name = re.sub(r'[^a-zA-Z\s]', '', name.lower())
+    name = ' '.join(name.split())
+    return name
+
+
+def match_names(english_name, greek_names_dict):
+    """
+    Try to match an English name to a Greek name in the box scores.
+    Returns the matching Greek name key or None.
+    """
+    if not english_name:
+        return None
+
+    # Normalize the English name
+    eng_normalized = normalize_name(english_name)
+    eng_parts = eng_normalized.split()
+
+    if not eng_parts:
+        return None
+
+    # Try each Greek name
+    best_match = None
+    best_score = 0
+
+    for greek_name in greek_names_dict.keys():
+        greek_normalized = normalize_name(greek_name)
+        greek_parts = greek_normalized.split()
+
+        if not greek_parts:
+            continue
+
+        # Count how many name parts match
+        score = 0
+        for eng_part in eng_parts:
+            for greek_part in greek_parts:
+                # Check if parts are similar (one contains the other, or close match)
+                if len(eng_part) >= 3 and len(greek_part) >= 3:
+                    if eng_part in greek_part or greek_part in eng_part:
+                        score += 2
+                    elif eng_part[:3] == greek_part[:3]:
+                        score += 1
+
+        # Bonus for matching last name (usually listed first in Greek)
+        if len(eng_parts) >= 2 and len(greek_parts) >= 1:
+            eng_last = eng_parts[-1]
+            greek_first = greek_parts[0]
+            if len(eng_last) >= 3 and len(greek_first) >= 3:
+                if eng_last[:4] == greek_first[:4] or greek_first[:4] == eng_last[:4]:
+                    score += 3
+
+        if score > best_score:
+            best_score = score
+            best_match = greek_name
+
+    # Only return match if score is high enough
+    if best_score >= 3:
+        return best_match
+    return None
 
 
 def load_json(filename):
@@ -147,17 +268,32 @@ def main():
             height_feet = int(total_inches // 12)
             height_inches = int(total_inches % 12)
 
-        # Get game log for this player (try exact name match first, then partial)
+        # Get game log for this player
         player_name = player.get('name', '')
-        game_log = player_games.get(player_name, [])
+        game_log = []
+        matched_name = None
 
-        # If no exact match, try to find partial matches
-        if not game_log:
-            name_lower = player_name.lower()
-            for box_name, games in player_games.items():
-                if name_lower in box_name.lower() or box_name.lower() in name_lower:
-                    game_log = games
+        # First, try manual mapping (most reliable)
+        if player_name in AMERICAN_PLAYER_MAPPINGS:
+            for greek_pattern in AMERICAN_PLAYER_MAPPINGS[player_name]:
+                if greek_pattern in player_games:
+                    game_log = player_games[greek_pattern]
+                    matched_name = greek_pattern
+                    logger.info(f"  Manual match: {player_name} -> {greek_pattern}")
                     break
+
+        # If no manual match, try exact English name match
+        if not game_log and player_name in player_games:
+            game_log = player_games[player_name]
+            matched_name = player_name
+
+        # If still no match, try Greek-to-English fuzzy matching
+        if not game_log:
+            matched_greek_name = match_names(player_name, player_games)
+            if matched_greek_name:
+                game_log = player_games[matched_greek_name]
+                matched_name = matched_greek_name
+                logger.info(f"  Fuzzy match: {player_name} -> {transliterate_greek(matched_greek_name)}")
 
         # Calculate stats from game log
         games_played = len(game_log)
@@ -219,6 +355,17 @@ def main():
     logger.info("SUMMARY")
     logger.info("=" * 60)
     logger.info(f"Total players: {len(unified_players)}")
+
+    # Count matched vs unmatched
+    matched = [p for p in unified_players if p.get('games_played', 0) > 0]
+    unmatched = [p for p in unified_players if p.get('games_played', 0) == 0]
+    logger.info(f"Players with game data: {len(matched)}")
+    logger.info(f"Players without game data: {len(unmatched)}")
+
+    if unmatched:
+        logger.info("\nUnmatched players:")
+        for p in unmatched:
+            logger.info(f"  - {p.get('name')} ({p.get('team')})")
 
     # Count by team
     teams = {}
