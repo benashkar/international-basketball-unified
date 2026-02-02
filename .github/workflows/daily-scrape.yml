@@ -142,11 +142,16 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests beautifulsoup4
 
+      - name: Install Selenium dependencies
+        run: |
+          pip install selenium webdriver-manager
+
       - name: Run French LNB scrapers
         run: |
           cd scrapers/lnb
           mkdir -p output/json
           python lnb_scraper.py
+          python lnb_boxscore_scraper.py
           python join_data.py
 
       - name: Copy LNB data to output
@@ -154,6 +159,8 @@ jobs:
           mkdir -p output/json
           cp scrapers/lnb/output/json/lnb_american_stats_latest.json output/json/lnb_american_players_latest.json 2>/dev/null || true
           cp scrapers/lnb/output/json/unified_american_players_latest.json output/json/lnb_unified_players_latest.json 2>/dev/null || true
+          cp scrapers/lnb/output/json/lnb_boxscores_latest.json output/json/lnb_boxscores_latest.json 2>/dev/null || true
+          cp scrapers/lnb/output/json/lnb_games_latest.json output/json/lnb_games_latest.json 2>/dev/null || true
 
       - name: Upload LNB artifacts
         uses: actions/upload-artifact@v4
