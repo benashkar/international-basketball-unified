@@ -284,7 +284,7 @@ def fetch_box_score(game_id):
 
         for row in rows:
             cells = row.find_all(['td', 'th'])
-            if len(cells) < 5:
+            if len(cells) < 16:
                 continue
 
             first_cell_text = cells[0].get_text(strip=True)
@@ -298,14 +298,18 @@ def fetch_box_score(game_id):
             if not name or len(name) < 2:
                 continue
 
+            # ESAKE table columns:
+            # 0: Player, 1: P, 2: 2PM-A, 3: 3PM-A, 4: FTM-A, 5: REBS, 6: D.REBS, 7: O.REBS
+            # 8: AST, 9: BLK, 10: BLK-A, 11: FOULS F, 12: FOULS M, 13: STL, 14: TO, 15: TIM.PL., 16: RANK
             player = {
                 'name': name,
-                'minutes': cells[1].get_text(strip=True) if len(cells) > 1 else '0:00',
-                'points': parse_int(cells[2].get_text(strip=True)) if len(cells) > 2 else 0,
-                'rebounds': parse_int(cells[3].get_text(strip=True)) if len(cells) > 3 else 0,
-                'assists': parse_int(cells[4].get_text(strip=True)) if len(cells) > 4 else 0,
-                'steals': parse_int(cells[5].get_text(strip=True)) if len(cells) > 5 else 0,
-                'blocks': parse_int(cells[6].get_text(strip=True)) if len(cells) > 6 else 0,
+                'points': parse_int(cells[1].get_text(strip=True)) if len(cells) > 1 else 0,
+                'rebounds': parse_int(cells[5].get_text(strip=True)) if len(cells) > 5 else 0,
+                'assists': parse_int(cells[8].get_text(strip=True)) if len(cells) > 8 else 0,
+                'blocks': parse_int(cells[9].get_text(strip=True)) if len(cells) > 9 else 0,
+                'steals': parse_int(cells[13].get_text(strip=True)) if len(cells) > 13 else 0,
+                'minutes': cells[15].get_text(strip=True) if len(cells) > 15 else '0:00',
+                'turnovers': parse_int(cells[14].get_text(strip=True)) if len(cells) > 14 else 0,
             }
 
             players.append(player)

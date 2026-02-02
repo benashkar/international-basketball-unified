@@ -184,6 +184,7 @@ jobs:
           cd scrapers/esake
           mkdir -p output/json
           python esake_scraper.py
+          python esake_boxscore_scraper.py
           python join_data.py
 
       - name: Copy ESAKE data to output
@@ -191,12 +192,15 @@ jobs:
           mkdir -p output/json
           cp scrapers/esake/output/json/esake_american_stats_latest.json output/json/esake_american_players_latest.json 2>/dev/null || true
           cp scrapers/esake/output/json/unified_american_players_latest.json output/json/esake_unified_players_latest.json 2>/dev/null || true
+          cp scrapers/esake/output/json/esake_boxscores_latest.json output/json/esake_boxscores_latest.json 2>/dev/null || true
+          cp scrapers/esake/output/json/esake_games_latest.json output/json/esake_games_latest.json 2>/dev/null || true
 
       - name: Upload ESAKE artifacts
         uses: actions/upload-artifact@v4
         with:
           name: esake-data
-          path: output/json/esake_*.json
+          path: |
+            output/json/esake_*.json
           if-no-files-found: warn
 
   combine-and-commit:
