@@ -1,9 +1,9 @@
 {
-  "export_date": "2026-02-02T05:31:13.930515",
+  "export_date": "2026-02-02T06:38:47.874838",
   "season": "2025-26",
   "league": "Lega Basket Serie A (LBA)",
   "source": "legabasket.it",
-  "game_count": 261,
+  "game_count": 260,
   "games": [
     {
       "game_id": "25009",
@@ -729,17 +729,6 @@
       "home_score": 81,
       "away_score": 68,
       "venue": "BTS Arena",
-      "played": true
-    },
-    {
-      "game_id": "25081",
-      "date": "2025-11-23",
-      "round": "9° Giornata",
-      "home_team": "Bertram Derthona Tortona",
-      "away_team": "Umana Reyer Venezia",
-      "home_score": 90,
-      "away_score": 98,
-      "venue": "Nova Arena",
       "played": true
     },
     {
