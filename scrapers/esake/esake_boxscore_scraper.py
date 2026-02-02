@@ -95,29 +95,60 @@ def fetch_all_teams():
 
     soup = BeautifulSoup(html, 'html.parser')
     teams = []
-
-    # Find all team links
-    team_links = soup.find_all('a', href=re.compile(r'EsaketeamView\?idteam='))
     seen_ids = set()
 
-    for link in team_links:
-        href = link.get('href', '')
-        match = re.search(r'idteam=([A-F0-9]+)', href)
-        if match:
-            team_id = match.group(1)
-            if team_id not in seen_ids:
-                seen_ids.add(team_id)
-                team_name = link.get_text(strip=True)
-                teams.append({
-                    'id': team_id,
-                    'name': team_name
-                })
+    # Team names are in h4 tags, team IDs are in nearby links
+    h4_tags = soup.find_all('h4')
+
+    for h4 in h4_tags:
+        team_name = h4.get_text(strip=True)
+        if not team_name:
+            continue
+
+        # Find nearest link with team ID by searching parent divs
+        parent = h4.find_parent('div')
+        team_link = None
+
+        for _ in range(5):  # Search up to 5 levels
+            if parent:
+                team_link = parent.find('a', href=re.compile(r'idteam='))
+                if team_link:
+                    break
+                parent = parent.find_parent('div')
+
+        if team_link:
+            href = team_link.get('href', '')
+            match = re.search(r'idteam=([A-F0-9]+)', href)
+            if match:
+                team_id = match.group(1)
+                if team_id not in seen_ids:
+                    seen_ids.add(team_id)
+                    teams.append({
+                        'id': team_id,
+                        'name': team_name
+                    })
 
     logger.info(f"Found {len(teams)} teams")
     return teams
 
 
-def fetch_team_schedule(team_id):
+def parse_score(score_text):
+    """Parse score from text like '94 - 71' or '94\xa0-\xa071'."""
+    if not score_text:
+        return None, None
+
+    # Replace non-breaking spaces with regular spaces
+    score_text = score_text.replace('\xa0', ' ')
+
+    # Look for score pattern
+    match = re.search(r'(\d{2,3})\s*[-–]\s*(\d{2,3})', score_text)
+    if match:
+        return int(match.group(1)), int(match.group(2))
+
+    return None, None
+
+
+def fetch_team_schedule(team_id, team_name):
     """Fetch all games for a team (completed and upcoming)."""
     html = fetch_page(TEAM_SCHEDULE_URL, {'idteam': team_id, 'mode': 3})
     if not html:
@@ -126,39 +157,68 @@ def fetch_team_schedule(team_id):
     soup = BeautifulSoup(html, 'html.parser')
     games = []
 
-    # Find all game links
-    game_links = soup.find_all('a', href=re.compile(r'EsakegameView\?idgame='))
+    # Find all game rows (the structure uses esake-program-game-row-* classes)
+    game_rows = soup.find_all('div', class_=re.compile(r'esake-program-game-row'))
 
-    for link in game_links:
-        href = link.get('href', '')
-        match = re.search(r'idgame=([A-F0-9]+)', href)
-        if match:
-            game_id = match.group(1)
-            # Try to find associated date and score
-            parent = link.find_parent(['tr', 'div', 'li'])
+    for row in game_rows:
+        # Get game ID from link
+        game_link = row.find('a', href=re.compile(r'idgame='))
+        if not game_link:
+            continue
 
-            game_info = {
-                'game_id': game_id,
-                'date': None,
-                'opponent': None,
-                'score': None,
-                'played': False
-            }
+        href = game_link.get('href', '')
+        game_id_match = re.search(r'idgame=([A-F0-9]+)', href)
+        if not game_id_match:
+            continue
 
-            if parent:
-                text = parent.get_text()
-                # Look for date pattern
-                date_match = re.search(r'(\d{1,2}[/\-\.]\d{1,2}[/\-\.]\d{4}|\w+\s+\d{1,2},?\s+\d{4})', text)
-                if date_match:
-                    game_info['date'] = date_match.group(1)
+        game_id = game_id_match.group(1)
 
-                # Look for score pattern
-                score_match = re.search(r'(\d{2,3})\s*[-:]\s*(\d{2,3})', text)
-                if score_match:
-                    game_info['score'] = f"{score_match.group(1)}-{score_match.group(2)}"
+        game_info = {
+            'game_id': game_id,
+            'date': None,
+            'series': None,
+            'home_team': None,
+            'away_team': None,
+            'home_score': None,
+            'away_score': None,
+            'played': False
+        }
+
+        # Get series number
+        series_elem = row.find('h5')
+        if series_elem:
+            series_text = series_elem.get_text(strip=True)
+            series_match = re.search(r'(\d+)', series_text)
+            if series_match:
+                game_info['series'] = int(series_match.group(1))
+
+        # Get date
+        date_div = row.find('div', class_='esake-program-game-info')
+        if date_div:
+            date_text = date_div.get_text(strip=True)
+            game_info['date'] = date_text
+
+        # Get score section
+        score_wrapper = row.find('div', class_='esake-program-game-final-score')
+        if score_wrapper:
+            spans = score_wrapper.find_all('span')
+            texts = [s.get_text(strip=True) for s in spans]
+
+            if len(texts) >= 3:
+                # Format: [home_team, score, away_team]
+                game_info['home_team'] = texts[0]
+                game_info['away_team'] = texts[2] if len(texts) > 2 else None
+
+                # Check if middle text is a score
+                score_text = texts[1]
+                home_score, away_score = parse_score(score_text)
+
+                if home_score is not None and away_score is not None:
+                    game_info['home_score'] = home_score
+                    game_info['away_score'] = away_score
                     game_info['played'] = True
 
-            games.append(game_info)
+        games.append(game_info)
 
     return games
 
@@ -168,18 +228,23 @@ def fetch_all_game_ids():
     logger.info("Fetching all game IDs from team schedules...")
 
     teams = fetch_all_teams()
-    all_games = {}  # Use dict to avoid duplicates
+    all_games = {}  # Use dict to deduplicate by game_id
 
     for i, team in enumerate(teams):
         logger.info(f"Fetching schedule for {team['name']} ({i+1}/{len(teams)})...")
-        games = fetch_team_schedule(team['id'])
+        games = fetch_team_schedule(team['id'], team['name'])
 
         for game in games:
             game_id = game['game_id']
             if game_id not in all_games:
                 all_games[game_id] = game
-            elif game.get('date') and not all_games[game_id].get('date'):
-                all_games[game_id].update(game)
+            else:
+                # Merge info if we have more data
+                existing = all_games[game_id]
+                if game.get('home_score') and not existing.get('home_score'):
+                    existing.update(game)
+                if game.get('date') and not existing.get('date'):
+                    existing['date'] = game['date']
 
         time.sleep(0.3)
 
@@ -209,30 +274,6 @@ def fetch_box_score(game_id):
         'away_players': [],
     }
 
-    # Try to find team names from the page
-    team_divs = soup.find_all(['h2', 'h3', 'div'], class_=re.compile(r'team', re.I))
-    team_names = []
-    for div in team_divs:
-        text = div.get_text(strip=True)
-        if text and len(text) > 2 and len(text) < 50:
-            team_names.append(text)
-
-    if len(team_names) >= 2:
-        box_score['home_team'] = team_names[0]
-        box_score['away_team'] = team_names[1]
-
-    # Find score
-    score_elements = soup.find_all(['span', 'div'], class_=re.compile(r'score', re.I))
-    scores = []
-    for elem in score_elements:
-        text = elem.get_text(strip=True)
-        if text.isdigit():
-            scores.append(int(text))
-
-    if len(scores) >= 2:
-        box_score['home_score'] = scores[0]
-        box_score['away_score'] = scores[1]
-
     # Find all tables with player stats
     tables = soup.find_all('table')
 
@@ -249,7 +290,7 @@ def fetch_box_score(game_id):
             first_cell_text = cells[0].get_text(strip=True)
 
             # Skip header/total rows
-            if any(x in first_cell_text.upper() for x in ['PLAYER', 'NAME', 'TOTAL', 'TEAM', 'ΠΑΙΚΤΗΣ']):
+            if any(x in first_cell_text.upper() for x in ['PLAYER', 'NAME', 'TOTAL', 'TEAM', 'ΠΑΙΚΤΗΣ', 'MIN', 'PTS']):
                 continue
 
             # Clean up jersey number from name
@@ -339,8 +380,13 @@ def main():
         logger.info(f"Fetching box score {i+1}/{len(played_games)}: {game_id}")
         box_score = fetch_box_score(game_id)
         if box_score:
-            # Add game metadata
+            # Add game metadata from schedule
             box_score['date'] = game.get('date')
+            box_score['home_team'] = game.get('home_team')
+            box_score['away_team'] = game.get('away_team')
+            box_score['home_score'] = game.get('home_score')
+            box_score['away_score'] = game.get('away_score')
+            box_score['series'] = game.get('series')
             all_box_scores.append(box_score)
         time.sleep(0.5)
 
