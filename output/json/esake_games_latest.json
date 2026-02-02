@@ -1,0 +1,1570 @@
+{
+  "export_date": "2026-02-02T03:54:08.216088",
+  "season": "2025-26",
+  "league": "Greek Basket League (ESAKE)",
+  "source": "esake.gr",
+  "game_count": 156,
+  "played_count": 100,
+  "games": [
+    {
+      "game_id": "B9FAB9B9",
+      "date": "Sat 7 Feb - 18:00",
+      "series": 18,
+      "home_team": "ΑΕΚ",
+      "away_team": "ΜΑΡΟΥΣΙCHERY",
+      "home_score": null,
+      "away_score": null,
+      "played": false
+    },
+    {
+      "game_id": "31448FA0",
+      "date": "Sat 14 Feb - 18:15",
+      "series": 19,
+      "home_team": "ΠΑΟΚ",
+      "away_team": "ΑΕΚ",
+      "home_score": null,
+      "away_score": null,
+      "played": false
+    },
+    {
+      "game_id": "DF3AE35B",
+      "date": "Sat 7 Mar - 16:00",
+      "series": 20,
+      "home_team": "ΑΕΚ",
+      "away_team": "ΠΡΟΜΗΘΕΑΣΠΑΤΡΑΣΒΙΚΟΣCOLA",
+      "home_score": null,
+      "away_score": null,
+      "played": false
+    },
+    {
+      "game_id": "39066761",
+      "date": "Sun 15 Mar - 16:00",
+      "series": 21,
+      "home_team": "ΠΑΝΑΘΗΝΑΪΚΟΣAKTOR",
+      "away_team": "ΑΕΚ",
+      "home_score": null,
+      "away_score": null,
+      "played": false
+    },
+    {
+      "game_id": "900D8447",
+      "date": "Sun 22 Mar - 13:00",
+      "series": 22,
+      "home_team": "ΑΕΚ",
+      "away_team": "ΗΡΑΚΛΗΣ",
+      "home_score": null,
+      "away_score": null,
+      "played": false
+    },
+    {
+      "game_id": "AC22547F",
+      "date": "Sat 28 Mar - 18:15",
+      "series": 23,
+      "home_team": "ΑΕΚ",
+      "away_team": "ΠΕΡΙΣΤΕΡΙBetsson",
+      "home_score": null,
+      "away_score": null,
+      "played": false
+    },
+    {
+      "game_id": "CB858B59",
+      "date": "Sat 4 Apr - 18:15",
+      "series": 24,
+      "home_team": "ΑΡΗΣBetsson",
+      "away_team": "ΑΕΚ",
+      "home_score": null,
+      "away_score": null,
+      "played": false
+    },
+    {
+      "game_id": "64A6314C",
+      "date": "Sun 19 Apr - 16:00",
+      "series": 25,
+      "home_team": "ΠΑΝΙΩΝΙΟΣCOSMORAMATRAVEL",
+      "away_team": "ΑΕΚ",
+      "home_score": null,
+      "away_score": null,
+      "played": false
+    },
+    {
+      "game_id": "56E6EEB7",
+      "date": "Sat 25 Apr - 18:30",
+      "series": 26,
+      "home_team": "ΑΕΚ",
+      "away_team": "ΟΛΥΜΠΙΑΚΟΣ",
+      "home_score": null,
+      "away_score": null,
+      "played": false
+    },
+    {
+      "game_id": "24EFFB78",
+      "date": "Sat 31 Jan - 18:15",
+      "series": 17,
+      "home_team": "ΑΕΚ",
+      "away_team": "ΚΟΛΟΣΣΟΣ HHOTELSCOLLECTION",
+      "home_score": 96,
+      "away_score": 83,
+      "played": true
+    },
+    {
+      "game_id": "BD81985E",
+      "date": "Sat 17 Jan - 18:15",
+      "series": 15,
+      "home_team": "ΚΑΡΔΙΤΣΑΙΑΠΩΝΙΚΗ",
+      "away_team": "ΑΕΚ",
+      "home_score": 71,
+      "away_score": 79,
+      "played": true
+    },
+    {
+      "game_id": "B799FCEB",
+      "date": "Sun 11 Jan - 13:00",
+      "series": 14,
+      "home_team": "ΑΕΚ",
+      "away_team": "ΜΥΚΟΝΟΣBetsson BC",
+      "home_score": 90,
+      "away_score": 65,
+      "played": true
+    },
+    {
+      "game_id": "859AC058",
+      "date": "Sat 3 Jan - 18:15",
+      "series": 13,
+      "home_team": "ΠΡΟΜΗΘΕΑΣΠΑΤΡΑΣΒΙΚΟΣCOLA",
+      "away_team": "ΑΕΚ",
+      "home_score": 86,
+      "away_score": 94,
+      "played": true
+    },
+    {
+      "game_id": "F4315E6B",
+      "date": "Sat 27 Dec - 16:00",
+      "series": 12,
+      "home_team": "ΑΕΚ",
+      "away_team": "ΑΡΗΣBetsson",
+      "home_score": 82,
+      "away_score": 76,
+      "played": true
+    },
+    {
+      "game_id": "B52DF9AA",
+      "date": "Sat 20 Dec - 16:00",
+      "series": 11,
+      "home_team": "ΜΥΚΟΝΟΣBetsson BC",
+      "away_team": "ΑΕΚ",
+      "home_score": 76,
+      "away_score": 77,
+      "played": true
+    },
+    {
+      "game_id": "84A0F897",
+      "date": "Sat 13 Dec - 20:30",
+      "series": 10,
+      "home_team": "ΑΕΚ",
+      "away_team": "ΠΑΝΑΘΗΝΑΪΚΟΣAKTOR",
+      "home_score": 63,
+      "away_score": 101,
+      "played": true
+    },
+    {
+      "game_id": "7597E994",
+      "date": "Sun 7 Dec - 13:00",
+      "series": 9,
+      "home_team": "ΟΛΥΜΠΙΑΚΟΣ",
+      "away_team": "ΑΕΚ",
+      "home_score": 100,
+      "away_score": 93,
+      "played": true
+    },
+    {
+      "game_id": "5127A994",
+      "date": "Sat 15 Nov - 18:15",
+      "series": 7,
+      "home_team": "ΜΑΡΟΥΣΙCHERY",
+      "away_team": "ΑΕΚ",
+      "home_score": 82,
+      "away_score": 103,
+      "played": true
+    },
+    {
+      "game_id": "CF1AD33A",
+      "date": "Sun 9 Nov - 13:00",
+      "series": 6,
+      "home_team": "ΑΕΚ",
+      "away_team": "ΠΑΟΚ",
+      "home_score": 76,
+      "away_score": 78,
+      "played": true
+    },
+    {
+      "game_id": "F2EB952B",
+      "date": "Sat 1 Nov - 16:00",
+      "series": 5,
+      "home_team": "ΠΕΡΙΣΤΕΡΙBetsson",
+      "away_team": "ΑΕΚ",
+      "home_score": 79,
+      "away_score": 66,
+      "played": true
+    },
+    {
+      "game_id": "5252B5CD",
+      "date": "Sat 25 Oct - 17:30",
+      "series": 4,
+      "home_team": "ΗΡΑΚΛΗΣ",
+      "away_team": "ΑΕΚ",
+      "home_score": 61,
+      "away_score": 82,
+      "played": true
+    },
+    {
+      "game_id": "AC1351AC",
+      "date": "Sat 18 Oct - 16:00",
+      "series": 3,
+      "home_team": "ΑΕΚ",
+      "away_team": "ΚΑΡΔΙΤΣΑΙΑΠΩΝΙΚΗ",
+      "home_score": 77,
+      "away_score": 62,
+      "played": true
+    },
+    {
+      "game_id": "915C8F9A",
+      "date": "Sun 12 Oct - 13:00",
+      "series": 2,
+      "home_team": "ΑΕΚ",
+      "away_team": "ΠΑΝΙΩΝΙΟΣCOSMORAMATRAVEL",
+      "home_score": 93,
+      "away_score": 73,
+      "played": true
+    },
+    {
+      "game_id": "D6867DA7",
+      "date": "Sat 4 Oct - 16:00",
+      "series": 1,
+      "home_team": "ΚΟΛΟΣΣΟΣ HHOTELSCOLLECTION",
+      "away_team": "ΑΕΚ",
+      "home_score": 85,
+      "away_score": 87,
+      "played": true
+    },
+    {
+      "game_id": "6780FFBC",
+      "date": "Sat 14 Feb - 16:00",
+      "series": 19,
+      "home_team": "ΜΥΚΟΝΟΣBetsson BC",
+      "away_team": "ΑΡΗΣBetsson",
+      "home_score": null,
+      "away_score": null,
+      "played": false
+    },
+    {
+      "game_id": "331F8F82",
+      "date": "Sat 7 Mar - 18:15",
+      "series": 20,
+      "home_team": "ΑΡΗΣBetsson",
+      "away_team": "ΜΑΡΟΥΣΙCHERY",
+      "home_score": null,
+      "away_score": null,
+      "played": false
+    },
+    {
+      "game_id": "BDDDDB35",
+      "date": "Sat 14 Mar - 18:15",
+      "series": 21,
+      "home_team": "ΠΑΟΚ",
+      "away_team": "ΑΡΗΣBetsson",
+      "home_score": null,
+      "away_score": null,
+      "played": false
+    },
+    {
+      "game_id": "064626C4",
+      "date": "Sat 21 Mar - 16:00",
+      "series": 22,
+      "home_team": "ΑΡΗΣBetsson",
+      "away_team": "ΚΑΡΔΙΤΣΑΙΑΠΩΝΙΚΗ",
+      "home_score": null,
+      "away_score": null,
+      "played": false
+    },
+    {
+      "game_id": "A10DD10B",
+      "date": "Sat 28 Mar - 16:00",
+      "series": 23,
+      "home_team": "ΚΟΛΟΣΣΟΣ HHOTELSCOLLECTION",
+      "away_team": "ΑΡΗΣBetsson",
+      "home_score": null,
+      "away_score": null,
+      "played": false
+    },
+    {
+      "game_id": "A00CEF40",
+      "date": "Sun 19 Apr - 13:00",
+      "series": 25,
+      "home_team": "ΟΛΥΜΠΙΑΚΟΣ",
+      "away_team": "ΑΡΗΣBetsson",
+      "home_score": null,
+      "away_score": null,
+      "played": false
+    },
+    {
+      "game_id": "00055AF3",
+      "date": "Sat 25 Apr - 18:30",
+      "series": 26,
+      "home_team": "ΑΡΗΣBetsson",
+      "away_team": "ΠΑΝΙΩΝΙΟΣCOSMORAMATRAVEL",
+      "home_score": null,
+      "away_score": null,
+      "played": false
+    },
+    {
+      "game_id": "FFFD9924",
+      "date": "Sun 1 Feb - 16:00",
+      "series": 17,
+      "home_team": "ΑΡΗΣBetsson",
+      "away_team": "ΠΑΝΑΘΗΝΑΪΚΟΣAKTOR",
+      "home_score": 102,
+      "away_score": 95,
+      "played": true
+    },
+    {
+      "game_id": "C78F3907",
+      "date": "Sat 24 Jan - 16:00",
+      "series": 16,
+      "home_team": "ΠΡΟΜΗΘΕΑΣΠΑΤΡΑΣΒΙΚΟΣCOLA",
+      "away_team": "ΑΡΗΣBetsson",
+      "home_score": 97,
+      "away_score": 103,
+      "played": true
+    },
+    {
+      "game_id": "55C6FDE8",
+      "date": "Sat 17 Jan",
+      "series": 15,
+      "home_team": "ΠΕΡΙΣΤΕΡΙBetsson",
+      "away_team": "ΑΡΗΣBetsson",
+      "home_score": null,
+      "away_score": null,
+      "played": false
+    },
+    {
+      "game_id": "AECFE989",
+      "date": "Sat 10 Jan - 15:30",
+      "series": 14,
+      "home_team": "ΑΡΗΣBetsson",
+      "away_team": "ΗΡΑΚΛΗΣ",
+      "home_score": 78,
+      "away_score": 76,
+      "played": true
+    },
+    {
+      "game_id": "393D321D",
+      "date": "Sun 4 Jan - 13:00",
+      "series": 13,
+      "home_team": "ΑΡΗΣBetsson",
+      "away_team": "ΟΛΥΜΠΙΑΚΟΣ",
+      "home_score": 84,
+      "away_score": 95,
+      "played": true
+    },
+    {
+      "game_id": "A1CF2292",
+      "date": "Sat 20 Dec - 18:15",
+      "series": 11,
+      "home_team": "ΑΡΗΣBetsson",
+      "away_team": "ΠΕΡΙΣΤΕΡΙBetsson",
+      "home_score": 81,
+      "away_score": 76,
+      "played": true
+    },
+    {
+      "game_id": "40C60417",
+      "date": "Sat 13 Dec - 16:00",
+      "series": 10,
+      "home_team": "ΗΡΑΚΛΗΣ",
+      "away_team": "ΑΡΗΣBetsson",
+      "home_score": 80,
+      "away_score": 82,
+      "played": true
+    },
+    {
+      "game_id": "4BF3B604",
+      "date": "Sat 22 Nov - 18:15",
+      "series": 8,
+      "home_team": "ΑΡΗΣBetsson",
+      "away_team": "ΠΡΟΜΗΘΕΑΣΠΑΤΡΑΣΒΙΚΟΣCOLA",
+      "home_score": 96,
+      "away_score": 80,
+      "played": true
+    },
+    {
+      "game_id": "0D646AB1",
+      "date": "Sun 16 Nov - 18:15",
+      "series": 7,
+      "home_team": "ΠΑΝΑΘΗΝΑΪΚΟΣAKTOR",
+      "away_team": "ΑΡΗΣBetsson",
+      "home_score": 82,
+      "away_score": 77,
+      "played": true
+    },
+    {
+      "game_id": "CCF0757A",
+      "date": "Sat 8 Nov - 16:00",
+      "series": 6,
+      "home_team": "ΑΡΗΣBetsson",
+      "away_team": "ΜΥΚΟΝΟΣBetsson BC",
+      "home_score": 78,
+      "away_score": 61,
+      "played": true
+    },
+    {
+      "game_id": "C433D68C",
+      "date": "Sat 1 Nov - 18:15",
+      "series": 5,
+      "home_team": "ΑΡΗΣBetsson",
+      "away_team": "ΠΑΟΚ",
+      "home_score": 73,
+      "away_score": 78,
+      "played": true
+    },
+    {
+      "game_id": "14A8ACD9",
+      "date": "Sat 25 Oct - 18:15",
+      "series": 4,
+      "home_team": "ΠΑΝΙΩΝΙΟΣCOSMORAMATRAVEL",
+      "away_team": "ΑΡΗΣBetsson",
+      "home_score": 73,
+      "away_score": 90,
+      "played": true
+    },
+    {
+      "game_id": "C8894FC8",
+      "date": "Sat 18 Oct - 19:00",
+      "series": 3,
+      "home_team": "ΜΑΡΟΥΣΙCHERY",
+      "away_team": "ΑΡΗΣBetsson",
+      "home_score": 108,
+      "away_score": 103,
+      "played": true
+    },
+    {
+      "game_id": "A5B74B4D",
+      "date": "Sat 11 Oct - 16:00",
+      "series": 2,
+      "home_team": "ΑΡΗΣBetsson",
+      "away_team": "ΚΟΛΟΣΣΟΣ HHOTELSCOLLECTION",
+      "home_score": 65,
+      "away_score": 73,
+      "played": true
+    },
+    {
+      "game_id": "7A54A45E",
+      "date": "Sat 4 Oct - 16:00",
+      "series": 1,
+      "home_team": "ΚΑΡΔΙΤΣΑΙΑΠΩΝΙΚΗ",
+      "away_team": "ΑΡΗΣBetsson",
+      "home_score": 91,
+      "away_score": 77,
+      "played": true
+    },
+    {
+      "game_id": "A1AEF8F6",
+      "date": "Sat 7 Feb - 18:15",
+      "series": 18,
+      "home_team": "ΠΕΡΙΣΤΕΡΙBetsson",
+      "away_team": "ΗΡΑΚΛΗΣ",
+      "home_score": null,
+      "away_score": null,
+      "played": false
+    },
+    {
+      "game_id": "7A483C8C",
+      "date": "Sat 14 Feb - 16:00",
+      "series": 19,
+      "home_team": "ΗΡΑΚΛΗΣ",
+      "away_team": "ΟΛΥΜΠΙΑΚΟΣ",
+      "home_score": null,
+      "away_score": null,
+      "played": false
+    },
+    {
+      "game_id": "2108E5AB",
+      "date": "Sun 8 Mar - 16:00",
+      "series": 20,
+      "home_team": "ΗΡΑΚΛΗΣ",
+      "away_team": "ΠΑΝΑΘΗΝΑΪΚΟΣAKTOR",
+      "home_score": null,
+      "away_score": null,
+      "played": false
+    },
+    {
+      "game_id": "62AC2D49",
+      "date": "Sun 15 Mar - 12:45",
+      "series": 21,
+      "home_team": "ΚΟΛΟΣΣΟΣ HHOTELSCOLLECTION",
+      "away_team": "ΗΡΑΚΛΗΣ",
+      "home_score": null,
+      "away_score": null,
+      "played": false
+    },
+    {
+      "game_id": "6FD7C967",
+      "date": "Sun 29 Mar - 16:00",
+      "series": 23,
+      "home_team": "ΗΡΑΚΛΗΣ",
+      "away_team": "ΜΑΡΟΥΣΙCHERY",
+      "home_score": null,
+      "away_score": null,
+      "played": false
+    },
+    {
+      "game_id": "D2BB31D1",
+      "date": "Sat 4 Apr - 16:00",
+      "series": 24,
+      "home_team": "ΠΑΝΙΩΝΙΟΣCOSMORAMATRAVEL",
+      "away_team": "ΗΡΑΚΛΗΣ",
+      "home_score": null,
+      "away_score": null,
+      "played": false
+    },
+    {
+      "game_id": "701AEB05",
+      "date": "Sat 18 Apr - 18:15",
+      "series": 25,
+      "home_team": "ΗΡΑΚΛΗΣ",
+      "away_team": "ΠΑΟΚ",
+      "home_score": null,
+      "away_score": null,
+      "played": false
+    },
+    {
+      "game_id": "B98153F7",
+      "date": "Sat 25 Apr - 18:30",
+      "series": 26,
+      "home_team": "ΠΡΟΜΗΘΕΑΣΠΑΤΡΑΣΒΙΚΟΣCOLA",
+      "away_team": "ΗΡΑΚΛΗΣ",
+      "home_score": null,
+      "away_score": null,
+      "played": false
+    },
+    {
+      "game_id": "E442A1C9",
+      "date": "Sat 31 Jan - 16:00",
+      "series": 17,
+      "home_team": "ΗΡΑΚΛΗΣ",
+      "away_team": "ΚΑΡΔΙΤΣΑΙΑΠΩΝΙΚΗ",
+      "home_score": 93,
+      "away_score": 73,
+      "played": true
+    },
+    {
+      "game_id": "0A425AAD",
+      "date": "Sat 24 Jan - 16:00",
+      "series": 16,
+      "home_team": "ΜΥΚΟΝΟΣBetsson BC",
+      "away_team": "ΗΡΑΚΛΗΣ",
+      "home_score": 83,
+      "away_score": 80,
+      "played": true
+    },
+    {
+      "game_id": "5D87F283",
+      "date": "Sat 3 Jan - 18:15",
+      "series": 13,
+      "home_team": "ΗΡΑΚΛΗΣ",
+      "away_team": "ΠΕΡΙΣΤΕΡΙBetsson",
+      "home_score": 73,
+      "away_score": 59,
+      "played": true
+    },
+    {
+      "game_id": "8651C013",
+      "date": "Sat 27 Dec - 18:15",
+      "series": 12,
+      "home_team": "ΗΡΑΚΛΗΣ",
+      "away_team": "ΠΑΝΙΩΝΙΟΣCOSMORAMATRAVEL",
+      "home_score": 80,
+      "away_score": 66,
+      "played": true
+    },
+    {
+      "game_id": "872A2AA0",
+      "date": "Sat 20 Dec - 18:15",
+      "series": 11,
+      "home_team": "ΠΑΝΑΘΗΝΑΪΚΟΣAKTOR",
+      "away_team": "ΗΡΑΚΛΗΣ",
+      "home_score": 97,
+      "away_score": 82,
+      "played": true
+    },
+    {
+      "game_id": "B7782DA2",
+      "date": "Sat 6 Dec - 18:15",
+      "series": 9,
+      "home_team": "ΚΑΡΔΙΤΣΑΙΑΠΩΝΙΚΗ",
+      "away_team": "ΗΡΑΚΛΗΣ",
+      "home_score": 80,
+      "away_score": 87,
+      "played": true
+    },
+    {
+      "game_id": "66C256EC",
+      "date": "Sun 23 Nov - 13:00",
+      "series": 8,
+      "home_team": "ΜΑΡΟΥΣΙCHERY",
+      "away_team": "ΗΡΑΚΛΗΣ",
+      "home_score": 87,
+      "away_score": 92,
+      "played": true
+    },
+    {
+      "game_id": "123B4DCC",
+      "date": "Sun 16 Nov - 13:00",
+      "series": 7,
+      "home_team": "ΗΡΑΚΛΗΣ",
+      "away_team": "ΚΟΛΟΣΣΟΣ HHOTELSCOLLECTION",
+      "home_score": 86,
+      "away_score": 71,
+      "played": true
+    },
+    {
+      "game_id": "022AEC1F",
+      "date": "Sun 2 Nov - 13:00",
+      "series": 5,
+      "home_team": "ΟΛΥΜΠΙΑΚΟΣ",
+      "away_team": "ΗΡΑΚΛΗΣ",
+      "home_score": 103,
+      "away_score": 87,
+      "played": true
+    },
+    {
+      "game_id": "39A37733",
+      "date": "Sat 18 Oct - 17:00",
+      "series": 3,
+      "home_team": "ΗΡΑΚΛΗΣ",
+      "away_team": "ΜΥΚΟΝΟΣBetsson BC",
+      "home_score": 73,
+      "away_score": 80,
+      "played": true
+    },
+    {
+      "game_id": "A6D8234E",
+      "date": "Sat 11 Oct - 19:30",
+      "series": 2,
+      "home_team": "ΠΑΟΚ",
+      "away_team": "ΗΡΑΚΛΗΣ",
+      "home_score": 84,
+      "away_score": 82,
+      "played": true
+    },
+    {
+      "game_id": "2494140D",
+      "date": "Sat 4 Oct - 19:00",
+      "series": 1,
+      "home_team": "ΗΡΑΚΛΗΣ",
+      "away_team": "ΠΡΟΜΗΘΕΑΣΠΑΤΡΑΣΒΙΚΟΣCOLA",
+      "home_score": 90,
+      "away_score": 79,
+      "played": true
+    },
+    {
+      "game_id": "AE00F69F",
+      "date": "Sun 8 Feb - 16:00",
+      "series": 18,
+      "home_team": "ΚΑΡΔΙΤΣΑΙΑΠΩΝΙΚΗ",
+      "away_team": "ΠΑΝΑΘΗΝΑΪΚΟΣAKTOR",
+      "home_score": null,
+      "away_score": null,
+      "played": false
+    },
+    {
+      "game_id": "333BA441",
+      "date": "Sat 14 Feb - 18:15",
+      "series": 19,
+      "home_team": "ΜΑΡΟΥΣΙCHERY",
+      "away_team": "ΚΑΡΔΙΤΣΑΙΑΠΩΝΙΚΗ",
+      "home_score": null,
+      "away_score": null,
+      "played": false
+    },
+    {
+      "game_id": "5F8914F1",
+      "date": "Sat 7 Mar - 16:00",
+      "series": 20,
+      "home_team": "ΚΑΡΔΙΤΣΑΙΑΠΩΝΙΚΗ",
+      "away_team": "ΜΥΚΟΝΟΣBetsson BC",
+      "home_score": null,
+      "away_score": null,
+      "played": false
+    },
+    {
+      "game_id": "70F692DD",
+      "date": "Sun 29 Mar - 13:00",
+      "series": 23,
+      "home_team": "ΚΑΡΔΙΤΣΑΙΑΠΩΝΙΚΗ",
+      "away_team": "ΠΑΝΙΩΝΙΟΣCOSMORAMATRAVEL",
+      "home_score": null,
+      "away_score": null,
+      "played": false
+    },
+    {
+      "game_id": "5CFAAFD8",
+      "date": "Sat 4 Apr - 18:15",
+      "series": 24,
+      "home_team": "ΠΑΟΚ",
+      "away_team": "ΚΑΡΔΙΤΣΑΙΑΠΩΝΙΚΗ",
+      "home_score": null,
+      "away_score": null,
+      "played": false
+    },
+    {
+      "game_id": "35D959A5",
+      "date": "Sat 18 Apr - 18:15",
+      "series": 25,
+      "home_team": "ΚΑΡΔΙΤΣΑΙΑΠΩΝΙΚΗ",
+      "away_team": "ΠΡΟΜΗΘΕΑΣΠΑΤΡΑΣΒΙΚΟΣCOLA",
+      "home_score": null,
+      "away_score": null,
+      "played": false
+    },
+    {
+      "game_id": "4ED36E3B",
+      "date": "Sat 25 Apr - 18:30",
+      "series": 26,
+      "home_team": "ΚΟΛΟΣΣΟΣ HHOTELSCOLLECTION",
+      "away_team": "ΚΑΡΔΙΤΣΑΙΑΠΩΝΙΚΗ",
+      "home_score": null,
+      "away_score": null,
+      "played": false
+    },
+    {
+      "game_id": "3E969D1E",
+      "date": "Sat 24 Jan - 18:15",
+      "series": 16,
+      "home_team": "ΠΕΡΙΣΤΕΡΙBetsson",
+      "away_team": "ΚΑΡΔΙΤΣΑΙΑΠΩΝΙΚΗ",
+      "home_score": 82,
+      "away_score": 69,
+      "played": true
+    },
+    {
+      "game_id": "BD1731F0",
+      "date": "Sun 11 Jan - 13:00",
+      "series": 14,
+      "home_team": "ΚΑΡΔΙΤΣΑΙΑΠΩΝΙΚΗ",
+      "away_team": "ΟΛΥΜΠΙΑΚΟΣ",
+      "home_score": 80,
+      "away_score": 120,
+      "played": true
+    },
+    {
+      "game_id": "D7932E4C",
+      "date": "Sun 4 Jan - 16:00",
+      "series": 13,
+      "home_team": "ΠΑΝΑΘΗΝΑΪΚΟΣAKTOR",
+      "away_team": "ΚΑΡΔΙΤΣΑΙΑΠΩΝΙΚΗ",
+      "home_score": 92,
+      "away_score": 85,
+      "played": true
+    },
+    {
+      "game_id": "1997C6CC",
+      "date": "Sun 28 Dec - 13:00",
+      "series": 12,
+      "home_team": "ΚΑΡΔΙΤΣΑΙΑΠΩΝΙΚΗ",
+      "away_team": "ΠΑΟΚ",
+      "home_score": 68,
+      "away_score": 72,
+      "played": true
+    },
+    {
+      "game_id": "425EDB1F",
+      "date": "Sun 21 Dec - 16:00",
+      "series": 11,
+      "home_team": "ΚΑΡΔΙΤΣΑΙΑΠΩΝΙΚΗ",
+      "away_team": "ΜΑΡΟΥΣΙCHERY",
+      "home_score": 103,
+      "away_score": 87,
+      "played": true
+    },
+    {
+      "game_id": "712DDD76",
+      "date": "Sat 13 Dec - 16:00",
+      "series": 10,
+      "home_team": "ΜΥΚΟΝΟΣBetsson BC",
+      "away_team": "ΚΑΡΔΙΤΣΑΙΑΠΩΝΙΚΗ",
+      "home_score": 75,
+      "away_score": 65,
+      "played": true
+    },
+    {
+      "game_id": "56353A8B",
+      "date": "Sat 22 Nov - 18:15",
+      "series": 8,
+      "home_team": "ΠΑΝΙΩΝΙΟΣCOSMORAMATRAVEL",
+      "away_team": "ΚΑΡΔΙΤΣΑΙΑΠΩΝΙΚΗ",
+      "home_score": 107,
+      "away_score": 105,
+      "played": true
+    },
+    {
+      "game_id": "FE13D470",
+      "date": "Sat 15 Nov - 18:15",
+      "series": 7,
+      "home_team": "ΚΑΡΔΙΤΣΑΙΑΠΩΝΙΚΗ",
+      "away_team": "ΠΕΡΙΣΤΕΡΙBetsson",
+      "home_score": 88,
+      "away_score": 74,
+      "played": true
+    },
+    {
+      "game_id": "03193B50",
+      "date": "Sun 9 Nov - 13:00",
+      "series": 6,
+      "home_team": "ΟΛΥΜΠΙΑΚΟΣ",
+      "away_team": "ΚΑΡΔΙΤΣΑΙΑΠΩΝΙΚΗ",
+      "home_score": 102,
+      "away_score": 82,
+      "played": true
+    },
+    {
+      "game_id": "14699D4F",
+      "date": "Sat 1 Nov - 18:15",
+      "series": 5,
+      "home_team": "ΠΡΟΜΗΘΕΑΣΠΑΤΡΑΣΒΙΚΟΣCOLA",
+      "away_team": "ΚΑΡΔΙΤΣΑΙΑΠΩΝΙΚΗ",
+      "home_score": 91,
+      "away_score": 62,
+      "played": true
+    },
+    {
+      "game_id": "176152C4",
+      "date": "Sat 25 Oct - 18:15",
+      "series": 4,
+      "home_team": "ΚΑΡΔΙΤΣΑΙΑΠΩΝΙΚΗ",
+      "away_team": "ΚΟΛΟΣΣΟΣ HHOTELSCOLLECTION",
+      "home_score": 75,
+      "away_score": 73,
+      "played": true
+    },
+    {
+      "game_id": "E6D9A3DA",
+      "date": "Sat 7 Feb - 15:45",
+      "series": 18,
+      "home_team": "ΚΟΛΟΣΣΟΣ HHOTELSCOLLECTION",
+      "away_team": "ΠΑΟΚ",
+      "home_score": null,
+      "away_score": null,
+      "played": false
+    },
+    {
+      "game_id": "C0F74D68",
+      "date": "Sun 15 Feb - 16:00",
+      "series": 19,
+      "home_team": "ΠΑΝΑΘΗΝΑΪΚΟΣAKTOR",
+      "away_team": "ΚΟΛΟΣΣΟΣ HHOTELSCOLLECTION",
+      "home_score": null,
+      "away_score": null,
+      "played": false
+    },
+    {
+      "game_id": "6A0C10C6",
+      "date": "Sat 21 Mar - 16:00",
+      "series": 22,
+      "home_team": "ΠΡΟΜΗΘΕΑΣΠΑΤΡΑΣΒΙΚΟΣCOLA",
+      "away_team": "ΚΟΛΟΣΣΟΣ HHOTELSCOLLECTION",
+      "home_score": null,
+      "away_score": null,
+      "played": false
+    },
+    {
+      "game_id": "A005D853",
+      "date": "Sat 4 Apr - 16:00",
+      "series": 24,
+      "home_team": "ΠΕΡΙΣΤΕΡΙBetsson",
+      "away_team": "ΚΟΛΟΣΣΟΣ HHOTELSCOLLECTION",
+      "home_score": null,
+      "away_score": null,
+      "played": false
+    },
+    {
+      "game_id": "55E5DE1E",
+      "date": "Sat 18 Apr - 16:00",
+      "series": 25,
+      "home_team": "ΜΑΡΟΥΣΙCHERY",
+      "away_team": "ΚΟΛΟΣΣΟΣ HHOTELSCOLLECTION",
+      "home_score": null,
+      "away_score": null,
+      "played": false
+    },
+    {
+      "game_id": "30CD53A5",
+      "date": "Sun 25 Jan - 13:00",
+      "series": 16,
+      "home_team": "ΚΟΛΟΣΣΟΣ HHOTELSCOLLECTION",
+      "away_team": "ΟΛΥΜΠΙΑΚΟΣ",
+      "home_score": 85,
+      "away_score": 98,
+      "played": true
+    },
+    {
+      "game_id": "30BD1BFF",
+      "date": "Sun 18 Jan - 13:00",
+      "series": 15,
+      "home_team": "ΜΥΚΟΝΟΣBetsson BC",
+      "away_team": "ΚΟΛΟΣΣΟΣ HHOTELSCOLLECTION",
+      "home_score": 67,
+      "away_score": 84,
+      "played": true
+    },
+    {
+      "game_id": "CD6D52BF",
+      "date": "Sat 10 Jan - 18:15",
+      "series": 14,
+      "home_team": "ΠΑΝΙΩΝΙΟΣCOSMORAMATRAVEL",
+      "away_team": "ΚΟΛΟΣΣΟΣ HHOTELSCOLLECTION",
+      "home_score": 73,
+      "away_score": 62,
+      "played": true
+    },
+    {
+      "game_id": "CC99C65A",
+      "date": "Sun 4 Jan - 13:00",
+      "series": 13,
+      "home_team": "ΚΟΛΟΣΣΟΣ HHOTELSCOLLECTION",
+      "away_team": "ΜΑΡΟΥΣΙCHERY",
+      "home_score": 90,
+      "away_score": 76,
+      "played": true
+    },
+    {
+      "game_id": "B8B0047F",
+      "date": "Sat 27 Dec - 16:00",
+      "series": 12,
+      "home_team": "ΚΟΛΟΣΣΟΣ HHOTELSCOLLECTION",
+      "away_team": "ΜΥΚΟΝΟΣBetsson BC",
+      "home_score": 83,
+      "away_score": 97,
+      "played": true
+    },
+    {
+      "game_id": "EA08402E",
+      "date": "Sun 21 Dec - 13:00",
+      "series": 11,
+      "home_team": "ΟΛΥΜΠΙΑΚΟΣ",
+      "away_team": "ΚΟΛΟΣΣΟΣ HHOTELSCOLLECTION",
+      "home_score": 100,
+      "away_score": 86,
+      "played": true
+    },
+    {
+      "game_id": "F3C35D25",
+      "date": "Sat 6 Dec - 16:00",
+      "series": 9,
+      "home_team": "ΠΑΟΚ",
+      "away_team": "ΚΟΛΟΣΣΟΣ HHOTELSCOLLECTION",
+      "home_score": 82,
+      "away_score": 70,
+      "played": true
+    },
+    {
+      "game_id": "E370C037",
+      "date": "Sat 22 Nov - 16:00",
+      "series": 8,
+      "home_team": "ΚΟΛΟΣΣΟΣ HHOTELSCOLLECTION",
+      "away_team": "ΠΕΡΙΣΤΕΡΙBetsson",
+      "home_score": 72,
+      "away_score": 80,
+      "played": true
+    },
+    {
+      "game_id": "B30837F8",
+      "date": "Sun 9 Nov - 16:00",
+      "series": 6,
+      "home_team": "ΚΟΛΟΣΣΟΣ HHOTELSCOLLECTION",
+      "away_team": "ΠΡΟΜΗΘΕΑΣΠΑΤΡΑΣΒΙΚΟΣCOLA",
+      "home_score": 81,
+      "away_score": 89,
+      "played": true
+    },
+    {
+      "game_id": "D38441E9",
+      "date": "Sat 1 Nov - 16:00",
+      "series": 5,
+      "home_team": "ΚΟΛΟΣΣΟΣ HHOTELSCOLLECTION",
+      "away_team": "ΠΑΝΙΩΝΙΟΣCOSMORAMATRAVEL",
+      "home_score": 78,
+      "away_score": 76,
+      "played": true
+    },
+    {
+      "game_id": "4911CC8D",
+      "date": "Sun 19 Oct - 16:00",
+      "series": 3,
+      "home_team": "ΚΟΛΟΣΣΟΣ HHOTELSCOLLECTION",
+      "away_team": "ΠΑΝΑΘΗΝΑΪΚΟΣAKTOR",
+      "home_score": 67,
+      "away_score": 90,
+      "played": true
+    },
+    {
+      "game_id": "33442BD1",
+      "date": "Sat 14 Mar - 16:00",
+      "series": 21,
+      "home_team": "ΜΑΡΟΥΣΙCHERY",
+      "away_team": "ΠΕΡΙΣΤΕΡΙBetsson",
+      "home_score": null,
+      "away_score": null,
+      "played": false
+    },
+    {
+      "game_id": "C1300683",
+      "date": "Sat 21 Mar - 18:15",
+      "series": 22,
+      "home_team": "ΜΑΡΟΥΣΙCHERY",
+      "away_team": "ΜΥΚΟΝΟΣBetsson BC",
+      "home_score": null,
+      "away_score": null,
+      "played": false
+    },
+    {
+      "game_id": "AF21351D",
+      "date": "Sat 25 Apr - 18:30",
+      "series": 26,
+      "home_team": "ΠΑΟΚ",
+      "away_team": "ΜΑΡΟΥΣΙCHERY",
+      "home_score": null,
+      "away_score": null,
+      "played": false
+    },
+    {
+      "game_id": "2C63DE97",
+      "date": "Sun 1 Feb - 13:00",
+      "series": 17,
+      "home_team": "ΜΑΡΟΥΣΙCHERY",
+      "away_team": "ΠΑΝΙΩΝΙΟΣCOSMORAMATRAVEL",
+      "home_score": 97,
+      "away_score": 105,
+      "played": true
+    },
+    {
+      "game_id": "BBFBAB5C",
+      "date": "Sun 25 Jan - 15:45",
+      "series": 16,
+      "home_team": "ΠΑΝΑΘΗΝΑΪΚΟΣAKTOR",
+      "away_team": "ΜΑΡΟΥΣΙCHERY",
+      "home_score": 92,
+      "away_score": 81,
+      "played": true
+    },
+    {
+      "game_id": "2442E726",
+      "date": "Sat 17 Jan - 16:00",
+      "series": 15,
+      "home_team": "ΟΛΥΜΠΙΑΚΟΣ",
+      "away_team": "ΜΑΡΟΥΣΙCHERY",
+      "home_score": 104,
+      "away_score": 89,
+      "played": true
+    },
+    {
+      "game_id": "2066CA02",
+      "date": "Sun 11 Jan - 16:00",
+      "series": 14,
+      "home_team": "ΜΑΡΟΥΣΙCHERY",
+      "away_team": "ΠΡΟΜΗΘΕΑΣΠΑΤΡΑΣΒΙΚΟΣCOLA",
+      "home_score": 96,
+      "away_score": 78,
+      "played": true
+    },
+    {
+      "game_id": "3806106E",
+      "date": "Tue 30 Dec - 18:30",
+      "series": 12,
+      "home_team": "ΜΑΡΟΥΣΙCHERY",
+      "away_team": "ΠΑΝΑΘΗΝΑΪΚΟΣAKTOR",
+      "home_score": 89,
+      "away_score": 99,
+      "played": true
+    },
+    {
+      "game_id": "5B6E37DA",
+      "date": "Sun 14 Dec - 13:00",
+      "series": 10,
+      "home_team": "ΜΑΡΟΥΣΙCHERY",
+      "away_team": "ΠΑΟΚ",
+      "home_score": 87,
+      "away_score": 97,
+      "played": true
+    },
+    {
+      "game_id": "0089DAAC",
+      "date": "Sat 6 Dec - 18:15",
+      "series": 9,
+      "home_team": "ΠΕΡΙΣΤΕΡΙBetsson",
+      "away_team": "ΜΑΡΟΥΣΙCHERY",
+      "home_score": 80,
+      "away_score": 78,
+      "played": true
+    },
+    {
+      "game_id": "E1FC2E1E",
+      "date": "Sat 8 Nov - 18:15",
+      "series": 6,
+      "home_team": "ΠΑΝΙΩΝΙΟΣCOSMORAMATRAVEL",
+      "away_team": "ΜΑΡΟΥΣΙCHERY",
+      "home_score": 80,
+      "away_score": 92,
+      "played": true
+    },
+    {
+      "game_id": "60B638ED",
+      "date": "Sun 2 Nov - 16:00",
+      "series": 5,
+      "home_team": "ΜΥΚΟΝΟΣBetsson BC",
+      "away_team": "ΜΑΡΟΥΣΙCHERY",
+      "home_score": 77,
+      "away_score": 75,
+      "played": true
+    },
+    {
+      "game_id": "9D6C5A4F",
+      "date": "Sat 11 Oct - 19:00",
+      "series": 2,
+      "home_team": "ΠΡΟΜΗΘΕΑΣΠΑΤΡΑΣΒΙΚΟΣCOLA",
+      "away_team": "ΜΑΡΟΥΣΙCHERY",
+      "home_score": 93,
+      "away_score": 88,
+      "played": true
+    },
+    {
+      "game_id": "6C6DE291",
+      "date": "Sun 5 Oct - 13:00",
+      "series": 1,
+      "home_team": "ΜΑΡΟΥΣΙCHERY",
+      "away_team": "ΟΛΥΜΠΙΑΚΟΣ",
+      "home_score": 81,
+      "away_score": 100,
+      "played": true
+    },
+    {
+      "game_id": "3DE5EF09",
+      "date": "Sat 7 Feb - 16:00",
+      "series": 18,
+      "home_team": "ΠΑΝΙΩΝΙΟΣCOSMORAMATRAVEL",
+      "away_team": "ΜΥΚΟΝΟΣBetsson BC",
+      "home_score": null,
+      "away_score": null,
+      "played": false
+    },
+    {
+      "game_id": "3CE69266",
+      "date": "Sat 14 Mar - 16:00",
+      "series": 21,
+      "home_team": "ΜΥΚΟΝΟΣBetsson BC",
+      "away_team": "ΠΡΟΜΗΘΕΑΣΠΑΤΡΑΣΒΙΚΟΣCOLA",
+      "home_score": null,
+      "away_score": null,
+      "played": false
+    },
+    {
+      "game_id": "E998B875",
+      "date": "Wed 25 Mar - 18:00",
+      "series": 17,
+      "home_team": "ΠΑΟΚ",
+      "away_team": "ΜΥΚΟΝΟΣBetsson BC",
+      "home_score": null,
+      "away_score": null,
+      "played": false
+    },
+    {
+      "game_id": "4C54AEAE",
+      "date": "Sun 5 Apr - 13:00",
+      "series": 24,
+      "home_team": "ΟΛΥΜΠΙΑΚΟΣ",
+      "away_team": "ΜΥΚΟΝΟΣBetsson BC",
+      "home_score": null,
+      "away_score": null,
+      "played": false
+    },
+    {
+      "game_id": "2A7D1A13",
+      "date": "Sat 18 Apr - 16:00",
+      "series": 25,
+      "home_team": "ΜΥΚΟΝΟΣBetsson BC",
+      "away_team": "ΠΕΡΙΣΤΕΡΙBetsson",
+      "home_score": null,
+      "away_score": null,
+      "played": false
+    },
+    {
+      "game_id": "6AF63BE2",
+      "date": "Sat 25 Apr - 18:30",
+      "series": 26,
+      "home_team": "ΠΑΝΑΘΗΝΑΪΚΟΣAKTOR",
+      "away_team": "ΜΥΚΟΝΟΣBetsson BC",
+      "home_score": null,
+      "away_score": null,
+      "played": false
+    },
+    {
+      "game_id": "38AB985A",
+      "date": "Sat 3 Jan - 15:45",
+      "series": 13,
+      "home_team": "ΜΥΚΟΝΟΣBetsson BC",
+      "away_team": "ΠΑΟΚ",
+      "home_score": 101,
+      "away_score": 94,
+      "played": true
+    },
+    {
+      "game_id": "433817A1",
+      "date": "Sat 6 Dec - 16:00",
+      "series": 9,
+      "home_team": "ΠΡΟΜΗΘΕΑΣΠΑΤΡΑΣΒΙΚΟΣCOLA",
+      "away_team": "ΜΥΚΟΝΟΣBetsson BC",
+      "home_score": 103,
+      "away_score": 83,
+      "played": true
+    },
+    {
+      "game_id": "0A235BB1",
+      "date": "Sat 22 Nov - 16:00",
+      "series": 8,
+      "home_team": "ΜΥΚΟΝΟΣBetsson BC",
+      "away_team": "ΠΑΝΑΘΗΝΑΪΚΟΣAKTOR",
+      "home_score": 65,
+      "away_score": 78,
+      "played": true
+    },
+    {
+      "game_id": "56E1EBA3",
+      "date": "Sat 15 Nov - 16:00",
+      "series": 7,
+      "home_team": "ΜΥΚΟΝΟΣBetsson BC",
+      "away_team": "ΠΑΝΙΩΝΙΟΣCOSMORAMATRAVEL",
+      "home_score": 86,
+      "away_score": 77,
+      "played": true
+    },
+    {
+      "game_id": "5C09FC92",
+      "date": "Sun 26 Oct - 13:00",
+      "series": 4,
+      "home_team": "ΜΥΚΟΝΟΣBetsson BC",
+      "away_team": "ΟΛΥΜΠΙΑΚΟΣ",
+      "home_score": 65,
+      "away_score": 91,
+      "played": true
+    },
+    {
+      "game_id": "3F46EFAD",
+      "date": "Sun 12 Oct - 16:00",
+      "series": 2,
+      "home_team": "ΠΕΡΙΣΤΕΡΙBetsson",
+      "away_team": "ΜΥΚΟΝΟΣBetsson BC",
+      "home_score": 89,
+      "away_score": 83,
+      "played": true
+    },
+    {
+      "game_id": "907EFEB1",
+      "date": "Sun 8 Feb - 13:00",
+      "series": 18,
+      "home_team": "ΟΛΥΜΠΙΑΚΟΣ",
+      "away_team": "ΠΡΟΜΗΘΕΑΣΠΑΤΡΑΣΒΙΚΟΣCOLA",
+      "home_score": null,
+      "away_score": null,
+      "played": false
+    },
+    {
+      "game_id": "64261AE3",
+      "date": "Sun 8 Mar - 13:00",
+      "series": 20,
+      "home_team": "ΟΛΥΜΠΙΑΚΟΣ",
+      "away_team": "ΠΑΟΚ",
+      "home_score": null,
+      "away_score": null,
+      "played": false
+    },
+    {
+      "game_id": "E9755EB1",
+      "date": "Sun 15 Mar - 13:00",
+      "series": 21,
+      "home_team": "ΠΑΝΙΩΝΙΟΣCOSMORAMATRAVEL",
+      "away_team": "ΟΛΥΜΠΙΑΚΟΣ",
+      "home_score": null,
+      "away_score": null,
+      "played": false
+    },
+    {
+      "game_id": "D3C8F8A2",
+      "date": "Mon 30 Mar - 19:00",
+      "series": 23,
+      "home_team": "ΠΑΝΑΘΗΝΑΪΚΟΣAKTOR",
+      "away_team": "ΟΛΥΜΠΙΑΚΟΣ",
+      "home_score": null,
+      "away_score": null,
+      "played": false
+    },
+    {
+      "game_id": "D539C11A",
+      "date": "Sat 31 Jan - 18:15",
+      "series": 17,
+      "home_team": "ΟΛΥΜΠΙΑΚΟΣ",
+      "away_team": "ΠΕΡΙΣΤΕΡΙBetsson",
+      "home_score": 94,
+      "away_score": 71,
+      "played": true
+    },
+    {
+      "game_id": "F35A0A9B",
+      "date": "Sun 14 Dec - 16:00",
+      "series": 10,
+      "home_team": "ΠΕΡΙΣΤΕΡΙBetsson",
+      "away_team": "ΟΛΥΜΠΙΑΚΟΣ",
+      "home_score": 62,
+      "away_score": 105,
+      "played": true
+    },
+    {
+      "game_id": "A62783DB",
+      "date": "Sun 23 Nov - 16:00",
+      "series": 8,
+      "home_team": "ΠΑΟΚ",
+      "away_team": "ΟΛΥΜΠΙΑΚΟΣ",
+      "home_score": 81,
+      "away_score": 92,
+      "played": true
+    },
+    {
+      "game_id": "F8A32D69",
+      "date": "Sun 16 Nov - 16:00",
+      "series": 7,
+      "home_team": "ΠΡΟΜΗΘΕΑΣΠΑΤΡΑΣΒΙΚΟΣCOLA",
+      "away_team": "ΟΛΥΜΠΙΑΚΟΣ",
+      "home_score": 64,
+      "away_score": 88,
+      "played": true
+    },
+    {
+      "game_id": "F6DA23FB",
+      "date": "Sun 19 Oct - 13:00",
+      "series": 3,
+      "home_team": "ΟΛΥΜΠΙΑΚΟΣ",
+      "away_team": "ΠΑΝΙΩΝΙΟΣCOSMORAMATRAVEL",
+      "home_score": 81,
+      "away_score": 66,
+      "played": true
+    },
+    {
+      "game_id": "E3457596",
+      "date": "Sun 12 Oct - 19:00",
+      "series": 2,
+      "home_team": "ΟΛΥΜΠΙΑΚΟΣ",
+      "away_team": "ΠΑΝΑΘΗΝΑΪΚΟΣAKTOR",
+      "home_score": 90,
+      "away_score": 86,
+      "played": true
+    },
+    {
+      "game_id": "49D5AD1C",
+      "date": "Sun 22 Mar - 16:00",
+      "series": 22,
+      "home_team": "ΠΑΝΙΩΝΙΟΣCOSMORAMATRAVEL",
+      "away_team": "ΠΑΝΑΘΗΝΑΪΚΟΣAKTOR",
+      "home_score": null,
+      "away_score": null,
+      "played": false
+    },
+    {
+      "game_id": "B33C93F6",
+      "date": "Sun 5 Apr - 16:00",
+      "series": 24,
+      "home_team": "ΠΡΟΜΗΘΕΑΣΠΑΤΡΑΣΒΙΚΟΣCOLA",
+      "away_team": "ΠΑΝΑΘΗΝΑΪΚΟΣAKTOR",
+      "home_score": null,
+      "away_score": null,
+      "played": false
+    },
+    {
+      "game_id": "45DC000F",
+      "date": "Sun 18 Jan - 16:00",
+      "series": 15,
+      "home_team": "ΠΑΟΚ",
+      "away_team": "ΠΑΝΑΘΗΝΑΪΚΟΣAKTOR",
+      "home_score": 69,
+      "away_score": 74,
+      "played": true
+    },
+    {
+      "game_id": "EE108CA4",
+      "date": "Sun 11 Jan - 16:00",
+      "series": 14,
+      "home_team": "ΠΑΝΑΘΗΝΑΪΚΟΣAKTOR",
+      "away_team": "ΠΕΡΙΣΤΕΡΙBetsson",
+      "home_score": 94,
+      "away_score": 86,
+      "played": true
+    },
+    {
+      "game_id": "54F1EFCF",
+      "date": "Sun 7 Dec - 16:00",
+      "series": 9,
+      "home_team": "ΠΑΝΑΘΗΝΑΪΚΟΣAKTOR",
+      "away_team": "ΠΑΝΙΩΝΙΟΣCOSMORAMATRAVEL",
+      "home_score": 110,
+      "away_score": 66,
+      "played": true
+    },
+    {
+      "game_id": "EA65E932",
+      "date": "Sat 8 Nov - 16:00",
+      "series": 6,
+      "home_team": "ΠΕΡΙΣΤΕΡΙBetsson",
+      "away_team": "ΠΑΝΑΘΗΝΑΪΚΟΣAKTOR",
+      "home_score": 72,
+      "away_score": 89,
+      "played": true
+    },
+    {
+      "game_id": "5ADBAB0D",
+      "date": "Sun 26 Oct - 15:30",
+      "series": 4,
+      "home_team": "ΠΑΝΑΘΗΝΑΪΚΟΣAKTOR",
+      "away_team": "ΠΡΟΜΗΘΕΑΣΠΑΤΡΑΣΒΙΚΟΣCOLA",
+      "home_score": 91,
+      "away_score": 70,
+      "played": true
+    },
+    {
+      "game_id": "2187F881",
+      "date": "Sun 5 Oct - 16:00",
+      "series": 1,
+      "home_team": "ΠΑΝΑΘΗΝΑΪΚΟΣAKTOR",
+      "away_team": "ΠΑΟΚ",
+      "home_score": 93,
+      "away_score": 83,
+      "played": true
+    },
+    {
+      "game_id": "10CF19E6",
+      "date": "Sat 7 Mar - 18:15",
+      "series": 20,
+      "home_team": "ΠΕΡΙΣΤΕΡΙBetsson",
+      "away_team": "ΠΑΝΙΩΝΙΟΣCOSMORAMATRAVEL",
+      "home_score": null,
+      "away_score": null,
+      "played": false
+    },
+    {
+      "game_id": "3C16D7AC",
+      "date": "Sat 24 Jan - 18:15",
+      "series": 16,
+      "home_team": "ΠΑΝΙΩΝΙΟΣCOSMORAMATRAVEL",
+      "away_team": "ΠΑΟΚ",
+      "home_score": 67,
+      "away_score": 70,
+      "played": true
+    },
+    {
+      "game_id": "B024DA99",
+      "date": "Sat 17 Jan - 16:00",
+      "series": 15,
+      "home_team": "ΠΡΟΜΗΘΕΑΣΠΑΤΡΑΣΒΙΚΟΣCOLA",
+      "away_team": "ΠΑΝΙΩΝΙΟΣCOSMORAMATRAVEL",
+      "home_score": 87,
+      "away_score": 91,
+      "played": true
+    },
+    {
+      "game_id": "C8AE513C",
+      "date": "Sat 20 Dec - 16:00",
+      "series": 11,
+      "home_team": "ΠΑΟΚ",
+      "away_team": "ΠΑΝΙΩΝΙΟΣCOSMORAMATRAVEL",
+      "home_score": 106,
+      "away_score": 88,
+      "played": true
+    },
+    {
+      "game_id": "319B09BE",
+      "date": "Sat 13 Dec - 18:15",
+      "series": 10,
+      "home_team": "ΠΑΝΙΩΝΙΟΣCOSMORAMATRAVEL",
+      "away_team": "ΠΡΟΜΗΘΕΑΣΠΑΤΡΑΣΒΙΚΟΣCOLA",
+      "home_score": 95,
+      "away_score": 101,
+      "played": true
+    },
+    {
+      "game_id": "C9BC9C9D",
+      "date": "Sat 4 Oct - 19:30",
+      "series": 1,
+      "home_team": "ΠΑΝΙΩΝΙΟΣCOSMORAMATRAVEL",
+      "away_team": "ΠΕΡΙΣΤΕΡΙBetsson",
+      "home_score": 61,
+      "away_score": 87,
+      "played": true
+    },
+    {
+      "game_id": "6FB09486",
+      "date": "Sat 21 Mar - 18:15",
+      "series": 22,
+      "home_team": "ΠΕΡΙΣΤΕΡΙBetsson",
+      "away_team": "ΠΑΟΚ",
+      "home_score": null,
+      "away_score": null,
+      "played": false
+    },
+    {
+      "game_id": "18629A2F",
+      "date": "Sat 28 Mar",
+      "series": 23,
+      "home_team": "ΠΑΟΚ",
+      "away_team": "ΠΡΟΜΗΘΕΑΣΠΑΤΡΑΣΒΙΚΟΣCOLA",
+      "home_score": null,
+      "away_score": null,
+      "played": false
+    },
+    {
+      "game_id": "B8BF420A",
+      "date": "Sat 25 Oct - 16:00",
+      "series": 4,
+      "home_team": "ΠΑΟΚ",
+      "away_team": "ΠΕΡΙΣΤΕΡΙBetsson",
+      "home_score": 87,
+      "away_score": 73,
+      "played": true
+    },
+    {
+      "game_id": "DE88109D",
+      "date": "Sat 18 Oct - 19:30",
+      "series": 3,
+      "home_team": "ΠΡΟΜΗΘΕΑΣΠΑΤΡΑΣΒΙΚΟΣCOLA",
+      "away_team": "ΠΑΟΚ",
+      "home_score": 73,
+      "away_score": 75,
+      "played": true
+    },
+    {
+      "game_id": "9934A636",
+      "date": "Sat 14 Feb - 16:00",
+      "series": 19,
+      "home_team": "ΠΡΟΜΗΘΕΑΣΠΑΤΡΑΣΒΙΚΟΣCOLA",
+      "away_team": "ΠΕΡΙΣΤΕΡΙBetsson",
+      "home_score": null,
+      "away_score": null,
+      "played": false
+    },
+    {
+      "game_id": "160AAA9F",
+      "date": "Sun 28 Dec - 16:00",
+      "series": 12,
+      "home_team": "ΠΕΡΙΣΤΕΡΙBetsson",
+      "away_team": "ΠΡΟΜΗΘΕΑΣΠΑΤΡΑΣΒΙΚΟΣCOLA",
+      "home_score": 80,
+      "away_score": 92,
+      "played": true
+    }
+  ]
+}
