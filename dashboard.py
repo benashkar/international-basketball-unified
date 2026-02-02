@@ -19,54 +19,72 @@ LEAGUES = {
         'country': 'Europe',
         'color': '#E31837',
         'data_file': 'euroleague_american_players_latest.json',
+        'boxscores_file': 'euroleague_boxscores_latest.json',
+        'games_file': 'euroleague_games_latest.json',
     },
     'acb': {
         'name': 'Liga ACB',
         'country': 'Spain',
         'color': '#FF6B00',
         'data_file': 'acb_american_players_latest.json',
+        'boxscores_file': 'acb_boxscores_latest.json',
+        'games_file': 'acb_games_latest.json',
     },
     'bsl': {
         'name': 'Turkish BSL',
         'country': 'Turkey',
         'color': '#E30A17',
         'data_file': 'bsl_american_players_latest.json',
+        'boxscores_file': 'bsl_boxscores_latest.json',
+        'games_file': 'bsl_games_latest.json',
     },
     'cba': {
         'name': 'Chinese Basketball Association',
         'country': 'China',
         'color': '#DE2910',
         'data_file': 'cba_american_players_latest.json',
+        'boxscores_file': 'cba_boxscores_latest.json',
+        'games_file': 'cba_games_latest.json',
     },
     'nbl': {
         'name': 'NBL Australia',
         'country': 'Australia',
         'color': '#00843D',
         'data_file': 'nbl_american_players_latest.json',
+        'boxscores_file': 'nbl_boxscores_latest.json',
+        'games_file': 'nbl_games_latest.json',
     },
     'lnb': {
         'name': 'LNB Pro A',
         'country': 'France',
         'color': '#0055A4',
         'data_file': 'lnb_american_players_latest.json',
+        'boxscores_file': 'lnb_boxscores_latest.json',
+        'games_file': 'lnb_games_latest.json',
     },
     'lba': {
         'name': 'Lega Basket Serie A',
         'country': 'Italy',
         'color': '#009246',
         'data_file': 'lba_american_players_latest.json',
+        'boxscores_file': 'lba_boxscores_latest.json',
+        'games_file': 'lba_games_latest.json',
     },
     'bbl': {
         'name': 'Basketball Bundesliga',
         'country': 'Germany',
         'color': '#FFCC00',
         'data_file': 'bbl_american_players_latest.json',
+        'boxscores_file': 'bbl_boxscores_latest.json',
+        'games_file': 'bbl_games_latest.json',
     },
     'esake': {
         'name': 'Greek Basket League',
         'country': 'Greece',
         'color': '#0D5EAF',
         'data_file': 'esake_american_players_latest.json',
+        'boxscores_file': 'esake_boxscores_latest.json',
+        'games_file': 'esake_games_latest.json',
     },
 }
 
@@ -123,6 +141,69 @@ def get_available_leagues():
             })
 
     return available
+
+
+def load_boxscores_data(league_code):
+    """Load box scores data for a specific league."""
+    if league_code not in LEAGUES:
+        return None
+
+    output_dir = os.path.join(os.path.dirname(__file__), 'output', 'json')
+    boxscores_file = LEAGUES[league_code].get('boxscores_file')
+
+    if not boxscores_file:
+        return None
+
+    filepath = os.path.join(output_dir, boxscores_file)
+
+    if not os.path.exists(filepath):
+        return None
+
+    with open(filepath, 'r', encoding='utf-8') as f:
+        return json.load(f)
+
+
+def load_games_data(league_code):
+    """Load games data for a specific league."""
+    if league_code not in LEAGUES:
+        return None
+
+    output_dir = os.path.join(os.path.dirname(__file__), 'output', 'json')
+    games_file = LEAGUES[league_code].get('games_file')
+
+    if not games_file:
+        return None
+
+    filepath = os.path.join(output_dir, games_file)
+
+    if not os.path.exists(filepath):
+        return None
+
+    with open(filepath, 'r', encoding='utf-8') as f:
+        return json.load(f)
+
+
+def get_boxscore_by_game_id(league_code, game_id):
+    """Get a specific box score by game ID."""
+    data = load_boxscores_data(league_code)
+    if not data:
+        return None
+
+    for box_score in data.get('box_scores', []):
+        if str(box_score.get('game_id')) == str(game_id):
+            return box_score
+
+    return None
+
+
+def has_boxscores(league_code):
+    """Check if a league has box scores available."""
+    output_dir = os.path.join(os.path.dirname(__file__), 'output', 'json')
+    boxscores_file = LEAGUES.get(league_code, {}).get('boxscores_file')
+    if not boxscores_file:
+        return False
+    filepath = os.path.join(output_dir, boxscores_file)
+    return os.path.exists(filepath)
 
 
 def get_styles(league_color='#333'):
@@ -345,7 +426,9 @@ LEAGUE_TEMPLATE = """
     </div>
 </header>
 
-<p class="last-updated">Last updated: {{ export_date }} | {{ league_country }}</p>
+<p class="last-updated">Last updated: {{ export_date }} | {{ league_country }}
+{% if has_boxscores %} | <a href="/league/{{ current_league }}/games" style="font-weight: bold;">View Games & Box Scores &rarr;</a>{% endif %}
+</p>
 
 <div class="filters">
     <form method="GET">
@@ -521,6 +604,255 @@ PLAYER_TEMPLATE = """
 </html>
 """
 
+GAMES_TEMPLATE = """
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ league_name }} - Games & Box Scores</title>
+    <style>{{ styles }}</style>
+</head>
+<body>
+<header>
+    <div>
+        <a href="/league/{{ current_league }}" style="color: #666; font-size: 0.9em;">&larr; Back to Players</a>
+        <h1>{{ league_name }} - Games</h1>
+    </div>
+    <div class="league-selector">
+        {% for lg in all_leagues %}
+        {% if lg.has_boxscores %}
+        <a href="/league/{{ lg.code }}/games" class="league-btn {% if lg.code == current_league %}active{% endif %}"
+           style="{% if lg.code == current_league %}border-color: {{ lg.color }}; background: {{ lg.color }};{% endif %}">
+            {{ lg.name }}
+        </a>
+        {% endif %}
+        {% endfor %}
+    </div>
+</header>
+
+<p class="last-updated">Last updated: {{ export_date }} | {{ game_count }} games</p>
+
+<div class="filters">
+    <form method="GET">
+        <input type="text" name="team" placeholder="Filter by team..." value="{{ team_filter }}">
+        <select name="round">
+            <option value="">All Rounds</option>
+            {% for round in rounds %}
+            <option value="{{ round }}" {% if round == selected_round %}selected{% endif %}>{{ round }}</option>
+            {% endfor %}
+        </select>
+        <button type="submit">Filter</button>
+        <a href="/league/{{ current_league }}/games">Reset</a>
+    </form>
+</div>
+
+<table>
+    <thead>
+        <tr>
+            <th>Date</th>
+            <th>Round</th>
+            <th>Home Team</th>
+            <th>Score</th>
+            <th>Away Team</th>
+            <th>Venue</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for game in games %}
+        <tr>
+            <td>{{ game.date or 'TBD' }}</td>
+            <td>{{ game.round or 'N/A' }}</td>
+            <td>{{ game.home_team }}</td>
+            <td class="stats">{{ game.home_score }} - {{ game.away_score }}</td>
+            <td>{{ game.away_team }}</td>
+            <td>{{ game.venue or 'N/A' }}</td>
+            <td><a href="/game/{{ current_league }}/{{ game.game_id }}">Box Score</a></td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+<p>Showing {{ games|length }} games</p>
+</body>
+</html>
+"""
+
+BOXSCORE_TEMPLATE = """
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ home_team }} vs {{ away_team }} - {{ league_name }}</title>
+    <style>{{ styles }}
+        .boxscore-header {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .boxscore-header .teams {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            margin: 20px 0;
+        }
+        .boxscore-header .team {
+            text-align: center;
+        }
+        .boxscore-header .team-name {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .boxscore-header .score {
+            font-size: 2.5em;
+            font-weight: bold;
+        }
+        .boxscore-header .vs {
+            font-size: 1.5em;
+            color: #666;
+        }
+        .team-section {
+            background: white;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        .team-section h3 {
+            margin: 0;
+            padding: 15px;
+            background: {{ league_color }};
+            color: white;
+        }
+        .team-section table {
+            margin: 0;
+            box-shadow: none;
+            border-radius: 0;
+        }
+        .stats-table th, .stats-table td {
+            text-align: center;
+            padding: 8px 4px;
+            font-size: 0.85em;
+        }
+        .stats-table th:first-child, .stats-table td:first-child {
+            text-align: left;
+            padding-left: 15px;
+        }
+        .winner { color: #28a745; }
+        .loser { color: #dc3545; }
+    </style>
+</head>
+<body>
+<header>
+    <div>
+        <a href="/league/{{ current_league }}/games" style="color: #666; font-size: 0.9em;">&larr; Back to Games</a>
+        <h1>Box Score</h1>
+    </div>
+</header>
+
+<div class="boxscore-header">
+    <div style="color: #666;">{{ boxscore.date }} | {{ boxscore.round or 'Regular Season' }}</div>
+    <div class="teams">
+        <div class="team">
+            <div class="team-name">{{ boxscore.home_team }}</div>
+            <div class="score {% if boxscore.home_score > boxscore.away_score %}winner{% else %}loser{% endif %}">{{ boxscore.home_score }}</div>
+        </div>
+        <div class="vs">-</div>
+        <div class="team">
+            <div class="team-name">{{ boxscore.away_team }}</div>
+            <div class="score {% if boxscore.away_score > boxscore.home_score %}winner{% else %}loser{% endif %}">{{ boxscore.away_score }}</div>
+        </div>
+    </div>
+    {% if boxscore.venue %}<div style="color: #666;">{{ boxscore.venue }}{% if boxscore.spectators %} | {{ boxscore.spectators }} spectators{% endif %}</div>{% endif %}
+</div>
+
+<div class="team-section">
+    <h3>{{ boxscore.home_team }} ({{ boxscore.home_score }})</h3>
+    <table class="stats-table">
+        <thead>
+            <tr>
+                <th>Player</th>
+                <th>MIN</th>
+                <th>PTS</th>
+                <th>REB</th>
+                <th>AST</th>
+                <th>STL</th>
+                <th>BLK</th>
+                <th>TO</th>
+                <th>FG</th>
+                <th>3PT</th>
+                <th>FT</th>
+                <th>+/-</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for player in boxscore.home_players %}
+            <tr>
+                <td>{{ player.name }}{% if player.jersey %} #{{ player.jersey }}{% endif %}</td>
+                <td>{{ player.minutes or '-' }}</td>
+                <td class="stats">{{ player.points or 0 }}</td>
+                <td>{{ player.rebounds or 0 }}</td>
+                <td>{{ player.assists or 0 }}</td>
+                <td>{{ player.steals or 0 }}</td>
+                <td>{{ player.blocks or 0 }}</td>
+                <td>{{ player.turnovers or 0 }}</td>
+                <td>{% if player.fg2_made is defined %}{{ player.fg2_made + player.fg3_made }}-{{ player.fg2_attempted + player.fg3_attempted }}{% elif player.fgm is defined %}{{ player.fgm }}-{{ player.fga }}{% else %}-{% endif %}</td>
+                <td>{% if player.fg3_made is defined %}{{ player.fg3_made }}-{{ player.fg3_attempted }}{% elif player.tpm is defined %}{{ player.tpm }}-{{ player.tpa }}{% else %}-{% endif %}</td>
+                <td>{% if player.ft_made is defined %}{{ player.ft_made }}-{{ player.ft_attempted }}{% elif player.ftm is defined %}{{ player.ftm }}-{{ player.fta }}{% else %}-{% endif %}</td>
+                <td>{{ player.plus_minus if player.plus_minus else '-' }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+<div class="team-section">
+    <h3>{{ boxscore.away_team }} ({{ boxscore.away_score }})</h3>
+    <table class="stats-table">
+        <thead>
+            <tr>
+                <th>Player</th>
+                <th>MIN</th>
+                <th>PTS</th>
+                <th>REB</th>
+                <th>AST</th>
+                <th>STL</th>
+                <th>BLK</th>
+                <th>TO</th>
+                <th>FG</th>
+                <th>3PT</th>
+                <th>FT</th>
+                <th>+/-</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for player in boxscore.away_players %}
+            <tr>
+                <td>{{ player.name }}{% if player.jersey %} #{{ player.jersey }}{% endif %}</td>
+                <td>{{ player.minutes or '-' }}</td>
+                <td class="stats">{{ player.points or 0 }}</td>
+                <td>{{ player.rebounds or 0 }}</td>
+                <td>{{ player.assists or 0 }}</td>
+                <td>{{ player.steals or 0 }}</td>
+                <td>{{ player.blocks or 0 }}</td>
+                <td>{{ player.turnovers or 0 }}</td>
+                <td>{% if player.fg2_made is defined %}{{ player.fg2_made + player.fg3_made }}-{{ player.fg2_attempted + player.fg3_attempted }}{% elif player.fgm is defined %}{{ player.fgm }}-{{ player.fga }}{% else %}-{% endif %}</td>
+                <td>{% if player.fg3_made is defined %}{{ player.fg3_made }}-{{ player.fg3_attempted }}{% elif player.tpm is defined %}{{ player.tpm }}-{{ player.tpa }}{% else %}-{% endif %}</td>
+                <td>{% if player.ft_made is defined %}{{ player.ft_made }}-{{ player.ft_attempted }}{% elif player.ftm is defined %}{{ player.ftm }}-{{ player.fta }}{% else %}-{% endif %}</td>
+                <td>{{ player.plus_minus if player.plus_minus else '-' }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+</body>
+</html>
+"""
+
 
 @app.route('/')
 def home():
@@ -606,6 +938,7 @@ def league_view(league_code):
         search=search,
         selected_team=selected_team,
         selected_state=selected_state,
+        has_boxscores=has_boxscores(league_code),
         styles=get_styles(league['color'])
     )
 
@@ -626,6 +959,85 @@ def player_detail(league_code, player_code):
         PLAYER_TEMPLATE,
         player=player,
         league_name=league['name'],
+        current_league=league_code,
+        styles=get_styles(league['color'])
+    )
+
+
+@app.route('/league/<league_code>/games')
+def games_view(league_code):
+    """View games and box scores for a specific league."""
+    if league_code not in LEAGUES:
+        return redirect(url_for('home'))
+
+    league = LEAGUES[league_code]
+    data = load_boxscores_data(league_code)
+
+    if not data:
+        return f"No box score data available for {league['name']}", 404
+
+    box_scores = data.get('box_scores', [])
+    export_date = data.get('export_date', 'Unknown')
+
+    # Filters
+    team_filter = request.args.get('team', '').lower()
+    selected_round = request.args.get('round', '')
+
+    if team_filter:
+        box_scores = [g for g in box_scores if team_filter in (g.get('home_team', '') or '').lower()
+                      or team_filter in (g.get('away_team', '') or '').lower()]
+    if selected_round:
+        box_scores = [g for g in box_scores if g.get('round') == selected_round]
+
+    # Sort by date (most recent first)
+    box_scores = sorted(box_scores, key=lambda g: g.get('date') or '', reverse=True)
+
+    # Get filter options
+    all_box_scores = data.get('box_scores', [])
+    rounds = sorted(set(g.get('round') for g in all_box_scores if g.get('round')),
+                    key=lambda x: (not x.startswith('Round'), x))
+
+    # Get all leagues with box scores
+    all_leagues = []
+    for code, config in LEAGUES.items():
+        league_info = {'code': code, 'has_boxscores': has_boxscores(code), **config}
+        all_leagues.append(league_info)
+
+    return render_template_string(
+        GAMES_TEMPLATE,
+        games=box_scores,
+        export_date=export_date,
+        game_count=len(data.get('box_scores', [])),
+        league_name=league['name'],
+        league_country=league['country'],
+        current_league=league_code,
+        all_leagues=all_leagues,
+        rounds=rounds,
+        team_filter=request.args.get('team', ''),
+        selected_round=selected_round,
+        styles=get_styles(league['color'])
+    )
+
+
+@app.route('/game/<league_code>/<game_id>')
+def boxscore_view(league_code, game_id):
+    """View detailed box score for a specific game."""
+    if league_code not in LEAGUES:
+        return redirect(url_for('home'))
+
+    league = LEAGUES[league_code]
+    boxscore = get_boxscore_by_game_id(league_code, game_id)
+
+    if not boxscore:
+        return "Box score not found", 404
+
+    return render_template_string(
+        BOXSCORE_TEMPLATE,
+        boxscore=boxscore,
+        home_team=boxscore.get('home_team'),
+        away_team=boxscore.get('away_team'),
+        league_name=league['name'],
+        league_color=league['color'],
         current_league=league_code,
         styles=get_styles(league['color'])
     )
