@@ -1,9 +1,9 @@
 {
-  "export_date": "2026-02-02T16:40:03.040415",
+  "export_date": "2026-02-02T16:55:04.224146",
   "season": "2025-26",
   "league": "French Betclic Elite (Pro A)",
   "source": "thesportsdb.com",
-  "player_count": 17,
+  "player_count": 16,
   "players": [
     {
       "id": "34194031",
@@ -164,22 +164,6 @@
       "team": "AS Monaco Basket",
       "team_id": "136263",
       "team_logo": "https://r2.thesportsdb.com/images/media/team/badge/fl2ti01649168915.png"
-    },
-    {
-      "id": "34165818",
-      "name": "Justin Patton",
-      "nationality": "United States",
-      "position": "Center",
-      "birthdate": "1997-06-14",
-      "birthplace": "Riverdale, Georgia",
-      "height": "7 ft 0 in (2.13 m)",
-      "height_cm": 213,
-      "description": "Justin Nicholas Patton (born June 14, 1997) is an American professional basketball player for Cholet Basket of the French LNB Pro A. He played college basketball for the Creighton Bluejays. Patton was selected with the 16th overall pick in the 2017 NBA draft by the Chicago Bulls but was traded to the Minnesota Timberwolves. He has also played for the Philadelphia 76ers and Oklahoma City Thunder.",
-      "thumb": "https://r2.thesportsdb.com/images/media/player/thumb/mbwq941550238704.jpg",
-      "cutout": "https://r2.thesportsdb.com/images/media/player/cutout/ms6y8h1550443995.png",
-      "team": "Cholet",
-      "team_id": "135238",
-      "team_logo": "https://r2.thesportsdb.com/images/media/team/badge/rjb2631570976454.png"
     },
     {
       "id": "34203531",
