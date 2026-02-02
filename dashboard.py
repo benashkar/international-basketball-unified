@@ -555,7 +555,7 @@ PLAYER_TEMPLATE = """
 </div>
 {% endif %}
 
-{% if player.game_log %}
+{% if player.game_log or player.all_games %}
 <div class="player-card">
     <h3>Game Log</h3>
     <table class="game-log">
@@ -563,7 +563,7 @@ PLAYER_TEMPLATE = """
             <tr><th>Date</th><th>Opponent</th><th>MIN</th><th>PTS</th><th>REB</th><th>AST</th><th>STL</th></tr>
         </thead>
         <tbody>
-            {% for game in player.game_log %}
+            {% for game in (player.game_log or player.all_games) %}
             <tr>
                 <td>{{ game.date or 'N/A' }}</td>
                 <td>{{ game.opponent or 'N/A' }}</td>

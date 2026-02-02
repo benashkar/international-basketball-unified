@@ -32,7 +32,7 @@ jobs:
         run: |
           cd scrapers/euroleague
           mkdir -p output/json
-          python daily_scraper.py --recent
+          python daily_scraper.py
           python hometown_lookup_fixed.py || echo "Hometown lookup had issues, continuing..."
           python join_data.py
 
@@ -238,7 +238,7 @@ jobs:
       - name: Copy LBA data to output
         run: |
           mkdir -p output/json
-          cp scrapers/lba/output/json/lba_american_stats_latest.json output/json/lba_american_players_latest.json 2>/dev/null || true
+          cp scrapers/lba/output/json/american_players_summary_latest.json output/json/lba_american_players_latest.json 2>/dev/null || true
           cp scrapers/lba/output/json/unified_american_players_latest.json output/json/lba_unified_players_latest.json 2>/dev/null || true
           cp scrapers/lba/output/json/lba_boxscores_latest.json output/json/lba_boxscores_latest.json 2>/dev/null || true
           cp scrapers/lba/output/json/lba_games_latest.json output/json/lba_games_latest.json 2>/dev/null || true
