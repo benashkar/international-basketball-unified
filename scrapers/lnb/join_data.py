@@ -87,6 +87,10 @@ def main():
                     continue
                 if name not in player_games:
                     player_games[name] = []
+                # Calculate total rebounds from offensive + defensive if available
+                rebounds = p.get('rebounds', 0)
+                if rebounds == 0:
+                    rebounds = p.get('offensive_rebounds', 0) + p.get('defensive_rebounds', 0)
                 player_games[name].append({
                     'date': game_date,
                     'opponent': away_team,
@@ -96,7 +100,7 @@ def main():
                     'result': 'W' if (home_score or 0) > (away_score or 0) else 'L',
                     'minutes': p.get('minutes'),
                     'points': p.get('points', 0),
-                    'rebounds': p.get('rebounds', 0),
+                    'rebounds': rebounds,
                     'assists': p.get('assists', 0),
                     'steals': p.get('steals', 0),
                     'blocks': p.get('blocks', 0),
@@ -110,6 +114,10 @@ def main():
                     continue
                 if name not in player_games:
                     player_games[name] = []
+                # Calculate total rebounds from offensive + defensive if available
+                rebounds = p.get('rebounds', 0)
+                if rebounds == 0:
+                    rebounds = p.get('offensive_rebounds', 0) + p.get('defensive_rebounds', 0)
                 player_games[name].append({
                     'date': game_date,
                     'opponent': home_team,
@@ -119,7 +127,7 @@ def main():
                     'result': 'W' if (away_score or 0) > (home_score or 0) else 'L',
                     'minutes': p.get('minutes'),
                     'points': p.get('points', 0),
-                    'rebounds': p.get('rebounds', 0),
+                    'rebounds': rebounds,
                     'assists': p.get('assists', 0),
                     'steals': p.get('steals', 0),
                     'blocks': p.get('blocks', 0),
