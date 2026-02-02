@@ -68,6 +68,70 @@ def main():
             teams_lookup[team.get('id')] = team
             teams_lookup[team.get('name')] = team
 
+    # Load box scores to build game logs
+    boxscores_data = load_json('lnb_boxscores_latest.json')
+    player_games = {}  # player_name -> list of game performances
+
+    if boxscores_data:
+        for box in boxscores_data.get('box_scores', []):
+            game_date = box.get('date')
+            home_team = box.get('home_team')
+            away_team = box.get('away_team')
+            home_score = box.get('home_score')
+            away_score = box.get('away_score')
+
+            # Process home players
+            for p in box.get('home_players', []):
+                name = p.get('name', '').strip()
+                if not name:
+                    continue
+                if name not in player_games:
+                    player_games[name] = []
+                player_games[name].append({
+                    'date': game_date,
+                    'opponent': away_team,
+                    'home_away': 'Home',
+                    'team_score': home_score,
+                    'opp_score': away_score,
+                    'result': 'W' if (home_score or 0) > (away_score or 0) else 'L',
+                    'minutes': p.get('minutes'),
+                    'points': p.get('points', 0),
+                    'rebounds': p.get('rebounds', 0),
+                    'assists': p.get('assists', 0),
+                    'steals': p.get('steals', 0),
+                    'blocks': p.get('blocks', 0),
+                    'turnovers': p.get('turnovers', 0),
+                })
+
+            # Process away players
+            for p in box.get('away_players', []):
+                name = p.get('name', '').strip()
+                if not name:
+                    continue
+                if name not in player_games:
+                    player_games[name] = []
+                player_games[name].append({
+                    'date': game_date,
+                    'opponent': home_team,
+                    'home_away': 'Away',
+                    'team_score': away_score,
+                    'opp_score': home_score,
+                    'result': 'W' if (away_score or 0) > (home_score or 0) else 'L',
+                    'minutes': p.get('minutes'),
+                    'points': p.get('points', 0),
+                    'rebounds': p.get('rebounds', 0),
+                    'assists': p.get('assists', 0),
+                    'steals': p.get('steals', 0),
+                    'blocks': p.get('blocks', 0),
+                    'turnovers': p.get('turnovers', 0),
+                })
+
+        # Sort games by date (most recent first)
+        for name in player_games:
+            player_games[name].sort(key=lambda x: x.get('date') or '', reverse=True)
+
+        logger.info(f"Built game logs for {len(player_games)} players from {len(boxscores_data.get('box_scores', []))} box scores")
+
     # Build unified player records
     unified_players = []
 
@@ -82,6 +146,24 @@ def main():
             total_inches = height_cm / 2.54
             height_feet = int(total_inches // 12)
             height_inches = int(total_inches % 12)
+
+        # Get game log for this player (try exact name match first, then partial)
+        player_name = player.get('name', '')
+        game_log = player_games.get(player_name, [])
+
+        # If no exact match, try to find partial matches
+        if not game_log:
+            name_lower = player_name.lower()
+            for box_name, games in player_games.items():
+                if name_lower in box_name.lower() or box_name.lower() in name_lower:
+                    game_log = games
+                    break
+
+        # Calculate stats from game log
+        games_played = len(game_log)
+        ppg = sum(g.get('points', 0) for g in game_log) / games_played if games_played > 0 else 0
+        rpg = sum(g.get('rebounds', 0) for g in game_log) / games_played if games_played > 0 else 0
+        apg = sum(g.get('assists', 0) for g in game_log) / games_played if games_played > 0 else 0
 
         unified = {
             # Basic info
@@ -104,12 +186,12 @@ def main():
             # Images
             'headshot_url': player.get('cutout') or player.get('thumb'),
 
-            # Stats (TheSportsDB doesn't provide game stats)
-            'games_played': 0,
-            'ppg': 0,
-            'rpg': 0,
-            'apg': 0,
-            'game_log': [],
+            # Stats from box scores
+            'games_played': games_played,
+            'ppg': round(ppg, 1),
+            'rpg': round(rpg, 1),
+            'apg': round(apg, 1),
+            'game_log': game_log,
 
             # Description
             'description': player.get('description'),
