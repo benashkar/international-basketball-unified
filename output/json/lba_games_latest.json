@@ -1,9 +1,9 @@
 {
-  "export_date": "2026-02-02T18:51:42.137936",
+  "export_date": "2026-02-02T23:04:55.411019",
   "season": "2025-26",
   "league": "Lega Basket Serie A (LBA)",
   "source": "legabasket.it",
-  "game_count": 260,
+  "game_count": 261,
   "games": [
     {
       "game_id": "25009",
@@ -2357,6 +2357,17 @@
       "home_score": 0,
       "away_score": 0,
       "venue": "Palasport Taliercio",
+      "played": true
+    },
+    {
+      "game_id": "25201",
+      "date": "2026-03-29",
+      "round": "24° Giornata",
+      "home_team": "Banco di Sardegna Sassari",
+      "away_team": "NutriBullet Treviso Basket",
+      "home_score": 0,
+      "away_score": 0,
+      "venue": "PalaSerradimigni",
       "played": true
     },
     {
