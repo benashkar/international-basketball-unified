@@ -1,109 +1,10 @@
 {
-  "export_date": "2026-02-02T06:36:56.463077",
+  "export_date": "2026-02-02T15:20:15.981421",
   "season": "2025-26",
   "league": "French Betclic Elite (Pro A)",
   "source": "lnb.fr",
   "game_count": 51,
   "games": [
-    {
-      "game_id": "2e7e23e7-6715-11f0-b733-3deba12f98c8",
-      "date": null,
-      "home_team": "Cholet",
-      "away_team": "Saint-Quentin",
-      "home_score": "93",
-      "away_score": "80",
-      "played": true
-    },
-    {
-      "game_id": "2f1cd491-6715-11f0-9760-3deba12f98c8",
-      "date": null,
-      "home_team": "Paris",
-      "away_team": "Boulazac",
-      "home_score": "87",
-      "away_score": "103",
-      "played": true
-    },
-    {
-      "game_id": "5b414487-67e6-11f0-a4e8-79e23488fb37",
-      "date": null,
-      "home_team": "Nantes",
-      "away_team": "Denain",
-      "home_score": "78",
-      "away_score": "83",
-      "played": true
-    },
-    {
-      "game_id": "2ef355cc-6715-11f0-a3d6-3deba12f98c8",
-      "date": null,
-      "home_team": "Dijon",
-      "away_team": "Lyon-Villeurbanne",
-      "home_score": "99",
-      "away_score": "90",
-      "played": true
-    },
-    {
-      "game_id": "2ec96fa1-6715-11f0-9a37-3deba12f98c8",
-      "date": null,
-      "home_team": "Chalon/Saône",
-      "away_team": "Cholet",
-      "home_score": "87",
-      "away_score": "77",
-      "played": true
-    },
-    {
-      "game_id": "5b48b5f0-67e6-11f0-904d-79e23488fb37",
-      "date": null,
-      "home_team": "Châlons-Reims",
-      "away_team": "Rouen",
-      "home_score": "74",
-      "away_score": "76",
-      "played": true
-    },
-    {
-      "game_id": "5b4ff397-67e6-11f0-ab5d-79e23488fb37",
-      "date": null,
-      "home_team": "Poitiers",
-      "away_team": "Blois",
-      "home_score": "77",
-      "away_score": "79",
-      "played": true
-    },
-    {
-      "game_id": "2e9298ae-6715-11f0-ba95-3deba12f98c8",
-      "date": null,
-      "home_team": "Strasbourg",
-      "away_team": "Gravelines-Dunkerque",
-      "home_score": "89",
-      "away_score": "72",
-      "played": true
-    },
-    {
-      "game_id": "2e5a1a01-6715-11f0-a9c7-3deba12f98c8",
-      "date": null,
-      "home_team": "Dijon",
-      "away_team": "Nanterre",
-      "home_score": "88",
-      "away_score": "97",
-      "played": true
-    },
-    {
-      "game_id": "2e244b9d-6715-11f0-83b1-3deba12f98c8",
-      "date": null,
-      "home_team": "Chalon/Saône",
-      "away_team": "Nancy",
-      "home_score": "93",
-      "away_score": "84",
-      "played": true
-    },
-    {
-      "game_id": "c52a8492-cb96-11f0-9d8b-77e22f12dc68",
-      "date": null,
-      "home_team": "Espoirs Roanne",
-      "away_team": "Espoirs Antibes",
-      "home_score": "65",
-      "away_score": "63",
-      "played": true
-    },
     {
       "game_id": "2eada0f9-6715-11f0-976f-3deba12f98c8",
       "date": null,
@@ -111,60 +12,6 @@
       "away_team": "Boulazac",
       "home_score": "83",
       "away_score": "72",
-      "played": true
-    },
-    {
-      "game_id": "2de4d4d6-6715-11f0-9458-3deba12f98c8",
-      "date": null,
-      "home_team": "Paris",
-      "away_team": "Strasbourg",
-      "home_score": "96",
-      "away_score": "67",
-      "played": true
-    },
-    {
-      "game_id": "2e4c5f84-6715-11f0-80f6-3deba12f98c8",
-      "date": null,
-      "home_team": "Limoges",
-      "away_team": "Chalon/Saône",
-      "home_score": "95",
-      "away_score": "83",
-      "played": true
-    },
-    {
-      "game_id": "2ee419d5-6715-11f0-b9c9-3deba12f98c8",
-      "date": null,
-      "home_team": "Boulazac",
-      "away_team": "Nanterre",
-      "home_score": "84",
-      "away_score": "95",
-      "played": true
-    },
-    {
-      "game_id": "2e1d98b3-6715-11f0-af89-3deba12f98c8",
-      "date": null,
-      "home_team": "Le Mans",
-      "away_team": "Saint-Quentin",
-      "home_score": "90",
-      "away_score": "74",
-      "played": true
-    },
-    {
-      "game_id": "2e6808b0-6715-11f0-990c-3deba12f98c8",
-      "date": null,
-      "home_team": "Bourg-en-Bresse",
-      "away_team": "Strasbourg",
-      "home_score": "77",
-      "away_score": "80",
-      "played": true
-    },
-    {
-      "game_id": "5b1be783-67e6-11f0-8e45-79e23488fb37",
-      "date": null,
-      "home_team": "Gries-Souffel",
-      "away_team": "Quimper",
-      "home_score": "103",
-      "away_score": "79",
       "played": true
     },
     {
@@ -186,111 +33,21 @@
       "played": true
     },
     {
-      "game_id": "2f0f4845-6715-11f0-bb7e-3deba12f98c8",
+      "game_id": "5b48b5f0-67e6-11f0-904d-79e23488fb37",
       "date": null,
-      "home_team": "Nanterre",
-      "away_team": "Chalon/Saône",
-      "home_score": "88",
-      "away_score": "82",
+      "home_team": "Châlons-Reims",
+      "away_team": "Rouen",
+      "home_score": "74",
+      "away_score": "76",
       "played": true
     },
     {
-      "game_id": "5b14bed4-67e6-11f0-a0d3-79e23488fb37",
+      "game_id": "5b4ff397-67e6-11f0-ab5d-79e23488fb37",
       "date": null,
-      "home_team": "Evreux",
-      "away_team": "Orléans",
-      "home_score": "61",
-      "away_score": "83",
-      "played": true
-    },
-    {
-      "game_id": "2e4593fc-6715-11f0-a59a-3deba12f98c8",
-      "date": null,
-      "home_team": "Saint-Quentin",
-      "away_team": "Le Portel",
-      "home_score": "97",
-      "away_score": "81",
-      "played": true
-    },
-    {
-      "game_id": "2e16f35c-6715-11f0-9089-3deba12f98c8",
-      "date": null,
-      "home_team": "Le Portel",
-      "away_team": "Cholet",
-      "home_score": "84",
-      "away_score": "94",
-      "played": true
-    },
-    {
-      "game_id": "2ec2bc4e-6715-11f0-858a-3deba12f98c8",
-      "date": null,
-      "home_team": "Le Portel",
-      "away_team": "Paris",
-      "home_score": "57",
-      "away_score": "120",
-      "played": true
-    },
-    {
-      "game_id": "2ebbc281-6715-11f0-b939-3deba12f98c8",
-      "date": null,
-      "home_team": "Bourg-en-Bresse",
-      "away_team": "Nancy",
-      "home_score": "89",
-      "away_score": "77",
-      "played": true
-    },
-    {
-      "game_id": "2e0fae6e-6715-11f0-bc03-3deba12f98c8",
-      "date": null,
-      "home_team": "Nanterre",
-      "away_team": "Paris",
-      "home_score": "99",
-      "away_score": "83",
-      "played": true
-    },
-    {
-      "game_id": "2e2ad2a4-6715-11f0-9c43-3deba12f98c8",
-      "date": null,
-      "home_team": "Bourg-en-Bresse",
-      "away_team": "Lyon-Villeurbanne",
-      "home_score": "81",
-      "away_score": "79",
-      "played": true
-    },
-    {
-      "game_id": "2e8c19b5-6715-11f0-87d0-3deba12f98c8",
-      "date": null,
-      "home_team": "Nanterre",
-      "away_team": "Bourg-en-Bresse",
-      "home_score": "101",
-      "away_score": "93",
-      "played": true
-    },
-    {
-      "game_id": "2ed02945-6715-11f0-9b46-3deba12f98c8",
-      "date": null,
-      "home_team": "Le Mans",
-      "away_team": "Lyon-Villeurbanne",
-      "home_score": "88",
-      "away_score": "91",
-      "played": true
-    },
-    {
-      "game_id": "2eec2946-6715-11f0-9415-3deba12f98c8",
-      "date": null,
-      "home_team": "Saint-Quentin",
-      "away_team": "Limoges",
+      "home_team": "Poitiers",
+      "away_team": "Blois",
       "home_score": "77",
-      "away_score": "86",
-      "played": true
-    },
-    {
-      "game_id": "2e5344c4-6715-11f0-8786-3deba12f98c8",
-      "date": null,
-      "home_team": "Gravelines-Dunkerque",
-      "away_team": "Cholet",
-      "home_score": "97",
-      "away_score": "98",
+      "away_score": "79",
       "played": true
     },
     {
@@ -303,74 +60,20 @@
       "played": true
     },
     {
-      "game_id": "2ed6e035-6715-11f0-9b34-3deba12f98c8",
+      "game_id": "5b414487-67e6-11f0-a4e8-79e23488fb37",
       "date": null,
-      "home_team": "Gravelines-Dunkerque",
-      "away_team": "Dijon",
-      "home_score": "93",
-      "away_score": "85",
+      "home_team": "Nantes",
+      "away_team": "Denain",
+      "home_score": "78",
+      "away_score": "83",
       "played": true
     },
     {
-      "game_id": "2e8505fa-6715-11f0-b59b-3deba12f98c8",
+      "game_id": "2ed02945-6715-11f0-9b46-3deba12f98c8",
       "date": null,
-      "home_team": "Paris",
-      "away_team": "Le Mans",
-      "home_score": "110",
-      "away_score": "92",
-      "played": true
-    },
-    {
-      "game_id": "2e60d0f8-6715-11f0-b246-3deba12f98c8",
-      "date": null,
-      "home_team": "Nancy",
-      "away_team": "Monaco",
-      "home_score": "79",
-      "away_score": "93",
-      "played": true
-    },
-    {
-      "game_id": "2e08b283-6715-11f0-a7a0-3deba12f98c8",
-      "date": null,
-      "home_team": "Lyon-Villeurbanne",
-      "away_team": "Boulazac",
-      "home_score": "94",
-      "away_score": "77",
-      "played": true
-    },
-    {
-      "game_id": "2eb500b4-6715-11f0-9108-3deba12f98c8",
-      "date": null,
-      "home_team": "Saint-Quentin",
-      "away_team": "Monaco",
-      "home_score": "73",
-      "away_score": "98",
-      "played": true
-    },
-    {
-      "game_id": "5b571f23-67e6-11f0-a221-79e23488fb37",
-      "date": null,
-      "home_team": "Roanne",
-      "away_team": "La Rochelle",
-      "home_score": "83",
-      "away_score": "72",
-      "played": true
-    },
-    {
-      "game_id": "2f0193ef-6715-11f0-9d9b-3deba12f98c8",
-      "date": null,
-      "home_team": "Strasbourg",
-      "away_team": "Le Mans",
-      "home_score": "103",
-      "away_score": "96",
-      "played": true
-    },
-    {
-      "game_id": "2e99696a-6715-11f0-8ffe-3deba12f98c8",
-      "date": null,
-      "home_team": "Dijon",
-      "away_team": "Chalon/Saône",
-      "home_score": "94",
+      "home_team": "Le Mans",
+      "away_team": "Lyon-Villeurbanne",
+      "home_score": "88",
       "away_score": "91",
       "played": true
     },
@@ -384,12 +87,48 @@
       "played": true
     },
     {
-      "game_id": "2e381ae3-6715-11f0-8e76-3deba12f98c8",
+      "game_id": "2ef355cc-6715-11f0-a3d6-3deba12f98c8",
+      "date": null,
+      "home_team": "Dijon",
+      "away_team": "Lyon-Villeurbanne",
+      "home_score": "99",
+      "away_score": "90",
+      "played": true
+    },
+    {
+      "game_id": "2e1d98b3-6715-11f0-af89-3deba12f98c8",
+      "date": null,
+      "home_team": "Le Mans",
+      "away_team": "Saint-Quentin",
+      "home_score": "90",
+      "away_score": "74",
+      "played": true
+    },
+    {
+      "game_id": "2e16f35c-6715-11f0-9089-3deba12f98c8",
+      "date": null,
+      "home_team": "Le Portel",
+      "away_team": "Cholet",
+      "home_score": "84",
+      "away_score": "94",
+      "played": true
+    },
+    {
+      "game_id": "2e5344c4-6715-11f0-8786-3deba12f98c8",
+      "date": null,
+      "home_team": "Gravelines-Dunkerque",
+      "away_team": "Cholet",
+      "home_score": "97",
+      "away_score": "98",
+      "played": true
+    },
+    {
+      "game_id": "2e9298ae-6715-11f0-ba95-3deba12f98c8",
       "date": null,
       "home_team": "Strasbourg",
-      "away_team": "Limoges",
-      "home_score": "100",
-      "away_score": "82",
+      "away_team": "Gravelines-Dunkerque",
+      "home_score": "89",
+      "away_score": "72",
       "played": true
     },
     {
@@ -402,20 +141,29 @@
       "played": true
     },
     {
-      "game_id": "2ea6d391-6715-11f0-81c5-3deba12f98c8",
+      "game_id": "2f1cd491-6715-11f0-9760-3deba12f98c8",
       "date": null,
-      "home_team": "Lyon-Villeurbanne",
-      "away_team": "Le Portel",
-      "home_score": "104",
-      "away_score": "58",
+      "home_team": "Paris",
+      "away_team": "Boulazac",
+      "home_score": "87",
+      "away_score": "103",
       "played": true
     },
     {
-      "game_id": "2e315f4f-6715-11f0-9bdc-3deba12f98c8",
+      "game_id": "5b14bed4-67e6-11f0-a0d3-79e23488fb37",
       "date": null,
-      "home_team": "Monaco",
-      "away_team": "Gravelines-Dunkerque",
-      "home_score": "101",
+      "home_team": "Evreux",
+      "away_team": "Orléans",
+      "home_score": "61",
+      "away_score": "83",
+      "played": true
+    },
+    {
+      "game_id": "2f0f4845-6715-11f0-bb7e-3deba12f98c8",
+      "date": null,
+      "home_team": "Nanterre",
+      "away_team": "Chalon/Saône",
+      "home_score": "88",
       "away_score": "82",
       "played": true
     },
@@ -429,21 +177,39 @@
       "played": true
     },
     {
-      "game_id": "2efa02b4-6715-11f0-9bdd-3deba12f98c8",
+      "game_id": "2e8505fa-6715-11f0-b59b-3deba12f98c8",
       "date": null,
-      "home_team": "Cholet",
-      "away_team": "Bourg-en-Bresse",
-      "home_score": "102",
+      "home_team": "Paris",
+      "away_team": "Le Mans",
+      "home_score": "110",
+      "away_score": "92",
+      "played": true
+    },
+    {
+      "game_id": "2de4d4d6-6715-11f0-9458-3deba12f98c8",
+      "date": null,
+      "home_team": "Paris",
+      "away_team": "Strasbourg",
+      "home_score": "96",
+      "away_score": "67",
+      "played": true
+    },
+    {
+      "game_id": "2f0193ef-6715-11f0-9d9b-3deba12f98c8",
+      "date": null,
+      "home_team": "Strasbourg",
+      "away_team": "Le Mans",
+      "home_score": "103",
       "away_score": "96",
       "played": true
     },
     {
-      "game_id": "2f089362-6715-11f0-beab-3deba12f98c8",
+      "game_id": "2e0fae6e-6715-11f0-bc03-3deba12f98c8",
       "date": null,
-      "home_team": "Monaco",
-      "away_team": "Le Portel",
-      "home_score": "113",
-      "away_score": "86",
+      "home_team": "Nanterre",
+      "away_team": "Paris",
+      "home_score": "99",
+      "away_score": "83",
       "played": true
     },
     {
@@ -456,12 +222,246 @@
       "played": true
     },
     {
+      "game_id": "2ec2bc4e-6715-11f0-858a-3deba12f98c8",
+      "date": null,
+      "home_team": "Le Portel",
+      "away_team": "Paris",
+      "home_score": "57",
+      "away_score": "120",
+      "played": true
+    },
+    {
+      "game_id": "5b571f23-67e6-11f0-a221-79e23488fb37",
+      "date": null,
+      "home_team": "Roanne",
+      "away_team": "La Rochelle",
+      "home_score": "83",
+      "away_score": "72",
+      "played": true
+    },
+    {
+      "game_id": "2e381ae3-6715-11f0-8e76-3deba12f98c8",
+      "date": null,
+      "home_team": "Strasbourg",
+      "away_team": "Limoges",
+      "home_score": "100",
+      "away_score": "82",
+      "played": true
+    },
+    {
+      "game_id": "2e60d0f8-6715-11f0-b246-3deba12f98c8",
+      "date": null,
+      "home_team": "Nancy",
+      "away_team": "Monaco",
+      "home_score": "79",
+      "away_score": "93",
+      "played": true
+    },
+    {
+      "game_id": "2ea6d391-6715-11f0-81c5-3deba12f98c8",
+      "date": null,
+      "home_team": "Lyon-Villeurbanne",
+      "away_team": "Le Portel",
+      "home_score": "104",
+      "away_score": "58",
+      "played": true
+    },
+    {
+      "game_id": "2eb500b4-6715-11f0-9108-3deba12f98c8",
+      "date": null,
+      "home_team": "Saint-Quentin",
+      "away_team": "Monaco",
+      "home_score": "73",
+      "away_score": "98",
+      "played": true
+    },
+    {
+      "game_id": "2e7e23e7-6715-11f0-b733-3deba12f98c8",
+      "date": null,
+      "home_team": "Cholet",
+      "away_team": "Saint-Quentin",
+      "home_score": "93",
+      "away_score": "80",
+      "played": true
+    },
+    {
+      "game_id": "2ee419d5-6715-11f0-b9c9-3deba12f98c8",
+      "date": null,
+      "home_team": "Boulazac",
+      "away_team": "Nanterre",
+      "home_score": "84",
+      "away_score": "95",
+      "played": true
+    },
+    {
+      "game_id": "2ebbc281-6715-11f0-b939-3deba12f98c8",
+      "date": null,
+      "home_team": "Bourg-en-Bresse",
+      "away_team": "Nancy",
+      "home_score": "89",
+      "away_score": "77",
+      "played": true
+    },
+    {
+      "game_id": "c52a8492-cb96-11f0-9d8b-77e22f12dc68",
+      "date": null,
+      "home_team": "Espoirs Roanne",
+      "away_team": "Espoirs Antibes",
+      "home_score": "65",
+      "away_score": "63",
+      "played": true
+    },
+    {
       "game_id": "2e6f0949-6715-11f0-8074-3deba12f98c8",
       "date": null,
       "home_team": "Boulazac",
       "away_team": "Le Mans",
       "home_score": "86",
       "away_score": "97",
+      "played": true
+    },
+    {
+      "game_id": "2e315f4f-6715-11f0-9bdc-3deba12f98c8",
+      "date": null,
+      "home_team": "Monaco",
+      "away_team": "Gravelines-Dunkerque",
+      "home_score": "101",
+      "away_score": "82",
+      "played": true
+    },
+    {
+      "game_id": "5b1be783-67e6-11f0-8e45-79e23488fb37",
+      "date": null,
+      "home_team": "Gries-Souffel",
+      "away_team": "Quimper",
+      "home_score": "103",
+      "away_score": "79",
+      "played": true
+    },
+    {
+      "game_id": "2e4c5f84-6715-11f0-80f6-3deba12f98c8",
+      "date": null,
+      "home_team": "Limoges",
+      "away_team": "Chalon/Saône",
+      "home_score": "95",
+      "away_score": "83",
+      "played": true
+    },
+    {
+      "game_id": "2e244b9d-6715-11f0-83b1-3deba12f98c8",
+      "date": null,
+      "home_team": "Chalon/Saône",
+      "away_team": "Nancy",
+      "home_score": "93",
+      "away_score": "84",
+      "played": true
+    },
+    {
+      "game_id": "2e99696a-6715-11f0-8ffe-3deba12f98c8",
+      "date": null,
+      "home_team": "Dijon",
+      "away_team": "Chalon/Saône",
+      "home_score": "94",
+      "away_score": "91",
+      "played": true
+    },
+    {
+      "game_id": "2e5a1a01-6715-11f0-a9c7-3deba12f98c8",
+      "date": null,
+      "home_team": "Dijon",
+      "away_team": "Nanterre",
+      "home_score": "88",
+      "away_score": "97",
+      "played": true
+    },
+    {
+      "game_id": "2ed6e035-6715-11f0-9b34-3deba12f98c8",
+      "date": null,
+      "home_team": "Gravelines-Dunkerque",
+      "away_team": "Dijon",
+      "home_score": "93",
+      "away_score": "85",
+      "played": true
+    },
+    {
+      "game_id": "2ec96fa1-6715-11f0-9a37-3deba12f98c8",
+      "date": null,
+      "home_team": "Chalon/Saône",
+      "away_team": "Cholet",
+      "home_score": "87",
+      "away_score": "77",
+      "played": true
+    },
+    {
+      "game_id": "2f089362-6715-11f0-beab-3deba12f98c8",
+      "date": null,
+      "home_team": "Monaco",
+      "away_team": "Le Portel",
+      "home_score": "113",
+      "away_score": "86",
+      "played": true
+    },
+    {
+      "game_id": "2efa02b4-6715-11f0-9bdd-3deba12f98c8",
+      "date": null,
+      "home_team": "Cholet",
+      "away_team": "Bourg-en-Bresse",
+      "home_score": "102",
+      "away_score": "96",
+      "played": true
+    },
+    {
+      "game_id": "2e8c19b5-6715-11f0-87d0-3deba12f98c8",
+      "date": null,
+      "home_team": "Nanterre",
+      "away_team": "Bourg-en-Bresse",
+      "home_score": "101",
+      "away_score": "93",
+      "played": true
+    },
+    {
+      "game_id": "2e6808b0-6715-11f0-990c-3deba12f98c8",
+      "date": null,
+      "home_team": "Bourg-en-Bresse",
+      "away_team": "Strasbourg",
+      "home_score": "77",
+      "away_score": "80",
+      "played": true
+    },
+    {
+      "game_id": "2eec2946-6715-11f0-9415-3deba12f98c8",
+      "date": null,
+      "home_team": "Saint-Quentin",
+      "away_team": "Limoges",
+      "home_score": "77",
+      "away_score": "86",
+      "played": true
+    },
+    {
+      "game_id": "2e4593fc-6715-11f0-a59a-3deba12f98c8",
+      "date": null,
+      "home_team": "Saint-Quentin",
+      "away_team": "Le Portel",
+      "home_score": "97",
+      "away_score": "81",
+      "played": true
+    },
+    {
+      "game_id": "2e2ad2a4-6715-11f0-9c43-3deba12f98c8",
+      "date": null,
+      "home_team": "Bourg-en-Bresse",
+      "away_team": "Lyon-Villeurbanne",
+      "home_score": "81",
+      "away_score": "79",
+      "played": true
+    },
+    {
+      "game_id": "2e08b283-6715-11f0-a7a0-3deba12f98c8",
+      "date": null,
+      "home_team": "Lyon-Villeurbanne",
+      "away_team": "Boulazac",
+      "home_score": "94",
+      "away_score": "77",
       "played": true
     }
   ]
