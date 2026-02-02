@@ -117,6 +117,54 @@ def normalize_name(name):
     return name.lower().strip()
 
 
+def parse_hometown(birth_location):
+    """Parse birth location into city and state."""
+    if not birth_location:
+        return None, None
+
+    import re
+
+    # Clean up common suffixes
+    location = birth_location.replace('U.S.', '').replace('USA', '').strip(' ,.')
+
+    # Try to extract city, state pattern
+    # Format: "City, State" or "City, State, Country"
+    parts = [p.strip() for p in location.split(',') if p.strip()]
+
+    if len(parts) >= 2:
+        city = parts[0]
+        state = parts[1] if len(parts) > 1 else None
+        return city, state
+
+    return location, None
+
+
+def parse_college_from_description(description):
+    """Extract college name from player description."""
+    if not description:
+        return None
+
+    import re
+
+    # Common patterns for college mentions
+    patterns = [
+        r'played college basketball (?:for|at)(?: the)? ([^,\.]+)',
+        r'attended ([^,\.]+) (?:University|College)',
+        r'([A-Z][a-z]+(?: [A-Z][a-z]+)*) (?:University|College)',
+    ]
+
+    for pattern in patterns:
+        match = re.search(pattern, description, re.IGNORECASE)
+        if match:
+            college = match.group(1).strip()
+            # Clean up common words
+            college = college.replace(' and ', ', ')
+            if len(college) > 5:  # Avoid false positives
+                return college
+
+    return None
+
+
 def cm_to_feet_inches(height_str):
     """Convert height string to feet and inches."""
     if not height_str:
@@ -220,7 +268,14 @@ def main():
     lba_players, lba_stats_lookup = load_lba_stats()
 
     # TheSportsDB players - for enrichment (headshots, position, etc.)
-    players_data = load_latest_json('american_players_*.json')
+    # Load full player data (not summary) for bio info
+    output_dir = os.path.join(os.path.dirname(__file__), 'output', 'json')
+    full_players_file = os.path.join(output_dir, 'american_players_latest.json')
+    players_data = None
+    if os.path.exists(full_players_file):
+        with open(full_players_file, 'r', encoding='utf-8') as f:
+            players_data = json.load(f)
+        logger.info(f"Loaded full TheSportsDB data: {full_players_file}")
     hometowns_data = load_latest_json('american_hometowns_found_*.json')
 
     # LBA schedule - for upcoming games
@@ -341,6 +396,18 @@ def main():
         # Parse height from TheSportsDB
         height_feet, height_inches = cm_to_feet_inches(tsdb_player.get('height_str'))
 
+        # Parse hometown from birth_location if not in hometown lookup
+        birth_location = tsdb_player.get('birth_location')
+        hometown_city = hometown.get('hometown_city')
+        hometown_state = hometown.get('hometown_state')
+        if not hometown_city and birth_location:
+            hometown_city, hometown_state = parse_hometown(birth_location)
+
+        # Parse college from description if not in hometown lookup
+        college = hometown.get('college')
+        if not college:
+            college = parse_college_from_description(tsdb_player.get('description'))
+
         # Get game log from LBA scraper
         game_log = player.get('game_log', [])
 
@@ -364,11 +431,11 @@ def main():
             'weight': tsdb_player.get('weight'),
             'birth_date': (tsdb_player.get('birth_date', '') or '')[:10] or None,  # Truncate to YYYY-MM-DD
             'nationality': tsdb_player.get('nationality') or 'United States',
-            'birth_location': tsdb_player.get('birth_location'),
-            'hometown_city': hometown.get('hometown_city'),
-            'hometown_state': hometown.get('hometown_state'),
-            'hometown': f"{hometown.get('hometown_city')}, {hometown.get('hometown_state')}" if hometown.get('hometown_city') and hometown.get('hometown_state') else None,
-            'college': hometown.get('college'),
+            'birth_location': birth_location,
+            'hometown_city': hometown_city,
+            'hometown_state': hometown_state,
+            'hometown': f"{hometown_city}, {hometown_state}" if hometown_city and hometown_state else (hometown_city or None),
+            'college': college,
             'high_school': hometown.get('high_school'),
             'headshot_url': tsdb_player.get('headshot_url'),
             'instagram': tsdb_player.get('instagram'),
