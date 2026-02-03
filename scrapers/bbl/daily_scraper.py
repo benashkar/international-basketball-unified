@@ -5,87 +5,282 @@ GERMAN BBL DAILY SCRAPER
 
 PURPOSE:
     This script collects basketball data for German Basketball Bundesliga (BBL)
-    from TheSportsDB API. Tracks American players in the German BBL.
+    from the official easyCredit BBL website which provides accurate season stats.
+    It also enriches data with TheSportsDB for additional player info.
 
 WHAT IT DOES:
-    1. Fetches all clubs (teams) in German BBL
-    2. Fetches all players with their nationality information
-    3. Identifies American players (nationality 'United States')
-    4. Fetches game schedules and scores
-    5. Saves everything to JSON files for further processing
-
-HOW TO USE:
-    python daily_scraper.py              # Full scrape
-    python daily_scraper.py --teams-only # Only fetch teams
+    1. Fetches player season stats from official easycredit-bbl.de website
+    2. Identifies American players from the stats
+    3. Enriches with TheSportsDB data (birthplace, biography, etc.)
+    4. Saves everything to JSON files for the dashboard
 
 OUTPUT FILES (saved to output/json/):
-    - bbl_clubs_TIMESTAMP.json: All German BBL teams
-    - bbl_players_TIMESTAMP.json: All players in the league
-    - bbl_american_stats_latest.json: Just American players
-    - bbl_schedule_latest.json: Game schedule with scores
+    - bbl_american_stats_TIMESTAMP.json: American player stats
+    - bbl_american_stats_latest.json: Latest American player stats
 
-DATA SOURCE:
-    TheSportsDB API: https://www.thesportsdb.com/api.php
-    German BBL League ID: 4441
+DATA SOURCES:
+    - Primary: easycredit-bbl.de (official stats)
+    - Secondary: TheSportsDB API (player bios)
 """
 
-# =============================================================================
-# IMPORTS
-# =============================================================================
-import argparse
 import json
 import os
 import requests
+from bs4 import BeautifulSoup
 from datetime import datetime
 import logging
 import time
 
-# =============================================================================
-# LOGGING CONFIGURATION
-# =============================================================================
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
 logger = logging.getLogger(__name__)
 
-# =============================================================================
-# CONFIGURATION CONSTANTS
-# =============================================================================
-# TheSportsDB API base URL (free tier uses key '3')
-BASE_URL = 'https://www.thesportsdb.com/api/v1/json/3'
+# Official BBL stats page
+STATS_URL = "https://www.easycredit-bbl.de/statistiken/spieler"
 
-# German BBL League ID in TheSportsDB
-LEAGUE_ID = '4441'
-
-# Current season (format: YYYY-YYYY)
-SEASON = '2025-2026'
-
-# League name for search
-LEAGUE_NAME = 'German BBL'
+# TheSportsDB for additional player info
+SPORTSDB_API = "https://www.thesportsdb.com/api/v1/json/3"
 
 HEADERS = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+}
+
+# Known American players in BBL (comprehensive list)
+KNOWN_AMERICANS = {
+    # From TheSportsDB with confirmed USA nationality
+    'Aubrey Dawkins', 'Barry Brown', 'JeQuan Lewis', 'Joe Wieskamp',
+    'Jordan Hulls', 'Justin Bean', 'Justin Simon', 'Justinian Jessup',
+    'Khyri Thomas', 'Mark Ogden', 'Wes Iwundu',
+    # From BBL stats and rosters
+    'Alonzo Verge Jr.', 'Christopher Clemons', 'Traveon Buchanan',
+    'Jordan Roland', 'Jaedon LeDee', 'Dalton Horne', 'Marvin Carr',
+    'TJ Crockett Jr.', 'Chandler Ledlum', 'Grant Sherfield', 'DJ Horne',
+    'Ryan Mikesell', 'Michael Weathers', 'Javon Bess', 'Jaleen Smith',
+    'Corey Davis Jr.', 'Carlos Stewart Jr.', 'Simi Shittu',
+    'DeJon Jarreau', 'Chima Moneke', 'Jalin Sly', 'Javon Freeman-Liberty',
+    'Saben Lee', 'Trevion Williams', 'Devon Dotson', 'Sterling Brown',
+    'Jabari Parker', 'DJ Wilson', 'Kobi Simmons', 'Jaylen Morris',
+    'Courtney Stockard', 'Javonte Green', 'Elijah Bryant', 'Dwayne Cohill',
+    'Kamar Baldwin', 'Isiaha Mike', 'Rayjon Tucker', 'Nigel Hayes',
 }
 
 
-# =============================================================================
-# HELPER FUNCTIONS
-# =============================================================================
+def fetch_bbl_stats():
+    """Fetch player stats from the official BBL website."""
+    logger.info(f"Fetching stats from {STATS_URL}")
 
-def is_american(nationality):
-    """
-    Check if a player is American based on their nationality.
-    """
-    if not nationality:
-        return False
-    return nationality.lower() in ['united states', 'usa', 'american']
+    try:
+        response = requests.get(STATS_URL, headers=HEADERS, timeout=30)
+        response.raise_for_status()
+    except Exception as e:
+        logger.error(f"Failed to fetch BBL stats: {e}")
+        return []
+
+    soup = BeautifulSoup(response.text, 'html.parser')
+
+    # Find __NEXT_DATA__ script which contains page data
+    next_data = soup.find('script', id='__NEXT_DATA__')
+    if not next_data:
+        logger.error("Could not find __NEXT_DATA__")
+        return []
+
+    try:
+        data = json.loads(next_data.string)
+    except json.JSONDecodeError as e:
+        logger.error(f"Failed to parse JSON: {e}")
+        return []
+
+    props = data.get('props', {}).get('pageProps', {})
+    widgets = props.get('preloadedWidgetData', {})
+
+    # Find stats widget
+    for key in widgets:
+        if 'season-players-statistics' in key.lower():
+            stats_data = widgets[key].get('data', [])
+            logger.info(f"  Found {len(stats_data)} player entries")
+            return stats_data
+
+    return []
+
+
+def fetch_sportsdb_player_info():
+    """Fetch additional player info from TheSportsDB."""
+    logger.info("Fetching player info from TheSportsDB...")
+
+    player_info = {}
+
+    # Get all teams in German BBL
+    try:
+        response = requests.get(
+            f"{SPORTSDB_API}/search_all_teams.php",
+            params={'l': 'German BBL'},
+            timeout=30
+        )
+        teams_data = response.json()
+        teams = teams_data.get('teams', []) or []
+    except Exception as e:
+        logger.error(f"Failed to fetch teams: {e}")
+        return player_info
+
+    logger.info(f"  Found {len(teams)} teams")
+
+    # Get players from each team
+    for team in teams:
+        team_id = team.get('idTeam')
+        if not team_id:
+            continue
+
+        try:
+            response = requests.get(
+                f"{SPORTSDB_API}/lookup_all_players.php",
+                params={'id': team_id},
+                timeout=30
+            )
+            players_data = response.json()
+            players = players_data.get('player', []) or []
+
+            for player in players:
+                name = player.get('strPlayer', '')
+                if name:
+                    player_info[name.lower()] = {
+                        'birthdate': player.get('dateBorn'),
+                        'birthplace': player.get('strBirthLocation'),
+                        'nationality': player.get('strNationality'),
+                        'description': player.get('strDescriptionEN'),
+                        'height': player.get('strHeight'),
+                        'weight': player.get('strWeight'),
+                        'thumb': player.get('strThumb'),
+                        'cutout': player.get('strCutout'),
+                    }
+            time.sleep(0.3)
+        except Exception as e:
+            logger.warning(f"Failed to fetch players for team {team_id}: {e}")
+
+    logger.info(f"  Fetched info for {len(player_info)} players")
+    return player_info
+
+
+def is_american(name, sportsdb_info):
+    """Check if a player is likely American."""
+    # Check known Americans list
+    for known in KNOWN_AMERICANS:
+        if known.lower() in name.lower() or name.lower() in known.lower():
+            return True
+
+    # Check for American suffixes (common in US)
+    if any(suffix in name for suffix in ['Jr.', 'Jr', 'III', 'II', 'IV']):
+        return True
+
+    # Check TheSportsDB nationality
+    sdb_data = sportsdb_info.get(name.lower(), {})
+    nationality = sdb_data.get('nationality', '')
+    if nationality and ('united states' in nationality.lower() or 'usa' in nationality.lower()):
+        return True
+
+    return False
+
+
+def process_players(raw_stats, sportsdb_info):
+    """Process raw stats into player records, filtering for Americans."""
+    players = []
+
+    for stat in raw_stats:
+        player_info = stat.get('seasonPlayer', {})
+        team_info = stat.get('seasonTeam', {})
+
+        if not player_info:
+            continue
+
+        first_name = player_info.get('firstName', '')
+        last_name = player_info.get('lastName', '')
+        full_name = f"{first_name} {last_name}".strip()
+
+        if not full_name:
+            continue
+
+        # Check if American
+        if not is_american(full_name, sportsdb_info):
+            continue
+
+        # Get additional info from TheSportsDB
+        sdb_data = sportsdb_info.get(full_name.lower(), {})
+
+        # Parse position
+        position = player_info.get('position', '')
+        position_map = {
+            'POINT_GUARD': 'Point Guard',
+            'SHOOTING_GUARD': 'Shooting Guard',
+            'SMALL_FORWARD': 'Small Forward',
+            'POWER_FORWARD': 'Power Forward',
+            'CENTER': 'Center',
+        }
+        position = position_map.get(position, position.replace('_', ' ').title() if position else '')
+
+        # Calculate height in feet/inches from cm
+        height_cm = None
+        height_feet = None
+        height_inches = None
+        height_str = sdb_data.get('height', '')
+        if height_str:
+            try:
+                if 'm' in height_str.lower():
+                    height_m = float(height_str.lower().replace('m', '').strip())
+                    height_cm = int(height_m * 100)
+            except:
+                pass
+
+        if height_cm:
+            total_inches = height_cm / 2.54
+            height_feet = int(total_inches // 12)
+            height_inches = int(total_inches % 12)
+
+        player = {
+            # Basic info
+            'code': str(player_info.get('playerId', '')),
+            'name': full_name,
+            'team': team_info.get('name', ''),
+            'team_logo': team_info.get('logoUrl', ''),
+            'position': position,
+            'nationality': 'United States',
+
+            # Physical
+            'height_cm': height_cm,
+            'height_feet': height_feet,
+            'height_inches': height_inches,
+
+            # Personal (from TheSportsDB)
+            'birthdate': sdb_data.get('birthdate', '')[:10] if sdb_data.get('birthdate') else None,
+            'birthplace': sdb_data.get('birthplace'),
+
+            # Images
+            'headshot_url': player_info.get('imageUrl') or sdb_data.get('cutout') or sdb_data.get('thumb'),
+
+            # Season stats from official BBL
+            'games_played': stat.get('gamesPlayed', 0),
+            'ppg': round(stat.get('pointsPerGame', 0), 1),
+            'rpg': round(stat.get('totalReboundsPerGame', 0), 1),
+            'apg': round(stat.get('assistsPerGame', 0), 1),
+
+            # Empty game log (box scores not available)
+            'game_log': [],
+
+            # Description
+            'description': sdb_data.get('description'),
+        }
+
+        players.append(player)
+
+    # Sort by PPG
+    players.sort(key=lambda x: x.get('ppg', 0), reverse=True)
+
+    return players
 
 
 def save_json(data, filename):
-    """
-    Save a Python dictionary to a JSON file.
-    """
+    """Save data to JSON file."""
     output_dir = os.path.join(os.path.dirname(__file__), 'output', 'json')
     os.makedirs(output_dir, exist_ok=True)
     filepath = os.path.join(output_dir, filename)
@@ -97,376 +292,60 @@ def save_json(data, filename):
     return filepath
 
 
-def api_get(endpoint, params=None, retries=3):
-    """
-    Make a GET request to TheSportsDB API with retry logic.
-    """
-    url = f"{BASE_URL}{endpoint}"
-
-    for attempt in range(retries):
-        try:
-            if attempt > 0:
-                delay = 2 ** attempt
-                logger.info(f"  Retry {attempt + 1}/{retries} after {delay}s delay...")
-                time.sleep(delay)
-
-            resp = requests.get(url, params=params, timeout=30)
-            resp.raise_for_status()
-            data = resp.json()
-
-            time.sleep(0.5)
-            return data
-        except Exception as e:
-            logger.warning(f"API attempt {attempt + 1}/{retries} failed for {endpoint}: {e}")
-            if attempt == retries - 1:
-                logger.error(f"API error {endpoint}: {e}")
-                return None
-
-    return None
-
-
-# =============================================================================
-# DATA FETCHING FUNCTIONS
-# =============================================================================
-
-def fetch_clubs():
-    """
-    Fetch all clubs (teams) in German BBL.
-    """
-    logger.info("Fetching clubs...")
-
-    data = api_get('/search_all_teams.php', {'l': LEAGUE_NAME})
-
-    if data and data.get('teams'):
-        clubs = data.get('teams', [])
-        logger.info(f"  Found {len(clubs)} clubs")
-        return clubs
-
-    # Fallback: search for known German BBL teams
-    logger.info("  Trying fallback team search...")
-    known_teams = [
-        'ALBA Berlin', 'Bayern Munich Basketball', 'Brose Bamberg',
-        'Ratiopharm Ulm', 'MHP Riesen Ludwigsburg', 'EWE Baskets Oldenburg',
-        'Hamburg Towers', 'Telekom Baskets Bonn', 'Niners Chemnitz',
-        'Merlins Crailsheim', 'Mitteldeutscher BC', 'Wurzburg Baskets',
-        'Veolia Towers Hamburg', 'Skyliners Frankfurt', 'BG Gottingen',
-        'Rostock Seawolves', 'Heidelberg', 'Syntainics MBC'
-    ]
-
-    clubs = []
-    for team_name in known_teams:
-        data = api_get('/searchteams.php', {'t': team_name})
-        if data and data.get('teams'):
-            for team in data['teams']:
-                if team.get('strSport') == 'Basketball' and team.get('strCountry') == 'Germany':
-                    clubs.append(team)
-                    break
-        time.sleep(0.3)
-
-    logger.info(f"  Found {len(clubs)} clubs via search")
-    return clubs
-
-
-def fetch_players_for_team(team_id, team_name):
-    """
-    Fetch all players for a specific team.
-    """
-    data = api_get('/lookup_all_players.php', {'id': team_id})
-
-    if data and data.get('player'):
-        players = data.get('player', [])
-        logger.info(f"    {team_name}: {len(players)} players")
-        return players
-
-    return []
-
-
-def fetch_all_players(clubs):
-    """
-    Fetch all players from all teams.
-    """
-    logger.info("Fetching players from all teams...")
-
-    all_players = []
-    for club in clubs:
-        team_id = club.get('idTeam')
-        team_name = club.get('strTeam', 'Unknown')
-        team_badge = club.get('strBadge') or club.get('strLogo')
-
-        if team_id:
-            players = fetch_players_for_team(team_id, team_name)
-            for player in players:
-                player['team_id'] = team_id
-                player['team_name'] = team_name
-                player['team_badge'] = team_badge
-            all_players.extend(players)
-            time.sleep(0.3)
-
-    logger.info(f"  Total players: {len(all_players)}")
-    return all_players
-
-
-def fetch_schedule():
-    """
-    Fetch the game schedule combining multiple API endpoints for complete data.
-    """
-    logger.info("Fetching schedule...")
-    all_games = {}
-
-    # Fetch from season endpoint
-    data = api_get('/eventsseason.php', {'id': LEAGUE_ID, 's': SEASON})
-    if data and data.get('events'):
-        for game in data['events']:
-            if game.get('idLeague') == LEAGUE_ID:
-                game_id = game.get('idEvent')
-                if game_id:
-                    all_games[game_id] = game
-        logger.info(f"  Season endpoint: {len(all_games)} games")
-
-    # Fetch recent past games
-    data = api_get('/eventspastleague.php', {'id': LEAGUE_ID})
-    if data and data.get('events'):
-        count = 0
-        for game in data['events']:
-            if game.get('idLeague') == LEAGUE_ID:
-                game_id = game.get('idEvent')
-                if game_id:
-                    all_games[game_id] = game
-                    count += 1
-        logger.info(f"  Past events endpoint: {count} games")
-
-    # Fetch upcoming games
-    data = api_get('/eventsnextleague.php', {'id': LEAGUE_ID})
-    if data and data.get('events'):
-        count = 0
-        for game in data['events']:
-            if game.get('idLeague') == LEAGUE_ID:
-                game_id = game.get('idEvent')
-                if game_id:
-                    all_games[game_id] = game
-                    count += 1
-        logger.info(f"  Next events endpoint: {count} games")
-
-    games = list(all_games.values())
-    logger.info(f"  Total unique games: {len(games)}")
-
-    return games
-
-
-# =============================================================================
-# DATA PROCESSING FUNCTIONS
-# =============================================================================
-
-def process_clubs(clubs):
-    """
-    Process raw club data into a clean format.
-    """
-    processed = []
-    for club in clubs:
-        processed.append({
-            'id': club.get('idTeam'),
-            'name': club.get('strTeam'),
-            'short_name': club.get('strTeamShort'),
-            'founded': club.get('intFormedYear'),
-            'stadium': club.get('strStadium'),
-            'stadium_capacity': club.get('intStadiumCapacity'),
-            'location': club.get('strLocation'),
-            'country': club.get('strCountry'),
-            'badge_url': club.get('strBadge'),
-            'logo_url': club.get('strLogo'),
-            'website': club.get('strWebsite'),
-            'description': club.get('strDescriptionEN'),
-        })
-    return processed
-
-
-def process_players(players):
-    """
-    Process raw player data into a clean format for American players.
-    """
-    processed = []
-    for player in players:
-        # Parse height
-        height_str = player.get('strHeight', '')
-        height_cm = None
-        if height_str:
-            try:
-                if 'm' in height_str.lower():
-                    # Handle "2.01 m" or "2.01m"
-                    height_m = float(height_str.lower().replace('m', '').strip())
-                    height_cm = int(height_m * 100)
-                elif 'ft' in height_str.lower():
-                    parts = height_str.lower().replace('ft', '').replace('in', '').split()
-                    if len(parts) >= 2:
-                        feet = int(parts[0])
-                        inches = int(parts[1])
-                        height_cm = int((feet * 12 + inches) * 2.54)
-            except:
-                pass
-
-        processed.append({
-            'id': player.get('idPlayer'),
-            'name': player.get('strPlayer'),
-            'nationality': player.get('strNationality'),
-            'position': player.get('strPosition'),
-            'birthdate': player.get('dateBorn', '')[:10] if player.get('dateBorn') else None,
-            'birthplace': player.get('strBirthLocation'),
-            'height': height_str,
-            'height_cm': height_cm,
-            'team': player.get('team_name'),
-            'team_id': player.get('team_id'),
-            'team_logo': player.get('team_badge'),
-            'thumb': player.get('strThumb'),
-            'cutout': player.get('strCutout'),
-            'description': player.get('strDescriptionEN'),
-        })
-    return processed
-
-
-def process_schedule(games):
-    """
-    Process raw schedule data into a clean format.
-    """
-    processed = []
-    for game in games:
-        home_score = game.get('intHomeScore')
-        away_score = game.get('intAwayScore')
-        played = home_score is not None and away_score is not None
-
-        processed.append({
-            'game_id': game.get('idEvent'),
-            'date': game.get('dateEvent'),
-            'time': game.get('strTime'),
-            'round': game.get('intRound'),
-            'home_team': game.get('strHomeTeam'),
-            'away_team': game.get('strAwayTeam'),
-            'home_score': int(home_score) if home_score else None,
-            'away_score': int(away_score) if away_score else None,
-            'played': played,
-            'venue': game.get('strVenue'),
-            'city': game.get('strCity'),
-            'season': game.get('strSeason'),
-            'status': game.get('strStatus'),
-        })
-    return processed
-
-
-# =============================================================================
-# MAIN FUNCTION
-# =============================================================================
-
 def main():
-    """
-    Main entry point for the scraper.
-    """
-    parser = argparse.ArgumentParser(description='German BBL Daily Scraper')
-    parser.add_argument('--teams-only', action='store_true',
-                       help='Only fetch teams')
-    parser.add_argument('--players-only', action='store_true',
-                       help='Only fetch players')
-    parser.add_argument('--schedule-only', action='store_true',
-                       help='Only fetch schedule')
-    args = parser.parse_args()
-
+    """Main entry point."""
     logger.info("=" * 60)
     logger.info("GERMAN BBL DAILY SCRAPER")
     logger.info("=" * 60)
 
     timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
 
-    # =========================================================================
-    # Step 1: Fetch Clubs
-    # =========================================================================
-    clubs = fetch_clubs()
-    processed_clubs = process_clubs(clubs)
-
-    if clubs:
-        save_json({
-            'export_date': datetime.now().isoformat(),
-            'season': SEASON,
-            'league': 'German BBL',
-            'league_id': LEAGUE_ID,
-            'count': len(processed_clubs),
-            'teams': processed_clubs
-        }, f'bbl_clubs_{timestamp}.json')
-
-    if args.teams_only:
+    # Fetch stats from official BBL website
+    raw_stats = fetch_bbl_stats()
+    if not raw_stats:
+        logger.error("No stats data found from BBL website")
         return
 
-    # =========================================================================
-    # Step 2: Fetch Players
-    # =========================================================================
-    all_players_raw = fetch_all_players(clubs)
-    all_players = process_players(all_players_raw)
+    # Fetch additional info from TheSportsDB
+    sportsdb_info = fetch_sportsdb_player_info()
 
-    # Identify American players
-    american_players = [p for p in all_players if is_american(p.get('nationality'))]
+    # Process and filter for Americans
+    american_players = process_players(raw_stats, sportsdb_info)
+    logger.info(f"Found {len(american_players)} American players")
 
-    logger.info(f"  American players: {len(american_players)}")
-
-    # Save all players
-    save_json({
+    # Save results
+    output = {
         'export_date': datetime.now().isoformat(),
-        'season': SEASON,
-        'league': 'German BBL',
-        'count': len(all_players),
-        'players': all_players
-    }, f'bbl_players_{timestamp}.json')
-
-    # Save American players
-    american_data = {
-        'export_date': datetime.now().isoformat(),
-        'season': SEASON,
+        'season': '2025-26',
         'league': 'German Basketball Bundesliga (BBL)',
-        'source': 'thesportsdb.com',
+        'source': 'easycredit-bbl.de',
         'player_count': len(american_players),
-        'players': american_players
+        'players': american_players,
     }
-    save_json(american_data, f'bbl_american_stats_{timestamp}.json')
-    save_json(american_data, 'bbl_american_stats_latest.json')
 
-    if args.players_only:
-        return
+    save_json(output, f'bbl_american_stats_{timestamp}.json')
+    save_json(output, 'bbl_american_stats_latest.json')
 
-    # =========================================================================
-    # Step 3: Fetch Schedule
-    # =========================================================================
-    games_raw = fetch_schedule()
-    games = process_schedule(games_raw)
-
-    played_games = [g for g in games if g.get('played')]
-    upcoming_games = [g for g in games if not g.get('played')]
-
-    logger.info(f"  Played: {len(played_games)}, Upcoming: {len(upcoming_games)}")
-
-    schedule_data = {
-        'export_date': datetime.now().isoformat(),
-        'season': SEASON,
-        'league': 'German BBL',
-        'total_games': len(games),
-        'played': len(played_games),
-        'upcoming': len(upcoming_games),
-        'teams': processed_clubs,
-        'games': games
-    }
-    save_json(schedule_data, f'bbl_schedule_{timestamp}.json')
-    save_json(schedule_data, 'bbl_schedule_latest.json')
-
-    # =========================================================================
     # Summary
-    # =========================================================================
     logger.info("\n" + "=" * 60)
     logger.info("SUMMARY")
     logger.info("=" * 60)
-    logger.info(f"Clubs: {len(processed_clubs)}")
-    logger.info(f"Total players: {len(all_players)}")
     logger.info(f"American players: {len(american_players)}")
-    logger.info(f"Games: {len(games)} (played: {len(played_games)}, upcoming: {len(upcoming_games)})")
 
     if american_players:
-        logger.info("\nAmerican players found:")
-        for p in american_players[:15]:
-            logger.info(f"  {p['name']} - {p['team']} ({p['position']})")
+        logger.info("\nTop scorers:")
+        for p in american_players[:10]:
+            logger.info(f"  {p['name']} ({p['team']}): {p['ppg']} PPG, {p['rpg']} RPG, {p['apg']} APG")
+
+        # By team
+        teams = {}
+        for p in american_players:
+            t = p.get('team', 'Unknown')
+            teams[t] = teams.get(t, 0) + 1
+
+        logger.info("\nAmericans by team:")
+        for t, count in sorted(teams.items(), key=lambda x: -x[1]):
+            logger.info(f"  {t}: {count}")
 
 
 if __name__ == '__main__':
