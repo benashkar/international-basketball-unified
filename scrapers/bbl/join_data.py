@@ -171,11 +171,22 @@ def main():
                     game_log = games
                     break
 
-        # Calculate stats from game log
-        games_played = len(game_log)
-        ppg = sum(g.get('points', 0) for g in game_log) / games_played if games_played > 0 else 0
-        rpg = sum(g.get('rebounds', 0) for g in game_log) / games_played if games_played > 0 else 0
-        apg = sum(g.get('assists', 0) for g in game_log) / games_played if games_played > 0 else 0
+        # Use stats from source file, fall back to calculating from game log
+        games_played = player.get('games_played') or len(game_log)
+
+        # Prefer official stats from daily_scraper over calculated from box scores
+        if player.get('ppg') or player.get('rpg') or player.get('apg'):
+            ppg = player.get('ppg', 0)
+            rpg = player.get('rpg', 0)
+            apg = player.get('apg', 0)
+        elif game_log:
+            ppg = sum(g.get('points', 0) for g in game_log) / len(game_log) if game_log else 0
+            rpg = sum(g.get('rebounds', 0) for g in game_log) / len(game_log) if game_log else 0
+            apg = sum(g.get('assists', 0) for g in game_log) / len(game_log) if game_log else 0
+        else:
+            ppg = 0
+            rpg = 0
+            apg = 0
 
         unified = {
             # Basic info
