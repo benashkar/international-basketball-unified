@@ -1,9 +1,9 @@
 {
-  "export_date": "2026-02-03T06:31:11.632666",
+  "export_date": "2026-02-04T06:30:30.330723",
   "season": "2025-26",
   "league": "Lega Basket Serie A (LBA)",
   "source": "legabasket.it",
-  "game_count": 260,
+  "game_count": 261,
   "games": [
     {
       "game_id": "25009",
@@ -1092,6 +1092,17 @@
       "home_score": 101,
       "away_score": 95,
       "venue": "Palasport Taliercio",
+      "played": true
+    },
+    {
+      "game_id": "25093",
+      "date": "2025-12-07",
+      "round": "10° Giornata",
+      "home_team": "APU Old Wild West Udine",
+      "away_team": "Guerri Napoli",
+      "home_score": 78,
+      "away_score": 71,
+      "venue": "PalaCarnera Credifriuli",
       "played": true
     },
     {
