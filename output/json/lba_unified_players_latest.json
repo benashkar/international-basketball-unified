@@ -1,5 +1,5 @@
 {
-  "export_date": "2026-02-05T06:34:14.553094",
+  "export_date": "2026-02-06T06:32:07.318943",
   "season": "2025-26",
   "league": "Lega Basket Serie A",
   "player_count": 43,
@@ -105,6 +105,21 @@
           "home_away": "Home",
           "team_score": 66,
           "opponent_score": 74,
+          "result": "L"
+        },
+        {
+          "date": "2025-12-21",
+          "round": "12° Giornata",
+          "venue": "Itelyum Arena",
+          "home_team": "Openjobmetis Varese",
+          "away_team": "Pallacanestro Trieste",
+          "home_score": 84,
+          "away_score": 69,
+          "played": true,
+          "opponent": "Openjobmetis Varese",
+          "home_away": "Away",
+          "team_score": 69,
+          "opponent_score": 84,
           "result": "L"
         },
         {
@@ -2213,10 +2228,10 @@
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/txbgtl1667135720.jpg",
       "instagram": "",
       "twitter": "",
-      "games_played": 12,
-      "ppg": 9.6,
-      "rpg": 1.8,
-      "apg": 3.5,
+      "games_played": 13,
+      "ppg": 10.0,
+      "rpg": 2.0,
+      "apg": 3.4,
       "game_log": [
         {
           "date": "2026-02-01",
@@ -2262,6 +2277,21 @@
           "turnovers": 2,
           "plus_minus": -5,
           "efficiency": 3
+        },
+        {
+          "date": "2025-12-21",
+          "round": "12° Giornata",
+          "opponent": "Openjobmetis Varese",
+          "home_away": "Away",
+          "minutes": 25,
+          "points": 15,
+          "rebounds": 4,
+          "assists": 2,
+          "steals": 3,
+          "blocks": 0,
+          "turnovers": 4,
+          "plus_minus": -15,
+          "efficiency": 21
         },
         {
           "date": "2025-12-13",
@@ -2473,6 +2503,21 @@
           "home_away": "Home",
           "team_score": 66,
           "opponent_score": 74,
+          "result": "L"
+        },
+        {
+          "date": "2025-12-21",
+          "round": "12° Giornata",
+          "venue": "Itelyum Arena",
+          "home_team": "Openjobmetis Varese",
+          "away_team": "Pallacanestro Trieste",
+          "home_score": 84,
+          "away_score": 69,
+          "played": true,
+          "opponent": "Openjobmetis Varese",
+          "home_away": "Away",
+          "team_score": 69,
+          "opponent_score": 84,
           "result": "L"
         },
         {
@@ -4169,6 +4214,21 @@
           "result": "L"
         },
         {
+          "date": "2025-12-21",
+          "round": "12° Giornata",
+          "venue": "Itelyum Arena",
+          "home_team": "Openjobmetis Varese",
+          "away_team": "Pallacanestro Trieste",
+          "home_score": 84,
+          "away_score": 69,
+          "played": true,
+          "opponent": "Openjobmetis Varese",
+          "home_away": "Away",
+          "team_score": 69,
+          "opponent_score": 84,
+          "result": "L"
+        },
+        {
           "date": "2025-12-13",
           "round": "11° Giornata",
           "venue": "PalaTrieste",
@@ -5154,9 +5214,9 @@
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/jolz3y1696759693.jpg",
       "instagram": "",
       "twitter": "",
-      "games_played": 15,
-      "ppg": 2.8,
-      "rpg": 2.4,
+      "games_played": 16,
+      "ppg": 2.6,
+      "rpg": 2.8,
       "apg": 0.6,
       "game_log": [
         {
@@ -5233,6 +5293,21 @@
           "turnovers": 1,
           "plus_minus": -19,
           "efficiency": 16
+        },
+        {
+          "date": "2025-12-21",
+          "round": "12° Giornata",
+          "opponent": "Openjobmetis Varese",
+          "home_away": "Away",
+          "minutes": 27,
+          "points": 0,
+          "rebounds": 8,
+          "assists": 1,
+          "steals": 2,
+          "blocks": 0,
+          "turnovers": 3,
+          "plus_minus": 1,
+          "efficiency": 5
         },
         {
           "date": "2025-12-13",
@@ -6554,9 +6629,9 @@
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/0u59o01739535374.jpg",
       "instagram": "",
       "twitter": "",
-      "games_played": 16,
-      "ppg": 11.1,
-      "rpg": 5.1,
+      "games_played": 17,
+      "ppg": 11.4,
+      "rpg": 5.4,
       "apg": 3.8,
       "game_log": [
         {
@@ -6633,6 +6708,21 @@
           "turnovers": 1,
           "plus_minus": 8,
           "efficiency": 25
+        },
+        {
+          "date": "2025-12-21",
+          "round": "12° Giornata",
+          "opponent": "Pallacanestro Trieste",
+          "home_away": "Home",
+          "minutes": 29,
+          "points": 17,
+          "rebounds": 9,
+          "assists": 4,
+          "steals": 2,
+          "blocks": 0,
+          "turnovers": 2,
+          "plus_minus": 14,
+          "efficiency": 21
         },
         {
           "date": "2025-12-14",
