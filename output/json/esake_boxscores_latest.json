@@ -1,5 +1,5 @@
 {
-  "export_date": "2026-02-06T06:33:27.976628",
+  "export_date": "2026-02-07T06:27:13.482611",
   "season": "2025-26",
   "league": "Greek Basket League (ESAKE)",
   "source": "esake.gr",
@@ -1051,14 +1051,14 @@
       "venue": null,
       "home_players": [
         {
-          "name": "ΓΚΡΕΙΡAΙΚΟΥAΝ",
-          "points": 15,
-          "rebounds": 4,
-          "assists": 3,
-          "blocks": 0,
-          "steals": 1,
-          "minutes": "00:30:25",
-          "turnovers": 2
+          "name": "##ΣΙΛΒAΚΡΙΣ",
+          "points": 14,
+          "rebounds": 11,
+          "assists": 0,
+          "blocks": 1,
+          "steals": 0,
+          "minutes": "00:28:42",
+          "turnovers": 3
         },
         {
           "name": "##AΡΜΣAΝΤΟΝΙΣ",
@@ -1071,14 +1071,14 @@
           "turnovers": 0
         },
         {
-          "name": "##ΣΙΛΒAΚΡΙΣ",
-          "points": 14,
-          "rebounds": 11,
-          "assists": 0,
-          "blocks": 1,
-          "steals": 0,
-          "minutes": "00:28:42",
-          "turnovers": 3
+          "name": "ΓΚΡΕΙΡAΙΚΟΥAΝ",
+          "points": 15,
+          "rebounds": 4,
+          "assists": 3,
+          "blocks": 0,
+          "steals": 1,
+          "minutes": "00:30:25",
+          "turnovers": 2
         },
         {
           "name": "ΣΚΟΡΔΙΛΗΣΓAΙΟΣ",
@@ -1447,16 +1447,6 @@
       ],
       "away_players": [
         {
-          "name": "ΓΚΡΕΙΡAΙΚΟΥAΝ",
-          "points": 10,
-          "rebounds": 4,
-          "assists": 0,
-          "blocks": 0,
-          "steals": 1,
-          "minutes": "00:23:31",
-          "turnovers": 1
-        },
-        {
           "name": "##ΚΛAΒΕΛΛΟΠΕΣ ΤΖAΝ ΛΟΥΙΣ",
           "points": 0,
           "rebounds": 3,
@@ -1465,6 +1455,16 @@
           "steals": 0,
           "minutes": "00:11:10",
           "turnovers": 0
+        },
+        {
+          "name": "ΓΚΡΕΙΡAΙΚΟΥAΝ",
+          "points": 10,
+          "rebounds": 4,
+          "assists": 0,
+          "blocks": 0,
+          "steals": 1,
+          "minutes": "00:23:31",
+          "turnovers": 1
         },
         {
           "name": "##AΡΜΣAΝΤΟΝΙΣ",
@@ -1599,16 +1599,6 @@
           "turnovers": 0
         },
         {
-          "name": "##ΚΛAΒΕΛΛΟΠΕΣ ΤΖAΝ ΛΟΥΙΣ",
-          "points": 1,
-          "rebounds": 2,
-          "assists": 0,
-          "blocks": 0,
-          "steals": 0,
-          "minutes": "00:16:12",
-          "turnovers": 0
-        },
-        {
           "name": "##ΣΙΛΒAΚΡΙΣ",
           "points": 19,
           "rebounds": 8,
@@ -1627,6 +1617,16 @@
           "steals": 0,
           "minutes": "00:18:09",
           "turnovers": 1
+        },
+        {
+          "name": "##ΚΛAΒΕΛΛΟΠΕΣ ΤΖAΝ ΛΟΥΙΣ",
+          "points": 1,
+          "rebounds": 2,
+          "assists": 0,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "00:16:12",
+          "turnovers": 0
         },
         {
           "name": "ΣΚΟΡΔΙΛΗΣΓAΙΟΣ",
@@ -2005,16 +2005,6 @@
           "turnovers": 2
         },
         {
-          "name": "##ΣΙΛΒAΚΡΙΣ",
-          "points": 31,
-          "rebounds": 9,
-          "assists": 3,
-          "blocks": 2,
-          "steals": 0,
-          "minutes": "00:31:08",
-          "turnovers": 2
-        },
-        {
           "name": "ΓΚΡΕΙΡAΙΚΟΥAΝ",
           "points": 8,
           "rebounds": 3,
@@ -2023,6 +2013,16 @@
           "steals": 0,
           "minutes": "00:34:08",
           "turnovers": 3
+        },
+        {
+          "name": "##ΣΙΛΒAΚΡΙΣ",
+          "points": 31,
+          "rebounds": 9,
+          "assists": 3,
+          "blocks": 2,
+          "steals": 0,
+          "minutes": "00:31:08",
+          "turnovers": 2
         },
         {
           "name": "ΣΚΟΡΔΙΛΗΣΓAΙΟΣ",
@@ -2279,16 +2279,6 @@
           "turnovers": 2
         },
         {
-          "name": "##AΡΜΣAΝΤΟΝΙΣ",
-          "points": 0,
-          "rebounds": 0,
-          "assists": 0,
-          "blocks": 0,
-          "steals": 0,
-          "minutes": "00:00:00",
-          "turnovers": 0
-        },
-        {
           "name": "##ΣΙΛΒAΚΡΙΣ",
           "points": 25,
           "rebounds": 9,
@@ -2297,6 +2287,16 @@
           "steals": 1,
           "minutes": "00:33:00",
           "turnovers": 2
+        },
+        {
+          "name": "##AΡΜΣAΝΤΟΝΙΣ",
+          "points": 0,
+          "rebounds": 0,
+          "assists": 0,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "00:00:00",
+          "turnovers": 0
         },
         {
           "name": "ΣΚΟΡΔΙΛΗΣΓAΙΟΣ",
@@ -2817,16 +2817,6 @@
       ],
       "away_players": [
         {
-          "name": "##ΣΙΛΒAΚΡΙΣ",
-          "points": 8,
-          "rebounds": 3,
-          "assists": 1,
-          "blocks": 1,
-          "steals": 1,
-          "minutes": "00:29:33",
-          "turnovers": 3
-        },
-        {
           "name": "ΓΚΡΕΙΡAΙΚΟΥAΝ",
           "points": 3,
           "rebounds": 3,
@@ -2844,6 +2834,16 @@
           "blocks": 0,
           "steals": 2,
           "minutes": "00:11:15",
+          "turnovers": 3
+        },
+        {
+          "name": "##ΣΙΛΒAΚΡΙΣ",
+          "points": 8,
+          "rebounds": 3,
+          "assists": 1,
+          "blocks": 1,
+          "steals": 1,
+          "minutes": "00:29:33",
           "turnovers": 3
         },
         {
@@ -3091,6 +3091,16 @@
       ],
       "away_players": [
         {
+          "name": "ΓΚΡΕΙΡAΙΚΟΥAΝ",
+          "points": 10,
+          "rebounds": 5,
+          "assists": 1,
+          "blocks": 0,
+          "steals": 2,
+          "minutes": "00:29:21",
+          "turnovers": 2
+        },
+        {
           "name": "##ΣΙΛΒAΚΡΙΣ",
           "points": 8,
           "rebounds": 7,
@@ -3109,16 +3119,6 @@
           "steals": 1,
           "minutes": "00:14:54",
           "turnovers": 1
-        },
-        {
-          "name": "ΓΚΡΕΙΡAΙΚΟΥAΝ",
-          "points": 10,
-          "rebounds": 5,
-          "assists": 1,
-          "blocks": 0,
-          "steals": 2,
-          "minutes": "00:29:21",
-          "turnovers": 2
         },
         {
           "name": "ΣΚΟΡΔΙΛΗΣΓAΙΟΣ",
@@ -3233,16 +3233,6 @@
       "venue": null,
       "home_players": [
         {
-          "name": "##AΡΜΣAΝΤΟΝΙΣ",
-          "points": 3,
-          "rebounds": 3,
-          "assists": 0,
-          "blocks": 1,
-          "steals": 1,
-          "minutes": "00:13:17",
-          "turnovers": 1
-        },
-        {
           "name": "##ΣΙΛΒAΚΡΙΣ",
           "points": 10,
           "rebounds": 4,
@@ -3250,6 +3240,16 @@
           "blocks": 0,
           "steals": 0,
           "minutes": "00:19:35",
+          "turnovers": 1
+        },
+        {
+          "name": "##AΡΜΣAΝΤΟΝΙΣ",
+          "points": 3,
+          "rebounds": 3,
+          "assists": 0,
+          "blocks": 1,
+          "steals": 1,
+          "minutes": "00:13:17",
           "turnovers": 1
         },
         {
@@ -3507,16 +3507,6 @@
       "venue": null,
       "home_players": [
         {
-          "name": "##AΡΜΣAΝΤΟΝΙΣ",
-          "points": 8,
-          "rebounds": 0,
-          "assists": 1,
-          "blocks": 0,
-          "steals": 0,
-          "minutes": "00:15:42",
-          "turnovers": 0
-        },
-        {
           "name": "##ΣΙΛΒAΚΡΙΣ",
           "points": 24,
           "rebounds": 9,
@@ -3525,6 +3515,16 @@
           "steals": 1,
           "minutes": "00:22:30",
           "turnovers": 5
+        },
+        {
+          "name": "##AΡΜΣAΝΤΟΝΙΣ",
+          "points": 8,
+          "rebounds": 0,
+          "assists": 1,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "00:15:42",
+          "turnovers": 0
         },
         {
           "name": "ΓΚΡΕΙΡAΙΚΟΥAΝ",
