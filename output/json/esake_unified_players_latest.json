@@ -1,5 +1,5 @@
 {
-  "export_date": "2026-02-07T06:27:13.593639",
+  "export_date": "2026-02-08T06:32:13.137245",
   "season": "2025-26",
   "league": "Greek Basket League (ESAKE)",
   "player_count": 17,
@@ -394,10 +394,10 @@
       "birthdate": "1995-11-29",
       "birthplace": "Little Rock, Arkansas",
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/cutout/ufqo851550047447.png",
-      "games_played": 16,
-      "ppg": 13.1,
-      "rpg": 2.8,
-      "apg": 5.6,
+      "games_played": 17,
+      "ppg": 13.2,
+      "rpg": 2.6,
+      "apg": 5.3,
       "game_log": [
         {
           "date": "Tue 30 Dec - 18:30",
@@ -563,6 +563,21 @@
           "steals": 1,
           "blocks": 0,
           "turnovers": 1
+        },
+        {
+          "date": "Sat 7 Feb - 18:00",
+          "opponent": "ΑΕΚ",
+          "home_away": "Away",
+          "team_score": 74,
+          "opp_score": 83,
+          "result": "L",
+          "minutes": "00:19:28",
+          "points": 15,
+          "rebounds": 1,
+          "assists": 1,
+          "steals": 0,
+          "blocks": 0,
+          "turnovers": 3
         },
         {
           "date": "Sat 6 Dec - 18:15",
@@ -1162,10 +1177,10 @@
       "birthdate": "1994-02-25",
       "birthplace": "Baton Rouge, Louisiana, USA",
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/cutout/d3xogy1743241897.png",
-      "games_played": 15,
-      "ppg": 17.5,
-      "rpg": 4.1,
-      "apg": 3.9,
+      "games_played": 16,
+      "ppg": 17.8,
+      "rpg": 4.2,
+      "apg": 4.0,
       "game_log": [
         {
           "date": "Sun 9 Nov - 13:00",
@@ -1226,6 +1241,21 @@
           "steals": 3,
           "blocks": 0,
           "turnovers": 5
+        },
+        {
+          "date": "Sat 7 Feb - 18:00",
+          "opponent": "ΜΑΡΟΥΣΙCHERY",
+          "home_away": "Home",
+          "team_score": 83,
+          "opp_score": 74,
+          "result": "W",
+          "minutes": "00:35:48",
+          "points": 21,
+          "rebounds": 7,
+          "assists": 5,
+          "steals": 1,
+          "blocks": 0,
+          "turnovers": 3
         },
         {
           "date": "Sat 4 Oct - 16:00",
@@ -1694,10 +1724,10 @@
       "birthdate": "1997-10-27",
       "birthplace": "Queens, United States",
       "headshot_url": "https://www.thesportsdb.com/images/media/player/thumb/c8mc2o1769354915.jpg",
-      "games_played": 15,
-      "ppg": 18.7,
-      "rpg": 4.2,
-      "apg": 3.4,
+      "games_played": 16,
+      "ppg": 18.6,
+      "rpg": 4.0,
+      "apg": 3.6,
       "game_log": [
         {
           "date": "Sun 23 Nov - 13:00",
@@ -1743,6 +1773,21 @@
           "steals": 0,
           "blocks": 0,
           "turnovers": 3
+        },
+        {
+          "date": "Sat 7 Feb - 18:15",
+          "opponent": "ΠΕΡΙΣΤΕΡΙBetsson",
+          "home_away": "Away",
+          "team_score": 74,
+          "opp_score": 92,
+          "result": "L",
+          "minutes": "00:34:38",
+          "points": 17,
+          "rebounds": 1,
+          "assists": 6,
+          "steals": 1,
+          "blocks": 1,
+          "turnovers": 5
         },
         {
           "date": "Sat 6 Dec - 18:15",
@@ -2258,10 +2303,10 @@
       "birthdate": "1999-07-07",
       "birthplace": "Parkland, Florida, U.S.",
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/cutout/1oxr9j1688818346.png",
-      "games_played": 15,
-      "ppg": 12.3,
-      "rpg": 3.7,
-      "apg": 1.7,
+      "games_played": 16,
+      "ppg": 12.8,
+      "rpg": 3.8,
+      "apg": 1.6,
       "game_log": [
         {
           "date": "Sun 9 Nov - 13:00",
@@ -2322,6 +2367,21 @@
           "steals": 2,
           "blocks": 0,
           "turnovers": 1
+        },
+        {
+          "date": "Sat 7 Feb - 18:00",
+          "opponent": "ΜΑΡΟΥΣΙCHERY",
+          "home_away": "Home",
+          "team_score": 83,
+          "opp_score": 74,
+          "result": "W",
+          "minutes": "00:36:34",
+          "points": 20,
+          "rebounds": 5,
+          "assists": 1,
+          "steals": 1,
+          "blocks": 1,
+          "turnovers": 2
         },
         {
           "date": "Sat 4 Oct - 16:00",

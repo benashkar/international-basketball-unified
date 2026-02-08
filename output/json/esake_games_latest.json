@@ -1,21 +1,11 @@
 {
-  "export_date": "2026-02-07T06:27:13.481067",
+  "export_date": "2026-02-08T06:32:13.009195",
   "season": "2025-26",
   "league": "Greek Basket League (ESAKE)",
   "source": "esake.gr",
   "game_count": 156,
-  "played_count": 100,
+  "played_count": 104,
   "games": [
-    {
-      "game_id": "B9FAB9B9",
-      "date": "Sat 7 Feb - 18:00",
-      "series": 18,
-      "home_team": "ΑΕΚ",
-      "away_team": "ΜΑΡΟΥΣΙCHERY",
-      "home_score": null,
-      "away_score": null,
-      "played": false
-    },
     {
       "game_id": "31448FA0",
       "date": "Sat 14 Feb - 18:15",
@@ -95,6 +85,16 @@
       "home_score": null,
       "away_score": null,
       "played": false
+    },
+    {
+      "game_id": "B9FAB9B9",
+      "date": "Sat 7 Feb - 18:00",
+      "series": 18,
+      "home_team": "ΑΕΚ",
+      "away_team": "ΜΑΡΟΥΣΙCHERY",
+      "home_score": 83,
+      "away_score": 74,
+      "played": true
     },
     {
       "game_id": "24EFFB78",
@@ -467,16 +467,6 @@
       "played": true
     },
     {
-      "game_id": "A1AEF8F6",
-      "date": "Sat 7 Feb - 18:15",
-      "series": 18,
-      "home_team": "ΠΕΡΙΣΤΕΡΙBetsson",
-      "away_team": "ΗΡΑΚΛΗΣ",
-      "home_score": null,
-      "away_score": null,
-      "played": false
-    },
-    {
       "game_id": "7A483C8C",
       "date": "Sat 14 Feb - 16:00",
       "series": 19,
@@ -545,6 +535,16 @@
       "home_score": null,
       "away_score": null,
       "played": false
+    },
+    {
+      "game_id": "A1AEF8F6",
+      "date": "Sat 7 Feb - 18:15",
+      "series": 18,
+      "home_team": "ΠΕΡΙΣΤΕΡΙBetsson",
+      "away_team": "ΗΡΑΚΛΗΣ",
+      "home_score": 92,
+      "away_score": 74,
+      "played": true
     },
     {
       "game_id": "E442A1C9",
@@ -847,16 +847,6 @@
       "played": true
     },
     {
-      "game_id": "E6D9A3DA",
-      "date": "Sat 7 Feb - 15:45",
-      "series": 18,
-      "home_team": "ΚΟΛΟΣΣΟΣ HHOTELSCOLLECTION",
-      "away_team": "ΠΑΟΚ",
-      "home_score": null,
-      "away_score": null,
-      "played": false
-    },
-    {
       "game_id": "C0F74D68",
       "date": "Sun 15 Feb - 16:00",
       "series": 19,
@@ -895,6 +885,16 @@
       "home_score": null,
       "away_score": null,
       "played": false
+    },
+    {
+      "game_id": "E6D9A3DA",
+      "date": "Sat 7 Feb - 15:45",
+      "series": 18,
+      "home_team": "ΚΟΛΟΣΣΟΣ HHOTELSCOLLECTION",
+      "away_team": "ΠΑΟΚ",
+      "home_score": 78,
+      "away_score": 90,
+      "played": true
     },
     {
       "game_id": "30CD53A5",
@@ -1147,16 +1147,6 @@
       "played": true
     },
     {
-      "game_id": "3DE5EF09",
-      "date": "Sat 7 Feb - 16:00",
-      "series": 18,
-      "home_team": "ΠΑΝΙΩΝΙΟΣCOSMORAMATRAVEL",
-      "away_team": "ΜΥΚΟΝΟΣBetsson BC",
-      "home_score": null,
-      "away_score": null,
-      "played": false
-    },
-    {
       "game_id": "3CE69266",
       "date": "Sat 14 Mar - 16:00",
       "series": 21,
@@ -1205,6 +1195,16 @@
       "home_score": null,
       "away_score": null,
       "played": false
+    },
+    {
+      "game_id": "3DE5EF09",
+      "date": "Sat 7 Feb - 16:00",
+      "series": 18,
+      "home_team": "ΠΑΝΙΩΝΙΟΣCOSMORAMATRAVEL",
+      "away_team": "ΜΥΚΟΝΟΣBetsson BC",
+      "home_score": 87,
+      "away_score": 76,
+      "played": true
     },
     {
       "game_id": "38AB985A",

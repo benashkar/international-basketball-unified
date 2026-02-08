@@ -1,9 +1,9 @@
 {
-  "export_date": "2026-02-07T06:25:44.168302",
+  "export_date": "2026-02-08T06:31:19.399093",
   "season": "2025-26",
   "league": "Lega Basket Serie A (LBA)",
   "source": "legabasket.it",
-  "game_count": 261,
+  "game_count": 260,
   "games": [
     {
       "game_id": "25009",
@@ -751,17 +751,6 @@
       "home_score": 86,
       "away_score": 82,
       "venue": "PalaTrieste",
-      "played": true
-    },
-    {
-      "game_id": "25083",
-      "date": "2025-11-23",
-      "round": "9° Giornata",
-      "home_team": "Guerri Napoli",
-      "away_team": "Banco di Sardegna Sassari",
-      "home_score": 86,
-      "away_score": 75,
-      "venue": "Alcott Arena",
       "played": true
     },
     {
@@ -1958,8 +1947,8 @@
       "round": "19° Giornata",
       "home_team": "Vanoli Basket Cremona",
       "away_team": "Acqua S.Bernardo Cantù",
-      "home_score": 0,
-      "away_score": 0,
+      "home_score": 89,
+      "away_score": 87,
       "venue": "PalaRadi",
       "played": true
     },
