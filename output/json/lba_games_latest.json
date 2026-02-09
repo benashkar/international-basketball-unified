@@ -1,5 +1,5 @@
 {
-  "export_date": "2026-02-08T06:31:19.399093",
+  "export_date": "2026-02-09T06:41:08.714377",
   "season": "2025-26",
   "league": "Lega Basket Serie A (LBA)",
   "source": "legabasket.it",
@@ -751,6 +751,17 @@
       "home_score": 86,
       "away_score": 82,
       "venue": "PalaTrieste",
+      "played": true
+    },
+    {
+      "game_id": "25083",
+      "date": "2025-11-23",
+      "round": "9° Giornata",
+      "home_team": "Guerri Napoli",
+      "away_team": "Banco di Sardegna Sassari",
+      "home_score": 86,
+      "away_score": 75,
+      "venue": "Alcott Arena",
       "played": true
     },
     {
@@ -1590,17 +1601,6 @@
       "played": true
     },
     {
-      "game_id": "25293",
-      "date": "2026-01-08",
-      "round": "Girone A",
-      "home_team": "Allianz Derthona Tortona",
-      "away_team": "Guerri Napoli",
-      "home_score": 97,
-      "away_score": 88,
-      "venue": "Pala SGR",
-      "played": true
-    },
-    {
       "game_id": "25294",
       "date": "2026-01-08",
       "round": "Girone A",
@@ -1958,8 +1958,8 @@
       "round": "19° Giornata",
       "home_team": "Dolomiti Energia Trentino",
       "away_team": "Openjobmetis Varese",
-      "home_score": 0,
-      "away_score": 0,
+      "home_score": 84,
+      "away_score": 78,
       "venue": "BTS Arena",
       "played": true
     },
@@ -1969,8 +1969,8 @@
       "round": "19° Giornata",
       "home_team": "Bertram Derthona Tortona",
       "away_team": "Pallacanestro Trieste",
-      "home_score": 0,
-      "away_score": 0,
+      "home_score": 104,
+      "away_score": 99,
       "venue": "Nova Arena",
       "played": true
     },
@@ -1980,8 +1980,8 @@
       "round": "19° Giornata",
       "home_team": "Guerri Napoli",
       "away_team": "Umana Reyer Venezia",
-      "home_score": 0,
-      "away_score": 0,
+      "home_score": 64,
+      "away_score": 79,
       "venue": "Alcott Arena",
       "played": true
     },
@@ -1991,8 +1991,8 @@
       "round": "19° Giornata",
       "home_team": "APU Old Wild West Udine",
       "away_team": "Banco di Sardegna Sassari",
-      "home_score": 0,
-      "away_score": 0,
+      "home_score": 92,
+      "away_score": 79,
       "venue": "PalaCarnera Credifriuli",
       "played": true
     },

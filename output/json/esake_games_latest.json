@@ -1,10 +1,10 @@
 {
-  "export_date": "2026-02-08T06:32:13.009195",
+  "export_date": "2026-02-09T06:42:55.664159",
   "season": "2025-26",
   "league": "Greek Basket League (ESAKE)",
   "source": "esake.gr",
   "game_count": 156,
-  "played_count": 104,
+  "played_count": 106,
   "games": [
     {
       "game_id": "31448FA0",
@@ -667,16 +667,6 @@
       "played": true
     },
     {
-      "game_id": "AE00F69F",
-      "date": "Sun 8 Feb - 16:00",
-      "series": 18,
-      "home_team": "ΚΑΡΔΙΤΣΑΙΑΠΩΝΙΚΗ",
-      "away_team": "ΠΑΝΑΘΗΝΑΪΚΟΣAKTOR",
-      "home_score": null,
-      "away_score": null,
-      "played": false
-    },
-    {
       "game_id": "333BA441",
       "date": "Sat 14 Feb - 18:15",
       "series": 19,
@@ -735,6 +725,16 @@
       "home_score": null,
       "away_score": null,
       "played": false
+    },
+    {
+      "game_id": "AE00F69F",
+      "date": "Sun 8 Feb - 16:00",
+      "series": 18,
+      "home_team": "ΚΑΡΔΙΤΣΑΙΑΠΩΝΙΚΗ",
+      "away_team": "ΠΑΝΑΘΗΝΑΪΚΟΣAKTOR",
+      "home_score": 53,
+      "away_score": 78,
+      "played": true
     },
     {
       "game_id": "3E969D1E",
@@ -1267,16 +1267,6 @@
       "played": true
     },
     {
-      "game_id": "907EFEB1",
-      "date": "Sun 8 Feb - 13:00",
-      "series": 18,
-      "home_team": "ΟΛΥΜΠΙΑΚΟΣ",
-      "away_team": "ΠΡΟΜΗΘΕΑΣΠΑΤΡΑΣΒΙΚΟΣCOLA",
-      "home_score": null,
-      "away_score": null,
-      "played": false
-    },
-    {
       "game_id": "64261AE3",
       "date": "Sun 8 Mar - 13:00",
       "series": 20,
@@ -1305,6 +1295,16 @@
       "home_score": null,
       "away_score": null,
       "played": false
+    },
+    {
+      "game_id": "907EFEB1",
+      "date": "Sun 8 Feb - 13:00",
+      "series": 18,
+      "home_team": "ΟΛΥΜΠΙΑΚΟΣ",
+      "away_team": "ΠΡΟΜΗΘΕΑΣΠΑΤΡΑΣΒΙΚΟΣCOLA",
+      "home_score": 102,
+      "away_score": 87,
+      "played": true
     },
     {
       "game_id": "D539C11A",

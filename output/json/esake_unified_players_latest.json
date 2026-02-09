@@ -1,5 +1,5 @@
 {
-  "export_date": "2026-02-08T06:32:13.137245",
+  "export_date": "2026-02-09T06:42:55.769760",
   "season": "2025-26",
   "league": "Greek Basket League (ESAKE)",
   "player_count": 17,
@@ -17,10 +17,10 @@
       "birthdate": "1995-04-13",
       "birthplace": "Washington, Illinois",
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/cutout/kwoz3e1698833189.png",
-      "games_played": 15,
-      "ppg": 12.8,
-      "rpg": 4.6,
-      "apg": 0.9,
+      "games_played": 16,
+      "ppg": 13.5,
+      "rpg": 4.5,
+      "apg": 0.8,
       "game_log": [
         {
           "date": "Sun 9 Nov - 13:00",
@@ -36,6 +36,21 @@
           "steals": 2,
           "blocks": 0,
           "turnovers": 2
+        },
+        {
+          "date": "Sun 8 Feb - 13:00",
+          "opponent": "ΠΡΟΜΗΘΕΑΣΠΑΤΡΑΣΒΙΚΟΣCOLA",
+          "home_away": "Home",
+          "team_score": 102,
+          "opp_score": 87,
+          "result": "W",
+          "minutes": "00:20:00",
+          "points": 24,
+          "rebounds": 3,
+          "assists": 0,
+          "steals": 1,
+          "blocks": 0,
+          "turnovers": 1
         },
         {
           "date": "Sun 7 Dec - 13:00",
@@ -916,10 +931,10 @@
       "birthdate": "1997-08-07",
       "birthplace": "Luverne, Alabama, U.S.",
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/cutout/v70tco1760707823.png",
-      "games_played": 16,
-      "ppg": 10.1,
-      "rpg": 5.2,
-      "apg": 0.7,
+      "games_played": 17,
+      "ppg": 10.4,
+      "rpg": 5.4,
+      "apg": 0.6,
       "game_log": [
         {
           "date": "Sun 9 Nov - 13:00",
@@ -935,6 +950,21 @@
           "steals": 1,
           "blocks": 3,
           "turnovers": 2
+        },
+        {
+          "date": "Sun 8 Feb - 13:00",
+          "opponent": "ΠΡΟΜΗΘΕΑΣΠΑΤΡΑΣΒΙΚΟΣCOLA",
+          "home_away": "Home",
+          "team_score": 102,
+          "opp_score": 87,
+          "result": "W",
+          "minutes": "00:20:00",
+          "points": 15,
+          "rebounds": 8,
+          "assists": 0,
+          "steals": 1,
+          "blocks": 1,
+          "turnovers": 0
         },
         {
           "date": "Sun 7 Dec - 13:00",
@@ -1458,10 +1488,10 @@
       "birthdate": "1992-10-09",
       "birthplace": "Silver Spring, Maryland",
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/cutout/85ilmm1737712922.png",
-      "games_played": 15,
-      "ppg": 7.7,
-      "rpg": 0.9,
-      "apg": 3.5,
+      "games_played": 16,
+      "ppg": 7.2,
+      "rpg": 0.8,
+      "apg": 3.4,
       "game_log": [
         {
           "date": "Tue 30 Dec - 18:30",
@@ -1477,6 +1507,21 @@
           "steals": 1,
           "blocks": 0,
           "turnovers": 0
+        },
+        {
+          "date": "Sun 8 Feb - 16:00",
+          "opponent": "ΚΑΡΔΙΤΣΑΙΑΠΩΝΙΚΗ",
+          "home_away": "Away",
+          "team_score": 78,
+          "opp_score": 53,
+          "result": "W",
+          "minutes": "00:09:27",
+          "points": 0,
+          "rebounds": 0,
+          "assists": 3,
+          "steals": 0,
+          "blocks": 0,
+          "turnovers": 1
         },
         {
           "date": "Sun 7 Dec - 16:00",
@@ -2141,11 +2186,26 @@
       "birthdate": "1989-11-19",
       "birthplace": "Newark, New Jersey",
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/cutout/5abexo1762975929.png",
-      "games_played": 6,
-      "ppg": 7.7,
-      "rpg": 5.3,
-      "apg": 0.5,
+      "games_played": 7,
+      "ppg": 6.9,
+      "rpg": 5.0,
+      "apg": 0.4,
       "game_log": [
+        {
+          "date": "Sun 8 Feb - 16:00",
+          "opponent": "ΚΑΡΔΙΤΣΑΙΑΠΩΝΙΚΗ",
+          "home_away": "Away",
+          "team_score": 78,
+          "opp_score": 53,
+          "result": "W",
+          "minutes": "00:15:31",
+          "points": 2,
+          "rebounds": 3,
+          "assists": 0,
+          "steals": 0,
+          "blocks": 4,
+          "turnovers": 1
+        },
         {
           "date": "Sun 7 Dec - 16:00",
           "opponent": "ΠΑΝΙΩΝΙΟΣCOSMORAMATRAVEL",
