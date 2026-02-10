@@ -1,9 +1,9 @@
 {
-  "export_date": "2026-02-09T06:41:08.714377",
+  "export_date": "2026-02-10T06:40:52.390572",
   "season": "2025-26",
   "league": "Lega Basket Serie A (LBA)",
   "source": "legabasket.it",
-  "game_count": 260,
+  "game_count": 261,
   "games": [
     {
       "game_id": "25009",
@@ -1601,6 +1601,17 @@
       "played": true
     },
     {
+      "game_id": "25293",
+      "date": "2026-01-08",
+      "round": "Girone A",
+      "home_team": "Allianz Derthona Tortona",
+      "away_team": "Guerri Napoli",
+      "home_score": 97,
+      "away_score": 88,
+      "venue": "Pala SGR",
+      "played": true
+    },
+    {
       "game_id": "25294",
       "date": "2026-01-08",
       "round": "Girone A",
@@ -2002,8 +2013,8 @@
       "round": "19° Giornata",
       "home_team": "Germani Brescia",
       "away_team": "Virtus Olidata Bologna",
-      "home_score": 0,
-      "away_score": 0,
+      "home_score": 79,
+      "away_score": 87,
       "venue": "Palaleonessa A2A",
       "played": true
     },
@@ -2013,8 +2024,8 @@
       "round": "19° Giornata",
       "home_team": "NutriBullet Treviso Basket",
       "away_team": "EA7 Emporio Armani Milano",
-      "home_score": 0,
-      "away_score": 0,
+      "home_score": 71,
+      "away_score": 76,
       "venue": "Palaverde",
       "played": true
     },

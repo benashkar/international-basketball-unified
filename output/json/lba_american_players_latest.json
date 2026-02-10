@@ -1,5 +1,5 @@
 {
-  "export_date": "2026-02-09T06:41:09.544634",
+  "export_date": "2026-02-10T06:40:53.271527",
   "season": "2025-26",
   "league": "Lega Basket Serie A",
   "player_count": 43,
@@ -79,10 +79,10 @@
       "college": "Houston Cougars",
       "high_school": null,
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/qz9oe81700219475.jpg",
-      "games_played": 36,
-      "ppg": 16.8,
-      "rpg": 4.6,
-      "apg": 1.7
+      "games_played": 20,
+      "ppg": 16.0,
+      "rpg": 4.3,
+      "apg": 1.6
     },
     {
       "code": "34348421",
@@ -119,10 +119,10 @@
       "college": "Purdue Boilermakers",
       "high_school": null,
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/jvpe5l1732558983.jpg",
-      "games_played": 29,
+      "games_played": 16,
       "ppg": 14.9,
       "rpg": 1.8,
-      "apg": 3.7
+      "apg": 3.4
     },
     {
       "code": "34216199",
@@ -279,9 +279,9 @@
       "college": null,
       "high_school": null,
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/twi79f1760037116.jpg",
-      "games_played": 39,
-      "ppg": 9.1,
-      "rpg": 2.5,
+      "games_played": 23,
+      "ppg": 9.2,
+      "rpg": 2.4,
       "apg": 0.7
     },
     {
@@ -299,9 +299,9 @@
       "college": "Boise State Broncos",
       "high_school": null,
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/4tc8nh1756820841.jpg",
-      "games_played": 33,
-      "ppg": 12.2,
-      "rpg": 3.0,
+      "games_played": 18,
+      "ppg": 12.1,
+      "rpg": 2.8,
       "apg": 0.9
     },
     {
@@ -339,10 +339,10 @@
       "college": "Clemson, played professionally in the National Basketball Association (NBA)",
       "high_school": null,
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/vyavq41674398318.jpg",
-      "games_played": 20,
-      "ppg": 7.9,
-      "rpg": 3.6,
-      "apg": 1.6
+      "games_played": 12,
+      "ppg": 7.7,
+      "rpg": 4.1,
+      "apg": 1.7
     },
     {
       "code": "34216244",
