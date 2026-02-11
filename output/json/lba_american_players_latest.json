@@ -1,5 +1,5 @@
 {
-  "export_date": "2026-02-10T06:40:53.271527",
+  "export_date": "2026-02-11T06:38:46.755112",
   "season": "2025-26",
   "league": "Lega Basket Serie A",
   "player_count": 43,
@@ -119,10 +119,10 @@
       "college": "Purdue Boilermakers",
       "high_school": null,
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/jvpe5l1732558983.jpg",
-      "games_played": 16,
-      "ppg": 14.9,
+      "games_played": 15,
+      "ppg": 14.1,
       "rpg": 1.8,
-      "apg": 3.4
+      "apg": 3.6
     },
     {
       "code": "34216199",

@@ -1,9 +1,9 @@
 {
-  "export_date": "2026-02-10T06:40:52.390572",
+  "export_date": "2026-02-11T06:38:45.748126",
   "season": "2025-26",
   "league": "Lega Basket Serie A (LBA)",
   "source": "legabasket.it",
-  "game_count": 261,
+  "game_count": 260,
   "games": [
     {
       "game_id": "25009",
@@ -838,17 +838,6 @@
       "away_team": "Pallacanestro Trieste",
       "home_score": 91,
       "away_score": 121,
-      "venue": "Palazzetto dello Sport",
-      "played": true
-    },
-    {
-      "game_id": "25270",
-      "date": "2025-11-28",
-      "round": "Girone B",
-      "home_team": "NutriBullet Treviso Basket",
-      "away_team": "Umana Reyer Venezia",
-      "home_score": 61,
-      "away_score": 84,
       "venue": "Palazzetto dello Sport",
       "played": true
     },
