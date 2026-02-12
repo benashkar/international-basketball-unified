@@ -1,5 +1,5 @@
 {
-  "export_date": "2026-02-11T06:40:30.185629",
+  "export_date": "2026-02-12T06:40:33.597106",
   "season": "2025-26",
   "league": "Greek Basket League (ESAKE)",
   "source": "esake.gr",
@@ -15067,16 +15067,6 @@
       ],
       "away_players": [
         {
-          "name": "ΟΜΟΡΟΥΓΙΚΛΙΦΟΡΝΤ",
-          "points": 2,
-          "rebounds": 2,
-          "assists": 0,
-          "blocks": 1,
-          "steals": 1,
-          "minutes": "00:16:17",
-          "turnovers": 0
-        },
-        {
           "name": "AΛΕΝΤΙΜΟΘΙ ΖΕΥΣ",
           "points": 13,
           "rebounds": 7,
@@ -15124,6 +15114,16 @@
           "blocks": 0,
           "steals": 0,
           "minutes": "00:00:00",
+          "turnovers": 0
+        },
+        {
+          "name": "ΟΜΟΡΟΥΓΙΚΛΙΦΟΡΝΤ",
+          "points": 2,
+          "rebounds": 2,
+          "assists": 0,
+          "blocks": 1,
+          "steals": 1,
+          "minutes": "00:16:17",
           "turnovers": 0
         },
         {

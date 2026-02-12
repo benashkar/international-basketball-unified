@@ -1,5 +1,5 @@
 {
-  "export_date": "2026-02-11T06:38:46.740774",
+  "export_date": "2026-02-12T06:39:52.209680",
   "season": "2025-26",
   "league": "Lega Basket Serie A",
   "player_count": 43,
@@ -830,9 +830,9 @@
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/qz9oe81700219475.jpg",
       "instagram": "",
       "twitter": "",
-      "games_played": 20,
-      "ppg": 16.0,
-      "rpg": 4.3,
+      "games_played": 19,
+      "ppg": 15.8,
+      "rpg": 4.1,
       "apg": 1.6,
       "game_log": [
         {
@@ -1029,21 +1029,6 @@
           "turnovers": 0,
           "plus_minus": 0,
           "efficiency": 27
-        },
-        {
-          "date": "2025-11-02",
-          "round": "5° Giornata",
-          "opponent": "UNA Hotels Reggio Emilia",
-          "home_away": "Away",
-          "minutes": 31,
-          "points": 20,
-          "rebounds": 9,
-          "assists": 2,
-          "steals": 0,
-          "blocks": 0,
-          "turnovers": 1,
-          "plus_minus": 37,
-          "efficiency": 25
         },
         {
           "date": "2025-10-26",
@@ -1376,10 +1361,10 @@
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/jvpe5l1732558983.jpg",
       "instagram": "",
       "twitter": "",
-      "games_played": 15,
-      "ppg": 14.1,
+      "games_played": 16,
+      "ppg": 14.9,
       "rpg": 1.8,
-      "apg": 3.6,
+      "apg": 3.4,
       "game_log": [
         {
           "date": "2026-02-09",
@@ -1575,6 +1560,21 @@
           "turnovers": 2,
           "plus_minus": -14,
           "efficiency": 3
+        },
+        {
+          "date": "2025-10-11",
+          "round": "2° Giornata",
+          "opponent": "APU Old Wild West Udine",
+          "home_away": "Away",
+          "minutes": 29,
+          "points": 27,
+          "rebounds": 1,
+          "assists": 1,
+          "steals": 1,
+          "blocks": 0,
+          "turnovers": 2,
+          "plus_minus": 4,
+          "efficiency": 21
         },
         {
           "date": "2025-10-06",
@@ -5043,10 +5043,10 @@
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/dnkj6a1639088109.jpg",
       "instagram": "",
       "twitter": "",
-      "games_played": 8,
-      "ppg": 6.4,
-      "rpg": 1.2,
-      "apg": 2.1,
+      "games_played": 7,
+      "ppg": 6.0,
+      "rpg": 1.4,
+      "apg": 1.9,
       "game_log": [
         {
           "date": "2025-11-16",
@@ -5092,21 +5092,6 @@
           "turnovers": 0,
           "plus_minus": 6,
           "efficiency": 3
-        },
-        {
-          "date": "2025-11-02",
-          "round": "5° Giornata",
-          "opponent": "EA7 Emporio Armani Milano",
-          "home_away": "Home",
-          "minutes": 21,
-          "points": 9,
-          "rebounds": 0,
-          "assists": 4,
-          "steals": 1,
-          "blocks": 0,
-          "turnovers": 1,
-          "plus_minus": -3,
-          "efficiency": 8
         },
         {
           "date": "2025-10-26",
