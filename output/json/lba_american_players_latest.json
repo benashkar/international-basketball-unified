@@ -1,5 +1,5 @@
 {
-  "export_date": "2026-02-12T06:39:52.223021",
+  "export_date": "2026-02-13T06:35:31.340691",
   "season": "2025-26",
   "league": "Lega Basket Serie A",
   "player_count": 43,
@@ -39,10 +39,10 @@
       "college": "Clemson Tigers",
       "high_school": null,
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/eibd591756821833.jpg",
-      "games_played": 16,
-      "ppg": 11.4,
-      "rpg": 6.0,
-      "apg": 2.4
+      "games_played": 15,
+      "ppg": 11.5,
+      "rpg": 5.7,
+      "apg": 2.3
     },
     {
       "code": "34165406",
@@ -79,9 +79,9 @@
       "college": "Houston Cougars",
       "high_school": null,
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/qz9oe81700219475.jpg",
-      "games_played": 19,
-      "ppg": 15.8,
-      "rpg": 4.1,
+      "games_played": 20,
+      "ppg": 16.0,
+      "rpg": 4.3,
       "apg": 1.6
     },
     {
@@ -499,10 +499,10 @@
       "college": null,
       "high_school": null,
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/dnkj6a1639088109.jpg",
-      "games_played": 7,
-      "ppg": 6.0,
-      "rpg": 1.4,
-      "apg": 1.9
+      "games_played": 8,
+      "ppg": 6.4,
+      "rpg": 1.2,
+      "apg": 2.1
     },
     {
       "code": "34193885",
@@ -839,9 +839,9 @@
       "college": "Cal State Bakersfield Roadrunners, the Houston Cougars",
       "high_school": null,
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/0u59o01739535374.jpg",
-      "games_played": 18,
-      "ppg": 11.6,
-      "rpg": 5.2,
+      "games_played": 17,
+      "ppg": 10.8,
+      "rpg": 5.4,
       "apg": 3.8
     },
     {

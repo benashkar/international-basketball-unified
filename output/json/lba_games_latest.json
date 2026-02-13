@@ -1,9 +1,9 @@
 {
-  "export_date": "2026-02-12T06:39:51.390823",
+  "export_date": "2026-02-13T06:35:30.466254",
   "season": "2025-26",
   "league": "Lega Basket Serie A (LBA)",
   "source": "legabasket.it",
-  "game_count": 261,
+  "game_count": 260,
   "games": [
     {
       "game_id": "25009",
@@ -35,17 +35,6 @@
       "away_team": "Germani Brescia",
       "home_score": 90,
       "away_score": 87,
-      "venue": "Virtus Arena",
-      "played": true
-    },
-    {
-      "game_id": "25012",
-      "date": "2025-06-14",
-      "round": "Finale - Gara 2",
-      "home_team": "Virtus Segafredo Bologna",
-      "away_team": "Germani Brescia",
-      "home_score": 75,
-      "away_score": 65,
       "venue": "Virtus Arena",
       "played": true
     },
