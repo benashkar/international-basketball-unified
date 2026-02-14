@@ -1,9 +1,9 @@
 {
-  "export_date": "2026-02-13T06:35:30.466254",
+  "export_date": "2026-02-14T06:27:56.718914",
   "season": "2025-26",
   "league": "Lega Basket Serie A (LBA)",
   "source": "legabasket.it",
-  "game_count": 260,
+  "game_count": 261,
   "games": [
     {
       "game_id": "25009",
@@ -35,6 +35,17 @@
       "away_team": "Germani Brescia",
       "home_score": 90,
       "away_score": 87,
+      "venue": "Virtus Arena",
+      "played": true
+    },
+    {
+      "game_id": "25012",
+      "date": "2025-06-14",
+      "round": "Finale - Gara 2",
+      "home_team": "Virtus Segafredo Bologna",
+      "away_team": "Germani Brescia",
+      "home_score": 75,
+      "away_score": 65,
       "venue": "Virtus Arena",
       "played": true
     },
@@ -2097,13 +2108,24 @@
     },
     {
       "game_id": "25176",
-      "date": "2026-03-08",
+      "date": "2026-03-07",
       "round": "21° Giornata",
       "home_team": "Dolomiti Energia Trentino",
       "away_team": "Banco di Sardegna Sassari",
       "home_score": 0,
       "away_score": 0,
       "venue": "BTS Arena",
+      "played": true
+    },
+    {
+      "game_id": "25179",
+      "date": "2026-03-07",
+      "round": "21° Giornata",
+      "home_team": "Guerri Napoli",
+      "away_team": "Virtus Olidata Bologna",
+      "home_score": 0,
+      "away_score": 0,
+      "venue": "Alcott Arena",
       "played": true
     },
     {
@@ -2126,17 +2148,6 @@
       "home_score": 0,
       "away_score": 0,
       "venue": "Palaverde",
-      "played": true
-    },
-    {
-      "game_id": "25179",
-      "date": "2026-03-08",
-      "round": "21° Giornata",
-      "home_team": "Guerri Napoli",
-      "away_team": "Virtus Olidata Bologna",
-      "home_score": 0,
-      "away_score": 0,
-      "venue": "Alcott Arena",
       "played": true
     },
     {

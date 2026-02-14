@@ -1,5 +1,5 @@
 {
-  "export_date": "2026-02-13T06:34:28.980139",
+  "export_date": "2026-02-14T06:26:34.559461",
   "season": "2025-26",
   "league": "French Betclic Elite (Pro A)",
   "player_count": 17,
@@ -22,36 +22,6 @@
       "rpg": 3.0,
       "apg": 1.8,
       "game_log": [
-        {
-          "date": null,
-          "opponent": "Chalon/Saône",
-          "home_away": "Away",
-          "team_score": "92",
-          "opp_score": "78",
-          "result": "W",
-          "minutes": "25:12",
-          "points": 12,
-          "rebounds": 3,
-          "assists": 1,
-          "steals": 3,
-          "blocks": 1,
-          "turnovers": 2
-        },
-        {
-          "date": null,
-          "opponent": "Nancy",
-          "home_away": "Away",
-          "team_score": "93",
-          "opp_score": "79",
-          "result": "W",
-          "minutes": "26:39",
-          "points": 4,
-          "rebounds": 4,
-          "assists": 4,
-          "steals": 2,
-          "blocks": 0,
-          "turnovers": 0
-        },
         {
           "date": null,
           "opponent": "Le Portel",
@@ -81,6 +51,36 @@
           "steals": 1,
           "blocks": 0,
           "turnovers": 1
+        },
+        {
+          "date": null,
+          "opponent": "Chalon/Saône",
+          "home_away": "Away",
+          "team_score": "92",
+          "opp_score": "78",
+          "result": "W",
+          "minutes": "25:12",
+          "points": 12,
+          "rebounds": 3,
+          "assists": 1,
+          "steals": 3,
+          "blocks": 1,
+          "turnovers": 2
+        },
+        {
+          "date": null,
+          "opponent": "Nancy",
+          "home_away": "Away",
+          "team_score": "93",
+          "opp_score": "79",
+          "result": "W",
+          "minutes": "26:39",
+          "points": 4,
+          "rebounds": 4,
+          "assists": 4,
+          "steals": 2,
+          "blocks": 0,
+          "turnovers": 0
         },
         {
           "date": null,
@@ -297,18 +297,18 @@
       "game_log": [
         {
           "date": null,
-          "opponent": "Saint-Quentin",
+          "opponent": "Monaco",
           "home_away": "Away",
-          "team_score": "81",
-          "opp_score": "97",
-          "result": "L",
-          "minutes": "34:05",
-          "points": 15,
-          "rebounds": 7,
-          "assists": 3,
+          "team_score": "86",
+          "opp_score": "113",
+          "result": "W",
+          "minutes": "33:29",
+          "points": 18,
+          "rebounds": 3,
+          "assists": 1,
           "steals": 0,
           "blocks": 0,
-          "turnovers": 3
+          "turnovers": 2
         },
         {
           "date": null,
@@ -327,18 +327,33 @@
         },
         {
           "date": null,
-          "opponent": "Monaco",
-          "home_away": "Away",
-          "team_score": "86",
-          "opp_score": "113",
-          "result": "W",
-          "minutes": "33:29",
-          "points": 18,
+          "opponent": "Cholet",
+          "home_away": "Home",
+          "team_score": "84",
+          "opp_score": "94",
+          "result": "L",
+          "minutes": "21:44",
+          "points": 10,
           "rebounds": 3,
-          "assists": 1,
+          "assists": 2,
           "steals": 0,
           "blocks": 0,
-          "turnovers": 2
+          "turnovers": 0
+        },
+        {
+          "date": null,
+          "opponent": "Saint-Quentin",
+          "home_away": "Away",
+          "team_score": "81",
+          "opp_score": "97",
+          "result": "L",
+          "minutes": "34:05",
+          "points": 15,
+          "rebounds": 7,
+          "assists": 3,
+          "steals": 0,
+          "blocks": 0,
+          "turnovers": 3
         },
         {
           "date": null,
@@ -354,21 +369,6 @@
           "steals": 0,
           "blocks": 0,
           "turnovers": 2
-        },
-        {
-          "date": null,
-          "opponent": "Cholet",
-          "home_away": "Home",
-          "team_score": "84",
-          "opp_score": "94",
-          "result": "L",
-          "minutes": "21:44",
-          "points": 10,
-          "rebounds": 3,
-          "assists": 2,
-          "steals": 0,
-          "blocks": 0,
-          "turnovers": 0
         }
       ],
       "description": null
@@ -391,6 +391,36 @@
       "rpg": 2.3,
       "apg": 0.5,
       "game_log": [
+        {
+          "date": null,
+          "opponent": "Le Portel",
+          "home_away": "Home",
+          "team_score": "113",
+          "opp_score": "86",
+          "result": "L",
+          "minutes": "11:30",
+          "points": 10,
+          "rebounds": 2,
+          "assists": 1,
+          "steals": 0,
+          "blocks": 0,
+          "turnovers": 0
+        },
+        {
+          "date": null,
+          "opponent": "Gravelines-Dunkerque",
+          "home_away": "Home",
+          "team_score": "101",
+          "opp_score": "82",
+          "result": "L",
+          "minutes": "20:02",
+          "points": 7,
+          "rebounds": 0,
+          "assists": 1,
+          "steals": 0,
+          "blocks": 1,
+          "turnovers": 0
+        },
         {
           "date": null,
           "opponent": "Limoges",
@@ -435,36 +465,6 @@
           "steals": 0,
           "blocks": 0,
           "turnovers": 1
-        },
-        {
-          "date": null,
-          "opponent": "Le Portel",
-          "home_away": "Home",
-          "team_score": "113",
-          "opp_score": "86",
-          "result": "L",
-          "minutes": "11:30",
-          "points": 10,
-          "rebounds": 2,
-          "assists": 1,
-          "steals": 0,
-          "blocks": 0,
-          "turnovers": 0
-        },
-        {
-          "date": null,
-          "opponent": "Gravelines-Dunkerque",
-          "home_away": "Home",
-          "team_score": "101",
-          "opp_score": "82",
-          "result": "L",
-          "minutes": "20:02",
-          "points": 7,
-          "rebounds": 0,
-          "assists": 1,
-          "steals": 0,
-          "blocks": 1,
-          "turnovers": 0
         },
         {
           "date": null,
@@ -584,6 +584,21 @@
       "game_log": [
         {
           "date": null,
+          "opponent": "Gravelines-Dunkerque",
+          "home_away": "Home",
+          "team_score": "101",
+          "opp_score": "82",
+          "result": "L",
+          "minutes": "19:59",
+          "points": 12,
+          "rebounds": 3,
+          "assists": 2,
+          "steals": 1,
+          "blocks": 0,
+          "turnovers": 1
+        },
+        {
+          "date": null,
           "opponent": "Limoges",
           "home_away": "Home",
           "team_score": "99",
@@ -609,21 +624,6 @@
           "rebounds": 7,
           "assists": 0,
           "steals": 0,
-          "blocks": 0,
-          "turnovers": 1
-        },
-        {
-          "date": null,
-          "opponent": "Gravelines-Dunkerque",
-          "home_away": "Home",
-          "team_score": "101",
-          "opp_score": "82",
-          "result": "L",
-          "minutes": "19:59",
-          "points": 12,
-          "rebounds": 3,
-          "assists": 2,
-          "steals": 1,
           "blocks": 0,
           "turnovers": 1
         },
@@ -663,21 +663,6 @@
       "rpg": 1.5,
       "apg": 0.5,
       "game_log": [
-        {
-          "date": null,
-          "opponent": "Le Mans",
-          "home_away": "Home",
-          "team_score": "110",
-          "opp_score": "92",
-          "result": "L",
-          "minutes": "16:02",
-          "points": 6,
-          "rebounds": 3,
-          "assists": 0,
-          "steals": 0,
-          "blocks": 1,
-          "turnovers": 2
-        },
         {
           "date": null,
           "opponent": "Boulazac",
@@ -722,6 +707,21 @@
           "steals": 1,
           "blocks": 0,
           "turnovers": 1
+        },
+        {
+          "date": null,
+          "opponent": "Le Mans",
+          "home_away": "Home",
+          "team_score": "110",
+          "opp_score": "92",
+          "result": "L",
+          "minutes": "16:02",
+          "points": 6,
+          "rebounds": 3,
+          "assists": 0,
+          "steals": 0,
+          "blocks": 1,
+          "turnovers": 2
         }
       ],
       "description": "Lamar Brandon Stevens (born July 9, 1997) is an American professional basketball player for Paris Basketball of the LNB Élite and the EuroLeague. He played college basketball for the Penn State Nittany Lions."
@@ -744,36 +744,6 @@
       "rpg": 2.0,
       "apg": 4.8,
       "game_log": [
-        {
-          "date": null,
-          "opponent": "Limoges",
-          "home_away": "Home",
-          "team_score": "99",
-          "opp_score": "88",
-          "result": "W",
-          "minutes": "13:56",
-          "points": 7,
-          "rebounds": 3,
-          "assists": 3,
-          "steals": 1,
-          "blocks": 0,
-          "turnovers": 2
-        },
-        {
-          "date": null,
-          "opponent": "Chalon/Saône",
-          "home_away": "Away",
-          "team_score": "92",
-          "opp_score": "78",
-          "result": "W",
-          "minutes": "21:12",
-          "points": 11,
-          "rebounds": 1,
-          "assists": 5,
-          "steals": 1,
-          "blocks": 0,
-          "turnovers": 3
-        },
         {
           "date": null,
           "opponent": "Le Portel",
@@ -803,6 +773,36 @@
           "steals": 0,
           "blocks": 0,
           "turnovers": 1
+        },
+        {
+          "date": null,
+          "opponent": "Limoges",
+          "home_away": "Home",
+          "team_score": "99",
+          "opp_score": "88",
+          "result": "W",
+          "minutes": "13:56",
+          "points": 7,
+          "rebounds": 3,
+          "assists": 3,
+          "steals": 1,
+          "blocks": 0,
+          "turnovers": 2
+        },
+        {
+          "date": null,
+          "opponent": "Chalon/Saône",
+          "home_away": "Away",
+          "team_score": "92",
+          "opp_score": "78",
+          "result": "W",
+          "minutes": "21:12",
+          "points": 11,
+          "rebounds": 1,
+          "assists": 5,
+          "steals": 1,
+          "blocks": 0,
+          "turnovers": 3
         },
         {
           "date": null,
@@ -872,21 +872,6 @@
         },
         {
           "date": null,
-          "opponent": "Boulazac",
-          "home_away": "Home",
-          "team_score": "94",
-          "opp_score": "77",
-          "result": "W",
-          "minutes": "19:50",
-          "points": 11,
-          "rebounds": 3,
-          "assists": 2,
-          "steals": 2,
-          "blocks": 2,
-          "turnovers": 3
-        },
-        {
-          "date": null,
           "opponent": "Le Portel",
           "home_away": "Home",
           "team_score": "104",
@@ -898,6 +883,21 @@
           "assists": 5,
           "steals": 1,
           "blocks": 0,
+          "turnovers": 3
+        },
+        {
+          "date": null,
+          "opponent": "Boulazac",
+          "home_away": "Home",
+          "team_score": "94",
+          "opp_score": "77",
+          "result": "W",
+          "minutes": "19:50",
+          "points": 11,
+          "rebounds": 3,
+          "assists": 2,
+          "steals": 2,
+          "blocks": 2,
           "turnovers": 3
         },
         {
@@ -938,36 +938,6 @@
       "game_log": [
         {
           "date": null,
-          "opponent": "Le Mans",
-          "home_away": "Away",
-          "team_score": "86",
-          "opp_score": "92",
-          "result": "L",
-          "minutes": "21:50",
-          "points": 14,
-          "rebounds": 4,
-          "assists": 0,
-          "steals": 0,
-          "blocks": 1,
-          "turnovers": 1
-        },
-        {
-          "date": null,
-          "opponent": "Nanterre",
-          "home_away": "Home",
-          "team_score": "88",
-          "opp_score": "97",
-          "result": "L",
-          "minutes": "27:35",
-          "points": 12,
-          "rebounds": 4,
-          "assists": 2,
-          "steals": 0,
-          "blocks": 3,
-          "turnovers": 5
-        },
-        {
-          "date": null,
           "opponent": "Chalon/Saône",
           "home_away": "Home",
           "team_score": "94",
@@ -983,6 +953,21 @@
         },
         {
           "date": null,
+          "opponent": "Le Mans",
+          "home_away": "Away",
+          "team_score": "86",
+          "opp_score": "92",
+          "result": "L",
+          "minutes": "21:50",
+          "points": 14,
+          "rebounds": 4,
+          "assists": 0,
+          "steals": 0,
+          "blocks": 1,
+          "turnovers": 1
+        },
+        {
+          "date": null,
           "opponent": "Gravelines-Dunkerque",
           "home_away": "Away",
           "team_score": "85",
@@ -995,6 +980,21 @@
           "steals": 0,
           "blocks": 0,
           "turnovers": 2
+        },
+        {
+          "date": null,
+          "opponent": "Nanterre",
+          "home_away": "Home",
+          "team_score": "88",
+          "opp_score": "97",
+          "result": "L",
+          "minutes": "27:35",
+          "points": 12,
+          "rebounds": 4,
+          "assists": 2,
+          "steals": 0,
+          "blocks": 3,
+          "turnovers": 5
         }
       ],
       "description": "Tariq Amir Owens (born June 30, 1995) is an American professional basketball player for JDA Dijon of the LNB Pro A. He played college basketball for the Texas Tech Red Raiders and St. John's having transferred after his freshman year at Tennessee."
