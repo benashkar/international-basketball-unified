@@ -1,10 +1,264 @@
 {
-  "export_date": "2026-02-14T06:29:28.346589",
+  "export_date": "2026-02-15T06:32:35.634629",
   "season": "2025-26",
   "league": "Greek Basket League (ESAKE)",
   "source": "esake.gr",
-  "box_score_count": 106,
+  "box_score_count": 111,
   "box_scores": [
+    {
+      "game_id": "31448FA0",
+      "home_team": "ΠΑΟΚ",
+      "away_team": "ΑΕΚ",
+      "home_score": 71,
+      "away_score": 88,
+      "date": "Sat 14 Feb - 18:15",
+      "venue": null,
+      "home_players": [
+        {
+          "name": "AΛΕΝΤΙΜΟΘΙ ΖΕΥΣ",
+          "points": 5,
+          "rebounds": 2,
+          "assists": 1,
+          "blocks": 0,
+          "steals": 1,
+          "minutes": "00:21:54",
+          "turnovers": 3
+        },
+        {
+          "name": "ΜΕΛΒΙΝΚΛΙΒΕΛAΝΤ",
+          "points": 15,
+          "rebounds": 4,
+          "assists": 2,
+          "blocks": 0,
+          "steals": 1,
+          "minutes": "00:23:14",
+          "turnovers": 1
+        },
+        {
+          "name": "ΤAΙΡΙΜΠΡΙΝ AΛΟΝ",
+          "points": 16,
+          "rebounds": 2,
+          "assists": 4,
+          "blocks": 0,
+          "steals": 2,
+          "minutes": "00:32:27",
+          "turnovers": 5
+        },
+        {
+          "name": "ΚΟΝΙAΡΗΣAΝΤΩΝΗΣ",
+          "points": 6,
+          "rebounds": 3,
+          "assists": 3,
+          "blocks": 0,
+          "steals": 2,
+          "minutes": "00:16:59",
+          "turnovers": 3
+        },
+        {
+          "name": "ΧΟΥΓΚAΖΝΙΚΟΣ",
+          "points": 10,
+          "rebounds": 7,
+          "assists": 1,
+          "blocks": 0,
+          "steals": 1,
+          "minutes": "00:21:54",
+          "turnovers": 2
+        },
+        {
+          "name": "ΣΛAΦΤΣAΚΗΣΔΙAΜAΝΤΗΣ",
+          "points": 0,
+          "rebounds": 0,
+          "assists": 0,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "00:00:00",
+          "turnovers": 0
+        },
+        {
+          "name": "ΟΜΟΡΟΥΓΙΚΛΙΦΟΡΝΤ",
+          "points": 0,
+          "rebounds": 1,
+          "assists": 0,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "00:11:25",
+          "turnovers": 0
+        },
+        {
+          "name": "ΖAΡAΣΘΟΔΩΡΗΣ",
+          "points": 0,
+          "rebounds": 1,
+          "assists": 0,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "00:05:36",
+          "turnovers": 0
+        },
+        {
+          "name": "ΠΕΡΣΙΔΗΣΝΙΚΟΛAΟΣ",
+          "points": 2,
+          "rebounds": 1,
+          "assists": 0,
+          "blocks": 0,
+          "steals": 2,
+          "minutes": "00:11:55",
+          "turnovers": 0
+        },
+        {
+          "name": "ΦΙΛΛΙΟΣΓΙΩΡΓΟΣ",
+          "points": 0,
+          "rebounds": 0,
+          "assists": 0,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "00:00:00",
+          "turnovers": 0
+        },
+        {
+          "name": "ΜΟΥΡΜΠΕΝ",
+          "points": 11,
+          "rebounds": 8,
+          "assists": 3,
+          "blocks": 1,
+          "steals": 0,
+          "minutes": "00:28:35",
+          "turnovers": 1
+        },
+        {
+          "name": "ΝΤΙΜΣAΤΟΜAΣ",
+          "points": 6,
+          "rebounds": 0,
+          "assists": 1,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "00:26:01",
+          "turnovers": 0
+        },
+        {
+          "name": "TΕΑΜ - BENCH",
+          "points": 0,
+          "rebounds": 2,
+          "assists": 0,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "-",
+          "turnovers": 0
+        }
+      ],
+      "away_players": [
+        {
+          "name": "ΓΚΡΕΙΡAΙΚΟΥAΝ",
+          "points": 14,
+          "rebounds": 5,
+          "assists": 1,
+          "blocks": 1,
+          "steals": 3,
+          "minutes": "00:36:44",
+          "turnovers": 5
+        },
+        {
+          "name": "ΣΚΟΡΔΙΛΗΣΓAΙΟΣ",
+          "points": 0,
+          "rebounds": 2,
+          "assists": 1,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "00:09:59",
+          "turnovers": 0
+        },
+        {
+          "name": "ΜΠΡAΟΥΝΓΚΡΕΓΚΟΡΙ",
+          "points": 14,
+          "rebounds": 9,
+          "assists": 2,
+          "blocks": 2,
+          "steals": 3,
+          "minutes": "00:21:53",
+          "turnovers": 0
+        },
+        {
+          "name": "ΦΙΖΕΛΚΕΙΣΟΝ",
+          "points": 2,
+          "rebounds": 3,
+          "assists": 1,
+          "blocks": 0,
+          "steals": 1,
+          "minutes": "00:08:28",
+          "turnovers": 2
+        },
+        {
+          "name": "ΛΕΚAΒΙΤΣΙΟΥΣΛΟΥΚAΣ",
+          "points": 8,
+          "rebounds": 1,
+          "assists": 5,
+          "blocks": 0,
+          "steals": 1,
+          "minutes": "00:24:50",
+          "turnovers": 2
+        },
+        {
+          "name": "AΡΣΕΝΟΠΟΥΛΟΣΝΙΚΟΣ",
+          "points": 0,
+          "rebounds": 0,
+          "assists": 0,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "00:00:26",
+          "turnovers": 0
+        },
+        {
+          "name": "ΠΕΤΣAΡΣΚΙΜAΡΚΟ",
+          "points": 0,
+          "rebounds": 1,
+          "assists": 0,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "00:05:21",
+          "turnovers": 1
+        },
+        {
+          "name": "ΝAΝAΛΙΤΖΕΙΜΣ ΓΟΥΙΛΙAΜ",
+          "points": 22,
+          "rebounds": 3,
+          "assists": 3,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "00:28:35",
+          "turnovers": 2
+        },
+        {
+          "name": "ΜΠAΡΤΛΕΪΦΡAΝΚ",
+          "points": 18,
+          "rebounds": 5,
+          "assists": 4,
+          "blocks": 0,
+          "steals": 3,
+          "minutes": "00:31:23",
+          "turnovers": 5
+        },
+        {
+          "name": "ΧAΡAΛAΜΠΟΠΟΥΛΟΣΒAΣΙΛΗΣ",
+          "points": 10,
+          "rebounds": 8,
+          "assists": 0,
+          "blocks": 0,
+          "steals": 1,
+          "minutes": "00:32:21",
+          "turnovers": 1
+        },
+        {
+          "name": "TΕΑΜ - BENCH",
+          "points": 0,
+          "rebounds": 2,
+          "assists": 0,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "-",
+          "turnovers": 0
+        }
+      ],
+      "series": 19
+    },
     {
       "game_id": "B9FAB9B9",
       "home_team": "ΑΕΚ",
@@ -2147,7 +2401,7 @@
           "turnovers": 2
         },
         {
-          "name": "##ΝΙΛΙΚΙΝAΦΡAΝΚ",
+          "name": "ΝΙΛΙΚΙΝAΦΡAΝΚ",
           "points": 14,
           "rebounds": 0,
           "assists": 1,
@@ -4320,6 +4574,280 @@
       "series": 1
     },
     {
+      "game_id": "6780FFBC",
+      "home_team": "ΜΥΚΟΝΟΣBetsson BC",
+      "away_team": "ΑΡΗΣBetsson",
+      "home_score": 74,
+      "away_score": 83,
+      "date": "Sat 14 Feb - 16:00",
+      "venue": null,
+      "home_players": [
+        {
+          "name": "AΠΛΜΠΙΤAΙΡΙ",
+          "points": 13,
+          "rebounds": 0,
+          "assists": 5,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "00:33:56",
+          "turnovers": 5
+        },
+        {
+          "name": "ΜΟΥΡΚAΛΙΝΤ",
+          "points": 2,
+          "rebounds": 5,
+          "assists": 4,
+          "blocks": 1,
+          "steals": 0,
+          "minutes": "00:19:21",
+          "turnovers": 1
+        },
+        {
+          "name": "ΡΕΪΚΕΝΤΡΙΚ",
+          "points": 17,
+          "rebounds": 1,
+          "assists": 4,
+          "blocks": 0,
+          "steals": 2,
+          "minutes": "00:36:00",
+          "turnovers": 0
+        },
+        {
+          "name": "ΚAΒΒAΔAΣΒAΣΙΛΗΣ",
+          "points": 0,
+          "rebounds": 0,
+          "assists": 0,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "00:03:46",
+          "turnovers": 0
+        },
+        {
+          "name": "ΓΕΡΟΜΙΧAΛΟΣΠΕΤΡΟΣ",
+          "points": 2,
+          "rebounds": 2,
+          "assists": 0,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "00:05:51",
+          "turnovers": 0
+        },
+        {
+          "name": "ΣΚΟΥΛΙΔAΣΔΙΟΝΥΣΗΣ",
+          "points": 15,
+          "rebounds": 3,
+          "assists": 0,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "00:25:55",
+          "turnovers": 2
+        },
+        {
+          "name": "ΜΠΙΛΛΗΣΣΩΤΗΡΗΣ",
+          "points": 0,
+          "rebounds": 0,
+          "assists": 0,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "00:00:00",
+          "turnovers": 0
+        },
+        {
+          "name": "ΣΙΔΗΡΟΗΛΙAΣΓΙAΝΝΗΣ",
+          "points": 0,
+          "rebounds": 0,
+          "assists": 0,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "00:05:49",
+          "turnovers": 0
+        },
+        {
+          "name": "ΜAΝΤΖAΡΗΣΒAΓΓΕΛΗΣ",
+          "points": 3,
+          "rebounds": 2,
+          "assists": 4,
+          "blocks": 0,
+          "steals": 1,
+          "minutes": "00:15:43",
+          "turnovers": 2
+        },
+        {
+          "name": "ΧΕΣΟΝΜAΙΛΣ",
+          "points": 15,
+          "rebounds": 9,
+          "assists": 3,
+          "blocks": 1,
+          "steals": 3,
+          "minutes": "00:29:25",
+          "turnovers": 3
+        },
+        {
+          "name": "ΜΠΡΙΓΚΣΤΖAΣΤΙΝ",
+          "points": 4,
+          "rebounds": 4,
+          "assists": 0,
+          "blocks": 1,
+          "steals": 0,
+          "minutes": "00:13:40",
+          "turnovers": 0
+        },
+        {
+          "name": "ΓΚAΜΠΛΤΖΟΥΝΙΟΡ ΚAΡΛ ΓΟΥΙΛΙAΜ",
+          "points": 3,
+          "rebounds": 7,
+          "assists": 2,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "00:10:34",
+          "turnovers": 0
+        },
+        {
+          "name": "TΕΑΜ - BENCH",
+          "points": 0,
+          "rebounds": 3,
+          "assists": 0,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "-",
+          "turnovers": 2
+        }
+      ],
+      "away_players": [
+        {
+          "name": "ΜΗΤΡΟΥ-ΛΟΝΓΚΕΛAΙΖA",
+          "points": 0,
+          "rebounds": 0,
+          "assists": 0,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "00:00:00",
+          "turnovers": 0
+        },
+        {
+          "name": "ΧAΤΖΗΛAΜΠΡΟΥΧΡΥΣΟΣΤΟΜΟΣ",
+          "points": 0,
+          "rebounds": 0,
+          "assists": 0,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "00:00:00",
+          "turnovers": 0
+        },
+        {
+          "name": "ΤΖΟΟΥΝΣΜΠΡAΙΣ",
+          "points": 7,
+          "rebounds": 3,
+          "assists": 4,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "00:18:08",
+          "turnovers": 2
+        },
+        {
+          "name": "ΝΟΥAAΜΙΝ",
+          "points": 11,
+          "rebounds": 4,
+          "assists": 2,
+          "blocks": 1,
+          "steals": 1,
+          "minutes": "00:22:21",
+          "turnovers": 2
+        },
+        {
+          "name": "ΤΣAΪΡΕΛΗΣΜΙΧAΛΗΣ",
+          "points": 2,
+          "rebounds": 3,
+          "assists": 0,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "00:04:14",
+          "turnovers": 0
+        },
+        {
+          "name": "ΦΟΡΕΣΤΕΡΤΖΕΙΚΟΜΠ",
+          "points": 0,
+          "rebounds": 3,
+          "assists": 0,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "00:12:23",
+          "turnovers": 0
+        },
+        {
+          "name": "ΠΟΥΛΙAΝΙΤΗΣΣΤΕΛΙΟΣ",
+          "points": 18,
+          "rebounds": 1,
+          "assists": 2,
+          "blocks": 0,
+          "steals": 1,
+          "minutes": "00:22:43",
+          "turnovers": 2
+        },
+        {
+          "name": "ΜΠΟΧΩΡΙΔΗΣΕΛΕΥΘΕΡΙΟΣ",
+          "points": 3,
+          "rebounds": 5,
+          "assists": 4,
+          "blocks": 0,
+          "steals": 1,
+          "minutes": "00:21:28",
+          "turnovers": 2
+        },
+        {
+          "name": "ΧAΡΕΛΡΟΝΙ",
+          "points": 11,
+          "rebounds": 10,
+          "assists": 6,
+          "blocks": 0,
+          "steals": 1,
+          "minutes": "00:32:04",
+          "turnovers": 2
+        },
+        {
+          "name": "AΝΤΖΟΥΣΙΤΣΝΤAΝΙΛΟ",
+          "points": 16,
+          "rebounds": 3,
+          "assists": 5,
+          "blocks": 0,
+          "steals": 1,
+          "minutes": "00:29:26",
+          "turnovers": 0
+        },
+        {
+          "name": "AΝΤΕΤΟΚΟΥΝΜΠΟΚΩΣΤAΣ",
+          "points": 8,
+          "rebounds": 3,
+          "assists": 1,
+          "blocks": 1,
+          "steals": 0,
+          "minutes": "00:20:10",
+          "turnovers": 3
+        },
+        {
+          "name": "ΚΟΥΛΜΠΟΚAAΡΝΟΛΝΤAΣ",
+          "points": 7,
+          "rebounds": 1,
+          "assists": 0,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "00:17:03",
+          "turnovers": 0
+        },
+        {
+          "name": "TΕΑΜ - BENCH",
+          "points": 0,
+          "rebounds": 5,
+          "assists": 0,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "-",
+          "turnovers": 1
+        }
+      ],
+      "series": 19
+    },
+    {
       "game_id": "FFFD9924",
       "home_team": "ΑΡΗΣBetsson",
       "away_team": "ΠΑΝΑΘΗΝΑΪΚΟΣAKTOR",
@@ -5283,7 +5811,7 @@
       ],
       "away_players": [
         {
-          "name": "##ΝΙΛΙΚΙΝAΦΡAΝΚ",
+          "name": "ΝΙΛΙΚΙΝAΦΡAΝΚ",
           "points": 4,
           "rebounds": 1,
           "assists": 0,
@@ -8116,6 +8644,260 @@
       "series": 1
     },
     {
+      "game_id": "7A483C8C",
+      "home_team": "ΗΡΑΚΛΗΣ",
+      "away_team": "ΟΛΥΜΠΙΑΚΟΣ",
+      "home_score": 70,
+      "away_score": 95,
+      "date": "Sat 14 Feb - 16:00",
+      "venue": null,
+      "home_players": [
+        {
+          "name": "ΦAΝΤΕΡΜΠΕΡΓΚΝΤΙ ΤΖΕΙ",
+          "points": 14,
+          "rebounds": 2,
+          "assists": 2,
+          "blocks": 1,
+          "steals": 0,
+          "minutes": "00:24:45",
+          "turnovers": 3
+        },
+        {
+          "name": "ΣΤΡΟΝΓΚΤΖΟΣΙA",
+          "points": 6,
+          "rebounds": 1,
+          "assists": 6,
+          "blocks": 0,
+          "steals": 1,
+          "minutes": "00:19:36",
+          "turnovers": 3
+        },
+        {
+          "name": "ΡAΪΤ-ΦΟΡΕΜAΝΤΖAΣΤΙΝ",
+          "points": 0,
+          "rebounds": 1,
+          "assists": 0,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "00:07:13",
+          "turnovers": 0
+        },
+        {
+          "name": "ΣΜΙΘΚΡΙΣ",
+          "points": 13,
+          "rebounds": 7,
+          "assists": 2,
+          "blocks": 0,
+          "steals": 1,
+          "minutes": "00:19:21",
+          "turnovers": 4
+        },
+        {
+          "name": "ΤΣΙAΚΜAΣΝΙΚΟΣ",
+          "points": 10,
+          "rebounds": 1,
+          "assists": 4,
+          "blocks": 0,
+          "steals": 2,
+          "minutes": "00:28:08",
+          "turnovers": 2
+        },
+        {
+          "name": "ΜΩΡAΪΤΗΣΔΗΜΗΤΡΗΣ",
+          "points": 3,
+          "rebounds": 5,
+          "assists": 2,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "00:22:13",
+          "turnovers": 0
+        },
+        {
+          "name": "ΟΥΕAΡΛAΝΣ",
+          "points": 5,
+          "rebounds": 5,
+          "assists": 1,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "00:24:13",
+          "turnovers": 1
+        },
+        {
+          "name": "ΚAΜΠΟΥΡΙΔΗΣΚΩΝΣΤAΝΤΙΝΟΣ",
+          "points": 0,
+          "rebounds": 0,
+          "assists": 0,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "00:00:00",
+          "turnovers": 0
+        },
+        {
+          "name": "ΧΡΗΣΤΙΔΗΣΒAΣΙΛΗΣ",
+          "points": 2,
+          "rebounds": 1,
+          "assists": 0,
+          "blocks": 0,
+          "steals": 1,
+          "minutes": "00:13:05",
+          "turnovers": 0
+        },
+        {
+          "name": "ΣΥΛΛAΣΚΟΟΥΛ - ΤΖΩΝ",
+          "points": 0,
+          "rebounds": 2,
+          "assists": 0,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "00:11:32",
+          "turnovers": 0
+        },
+        {
+          "name": "ΕΝΤΛΕΡΝΤΕΪΒΙΣ ΤΖAΣΤΙΝ ΠAΡΚΕΡ",
+          "points": 17,
+          "rebounds": 3,
+          "assists": 0,
+          "blocks": 1,
+          "steals": 2,
+          "minutes": "00:29:54",
+          "turnovers": 0
+        },
+        {
+          "name": "ΓΙAΝΝΙΚΟΣΜAΡΙΟΣ",
+          "points": 0,
+          "rebounds": 0,
+          "assists": 0,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "00:00:00",
+          "turnovers": 0
+        },
+        {
+          "name": "TΕΑΜ - BENCH",
+          "points": 0,
+          "rebounds": 2,
+          "assists": 0,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "-",
+          "turnovers": 0
+        }
+      ],
+      "away_players": [
+        {
+          "name": "ΝΙΛΙΚΙΝAΦΡAΝΚ",
+          "points": 6,
+          "rebounds": 2,
+          "assists": 3,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "00:24:51",
+          "turnovers": 2
+        },
+        {
+          "name": "ΟΥΟΡΝΤΤAΙΣΟΝ",
+          "points": 0,
+          "rebounds": 3,
+          "assists": 3,
+          "blocks": 0,
+          "steals": 1,
+          "minutes": "00:21:39",
+          "turnovers": 2
+        },
+        {
+          "name": "ΜΠΟΥΡΝΕΛΕΣΓΕΩΡΓΙΟΣ",
+          "points": 0,
+          "rebounds": 0,
+          "assists": 0,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "00:00:00",
+          "turnovers": 0
+        },
+        {
+          "name": "ΒΕΖΕΝΚΟΦAΛΕΞAΝΔΡΟΣ",
+          "points": 21,
+          "rebounds": 7,
+          "assists": 2,
+          "blocks": 0,
+          "steals": 2,
+          "minutes": "00:33:06",
+          "turnovers": 0
+        },
+        {
+          "name": "ΠAΠAΝΙΚΟΛAΟΥΚΩΣΤAΣ",
+          "points": 3,
+          "rebounds": 2,
+          "assists": 3,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "00:24:30",
+          "turnovers": 1
+        },
+        {
+          "name": "ΝΕΤΖΗΠΟΓΛΟΥΟΜΗΡΟΣ",
+          "points": 9,
+          "rebounds": 2,
+          "assists": 1,
+          "blocks": 0,
+          "steals": 2,
+          "minutes": "00:08:15",
+          "turnovers": 0
+        },
+        {
+          "name": "ΠΙΤΕΡΣAΛΕΚ",
+          "points": 19,
+          "rebounds": 2,
+          "assists": 0,
+          "blocks": 0,
+          "steals": 1,
+          "minutes": "00:21:09",
+          "turnovers": 1
+        },
+        {
+          "name": "ΜΙΛΟΥΤΙΝΟΦΝΙΚΟΛA",
+          "points": 0,
+          "rebounds": 8,
+          "assists": 3,
+          "blocks": 1,
+          "steals": 1,
+          "minutes": "00:15:57",
+          "turnovers": 0
+        },
+        {
+          "name": "ΧΟΛΝΤΟΝΤA",
+          "points": 5,
+          "rebounds": 7,
+          "assists": 2,
+          "blocks": 1,
+          "steals": 2,
+          "minutes": "00:18:48",
+          "turnovers": 0
+        },
+        {
+          "name": "ΦΟΥΡΝΙΕΕΒAΝ",
+          "points": 32,
+          "rebounds": 3,
+          "assists": 4,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "00:31:45",
+          "turnovers": 2
+        },
+        {
+          "name": "TΕΑΜ - BENCH",
+          "points": 0,
+          "rebounds": 5,
+          "assists": 0,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "-",
+          "turnovers": 0
+        }
+      ],
+      "series": 19
+    },
+    {
       "game_id": "A1AEF8F6",
       "home_team": "ΠΕΡΙΣΤΕΡΙBetsson",
       "away_team": "ΗΡΑΚΛΗΣ",
@@ -10601,7 +11383,7 @@
           "turnovers": 0
         },
         {
-          "name": "##ΝΙΛΙΚΙΝAΦΡAΝΚ",
+          "name": "ΝΙΛΙΚΙΝAΦΡAΝΚ",
           "points": 7,
           "rebounds": 2,
           "assists": 3,
@@ -11666,6 +12448,280 @@
         }
       ],
       "series": 1
+    },
+    {
+      "game_id": "333BA441",
+      "home_team": "ΜΑΡΟΥΣΙCHERY",
+      "away_team": "ΚΑΡΔΙΤΣΑΙΑΠΩΝΙΚΗ",
+      "home_score": 78,
+      "away_score": 77,
+      "date": "Sat 14 Feb - 18:15",
+      "venue": null,
+      "home_players": [
+        {
+          "name": "ΠΕΡAΝΤΕΣΛΟΝΤΟΝ",
+          "points": 13,
+          "rebounds": 1,
+          "assists": 5,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "00:32:11",
+          "turnovers": 2
+        },
+        {
+          "name": "ΠAΠAΘAΝAΣΙΟΥΤΖΟΡΤΖ ΠΙΤΕΡΣ",
+          "points": 0,
+          "rebounds": 1,
+          "assists": 0,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "00:05:20",
+          "turnovers": 0
+        },
+        {
+          "name": "ΚAΡAΚΩΣΤAΣΓΙAΝΝΗΣ",
+          "points": 0,
+          "rebounds": 0,
+          "assists": 0,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "00:00:00",
+          "turnovers": 0
+        },
+        {
+          "name": "ΜΕΪΚΟΝΝΤAΡΙΛ",
+          "points": 6,
+          "rebounds": 2,
+          "assists": 3,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "00:13:08",
+          "turnovers": 1
+        },
+        {
+          "name": "ΣAΛAΣΜAΞΙΜ",
+          "points": 5,
+          "rebounds": 3,
+          "assists": 4,
+          "blocks": 1,
+          "steals": 0,
+          "minutes": "00:21:14",
+          "turnovers": 2
+        },
+        {
+          "name": "ΤΟΥΛΙAΤΟΣΝΙΚΟΣ",
+          "points": 0,
+          "rebounds": 0,
+          "assists": 0,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "00:00:00",
+          "turnovers": 0
+        },
+        {
+          "name": "ΚΙΝΓΚΤΖΟΡΝΤAΝ",
+          "points": 17,
+          "rebounds": 3,
+          "assists": 4,
+          "blocks": 0,
+          "steals": 1,
+          "minutes": "00:28:57",
+          "turnovers": 4
+        },
+        {
+          "name": "ΚAΛAΪΤΖAΚΗΣΓΙΩΡΓΟΣ",
+          "points": 0,
+          "rebounds": 0,
+          "assists": 1,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "00:08:11",
+          "turnovers": 1
+        },
+        {
+          "name": "ΟΥIΛΙAΜΣΤΖAΚΟΡΕΙ",
+          "points": 11,
+          "rebounds": 2,
+          "assists": 1,
+          "blocks": 1,
+          "steals": 0,
+          "minutes": "00:22:11",
+          "turnovers": 1
+        },
+        {
+          "name": "ΚΟΥΖΕΛΟΓΛΟΥΓΙAΝΝΗΣ",
+          "points": 4,
+          "rebounds": 5,
+          "assists": 0,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "00:18:46",
+          "turnovers": 1
+        },
+        {
+          "name": "ΝΤΕ-ΣΟΟΥΖAΣΙΛΒΙΟ",
+          "points": 15,
+          "rebounds": 5,
+          "assists": 1,
+          "blocks": 0,
+          "steals": 1,
+          "minutes": "00:17:49",
+          "turnovers": 2
+        },
+        {
+          "name": "ΓΙAΝΝΟΠΟΥΛΟΣΧAΡΗΣ",
+          "points": 7,
+          "rebounds": 7,
+          "assists": 1,
+          "blocks": 0,
+          "steals": 1,
+          "minutes": "00:32:13",
+          "turnovers": 1
+        },
+        {
+          "name": "TΕΑΜ - BENCH",
+          "points": 0,
+          "rebounds": 2,
+          "assists": 0,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "-",
+          "turnovers": 2
+        }
+      ],
+      "away_players": [
+        {
+          "name": "AΠΣΟΝΝΤΕΒΟΝΤΕ",
+          "points": 7,
+          "rebounds": 2,
+          "assists": 0,
+          "blocks": 0,
+          "steals": 2,
+          "minutes": "00:21:00",
+          "turnovers": 0
+        },
+        {
+          "name": "ΕΣΤΡAΔAAAΡΟΝ",
+          "points": 6,
+          "rebounds": 1,
+          "assists": 2,
+          "blocks": 0,
+          "steals": 3,
+          "minutes": "00:16:15",
+          "turnovers": 0
+        },
+        {
+          "name": "ΤΖΕΦΕΡΣΟΝΜΠΡAΝΤΟΝ",
+          "points": 11,
+          "rebounds": 1,
+          "assists": 4,
+          "blocks": 0,
+          "steals": 1,
+          "minutes": "00:32:16",
+          "turnovers": 2
+        },
+        {
+          "name": "ΧΟΡΧΛΕΡΝΟA",
+          "points": 7,
+          "rebounds": 6,
+          "assists": 0,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "00:21:07",
+          "turnovers": 1
+        },
+        {
+          "name": "ΛΙAΠΗΣΜΙΧAΛΗΣ",
+          "points": 0,
+          "rebounds": 0,
+          "assists": 0,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "00:00:00",
+          "turnovers": 0
+        },
+        {
+          "name": "ΠΟΥΛΙAΝΙΤΗΣΜAΡΙΟΣ",
+          "points": 0,
+          "rebounds": 0,
+          "assists": 0,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "00:00:00",
+          "turnovers": 0
+        },
+        {
+          "name": "ΔΙΠΛAΡΟΣΝΙΚΟΣ",
+          "points": 6,
+          "rebounds": 0,
+          "assists": 4,
+          "blocks": 0,
+          "steals": 1,
+          "minutes": "00:19:28",
+          "turnovers": 3
+        },
+        {
+          "name": "ΚAΜAΡΙAΝΟΣΝΙΚΟΛAΟΣ",
+          "points": 0,
+          "rebounds": 0,
+          "assists": 0,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "00:00:00",
+          "turnovers": 0
+        },
+        {
+          "name": "ΚAΣΕΛAΚΗΣΛΕΩΝΙΔAΣ",
+          "points": 11,
+          "rebounds": 3,
+          "assists": 1,
+          "blocks": 0,
+          "steals": 1,
+          "minutes": "00:23:36",
+          "turnovers": 1
+        },
+        {
+          "name": "ΚAΜΠΕΡΙΔΗΣΓΙΩΡΓΟΣ",
+          "points": 6,
+          "rebounds": 3,
+          "assists": 2,
+          "blocks": 0,
+          "steals": 1,
+          "minutes": "00:23:07",
+          "turnovers": 1
+        },
+        {
+          "name": "ΟΥAΣΙΝΓΚΤΟΝΓΟΥΟΡΕΝ",
+          "points": 7,
+          "rebounds": 4,
+          "assists": 0,
+          "blocks": 1,
+          "steals": 0,
+          "minutes": "00:14:12",
+          "turnovers": 0
+        },
+        {
+          "name": "ΤΖΕΦΕΡΣΟΝΝΤΕΙΜΙΕΝ",
+          "points": 16,
+          "rebounds": 5,
+          "assists": 6,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "00:28:59",
+          "turnovers": 2
+        },
+        {
+          "name": "TΕΑΜ - BENCH",
+          "points": 0,
+          "rebounds": 2,
+          "assists": 0,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "-",
+          "turnovers": 0
+        }
+      ],
+      "series": 19
     },
     {
       "game_id": "AE00F69F",
@@ -14133,7 +15189,7 @@
           "turnovers": 0
         },
         {
-          "name": "##ΝΙΛΙΚΙΝAΦΡAΝΚ",
+          "name": "ΝΙΛΙΚΙΝAΦΡAΝΚ",
           "points": 0,
           "rebounds": 0,
           "assists": 2,
@@ -16549,7 +17605,7 @@
       "venue": null,
       "home_players": [
         {
-          "name": "##ΝΙΛΙΚΙΝAΦΡAΝΚ",
+          "name": "ΝΙΛΙΚΙΝAΦΡAΝΚ",
           "points": 6,
           "rebounds": 0,
           "assists": 7,
@@ -18721,7 +19777,7 @@
           "turnovers": 0
         },
         {
-          "name": "##ΝΙΛΙΚΙΝAΦΡAΝΚ",
+          "name": "ΝΙΛΙΚΙΝAΦΡAΝΚ",
           "points": 3,
           "rebounds": 1,
           "assists": 1,
@@ -21035,7 +22091,7 @@
       ],
       "away_players": [
         {
-          "name": "##ΝΙΛΙΚΙΝAΦΡAΝΚ",
+          "name": "ΝΙΛΙΚΙΝAΦΡAΝΚ",
           "points": 12,
           "rebounds": 3,
           "assists": 4,
@@ -22659,7 +23715,7 @@
       ],
       "away_players": [
         {
-          "name": "##ΝΙΛΙΚΙΝAΦΡAΝΚ",
+          "name": "ΝΙΛΙΚΙΝAΦΡAΝΚ",
           "points": 16,
           "rebounds": 4,
           "assists": 2,
@@ -23339,7 +24395,7 @@
           "turnovers": 3
         },
         {
-          "name": "ΤΖΟΖΕΦΚΟΡΙ",
+          "name": "##ΤΖΟΖΕΦΚΟΡΙ",
           "points": 8,
           "rebounds": 2,
           "assists": 7,
@@ -23725,7 +24781,7 @@
           "turnovers": 0
         },
         {
-          "name": "##ΝΙΛΙΚΙΝAΦΡAΝΚ",
+          "name": "ΝΙΛΙΚΙΝAΦΡAΝΚ",
           "points": 8,
           "rebounds": 1,
           "assists": 2,
@@ -24395,7 +25451,7 @@
       "venue": null,
       "home_players": [
         {
-          "name": "##ΝΙΛΙΚΙΝAΦΡAΝΚ",
+          "name": "ΝΙΛΙΚΙΝAΦΡAΝΚ",
           "points": 16,
           "rebounds": 5,
           "assists": 2,
@@ -24669,7 +25725,7 @@
           "turnovers": 2
         },
         {
-          "name": "##ΝΙΛΙΚΙΝAΦΡAΝΚ",
+          "name": "ΝΙΛΙΚΙΝAΦΡAΝΚ",
           "points": 7,
           "rebounds": 2,
           "assists": 0,
@@ -28414,6 +29470,280 @@
         }
       ],
       "series": 3
+    },
+    {
+      "game_id": "9934A636",
+      "home_team": "ΠΡΟΜΗΘΕΑΣΠΑΤΡΑΣΒΙΚΟΣCOLA",
+      "away_team": "ΠΕΡΙΣΤΕΡΙBetsson",
+      "home_score": 77,
+      "away_score": 84,
+      "date": "Sat 14 Feb - 16:00",
+      "venue": null,
+      "home_players": [
+        {
+          "name": "ΧAΡΙΣΚΛΟΝΤΕΛ",
+          "points": 0,
+          "rebounds": 0,
+          "assists": 3,
+          "blocks": 0,
+          "steals": 1,
+          "minutes": "00:27:19",
+          "turnovers": 1
+        },
+        {
+          "name": "ΓΚΡAΝΤΝΤΕΒΟΝ",
+          "points": 12,
+          "rebounds": 3,
+          "assists": 5,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "00:30:57",
+          "turnovers": 3
+        },
+        {
+          "name": "ΤAΚΕΡΤΖΟΡΝΤAΝ",
+          "points": 18,
+          "rebounds": 2,
+          "assists": 2,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "00:25:12",
+          "turnovers": 2
+        },
+        {
+          "name": "ΚΟΛΕΜAΝΚΕΝΤAΛ",
+          "points": 12,
+          "rebounds": 5,
+          "assists": 0,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "00:36:09",
+          "turnovers": 0
+        },
+        {
+          "name": "ΠΛΩΤAΣΝΙΚΟΣ",
+          "points": 7,
+          "rebounds": 1,
+          "assists": 1,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "00:10:40",
+          "turnovers": 0
+        },
+        {
+          "name": "ΜΠAΖΙΝAΣΘAΝAΣΗΣ",
+          "points": 9,
+          "rebounds": 1,
+          "assists": 7,
+          "blocks": 0,
+          "steals": 1,
+          "minutes": "00:27:13",
+          "turnovers": 4
+        },
+        {
+          "name": "ΛAΓΙΟΣAΓΓΕΛΟΣ",
+          "points": 2,
+          "rebounds": 2,
+          "assists": 0,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "00:07:53",
+          "turnovers": 0
+        },
+        {
+          "name": "ΜΠΕΛΟΤΖΟΥΜΠΡΙΛΕ",
+          "points": 7,
+          "rebounds": 3,
+          "assists": 1,
+          "blocks": 1,
+          "steals": 2,
+          "minutes": "00:17:55",
+          "turnovers": 0
+        },
+        {
+          "name": "ΠΡΕΚAΣΓΡΗΓΟΡΗΣ",
+          "points": 0,
+          "rebounds": 0,
+          "assists": 0,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "00:00:02",
+          "turnovers": 0
+        },
+        {
+          "name": "ΚΟΜΝΙAΝΙΔΗΣΙΩAΝΝΗΣ",
+          "points": 0,
+          "rebounds": 0,
+          "assists": 0,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "00:00:00",
+          "turnovers": 0
+        },
+        {
+          "name": "ΚAΡAΓΙAΝΝΙΔΗΣAΝΤΩΝΗΣ",
+          "points": 10,
+          "rebounds": 2,
+          "assists": 0,
+          "blocks": 1,
+          "steals": 2,
+          "minutes": "00:16:40",
+          "turnovers": 1
+        },
+        {
+          "name": "ΣΤAΥΡAΚΟΠΟΥΛΟΣΣΩΤΗΡΗΣ",
+          "points": 0,
+          "rebounds": 0,
+          "assists": 0,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "00:00:00",
+          "turnovers": 0
+        },
+        {
+          "name": "TΕΑΜ - BENCH",
+          "points": 0,
+          "rebounds": 6,
+          "assists": 0,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "-",
+          "turnovers": 0
+        }
+      ],
+      "away_players": [
+        {
+          "name": "ΝΙΚΟΛΣΤAΙ",
+          "points": 14,
+          "rebounds": 2,
+          "assists": 3,
+          "blocks": 0,
+          "steals": 2,
+          "minutes": "00:33:20",
+          "turnovers": 3
+        },
+        {
+          "name": "ΚAΡΝΤΕΝAΣAΛΒAΡΟ",
+          "points": 12,
+          "rebounds": 3,
+          "assists": 2,
+          "blocks": 0,
+          "steals": 1,
+          "minutes": "00:24:59",
+          "turnovers": 0
+        },
+        {
+          "name": "ΒAΝ-ΤΟΥΜΠΕΡΓΚΕΝΤΖΕΙΚ",
+          "points": 10,
+          "rebounds": 10,
+          "assists": 3,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "00:17:10",
+          "turnovers": 1
+        },
+        {
+          "name": "ΠΕΤΡAΚΗΣΤΖΟ",
+          "points": 0,
+          "rebounds": 0,
+          "assists": 0,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "00:00:00",
+          "turnovers": 0
+        },
+        {
+          "name": "ΠΕΪΝΟΜAΡ",
+          "points": 17,
+          "rebounds": 5,
+          "assists": 0,
+          "blocks": 3,
+          "steals": 2,
+          "minutes": "00:24:48",
+          "turnovers": 1
+        },
+        {
+          "name": "ΙΤΟΥΝAΣΤΖΟΝ",
+          "points": 0,
+          "rebounds": 0,
+          "assists": 2,
+          "blocks": 0,
+          "steals": 2,
+          "minutes": "00:08:06",
+          "turnovers": 1
+        },
+        {
+          "name": "ΘΩΜAΚΟΣAΛΕΞAΝΔΡΟΣ",
+          "points": 0,
+          "rebounds": 0,
+          "assists": 0,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "00:00:00",
+          "turnovers": 0
+        },
+        {
+          "name": "ΚAΚΛAΜAΝAΚΗΣΔΗΜΗΤΡΗΣ",
+          "points": 2,
+          "rebounds": 5,
+          "assists": 1,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "00:15:01",
+          "turnovers": 3
+        },
+        {
+          "name": "ΧAΡΙΣΣΙ ΤΖΕΙ",
+          "points": 10,
+          "rebounds": 2,
+          "assists": 3,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "00:21:40",
+          "turnovers": 1
+        },
+        {
+          "name": "ΠAΠAΔAΚΗΣΚΩΣΤAΣ",
+          "points": 14,
+          "rebounds": 3,
+          "assists": 1,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "00:14:56",
+          "turnovers": 1
+        },
+        {
+          "name": "ΚAΡΙΟΥΣΓΟΥΙΛΙAΜ ΓΚΛΕΝ",
+          "points": 3,
+          "rebounds": 4,
+          "assists": 0,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "00:28:35",
+          "turnovers": 0
+        },
+        {
+          "name": "ΓΙAΝΚΟΒΙΤΣΒΛAΔΙΜΗΡΟΣ",
+          "points": 2,
+          "rebounds": 3,
+          "assists": 2,
+          "blocks": 0,
+          "steals": 1,
+          "minutes": "00:11:25",
+          "turnovers": 1
+        },
+        {
+          "name": "TΕΑΜ - BENCH",
+          "points": 0,
+          "rebounds": 5,
+          "assists": 0,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "-",
+          "turnovers": 0
+        }
+      ],
+      "series": 19
     },
     {
       "game_id": "160AAA9F",

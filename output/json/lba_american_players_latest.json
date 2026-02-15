@@ -1,5 +1,5 @@
 {
-  "export_date": "2026-02-14T06:27:57.614648",
+  "export_date": "2026-02-15T06:30:23.876327",
   "season": "2025-26",
   "league": "Lega Basket Serie A",
   "player_count": 43,
@@ -39,9 +39,9 @@
       "college": "Clemson Tigers",
       "high_school": null,
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/eibd591756821833.jpg",
-      "games_played": 32,
-      "ppg": 11.4,
-      "rpg": 6.0,
+      "games_played": 17,
+      "ppg": 11.0,
+      "rpg": 5.9,
       "apg": 2.4
     },
     {
@@ -79,9 +79,9 @@
       "college": "Houston Cougars",
       "high_school": null,
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/qz9oe81700219475.jpg",
-      "games_played": 20,
-      "ppg": 16.0,
-      "rpg": 4.3,
+      "games_played": 38,
+      "ppg": 16.4,
+      "rpg": 4.4,
       "apg": 1.6
     },
     {
@@ -119,10 +119,10 @@
       "college": "Purdue Boilermakers",
       "high_school": null,
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/jvpe5l1732558983.jpg",
-      "games_played": 16,
-      "ppg": 14.9,
+      "games_played": 31,
+      "ppg": 14.7,
       "rpg": 1.8,
-      "apg": 3.4
+      "apg": 3.5
     },
     {
       "code": "34216199",
@@ -159,7 +159,7 @@
       "college": null,
       "high_school": null,
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/8efevi1619818282.jpg",
-      "games_played": 16,
+      "games_played": 32,
       "ppg": 4.8,
       "rpg": 2.0,
       "apg": 0.4
@@ -179,7 +179,7 @@
       "college": "UConn Huskies",
       "high_school": null,
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/w727uv1720244761.jpg",
-      "games_played": 18,
+      "games_played": 36,
       "ppg": 19.7,
       "rpg": 3.6,
       "apg": 3.3
@@ -199,10 +199,10 @@
       "college": "Pepperdine Waves",
       "high_school": null,
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/txbgtl1667135720.jpg",
-      "games_played": 28,
-      "ppg": 10.0,
-      "rpg": 1.9,
-      "apg": 3.7
+      "games_played": 15,
+      "ppg": 10.3,
+      "rpg": 2.1,
+      "apg": 4.0
     },
     {
       "code": "34201903",
@@ -279,8 +279,8 @@
       "college": null,
       "high_school": null,
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/twi79f1760037116.jpg",
-      "games_played": 40,
-      "ppg": 9.3,
+      "games_played": 24,
+      "ppg": 9.4,
       "rpg": 2.5,
       "apg": 0.7
     },
@@ -299,10 +299,10 @@
       "college": "Boise State Broncos",
       "high_school": null,
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/4tc8nh1756820841.jpg",
-      "games_played": 18,
-      "ppg": 12.1,
-      "rpg": 2.8,
-      "apg": 0.9
+      "games_played": 35,
+      "ppg": 12.2,
+      "rpg": 2.9,
+      "apg": 1.0
     },
     {
       "code": "34216205",
@@ -339,8 +339,8 @@
       "college": "Clemson, played professionally in the National Basketball Association (NBA)",
       "high_school": null,
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/vyavq41674398318.jpg",
-      "games_played": 12,
-      "ppg": 7.7,
+      "games_played": 22,
+      "ppg": 7.5,
       "rpg": 4.1,
       "apg": 1.7
     },
@@ -499,7 +499,7 @@
       "college": null,
       "high_school": null,
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/dnkj6a1639088109.jpg",
-      "games_played": 8,
+      "games_played": 16,
       "ppg": 6.4,
       "rpg": 1.2,
       "apg": 2.1
@@ -539,9 +539,9 @@
       "college": null,
       "high_school": null,
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/jolz3y1696759693.jpg",
-      "games_played": 34,
-      "ppg": 2.7,
-      "rpg": 2.9,
+      "games_played": 18,
+      "ppg": 2.6,
+      "rpg": 2.8,
       "apg": 0.6
     },
     {
@@ -639,7 +639,7 @@
       "college": null,
       "high_school": null,
       "headshot_url": null,
-      "games_played": 14,
+      "games_played": 28,
       "ppg": 12.8,
       "rpg": 4.9,
       "apg": 2.1
@@ -659,7 +659,7 @@
       "college": "Towson Tigers, the Houston Cougars",
       "high_school": null,
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/hv7qiu1720247626.jpg",
-      "games_played": 18,
+      "games_played": 36,
       "ppg": 8.8,
       "rpg": 5.6,
       "apg": 2.4
@@ -719,9 +719,9 @@
       "college": null,
       "high_school": null,
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/yq95dh1667132648.jpg",
-      "games_played": 8,
-      "ppg": 9.5,
-      "rpg": 3.8,
+      "games_played": 18,
+      "ppg": 9.0,
+      "rpg": 3.7,
       "apg": 1.0
     },
     {
@@ -839,9 +839,9 @@
       "college": "Cal State Bakersfield Roadrunners, the Houston Cougars",
       "high_school": null,
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/0u59o01739535374.jpg",
-      "games_played": 36,
-      "ppg": 11.6,
-      "rpg": 5.2,
+      "games_played": 19,
+      "ppg": 11.7,
+      "rpg": 5.1,
       "apg": 3.8
     },
     {
