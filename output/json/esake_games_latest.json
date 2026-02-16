@@ -1,10 +1,10 @@
 {
-  "export_date": "2026-02-15T06:32:35.633055",
+  "export_date": "2026-02-16T06:41:38.089458",
   "season": "2025-26",
   "league": "Greek Basket League (ESAKE)",
   "source": "esake.gr",
   "game_count": 156,
-  "played_count": 111,
+  "played_count": 112,
   "games": [
     {
       "game_id": "DF3AE35B",
@@ -847,16 +847,6 @@
       "played": true
     },
     {
-      "game_id": "C0F74D68",
-      "date": "Sun 15 Feb - 16:00",
-      "series": 19,
-      "home_team": "ΠΑΝΑΘΗΝΑΪΚΟΣAKTOR",
-      "away_team": "ΚΟΛΟΣΣΟΣ HHOTELSCOLLECTION",
-      "home_score": null,
-      "away_score": null,
-      "played": false
-    },
-    {
       "game_id": "6A0C10C6",
       "date": "Sat 21 Mar - 16:00",
       "series": 22,
@@ -885,6 +875,16 @@
       "home_score": null,
       "away_score": null,
       "played": false
+    },
+    {
+      "game_id": "C0F74D68",
+      "date": "Sun 15 Feb - 16:00",
+      "series": 19,
+      "home_team": "ΠΑΝΑΘΗΝΑΪΚΟΣAKTOR",
+      "away_team": "ΚΟΛΟΣΣΟΣ HHOTELSCOLLECTION",
+      "home_score": 97,
+      "away_score": 102,
+      "played": true
     },
     {
       "game_id": "E6D9A3DA",

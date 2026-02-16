@@ -1,5 +1,5 @@
 {
-  "export_date": "2026-02-15T06:32:35.770998",
+  "export_date": "2026-02-16T06:41:38.223775",
   "season": "2025-26",
   "league": "Greek Basket League (ESAKE)",
   "player_count": 17,
@@ -1548,8 +1548,8 @@
       "birthdate": "1992-10-09",
       "birthplace": "Silver Spring, Maryland",
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/cutout/85ilmm1737712922.png",
-      "games_played": 16,
-      "ppg": 7.2,
+      "games_played": 17,
+      "ppg": 7.1,
       "rpg": 0.8,
       "apg": 3.4,
       "game_log": [
@@ -1686,6 +1686,21 @@
           "assists": 4,
           "steals": 0,
           "blocks": 0,
+          "turnovers": 1
+        },
+        {
+          "date": "Sun 15 Feb - 16:00",
+          "opponent": "ΚΟΛΟΣΣΟΣ HHOTELSCOLLECTION",
+          "home_away": "Home",
+          "team_score": 97,
+          "opp_score": 102,
+          "result": "L",
+          "minutes": "00:11:51",
+          "points": 5,
+          "rebounds": 1,
+          "assists": 2,
+          "steals": 0,
+          "blocks": 1,
           "turnovers": 1
         },
         {
@@ -2105,9 +2120,9 @@
       "birthdate": "1995-08-03",
       "birthplace": "Chicago, Illinois, U.S.",
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/cutout/z0c1in1731840958.png",
-      "games_played": 9,
+      "games_played": 10,
       "ppg": 15.3,
-      "rpg": 2.8,
+      "rpg": 2.5,
       "apg": 3.4,
       "game_log": [
         {
@@ -2199,6 +2214,21 @@
           "steals": 2,
           "blocks": 0,
           "turnovers": 1
+        },
+        {
+          "date": "Sun 15 Feb - 16:00",
+          "opponent": "ΚΟΛΟΣΣΟΣ HHOTELSCOLLECTION",
+          "home_away": "Home",
+          "team_score": 97,
+          "opp_score": 102,
+          "result": "L",
+          "minutes": "00:25:24",
+          "points": 15,
+          "rebounds": 0,
+          "assists": 3,
+          "steals": 0,
+          "blocks": 0,
+          "turnovers": 3
         },
         {
           "date": "Sat 8 Nov - 16:00",

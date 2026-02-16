@@ -1,9 +1,9 @@
 {
-  "export_date": "2026-02-15T06:30:22.984838",
+  "export_date": "2026-02-16T06:39:15.603086",
   "season": "2025-26",
   "league": "Lega Basket Serie A (LBA)",
   "source": "legabasket.it",
-  "game_count": 261,
+  "game_count": 260,
   "games": [
     {
       "game_id": "25009",
@@ -2041,24 +2041,13 @@
       "played": true
     },
     {
-      "game_id": "25172",
-      "date": "2026-02-14",
-      "round": "20° Giornata",
-      "home_team": "Openjobmetis Varese",
-      "away_team": "Germani Brescia",
-      "home_score": 98,
-      "away_score": 96,
-      "venue": "Itelyum Arena",
-      "played": true
-    },
-    {
       "game_id": "25166",
       "date": "2026-02-15",
       "round": "20° Giornata",
       "home_team": "Virtus Olidata Bologna",
       "away_team": "APU Old Wild West Udine",
-      "home_score": 0,
-      "away_score": 0,
+      "home_score": 90,
+      "away_score": 86,
       "venue": "Virtus Arena",
       "played": true
     },
@@ -2068,8 +2057,8 @@
       "round": "20° Giornata",
       "home_team": "Umana Reyer Venezia",
       "away_team": "UNA Hotels Reggio Emilia",
-      "home_score": 0,
-      "away_score": 0,
+      "home_score": 79,
+      "away_score": 81,
       "venue": "Palasport Taliercio",
       "played": true
     },
@@ -2079,8 +2068,8 @@
       "round": "20° Giornata",
       "home_team": "Banco di Sardegna Sassari",
       "away_team": "Bertram Derthona Tortona",
-      "home_score": 0,
-      "away_score": 0,
+      "home_score": 82,
+      "away_score": 89,
       "venue": "PalaSerradimigni",
       "played": true
     },
@@ -2090,8 +2079,8 @@
       "round": "20° Giornata",
       "home_team": "Vanoli Basket Cremona",
       "away_team": "EA7 Emporio Armani Milano",
-      "home_score": 0,
-      "away_score": 0,
+      "home_score": 67,
+      "away_score": 86,
       "venue": "PalaRadi",
       "played": true
     },
@@ -2101,8 +2090,8 @@
       "round": "20° Giornata",
       "home_team": "Acqua S.Bernardo Cantù",
       "away_team": "Dolomiti Energia Trentino",
-      "home_score": 0,
-      "away_score": 0,
+      "home_score": 108,
+      "away_score": 91,
       "venue": "PalaDesio",
       "played": true
     },
