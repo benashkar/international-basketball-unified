@@ -1,5 +1,5 @@
 {
-  "export_date": "2026-02-16T06:41:38.091125",
+  "export_date": "2026-02-17T06:37:01.688834",
   "season": "2025-26",
   "league": "Greek Basket League (ESAKE)",
   "source": "esake.gr",
@@ -2259,6 +2259,16 @@
           "turnovers": 0
         },
         {
+          "name": "##ΓΙΟΥΡΤΣΕΒΕΝΟΜΕΡ",
+          "points": 17,
+          "rebounds": 9,
+          "assists": 0,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "00:21:13",
+          "turnovers": 2
+        },
+        {
           "name": "ΚAΛAΪΤΖAΚΗΣΠAΝAΓΙΩΤΗΣ",
           "points": 5,
           "rebounds": 4,
@@ -2357,16 +2367,6 @@
           "steals": 1,
           "minutes": "00:25:13",
           "turnovers": 3
-        },
-        {
-          "name": "ΓΙΟΥΡΤΣΕΒΕΝΟΜΕΡ",
-          "points": 17,
-          "rebounds": 9,
-          "assists": 0,
-          "blocks": 0,
-          "steals": 0,
-          "minutes": "00:21:13",
-          "turnovers": 2
         },
         {
           "name": "TΕΑΜ - BENCH",
@@ -4989,6 +4989,16 @@
       ],
       "away_players": [
         {
+          "name": "##ΓΙΟΥΡΤΣΕΒΕΝΟΜΕΡ",
+          "points": 3,
+          "rebounds": 3,
+          "assists": 1,
+          "blocks": 1,
+          "steals": 0,
+          "minutes": "00:05:41",
+          "turnovers": 0
+        },
+        {
           "name": "ΣΟΡΤΣΤΙ ΤΖΕΙ",
           "points": 16,
           "rebounds": 2,
@@ -5097,16 +5107,6 @@
           "steals": 0,
           "minutes": "00:05:57",
           "turnovers": 1
-        },
-        {
-          "name": "ΓΙΟΥΡΤΣΕΒΕΝΟΜΕΡ",
-          "points": 3,
-          "rebounds": 3,
-          "assists": 1,
-          "blocks": 1,
-          "steals": 0,
-          "minutes": "00:05:41",
-          "turnovers": 0
         },
         {
           "name": "TΕΑΜ - BENCH",
@@ -13555,6 +13555,16 @@
           "turnovers": 0
         },
         {
+          "name": "##ΓΙΟΥΡΤΣΕΒΕΝΟΜΕΡ",
+          "points": 9,
+          "rebounds": 2,
+          "assists": 1,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "00:14:38",
+          "turnovers": 2
+        },
+        {
           "name": "ΚAΛAΪΤΖAΚΗΣΠAΝAΓΙΩΤΗΣ",
           "points": 5,
           "rebounds": 1,
@@ -13643,16 +13653,6 @@
           "steals": 0,
           "minutes": "00:28:35",
           "turnovers": 0
-        },
-        {
-          "name": "ΓΙΟΥΡΤΣΕΒΕΝΟΜΕΡ",
-          "points": 9,
-          "rebounds": 2,
-          "assists": 1,
-          "blocks": 0,
-          "steals": 0,
-          "minutes": "00:14:38",
-          "turnovers": 2
         },
         {
           "name": "TΕΑΜ - BENCH",
@@ -19391,6 +19391,16 @@
           "turnovers": 1
         },
         {
+          "name": "##ΓΙΟΥΡΤΣΕΒΕΝΟΜΕΡ",
+          "points": 13,
+          "rebounds": 9,
+          "assists": 0,
+          "blocks": 1,
+          "steals": 0,
+          "minutes": "00:28:11",
+          "turnovers": 4
+        },
+        {
           "name": "ΚAΛAΪΤΖAΚΗΣΠAΝAΓΙΩΤΗΣ",
           "points": 4,
           "rebounds": 2,
@@ -19479,16 +19489,6 @@
           "steals": 1,
           "minutes": "00:20:13",
           "turnovers": 2
-        },
-        {
-          "name": "ΓΙΟΥΡΤΣΕΒΕΝΟΜΕΡ",
-          "points": 13,
-          "rebounds": 9,
-          "assists": 0,
-          "blocks": 1,
-          "steals": 0,
-          "minutes": "00:28:11",
-          "turnovers": 4
         },
         {
           "name": "TΕΑΜ - BENCH",
@@ -20721,6 +20721,16 @@
       ],
       "away_players": [
         {
+          "name": "##ΓΙΟΥΡΤΣΕΒΕΝΟΜΕΡ",
+          "points": 15,
+          "rebounds": 5,
+          "assists": 2,
+          "blocks": 0,
+          "steals": 2,
+          "minutes": "00:16:07",
+          "turnovers": 2
+        },
+        {
           "name": "ΣΟΡΤΣΤΙ ΤΖΕΙ",
           "points": 15,
           "rebounds": 1,
@@ -20829,16 +20839,6 @@
           "steals": 2,
           "minutes": "00:19:15",
           "turnovers": 4
-        },
-        {
-          "name": "ΓΙΟΥΡΤΣΕΒΕΝΟΜΕΡ",
-          "points": 15,
-          "rebounds": 5,
-          "assists": 2,
-          "blocks": 0,
-          "steals": 2,
-          "minutes": "00:16:07",
-          "turnovers": 2
         },
         {
           "name": "TΕΑΜ - BENCH",
@@ -26121,6 +26121,16 @@
       ],
       "away_players": [
         {
+          "name": "##ΓΙΟΥΡΤΣΕΒΕΝΟΜΕΡ",
+          "points": 8,
+          "rebounds": 3,
+          "assists": 0,
+          "blocks": 0,
+          "steals": 1,
+          "minutes": "00:12:22",
+          "turnovers": 0
+        },
+        {
           "name": "ΣΟΡΤΣΤΙ ΤΖΕΙ",
           "points": 19,
           "rebounds": 5,
@@ -26228,16 +26238,6 @@
           "blocks": 0,
           "steals": 0,
           "minutes": "00:16:41",
-          "turnovers": 0
-        },
-        {
-          "name": "ΓΙΟΥΡΤΣΕΒΕΝΟΜΕΡ",
-          "points": 8,
-          "rebounds": 3,
-          "assists": 0,
-          "blocks": 0,
-          "steals": 1,
-          "minutes": "00:12:22",
           "turnovers": 0
         },
         {
@@ -26395,6 +26395,16 @@
       ],
       "away_players": [
         {
+          "name": "##ΓΙΟΥΡΤΣΕΒΕΝΟΜΕΡ",
+          "points": 5,
+          "rebounds": 2,
+          "assists": 0,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "00:09:15",
+          "turnovers": 0
+        },
+        {
           "name": "ΣΟΡΤΣΤΙ ΤΖΕΙ",
           "points": 2,
           "rebounds": 0,
@@ -26485,16 +26495,6 @@
           "turnovers": 1
         },
         {
-          "name": "ΓΙΟΥΡΤΣΕΒΕΝΟΜΕΡ",
-          "points": 5,
-          "rebounds": 2,
-          "assists": 0,
-          "blocks": 0,
-          "steals": 0,
-          "minutes": "00:09:15",
-          "turnovers": 0
-        },
-        {
           "name": "TΕΑΜ - BENCH",
           "points": 0,
           "rebounds": 1,
@@ -26524,6 +26524,16 @@
           "blocks": 0,
           "steals": 2,
           "minutes": "00:27:44",
+          "turnovers": 2
+        },
+        {
+          "name": "##ΓΙΟΥΡΤΣΕΒΕΝΟΜΕΡ",
+          "points": 7,
+          "rebounds": 6,
+          "assists": 1,
+          "blocks": 0,
+          "steals": 2,
+          "minutes": "00:13:42",
           "turnovers": 2
         },
         {
@@ -26615,16 +26625,6 @@
           "steals": 0,
           "minutes": "00:26:50",
           "turnovers": 1
-        },
-        {
-          "name": "ΓΙΟΥΡΤΣΕΒΕΝΟΜΕΡ",
-          "points": 7,
-          "rebounds": 6,
-          "assists": 1,
-          "blocks": 0,
-          "steals": 2,
-          "minutes": "00:13:42",
-          "turnovers": 2
         },
         {
           "name": "TΕΑΜ - BENCH",
@@ -26791,6 +26791,16 @@
           "turnovers": 2
         },
         {
+          "name": "##ΓΙΟΥΡΤΣΕΒΕΝΟΜΕΡ",
+          "points": 13,
+          "rebounds": 9,
+          "assists": 1,
+          "blocks": 2,
+          "steals": 0,
+          "minutes": "00:22:58",
+          "turnovers": 0
+        },
+        {
           "name": "ΚAΛAΪΤΖAΚΗΣΠAΝAΓΙΩΤΗΣ",
           "points": 11,
           "rebounds": 4,
@@ -26888,16 +26898,6 @@
           "blocks": 1,
           "steals": 0,
           "minutes": "00:18:20",
-          "turnovers": 0
-        },
-        {
-          "name": "ΓΙΟΥΡΤΣΕΒΕΝΟΜΕΡ",
-          "points": 13,
-          "rebounds": 9,
-          "assists": 1,
-          "blocks": 2,
-          "steals": 0,
-          "minutes": "00:22:58",
           "turnovers": 0
         },
         {
@@ -27339,6 +27339,16 @@
           "turnovers": 2
         },
         {
+          "name": "##ΓΙΟΥΡΤΣΕΒΕΝΟΜΕΡ",
+          "points": 19,
+          "rebounds": 11,
+          "assists": 0,
+          "blocks": 3,
+          "steals": 0,
+          "minutes": "00:24:39",
+          "turnovers": 2
+        },
+        {
           "name": "ΚAΛAΪΤΖAΚΗΣΠAΝAΓΙΩΤΗΣ",
           "points": 4,
           "rebounds": 3,
@@ -27406,16 +27416,6 @@
           "blocks": 0,
           "steals": 2,
           "minutes": "00:19:20",
-          "turnovers": 2
-        },
-        {
-          "name": "ΓΙΟΥΡΤΣΕΒΕΝΟΜΕΡ",
-          "points": 19,
-          "rebounds": 11,
-          "assists": 0,
-          "blocks": 3,
-          "steals": 0,
-          "minutes": "00:24:39",
           "turnovers": 2
         },
         {

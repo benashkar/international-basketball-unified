@@ -1,9 +1,9 @@
 {
-  "export_date": "2026-02-16T06:39:15.603086",
+  "export_date": "2026-02-17T06:34:43.678822",
   "season": "2025-26",
   "league": "Lega Basket Serie A (LBA)",
   "source": "legabasket.it",
-  "game_count": 260,
+  "game_count": 261,
   "games": [
     {
       "game_id": "25009",
@@ -2038,6 +2038,17 @@
       "home_score": 110,
       "away_score": 84,
       "venue": "PalaTrieste",
+      "played": true
+    },
+    {
+      "game_id": "25172",
+      "date": "2026-02-14",
+      "round": "20° Giornata",
+      "home_team": "Openjobmetis Varese",
+      "away_team": "Germani Brescia",
+      "home_score": 98,
+      "away_score": 96,
+      "venue": "Itelyum Arena",
       "played": true
     },
     {
