@@ -1,5 +1,5 @@
 {
-  "export_date": "2026-02-17T06:37:01.688834",
+  "export_date": "2026-02-18T06:40:42.179593",
   "season": "2025-26",
   "league": "Greek Basket League (ESAKE)",
   "source": "esake.gr",
@@ -3487,6 +3487,16 @@
       "venue": null,
       "home_players": [
         {
+          "name": "##ΡAΪΤ-ΦΟΡΕΜAΝΤΖAΣΤΙΝ",
+          "points": 11,
+          "rebounds": 1,
+          "assists": 1,
+          "blocks": 0,
+          "steals": 1,
+          "minutes": "00:20:58",
+          "turnovers": 2
+        },
+        {
           "name": "##ΦΟΣΤΕΡΚAΙΛ",
           "points": 12,
           "rebounds": 2,
@@ -3497,17 +3507,7 @@
           "turnovers": 2
         },
         {
-          "name": "ΦAΝΤΕΡΜΠΕΡΓΚΝΤΙ ΤΖΕΙ",
-          "points": 2,
-          "rebounds": 1,
-          "assists": 1,
-          "blocks": 1,
-          "steals": 0,
-          "minutes": "00:13:44",
-          "turnovers": 0
-        },
-        {
-          "name": "##ΝΤAΡΚΟ-ΚΕΛΙΖAΚΙΟΥΣ",
+          "name": "ΝΤAΡΚΟ-ΚΕΛΙΖAΚΙΟΥΣ",
           "points": 0,
           "rebounds": 2,
           "assists": 2,
@@ -3517,14 +3517,14 @@
           "turnovers": 0
         },
         {
-          "name": "ΡAΪΤ-ΦΟΡΕΜAΝΤΖAΣΤΙΝ",
-          "points": 11,
+          "name": "ΦAΝΤΕΡΜΠΕΡΓΚΝΤΙ ΤΖΕΙ",
+          "points": 2,
           "rebounds": 1,
           "assists": 1,
-          "blocks": 0,
-          "steals": 1,
-          "minutes": "00:20:58",
-          "turnovers": 2
+          "blocks": 1,
+          "steals": 0,
+          "minutes": "00:13:44",
+          "turnovers": 0
         },
         {
           "name": "ΣΜΙΘΚΡΙΣ",
@@ -5557,7 +5557,7 @@
           "turnovers": 3
         },
         {
-          "name": "ΡAΪΤ-ΦΟΡΕΜAΝΤΖAΣΤΙΝ",
+          "name": "##ΡAΪΤ-ΦΟΡΕΜAΝΤΖAΣΤΙΝ",
           "points": 27,
           "rebounds": 5,
           "assists": 1,
@@ -6227,6 +6227,16 @@
       "venue": null,
       "home_players": [
         {
+          "name": "##ΡAΪΤ-ΦΟΡΕΜAΝΤΖAΣΤΙΝ",
+          "points": 25,
+          "rebounds": 5,
+          "assists": 6,
+          "blocks": 0,
+          "steals": 1,
+          "minutes": "00:35:25",
+          "turnovers": 1
+        },
+        {
           "name": "##ΦΟΣΤΕΡΚAΙΛ",
           "points": 0,
           "rebounds": 0,
@@ -6245,16 +6255,6 @@
           "steals": 1,
           "minutes": "00:29:41",
           "turnovers": 2
-        },
-        {
-          "name": "ΡAΪΤ-ΦΟΡΕΜAΝΤΖAΣΤΙΝ",
-          "points": 25,
-          "rebounds": 5,
-          "assists": 6,
-          "blocks": 0,
-          "steals": 1,
-          "minutes": "00:35:25",
-          "turnovers": 1
         },
         {
           "name": "ΣΜΙΘΚΡΙΣ",
@@ -8663,6 +8663,16 @@
           "turnovers": 3
         },
         {
+          "name": "##ΡAΪΤ-ΦΟΡΕΜAΝΤΖAΣΤΙΝ",
+          "points": 0,
+          "rebounds": 1,
+          "assists": 0,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "00:07:13",
+          "turnovers": 0
+        },
+        {
           "name": "ΣΤΡΟΝΓΚΤΖΟΣΙA",
           "points": 6,
           "rebounds": 1,
@@ -8671,16 +8681,6 @@
           "steals": 1,
           "minutes": "00:19:36",
           "turnovers": 3
-        },
-        {
-          "name": "ΡAΪΤ-ΦΟΡΕΜAΝΤΖAΣΤΙΝ",
-          "points": 0,
-          "rebounds": 1,
-          "assists": 0,
-          "blocks": 0,
-          "steals": 0,
-          "minutes": "00:07:13",
-          "turnovers": 0
         },
         {
           "name": "ΣΜΙΘΚΡΙΣ",
@@ -9049,6 +9049,16 @@
           "turnovers": 2
         },
         {
+          "name": "##ΡAΪΤ-ΦΟΡΕΜAΝΤΖAΣΤΙΝ",
+          "points": 17,
+          "rebounds": 1,
+          "assists": 6,
+          "blocks": 1,
+          "steals": 1,
+          "minutes": "00:34:38",
+          "turnovers": 5
+        },
+        {
           "name": "ΣΤΡΟΝΓΚΤΖΟΣΙA",
           "points": 7,
           "rebounds": 0,
@@ -9057,16 +9067,6 @@
           "steals": 0,
           "minutes": "00:20:52",
           "turnovers": 2
-        },
-        {
-          "name": "ΡAΪΤ-ΦΟΡΕΜAΝΤΖAΣΤΙΝ",
-          "points": 17,
-          "rebounds": 1,
-          "assists": 6,
-          "blocks": 1,
-          "steals": 1,
-          "minutes": "00:34:38",
-          "turnovers": 5
         },
         {
           "name": "ΣΜΙΘΚΡΙΣ",
@@ -9191,6 +9191,16 @@
           "turnovers": 1
         },
         {
+          "name": "##ΡAΪΤ-ΦΟΡΕΜAΝΤΖAΣΤΙΝ",
+          "points": 0,
+          "rebounds": 0,
+          "assists": 1,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "00:07:52",
+          "turnovers": 1
+        },
+        {
           "name": "ΣΤΡΟΝΓΚΤΖΟΣΙA",
           "points": 4,
           "rebounds": 1,
@@ -9199,16 +9209,6 @@
           "steals": 0,
           "minutes": "00:19:15",
           "turnovers": 0
-        },
-        {
-          "name": "ΡAΪΤ-ΦΟΡΕΜAΝΤΖAΣΤΙΝ",
-          "points": 0,
-          "rebounds": 0,
-          "assists": 1,
-          "blocks": 0,
-          "steals": 0,
-          "minutes": "00:07:52",
-          "turnovers": 1
         },
         {
           "name": "ΣΜΙΘΚΡΙΣ",
@@ -9587,6 +9587,16 @@
       ],
       "away_players": [
         {
+          "name": "##ΡAΪΤ-ΦΟΡΕΜAΝΤΖAΣΤΙΝ",
+          "points": 12,
+          "rebounds": 4,
+          "assists": 2,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "00:23:40",
+          "turnovers": 9
+        },
+        {
           "name": "ΦAΝΤΕΡΜΠΕΡΓΚΝΤΙ ΤΖΕΙ",
           "points": 10,
           "rebounds": 8,
@@ -9605,16 +9615,6 @@
           "steals": 1,
           "minutes": "00:32:08",
           "turnovers": 1
-        },
-        {
-          "name": "ΡAΪΤ-ΦΟΡΕΜAΝΤΖAΣΤΙΝ",
-          "points": 12,
-          "rebounds": 4,
-          "assists": 2,
-          "blocks": 0,
-          "steals": 0,
-          "minutes": "00:23:40",
-          "turnovers": 9
         },
         {
           "name": "ΣΜΙΘΚΡΙΣ",
@@ -9729,16 +9729,6 @@
       "venue": null,
       "home_players": [
         {
-          "name": "##ΦΟΣΤΕΡΚAΙΛ",
-          "points": 1,
-          "rebounds": 5,
-          "assists": 1,
-          "blocks": 0,
-          "steals": 0,
-          "minutes": "00:23:11",
-          "turnovers": 0
-        },
-        {
           "name": "ΦAΝΤΕΡΜΠΕΡΓΚΝΤΙ ΤΖΕΙ",
           "points": 14,
           "rebounds": 4,
@@ -9749,7 +9739,7 @@
           "turnovers": 4
         },
         {
-          "name": "ΡAΪΤ-ΦΟΡΕΜAΝΤΖAΣΤΙΝ",
+          "name": "##ΡAΪΤ-ΦΟΡΕΜAΝΤΖAΣΤΙΝ",
           "points": 18,
           "rebounds": 5,
           "assists": 3,
@@ -9757,6 +9747,16 @@
           "steals": 2,
           "minutes": "00:32:17",
           "turnovers": 4
+        },
+        {
+          "name": "##ΦΟΣΤΕΡΚAΙΛ",
+          "points": 1,
+          "rebounds": 5,
+          "assists": 1,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "00:23:11",
+          "turnovers": 0
         },
         {
           "name": "ΣΜΙΘΚΡΙΣ",
@@ -10013,6 +10013,16 @@
           "turnovers": 1
         },
         {
+          "name": "##ΡAΪΤ-ΦΟΡΕΜAΝΤΖAΣΤΙΝ",
+          "points": 21,
+          "rebounds": 7,
+          "assists": 3,
+          "blocks": 0,
+          "steals": 1,
+          "minutes": "00:27:12",
+          "turnovers": 3
+        },
+        {
           "name": "ΦAΝΤΕΡΜΠΕΡΓΚΝΤΙ ΤΖΕΙ",
           "points": 10,
           "rebounds": 7,
@@ -10020,16 +10030,6 @@
           "blocks": 0,
           "steals": 1,
           "minutes": "00:28:52",
-          "turnovers": 3
-        },
-        {
-          "name": "ΡAΪΤ-ΦΟΡΕΜAΝΤΖAΣΤΙΝ",
-          "points": 21,
-          "rebounds": 7,
-          "assists": 3,
-          "blocks": 0,
-          "steals": 1,
-          "minutes": "00:27:12",
           "turnovers": 3
         },
         {
@@ -10409,14 +10409,14 @@
       ],
       "away_players": [
         {
-          "name": "##ΦΟΣΤΕΡΚAΙΛ",
-          "points": 15,
-          "rebounds": 0,
-          "assists": 1,
+          "name": "##ΡAΪΤ-ΦΟΡΕΜAΝΤΖAΣΤΙΝ",
+          "points": 20,
+          "rebounds": 2,
+          "assists": 2,
           "blocks": 0,
-          "steals": 0,
-          "minutes": "00:17:28",
-          "turnovers": 1
+          "steals": 2,
+          "minutes": "00:27:02",
+          "turnovers": 5
         },
         {
           "name": "ΦAΝΤΕΡΜΠΕΡΓΚΝΤΙ ΤΖΕΙ",
@@ -10429,14 +10429,14 @@
           "turnovers": 2
         },
         {
-          "name": "ΡAΪΤ-ΦΟΡΕΜAΝΤΖAΣΤΙΝ",
-          "points": 20,
-          "rebounds": 2,
-          "assists": 2,
+          "name": "##ΦΟΣΤΕΡΚAΙΛ",
+          "points": 15,
+          "rebounds": 0,
+          "assists": 1,
           "blocks": 0,
-          "steals": 2,
-          "minutes": "00:27:02",
-          "turnovers": 5
+          "steals": 0,
+          "minutes": "00:17:28",
+          "turnovers": 1
         },
         {
           "name": "ΣΜΙΘΚΡΙΣ",
@@ -10693,7 +10693,7 @@
           "turnovers": 1
         },
         {
-          "name": "ΡAΪΤ-ΦΟΡΕΜAΝΤΖAΣΤΙΝ",
+          "name": "##ΡAΪΤ-ΦΟΡΕΜAΝΤΖAΣΤΙΝ",
           "points": 31,
           "rebounds": 5,
           "assists": 6,
@@ -10947,6 +10947,16 @@
       ],
       "away_players": [
         {
+          "name": "##ΡAΪΤ-ΦΟΡΕΜAΝΤΖAΣΤΙΝ",
+          "points": 20,
+          "rebounds": 4,
+          "assists": 6,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "00:33:13",
+          "turnovers": 2
+        },
+        {
           "name": "ΦAΝΤΕΡΜΠΕΡΓΚΝΤΙ ΤΖΕΙ",
           "points": 21,
           "rebounds": 4,
@@ -10965,16 +10975,6 @@
           "steals": 1,
           "minutes": "00:14:54",
           "turnovers": 1
-        },
-        {
-          "name": "ΡAΪΤ-ΦΟΡΕΜAΝΤΖAΣΤΙΝ",
-          "points": 20,
-          "rebounds": 4,
-          "assists": 6,
-          "blocks": 0,
-          "steals": 0,
-          "minutes": "00:33:13",
-          "turnovers": 2
         },
         {
           "name": "ΣΜΙΘΚΡΙΣ",
@@ -11089,16 +11089,6 @@
       "venue": null,
       "home_players": [
         {
-          "name": "##ΝΤAΡΚΟ-ΚΕΛΙΖAΚΙΟΥΣ",
-          "points": 2,
-          "rebounds": 3,
-          "assists": 3,
-          "blocks": 0,
-          "steals": 1,
-          "minutes": "00:17:30",
-          "turnovers": 1
-        },
-        {
           "name": "##ΦΟΣΤΕΡΚAΙΛ",
           "points": 3,
           "rebounds": 1,
@@ -11109,6 +11099,26 @@
           "turnovers": 0
         },
         {
+          "name": "ΝΤAΡΚΟ-ΚΕΛΙΖAΚΙΟΥΣ",
+          "points": 2,
+          "rebounds": 3,
+          "assists": 3,
+          "blocks": 0,
+          "steals": 1,
+          "minutes": "00:17:30",
+          "turnovers": 1
+        },
+        {
+          "name": "##ΡAΪΤ-ΦΟΡΕΜAΝΤΖAΣΤΙΝ",
+          "points": 17,
+          "rebounds": 9,
+          "assists": 7,
+          "blocks": 0,
+          "steals": 0,
+          "minutes": "00:34:15",
+          "turnovers": 3
+        },
+        {
           "name": "ΦAΝΤΕΡΜΠΕΡΓΚΝΤΙ ΤΖΕΙ",
           "points": 17,
           "rebounds": 8,
@@ -11116,16 +11126,6 @@
           "blocks": 0,
           "steals": 0,
           "minutes": "00:25:29",
-          "turnovers": 3
-        },
-        {
-          "name": "ΡAΪΤ-ΦΟΡΕΜAΝΤΖAΣΤΙΝ",
-          "points": 17,
-          "rebounds": 9,
-          "assists": 7,
-          "blocks": 0,
-          "steals": 0,
-          "minutes": "00:34:15",
           "turnovers": 3
         },
         {
@@ -11505,7 +11505,7 @@
           "turnovers": 3
         },
         {
-          "name": "##ΝΤAΡΚΟ-ΚΕΛΙΖAΚΙΟΥΣ",
+          "name": "ΝΤAΡΚΟ-ΚΕΛΙΖAΚΙΟΥΣ",
           "points": 20,
           "rebounds": 4,
           "assists": 3,
@@ -11525,7 +11525,7 @@
           "turnovers": 1
         },
         {
-          "name": "ΡAΪΤ-ΦΟΡΕΜAΝΤΖAΣΤΙΝ",
+          "name": "##ΡAΪΤ-ΦΟΡΕΜAΝΤΖAΣΤΙΝ",
           "points": 20,
           "rebounds": 2,
           "assists": 1,
@@ -11647,7 +11647,17 @@
           "turnovers": 1
         },
         {
-          "name": "##ΝΤAΡΚΟ-ΚΕΛΙΖAΚΙΟΥΣ",
+          "name": "##ΡAΪΤ-ΦΟΡΕΜAΝΤΖAΣΤΙΝ",
+          "points": 17,
+          "rebounds": 10,
+          "assists": 5,
+          "blocks": 0,
+          "steals": 1,
+          "minutes": "00:34:51",
+          "turnovers": 3
+        },
+        {
+          "name": "ΝΤAΡΚΟ-ΚΕΛΙΖAΚΙΟΥΣ",
           "points": 8,
           "rebounds": 0,
           "assists": 0,
@@ -11665,16 +11675,6 @@
           "steals": 0,
           "minutes": "00:17:37",
           "turnovers": 1
-        },
-        {
-          "name": "ΡAΪΤ-ΦΟΡΕΜAΝΤΖAΣΤΙΝ",
-          "points": 17,
-          "rebounds": 10,
-          "assists": 5,
-          "blocks": 0,
-          "steals": 1,
-          "minutes": "00:34:51",
-          "turnovers": 3
         },
         {
           "name": "ΣΜΙΘΚΡΙΣ",
@@ -12053,14 +12053,14 @@
           "turnovers": 1
         },
         {
-          "name": "##ΝΤAΡΚΟ-ΚΕΛΙΖAΚΙΟΥΣ",
-          "points": 15,
-          "rebounds": 2,
-          "assists": 1,
+          "name": "##ΡAΪΤ-ΦΟΡΕΜAΝΤΖAΣΤΙΝ",
+          "points": 19,
+          "rebounds": 0,
+          "assists": 4,
           "blocks": 0,
           "steals": 1,
-          "minutes": "00:21:38",
-          "turnovers": 2
+          "minutes": "00:25:37",
+          "turnovers": 1
         },
         {
           "name": "##ΦΟΣΤΕΡΚAΙΛ",
@@ -12073,14 +12073,14 @@
           "turnovers": 1
         },
         {
-          "name": "ΡAΪΤ-ΦΟΡΕΜAΝΤΖAΣΤΙΝ",
-          "points": 19,
-          "rebounds": 0,
-          "assists": 4,
+          "name": "ΝΤAΡΚΟ-ΚΕΛΙΖAΚΙΟΥΣ",
+          "points": 15,
+          "rebounds": 2,
+          "assists": 1,
           "blocks": 0,
           "steals": 1,
-          "minutes": "00:25:37",
-          "turnovers": 1
+          "minutes": "00:21:38",
+          "turnovers": 2
         },
         {
           "name": "ΣΜΙΘΚΡΙΣ",
@@ -12205,7 +12205,7 @@
           "turnovers": 2
         },
         {
-          "name": "##ΝΤAΡΚΟ-ΚΕΛΙΖAΚΙΟΥΣ",
+          "name": "ΝΤAΡΚΟ-ΚΕΛΙΖAΚΙΟΥΣ",
           "points": 6,
           "rebounds": 1,
           "assists": 1,
@@ -12215,7 +12215,7 @@
           "turnovers": 0
         },
         {
-          "name": "ΡAΪΤ-ΦΟΡΕΜAΝΤΖAΣΤΙΝ",
+          "name": "##ΡAΪΤ-ΦΟΡΕΜAΝΤΖAΣΤΙΝ",
           "points": 22,
           "rebounds": 4,
           "assists": 3,
