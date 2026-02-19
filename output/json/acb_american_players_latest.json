@@ -1,5 +1,5 @@
 {
-  "export_date": "2026-02-18T06:40:02.154021",
+  "export_date": "2026-02-19T06:38:58.104222",
   "season": "2025-26",
   "league": "Liga ACB",
   "player_count": 29,
@@ -7965,6 +7965,21 @@
           "home_away": "Away",
           "team_score": 78,
           "opponent_score": 94,
+          "result": "L"
+        },
+        {
+          "date": null,
+          "round": "19",
+          "venue": null,
+          "home_team": "CB Gran Canaria",
+          "away_team": "Bilbao Basket",
+          "home_score": 97,
+          "away_score": 98,
+          "played": true,
+          "opponent": "Bilbao Basket",
+          "home_away": "Home",
+          "team_score": 97,
+          "opponent_score": 98,
           "result": "L"
         },
         {

@@ -1,5 +1,5 @@
 {
-  "export_date": "2026-02-18T06:36:29.045582",
+  "export_date": "2026-02-19T06:35:50.111045",
   "season": "2025-26",
   "league": "French Betclic Elite (Pro A)",
   "player_count": 17,
@@ -24,21 +24,6 @@
       "game_log": [
         {
           "date": null,
-          "opponent": "Nanterre",
-          "home_away": "Away",
-          "team_score": "81",
-          "opp_score": "76",
-          "result": "W",
-          "minutes": "19:47",
-          "points": 6,
-          "rebounds": 5,
-          "assists": 1,
-          "steals": 0,
-          "blocks": 0,
-          "turnovers": 1
-        },
-        {
-          "date": null,
           "opponent": "Le Portel",
           "home_away": "Home",
           "team_score": "113",
@@ -54,18 +39,18 @@
         },
         {
           "date": null,
-          "opponent": "Saint-Quentin",
+          "opponent": "Nanterre",
           "home_away": "Away",
-          "team_score": "98",
-          "opp_score": "73",
+          "team_score": "81",
+          "opp_score": "76",
           "result": "W",
-          "minutes": "21:47",
-          "points": 16,
+          "minutes": "19:47",
+          "points": 6,
           "rebounds": 5,
-          "assists": 2,
-          "steals": 1,
+          "assists": 1,
+          "steals": 0,
           "blocks": 0,
-          "turnovers": 2
+          "turnovers": 1
         },
         {
           "date": null,
@@ -80,6 +65,21 @@
           "assists": 1,
           "steals": 3,
           "blocks": 1,
+          "turnovers": 2
+        },
+        {
+          "date": null,
+          "opponent": "Saint-Quentin",
+          "home_away": "Away",
+          "team_score": "98",
+          "opp_score": "73",
+          "result": "W",
+          "minutes": "21:47",
+          "points": 16,
+          "rebounds": 5,
+          "assists": 2,
+          "steals": 1,
+          "blocks": 0,
           "turnovers": 2
         }
       ],
@@ -125,21 +125,6 @@
       "game_log": [
         {
           "date": null,
-          "opponent": "Le Portel",
-          "home_away": "Away",
-          "team_score": "120",
-          "opp_score": "57",
-          "result": "L",
-          "minutes": "19:47",
-          "points": 15,
-          "rebounds": 3,
-          "assists": 0,
-          "steals": 0,
-          "blocks": 0,
-          "turnovers": 2
-        },
-        {
-          "date": null,
           "opponent": "Strasbourg",
           "home_away": "Home",
           "team_score": "96",
@@ -152,6 +137,21 @@
           "steals": 0,
           "blocks": 0,
           "turnovers": 0
+        },
+        {
+          "date": null,
+          "opponent": "Le Portel",
+          "home_away": "Away",
+          "team_score": "120",
+          "opp_score": "57",
+          "result": "L",
+          "minutes": "19:47",
+          "points": 15,
+          "rebounds": 3,
+          "assists": 0,
+          "steals": 0,
+          "blocks": 0,
+          "turnovers": 2
         }
       ],
       "description": "Daulton Hommes (born July 4, 1996) is an American professional basketball player for Paris Basketball of the LNB Pro A and the EuroLeague. After graduating high school, he played college basketball for Point Loma Nazarene University, where he was named the NABC Division II National Player of the Year for the 2018–19 season."
@@ -211,21 +211,6 @@
         },
         {
           "date": null,
-          "opponent": "Saint-Quentin",
-          "home_away": "Away",
-          "team_score": "103",
-          "opp_score": "90",
-          "result": "L",
-          "minutes": "19:35",
-          "points": 6,
-          "rebounds": 7,
-          "assists": 1,
-          "steals": 0,
-          "blocks": 1,
-          "turnovers": 2
-        },
-        {
-          "date": null,
           "opponent": "Boulazac",
           "home_away": "Home",
           "team_score": "87",
@@ -253,6 +238,21 @@
           "steals": 1,
           "blocks": 0,
           "turnovers": 0
+        },
+        {
+          "date": null,
+          "opponent": "Saint-Quentin",
+          "home_away": "Away",
+          "team_score": "103",
+          "opp_score": "90",
+          "result": "L",
+          "minutes": "19:35",
+          "points": 6,
+          "rebounds": 7,
+          "assists": 1,
+          "steals": 0,
+          "blocks": 1,
+          "turnovers": 2
         }
       ],
       "description": "Derek Xavier Willis (born June 21, 1995) is an American basketball player for Paris Basketball of the LNB Pro A and the EuroLeague. He played college basketball for the Kentucky Wildcats."
@@ -297,18 +297,18 @@
       "game_log": [
         {
           "date": null,
-          "opponent": "Paris",
-          "home_away": "Home",
-          "team_score": "57",
-          "opp_score": "120",
+          "opponent": "Monaco",
+          "home_away": "Away",
+          "team_score": "86",
+          "opp_score": "113",
           "result": "W",
-          "minutes": "23:35",
-          "points": 8,
-          "rebounds": 4,
-          "assists": 2,
-          "steals": 1,
+          "minutes": "33:29",
+          "points": 18,
+          "rebounds": 3,
+          "assists": 1,
+          "steals": 0,
           "blocks": 0,
-          "turnovers": 1
+          "turnovers": 2
         },
         {
           "date": null,
@@ -327,6 +327,21 @@
         },
         {
           "date": null,
+          "opponent": "Saint-Quentin",
+          "home_away": "Away",
+          "team_score": "81",
+          "opp_score": "97",
+          "result": "L",
+          "minutes": "34:05",
+          "points": 15,
+          "rebounds": 7,
+          "assists": 3,
+          "steals": 0,
+          "blocks": 0,
+          "turnovers": 3
+        },
+        {
+          "date": null,
           "opponent": "Boulazac",
           "home_away": "Away",
           "team_score": "64",
@@ -342,33 +357,18 @@
         },
         {
           "date": null,
-          "opponent": "Monaco",
-          "home_away": "Away",
-          "team_score": "86",
-          "opp_score": "113",
+          "opponent": "Paris",
+          "home_away": "Home",
+          "team_score": "57",
+          "opp_score": "120",
           "result": "W",
-          "minutes": "33:29",
-          "points": 18,
-          "rebounds": 3,
-          "assists": 1,
-          "steals": 0,
+          "minutes": "23:35",
+          "points": 8,
+          "rebounds": 4,
+          "assists": 2,
+          "steals": 1,
           "blocks": 0,
-          "turnovers": 2
-        },
-        {
-          "date": null,
-          "opponent": "Saint-Quentin",
-          "home_away": "Away",
-          "team_score": "81",
-          "opp_score": "97",
-          "result": "L",
-          "minutes": "34:05",
-          "points": 15,
-          "rebounds": 7,
-          "assists": 3,
-          "steals": 0,
-          "blocks": 0,
-          "turnovers": 3
+          "turnovers": 1
         }
       ],
       "description": null
@@ -393,36 +393,6 @@
       "game_log": [
         {
           "date": null,
-          "opponent": "Nanterre",
-          "home_away": "Away",
-          "team_score": "81",
-          "opp_score": "76",
-          "result": "W",
-          "minutes": "25:39",
-          "points": 11,
-          "rebounds": 6,
-          "assists": 3,
-          "steals": 0,
-          "blocks": 0,
-          "turnovers": 0
-        },
-        {
-          "date": null,
-          "opponent": "Limoges",
-          "home_away": "Home",
-          "team_score": "99",
-          "opp_score": "88",
-          "result": "W",
-          "minutes": "10:05",
-          "points": 8,
-          "rebounds": 2,
-          "assists": 0,
-          "steals": 1,
-          "blocks": 0,
-          "turnovers": 0
-        },
-        {
-          "date": null,
           "opponent": "Le Portel",
           "home_away": "Home",
           "team_score": "113",
@@ -438,15 +408,15 @@
         },
         {
           "date": null,
-          "opponent": "Saint-Quentin",
+          "opponent": "Nanterre",
           "home_away": "Away",
-          "team_score": "98",
-          "opp_score": "73",
+          "team_score": "81",
+          "opp_score": "76",
           "result": "W",
-          "minutes": "18:17",
-          "points": 0,
-          "rebounds": 2,
-          "assists": 0,
+          "minutes": "25:39",
+          "points": 11,
+          "rebounds": 6,
+          "assists": 3,
           "steals": 0,
           "blocks": 0,
           "turnovers": 0
@@ -465,6 +435,36 @@
           "steals": 1,
           "blocks": 0,
           "turnovers": 1
+        },
+        {
+          "date": null,
+          "opponent": "Saint-Quentin",
+          "home_away": "Away",
+          "team_score": "98",
+          "opp_score": "73",
+          "result": "W",
+          "minutes": "18:17",
+          "points": 0,
+          "rebounds": 2,
+          "assists": 0,
+          "steals": 0,
+          "blocks": 0,
+          "turnovers": 0
+        },
+        {
+          "date": null,
+          "opponent": "Limoges",
+          "home_away": "Home",
+          "team_score": "99",
+          "opp_score": "88",
+          "result": "W",
+          "minutes": "10:05",
+          "points": 8,
+          "rebounds": 2,
+          "assists": 0,
+          "steals": 1,
+          "blocks": 0,
+          "turnovers": 0
         }
       ],
       "description": "Jaron Samuel Blossomgame (born September 16, 1993) is an American professional basketball player for AS Monaco of the LNB Pro A and the Euroleague. Blossomgame played college basketball for Clemson University and was selected in the second round of the 2017 NBA draft by the San Antonio Spurs."
@@ -569,21 +569,6 @@
       "game_log": [
         {
           "date": null,
-          "opponent": "Limoges",
-          "home_away": "Home",
-          "team_score": "99",
-          "opp_score": "88",
-          "result": "W",
-          "minutes": "9:35",
-          "points": 0,
-          "rebounds": 2,
-          "assists": 0,
-          "steals": 0,
-          "blocks": 1,
-          "turnovers": 1
-        },
-        {
-          "date": null,
           "opponent": "Saint-Quentin",
           "home_away": "Away",
           "team_score": "98",
@@ -596,6 +581,21 @@
           "steals": 0,
           "blocks": 0,
           "turnovers": 3
+        },
+        {
+          "date": null,
+          "opponent": "Limoges",
+          "home_away": "Home",
+          "team_score": "99",
+          "opp_score": "88",
+          "result": "W",
+          "minutes": "9:35",
+          "points": 0,
+          "rebounds": 2,
+          "assists": 0,
+          "steals": 0,
+          "blocks": 1,
+          "turnovers": 1
         }
       ],
       "description": "Kevarrius Hayes (born March 5, 1997) is an American-Central African professional basketball player for Paris Basketball of the LNB Pro A and the EuroLeague. He played college basketball for the Florida Gators. Internationally, he represents the Central African Republic."
@@ -620,6 +620,21 @@
       "game_log": [
         {
           "date": null,
+          "opponent": "Le Mans",
+          "home_away": "Home",
+          "team_score": "110",
+          "opp_score": "92",
+          "result": "L",
+          "minutes": "16:02",
+          "points": 6,
+          "rebounds": 3,
+          "assists": 0,
+          "steals": 0,
+          "blocks": 1,
+          "turnovers": 2
+        },
+        {
+          "date": null,
           "opponent": "Nancy",
           "home_away": "Home",
           "team_score": "102",
@@ -632,21 +647,6 @@
           "steals": 1,
           "blocks": 0,
           "turnovers": 2
-        },
-        {
-          "date": null,
-          "opponent": "Saint-Quentin",
-          "home_away": "Away",
-          "team_score": "103",
-          "opp_score": "90",
-          "result": "L",
-          "minutes": "17:38",
-          "points": 15,
-          "rebounds": 5,
-          "assists": 4,
-          "steals": 0,
-          "blocks": 1,
-          "turnovers": 1
         },
         {
           "date": null,
@@ -680,18 +680,18 @@
         },
         {
           "date": null,
-          "opponent": "Le Mans",
-          "home_away": "Home",
-          "team_score": "110",
-          "opp_score": "92",
+          "opponent": "Saint-Quentin",
+          "home_away": "Away",
+          "team_score": "103",
+          "opp_score": "90",
           "result": "L",
-          "minutes": "16:02",
-          "points": 6,
-          "rebounds": 3,
-          "assists": 0,
+          "minutes": "17:38",
+          "points": 15,
+          "rebounds": 5,
+          "assists": 4,
           "steals": 0,
           "blocks": 1,
-          "turnovers": 2
+          "turnovers": 1
         }
       ],
       "description": "Lamar Brandon Stevens (born July 9, 1997) is an American professional basketball player for Paris Basketball of the LNB Élite and the EuroLeague. He played college basketball for the Penn State Nittany Lions."
@@ -716,21 +716,6 @@
       "game_log": [
         {
           "date": null,
-          "opponent": "Limoges",
-          "home_away": "Home",
-          "team_score": "99",
-          "opp_score": "88",
-          "result": "W",
-          "minutes": "13:56",
-          "points": 7,
-          "rebounds": 3,
-          "assists": 3,
-          "steals": 1,
-          "blocks": 0,
-          "turnovers": 2
-        },
-        {
-          "date": null,
           "opponent": "Le Portel",
           "home_away": "Home",
           "team_score": "113",
@@ -743,6 +728,21 @@
           "steals": 0,
           "blocks": 0,
           "turnovers": 0
+        },
+        {
+          "date": null,
+          "opponent": "Chalon/Saône",
+          "home_away": "Away",
+          "team_score": "92",
+          "opp_score": "78",
+          "result": "W",
+          "minutes": "21:12",
+          "points": 11,
+          "rebounds": 1,
+          "assists": 5,
+          "steals": 1,
+          "blocks": 0,
+          "turnovers": 3
         },
         {
           "date": null,
@@ -761,18 +761,18 @@
         },
         {
           "date": null,
-          "opponent": "Chalon/Saône",
-          "home_away": "Away",
-          "team_score": "92",
-          "opp_score": "78",
+          "opponent": "Limoges",
+          "home_away": "Home",
+          "team_score": "99",
+          "opp_score": "88",
           "result": "W",
-          "minutes": "21:12",
-          "points": 11,
-          "rebounds": 1,
-          "assists": 5,
+          "minutes": "13:56",
+          "points": 7,
+          "rebounds": 3,
+          "assists": 3,
           "steals": 1,
           "blocks": 0,
-          "turnovers": 3
+          "turnovers": 2
         }
       ],
       "description": "Michael Perry James (born August 18, 1990) is an American professional basketball player for AS Monaco Basket of LNB Pro A and the EuroLeague. He was a high school basketball standout playing for Grant High School in Portland, and played college basketball for Eastern Arizona College and Lamar University. He was the first player in NBA history to go from a two-way contract to a regular contract, all while never being sent down to the NBA G League in the process."
@@ -797,18 +797,18 @@
       "game_log": [
         {
           "date": null,
-          "opponent": "Le Portel",
+          "opponent": "Nanterre",
           "home_away": "Home",
-          "team_score": "104",
-          "opp_score": "58",
+          "team_score": "64",
+          "opp_score": "77",
           "result": "L",
-          "minutes": "19:47",
-          "points": 17,
-          "rebounds": 5,
-          "assists": 5,
+          "minutes": "12:30",
+          "points": 0,
+          "rebounds": 0,
+          "assists": 0,
           "steals": 1,
-          "blocks": 0,
-          "turnovers": 3
+          "blocks": 1,
+          "turnovers": 0
         },
         {
           "date": null,
@@ -827,18 +827,18 @@
         },
         {
           "date": null,
-          "opponent": "Nanterre",
+          "opponent": "Le Portel",
           "home_away": "Home",
-          "team_score": "64",
-          "opp_score": "77",
+          "team_score": "104",
+          "opp_score": "58",
           "result": "L",
-          "minutes": "12:30",
-          "points": 0,
-          "rebounds": 0,
-          "assists": 0,
+          "minutes": "19:47",
+          "points": 17,
+          "rebounds": 5,
+          "assists": 5,
           "steals": 1,
-          "blocks": 1,
-          "turnovers": 0
+          "blocks": 0,
+          "turnovers": 3
         },
         {
           "date": null,
@@ -893,18 +893,18 @@
       "game_log": [
         {
           "date": null,
-          "opponent": "Chalon/Saône",
-          "home_away": "Home",
-          "team_score": "94",
-          "opp_score": "91",
-          "result": "W",
-          "minutes": "22:35",
-          "points": 11,
-          "rebounds": 7,
+          "opponent": "Le Mans",
+          "home_away": "Away",
+          "team_score": "86",
+          "opp_score": "92",
+          "result": "L",
+          "minutes": "21:50",
+          "points": 14,
+          "rebounds": 4,
           "assists": 0,
-          "steals": 1,
-          "blocks": 2,
-          "turnovers": 2
+          "steals": 0,
+          "blocks": 1,
+          "turnovers": 1
         },
         {
           "date": null,
@@ -923,18 +923,18 @@
         },
         {
           "date": null,
-          "opponent": "Le Mans",
-          "home_away": "Away",
-          "team_score": "86",
-          "opp_score": "92",
-          "result": "L",
-          "minutes": "21:50",
-          "points": 14,
-          "rebounds": 4,
+          "opponent": "Chalon/Saône",
+          "home_away": "Home",
+          "team_score": "94",
+          "opp_score": "91",
+          "result": "W",
+          "minutes": "22:35",
+          "points": 11,
+          "rebounds": 7,
           "assists": 0,
-          "steals": 0,
-          "blocks": 1,
-          "turnovers": 1
+          "steals": 1,
+          "blocks": 2,
+          "turnovers": 2
         },
         {
           "date": null,
