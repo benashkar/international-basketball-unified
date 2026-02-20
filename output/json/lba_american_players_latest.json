@@ -1,5 +1,5 @@
 {
-  "export_date": "2026-02-19T06:36:01.900459",
+  "export_date": "2026-02-20T06:32:12.972918",
   "season": "2025-26",
   "league": "Lega Basket Serie A",
   "player_count": 43,
@@ -159,9 +159,9 @@
       "college": null,
       "high_school": null,
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/8efevi1619818282.jpg",
-      "games_played": 17,
-      "ppg": 4.7,
-      "rpg": 2.2,
+      "games_played": 16,
+      "ppg": 5.0,
+      "rpg": 2.3,
       "apg": 0.4
     },
     {
@@ -299,10 +299,10 @@
       "college": "Boise State Broncos",
       "high_school": null,
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/4tc8nh1756820841.jpg",
-      "games_played": 19,
-      "ppg": 11.7,
-      "rpg": 2.7,
-      "apg": 0.9
+      "games_played": 18,
+      "ppg": 11.4,
+      "rpg": 2.5,
+      "apg": 0.8
     },
     {
       "code": "34216205",
