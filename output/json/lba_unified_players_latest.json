@@ -1,5 +1,5 @@
 {
-  "export_date": "2026-02-20T06:32:12.958424",
+  "export_date": "2026-02-21T06:25:30.893444",
   "season": "2025-26",
   "league": "Lega Basket Serie A",
   "player_count": 43,
@@ -1772,9 +1772,9 @@
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/8efevi1619818282.jpg",
       "instagram": "",
       "twitter": "",
-      "games_played": 16,
-      "ppg": 5.0,
-      "rpg": 2.3,
+      "games_played": 17,
+      "ppg": 4.7,
+      "rpg": 2.2,
       "apg": 0.4,
       "game_log": [
         {
@@ -1821,6 +1821,21 @@
           "turnovers": 1,
           "plus_minus": -4,
           "efficiency": 4
+        },
+        {
+          "date": "2026-01-26",
+          "round": "17° Giornata",
+          "opponent": "Virtus Olidata Bologna",
+          "home_away": "Home",
+          "minutes": 0,
+          "points": 0,
+          "rebounds": 0,
+          "assists": 0,
+          "steals": 0,
+          "blocks": 0,
+          "turnovers": 0,
+          "plus_minus": 0,
+          "efficiency": 0
         },
         {
           "date": "2026-01-11",
@@ -3577,10 +3592,10 @@
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/4tc8nh1756820841.jpg",
       "instagram": "",
       "twitter": "",
-      "games_played": 18,
-      "ppg": 11.4,
-      "rpg": 2.5,
-      "apg": 0.8,
+      "games_played": 19,
+      "ppg": 11.7,
+      "rpg": 2.7,
+      "apg": 0.9,
       "game_log": [
         {
           "date": "2026-02-15",
@@ -3626,6 +3641,21 @@
           "turnovers": 3,
           "plus_minus": -10,
           "efficiency": 7
+        },
+        {
+          "date": "2026-01-26",
+          "round": "17° Giornata",
+          "opponent": "Vanoli Basket Cremona",
+          "home_away": "Away",
+          "minutes": 31,
+          "points": 18,
+          "rebounds": 6,
+          "assists": 2,
+          "steals": 1,
+          "blocks": 1,
+          "turnovers": 1,
+          "plus_minus": 12,
+          "efficiency": 15
         },
         {
           "date": "2026-01-18",

@@ -1,9 +1,9 @@
 {
-  "export_date": "2026-02-20T06:32:12.127543",
+  "export_date": "2026-02-21T06:25:30.007922",
   "season": "2025-26",
   "league": "Lega Basket Serie A (LBA)",
   "source": "legabasket.it",
-  "game_count": 260,
+  "game_count": 261,
   "games": [
     {
       "game_id": "25009",
@@ -1862,6 +1862,17 @@
       "home_score": 74,
       "away_score": 84,
       "venue": "Allianz Cloud",
+      "played": true
+    },
+    {
+      "game_id": "25148",
+      "date": "2026-01-26",
+      "round": "17° Giornata",
+      "home_team": "Vanoli Basket Cremona",
+      "away_team": "Virtus Olidata Bologna",
+      "home_score": 74,
+      "away_score": 84,
+      "venue": "PalaRadi",
       "played": true
     },
     {
