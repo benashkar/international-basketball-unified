@@ -1,8 +1,8 @@
 {
-  "export_date": "2026-02-01T10:29:09.360932",
+  "export_date": "2026-02-23T12:26:06.757328",
   "season": "2025-26",
   "league": "Liga ACB",
-  "player_count": 28,
+  "player_count": 29,
   "players": [
     {
       "code": "34176343",
@@ -65,6 +65,26 @@
       "apg": 0.0
     },
     {
+      "code": "34434435",
+      "name": "Cameron Hunt",
+      "team": "Joventut Badalona",
+      "team_code": "135083",
+      "position": "Shooting Guard",
+      "jersey": "24",
+      "height_feet": null,
+      "height_inches": null,
+      "birth_date": "1997-08-25",
+      "hometown": null,
+      "hometown_state": null,
+      "college": null,
+      "high_school": null,
+      "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/8yh6gw1771771187.jpg",
+      "games_played": 0,
+      "ppg": 0.0,
+      "rpg": 0.0,
+      "apg": 0.0
+    },
+    {
       "code": "34165959",
       "name": "Chris Chiozza",
       "team": "Baskonia",
@@ -99,9 +119,9 @@
       "college": "Auburn",
       "high_school": "Westlake",
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/eqzfj51709465852.jpg",
-      "games_played": 10,
-      "ppg": 6.0,
-      "rpg": 3.7,
+      "games_played": 13,
+      "ppg": 6.4,
+      "rpg": 3.5,
       "apg": 0.8
     },
     {
@@ -139,9 +159,9 @@
       "college": "Memphis",
       "high_school": "Harker Heights",
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/knp6lf1759319345.jpg",
-      "games_played": 13,
-      "ppg": 5.2,
-      "rpg": 2.5,
+      "games_played": 16,
+      "ppg": 4.6,
+      "rpg": 2.2,
       "apg": 0.2
     },
     {
@@ -159,10 +179,10 @@
       "college": "Tennessee",
       "high_school": "Blackman",
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/3pi26u1633288654.jpg",
-      "games_played": 15,
-      "ppg": 9.4,
-      "rpg": 2.0,
-      "apg": 3.7
+      "games_played": 17,
+      "ppg": 8.8,
+      "rpg": 1.9,
+      "apg": 3.5
     },
     {
       "code": "34233101",
@@ -219,10 +239,10 @@
       "college": "Wisconsin",
       "high_school": "Rockridge",
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/zunefo1700945948.jpg",
-      "games_played": 10,
+      "games_played": 12,
       "ppg": 12.2,
-      "rpg": 6.1,
-      "apg": 1.8
+      "rpg": 6.4,
+      "apg": 2.0
     },
     {
       "code": "34348471",
@@ -279,9 +299,9 @@
       "college": "North Idaho",
       "high_school": "Curtis Baptist",
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/ok73fv1700948962.jpg",
-      "games_played": 16,
-      "ppg": 9.2,
-      "rpg": 3.7,
+      "games_played": 18,
+      "ppg": 8.8,
+      "rpg": 3.6,
       "apg": 0.6
     },
     {
@@ -299,8 +319,8 @@
       "college": "Northwestern",
       "high_school": "Glenbard West",
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/9xy2q21606039685.jpg",
-      "games_played": 16,
-      "ppg": 6.1,
+      "games_played": 19,
+      "ppg": 5.7,
       "rpg": 3.4,
       "apg": 0.6
     },
@@ -319,10 +339,10 @@
       "college": "Seton Hill",
       "high_school": "DeMatha Catholic",
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/70zb7d1714388814.jpg",
-      "games_played": 13,
-      "ppg": 10.0,
-      "rpg": 3.8,
-      "apg": 2.2
+      "games_played": 15,
+      "ppg": 10.9,
+      "rpg": 3.7,
+      "apg": 2.4
     },
     {
       "code": "34217968",
@@ -339,9 +359,9 @@
       "college": "State Fair CC",
       "high_school": "Salesian",
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/qc411f1683398824.jpg",
-      "games_played": 17,
-      "ppg": 12.5,
-      "rpg": 1.6,
+      "games_played": 18,
+      "ppg": 12.3,
+      "rpg": 1.7,
       "apg": 2.0
     },
     {
@@ -379,9 +399,9 @@
       "college": "Oregon",
       "high_school": "Brewster Academy",
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/dvkevt1688808757.jpg",
-      "games_played": 8,
-      "ppg": 9.6,
-      "rpg": 3.8,
+      "games_played": 9,
+      "ppg": 9.3,
+      "rpg": 3.7,
       "apg": 0.2
     },
     {
@@ -399,30 +419,10 @@
       "college": "Seton Hall",
       "high_school": "Appoquinimink",
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/usc23m1765618541.jpg",
-      "games_played": 16,
-      "ppg": 6.0,
-      "rpg": 2.2,
+      "games_played": 18,
+      "ppg": 7.0,
+      "rpg": 2.1,
       "apg": 0.8
-    },
-    {
-      "code": "34216251",
-      "name": "Nathan Reuvers",
-      "team": "Valencia Basket",
-      "team_code": "135097",
-      "position": "Power Forward",
-      "jersey": "3",
-      "height_feet": null,
-      "height_inches": null,
-      "birth_date": "1998-09-30",
-      "hometown": "Lakeville, Minnesota",
-      "hometown_state": "Minnesota",
-      "college": "Wisconsin",
-      "high_school": "Lakeville North",
-      "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/wqyb5t1767616737.jpg",
-      "games_played": 17,
-      "ppg": 9.8,
-      "rpg": 3.1,
-      "apg": 0.7
     },
     {
       "code": "34172120",
@@ -459,10 +459,30 @@
       "college": "San Jose State",
       "high_school": "Pasadena",
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/so6kai1767617005.jpg",
-      "games_played": 15,
-      "ppg": 8.9,
-      "rpg": 2.9,
-      "apg": 2.5
+      "games_played": 18,
+      "ppg": 9.1,
+      "rpg": 2.6,
+      "apg": 2.8
+    },
+    {
+      "code": "34225305",
+      "name": "Shannon Evans",
+      "team": "BC Andorra",
+      "team_code": "135090",
+      "position": "Point Guard",
+      "jersey": "",
+      "height_feet": null,
+      "height_inches": null,
+      "birth_date": "1994-07-19",
+      "hometown": null,
+      "hometown_state": null,
+      "college": null,
+      "high_school": null,
+      "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/gsx2xl1700949404.jpg",
+      "games_played": 0,
+      "ppg": 0.0,
+      "rpg": 0.0,
+      "apg": 0.0
     },
     {
       "code": "34176308",
@@ -519,10 +539,10 @@
       "college": "Florida State",
       "high_school": "Chipley",
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/3skg181688751195.jpg",
-      "games_played": 17,
-      "ppg": 12.5,
-      "rpg": 1.8,
-      "apg": 1.9
+      "games_played": 20,
+      "ppg": 12.2,
+      "rpg": 1.6,
+      "apg": 2.0
     },
     {
       "code": "34165782",
@@ -559,10 +579,10 @@
       "college": "Davidson",
       "high_school": "Olathe East",
       "headshot_url": "https://r2.thesportsdb.com/images/media/player/thumb/95db4y1619819099.jpg",
-      "games_played": 17,
-      "ppg": 6.1,
-      "rpg": 2.2,
-      "apg": 2.4
+      "games_played": 19,
+      "ppg": 6.3,
+      "rpg": 2.1,
+      "apg": 2.3
     }
   ]
 }
