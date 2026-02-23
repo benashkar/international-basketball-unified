@@ -36,6 +36,18 @@ logger = logging.getLogger(__name__)
 
 # Configuration
 CURRENT_SEASON = '2025-26'
+# Season spans from Oct 2025 to Jun 2026
+SEASON_START_YEAR = 2025
+SEASON_END_YEAR = 2026
+
+# Months that belong to the first year of the season (Oct-Dec)
+FIRST_YEAR_MONTHS = {10, 11, 12}
+
+# Month name mapping for ESAKE date parsing
+MONTH_MAP = {
+    'jan': 1, 'feb': 2, 'mar': 3, 'apr': 4, 'may': 5, 'jun': 6,
+    'jul': 7, 'aug': 8, 'sep': 9, 'oct': 10, 'nov': 11, 'dec': 12
+}
 BASE_URL = 'https://www.esake.gr'
 TEAMS_URL = f'{BASE_URL}/en/action/EsakeTeams'
 TEAM_SCHEDULE_URL = f'{BASE_URL}/en/action/EsaketeamView'
@@ -84,6 +96,72 @@ def parse_int(value):
         return int(digits) if digits else 0
     except:
         return 0
+
+
+def normalize_esake_date(date_text):
+    """
+    Normalize ESAKE date format to ISO 8601 (YYYY-MM-DD).
+
+    Input formats from esake.gr:
+        "Sat 14 Feb - 18:15"
+        "Sun 9 Nov - 13:00"
+        "Sat 31 Jan - 18:15"
+        "Sat 28 Mar"  (no time)
+
+    Returns: "2026-02-14" (ISO format) or original text if parsing fails.
+    """
+    if not date_text:
+        return None
+
+    # Try to parse: "Day DD Mon - HH:MM" or "Day DD Mon"
+    match = re.match(r'(?:Mon|Tue|Wed|Thu|Fri|Sat|Sun)\s+(\d{1,2})\s+(\w{3})(?:\s*-\s*\d{1,2}:\d{2})?', date_text, re.IGNORECASE)
+    if not match:
+        return date_text  # Return as-is if can't parse
+
+    day = int(match.group(1))
+    month_str = match.group(2).lower()
+    month = MONTH_MAP.get(month_str)
+
+    if not month:
+        return date_text
+
+    # Determine year based on season: Oct-Dec = SEASON_START_YEAR, Jan-Jun = SEASON_END_YEAR
+    if month in FIRST_YEAR_MONTHS:
+        year = SEASON_START_YEAR
+    else:
+        year = SEASON_END_YEAR
+
+    try:
+        return f"{year}-{month:02d}-{day:02d}"
+    except (ValueError, TypeError):
+        return date_text
+
+
+def normalize_minutes(minutes_str):
+    """
+    Normalize minutes format from HH:MM:SS to MM:SS.
+
+    Input: "00:32:41" (ESAKE format)
+    Output: "32:41" (normalized)
+
+    Also handles already-normalized "32:41" format.
+    """
+    if not minutes_str:
+        return '0:00'
+
+    parts = str(minutes_str).split(':')
+    if len(parts) == 3:
+        # HH:MM:SS format - convert to MM:SS
+        hours = int(parts[0])
+        mins = int(parts[1])
+        secs = int(parts[2])
+        total_mins = hours * 60 + mins
+        return f"{total_mins}:{secs:02d}"
+    elif len(parts) == 2:
+        # Already MM:SS format
+        return minutes_str
+
+    return minutes_str
 
 
 def fetch_all_teams():
@@ -192,11 +270,11 @@ def fetch_team_schedule(team_id, team_name):
             if series_match:
                 game_info['series'] = int(series_match.group(1))
 
-        # Get date
+        # Get date and normalize to ISO format
         date_div = row.find('div', class_='esake-program-game-info')
         if date_div:
             date_text = date_div.get_text(strip=True)
-            game_info['date'] = date_text
+            game_info['date'] = normalize_esake_date(date_text)
 
         # Get score section
         score_wrapper = row.find('div', class_='esake-program-game-final-score')
@@ -301,6 +379,7 @@ def fetch_box_score(game_id):
             # ESAKE table columns:
             # 0: Player, 1: P, 2: 2PM-A, 3: 3PM-A, 4: FTM-A, 5: REBS, 6: D.REBS, 7: O.REBS
             # 8: AST, 9: BLK, 10: BLK-A, 11: FOULS F, 12: FOULS M, 13: STL, 14: TO, 15: TIM.PL., 16: RANK
+            raw_minutes = cells[15].get_text(strip=True) if len(cells) > 15 else '0:00'
             player = {
                 'name': name,
                 'points': parse_int(cells[1].get_text(strip=True)) if len(cells) > 1 else 0,
@@ -308,7 +387,7 @@ def fetch_box_score(game_id):
                 'assists': parse_int(cells[8].get_text(strip=True)) if len(cells) > 8 else 0,
                 'blocks': parse_int(cells[9].get_text(strip=True)) if len(cells) > 9 else 0,
                 'steals': parse_int(cells[13].get_text(strip=True)) if len(cells) > 13 else 0,
-                'minutes': cells[15].get_text(strip=True) if len(cells) > 15 else '0:00',
+                'minutes': normalize_minutes(raw_minutes),
                 'turnovers': parse_int(cells[14].get_text(strip=True)) if len(cells) > 14 else 0,
             }
 
