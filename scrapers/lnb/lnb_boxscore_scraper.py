@@ -71,6 +71,17 @@ def fetch_api(url, params=None):
     return None
 
 
+def format_game_date(date_str):
+    """Format game date from ISO format to readable date."""
+    if not date_str:
+        return None
+    try:
+        dt = datetime.fromisoformat(str(date_str).replace('Z', '+00:00'))
+        return dt.strftime('%Y-%m-%d')
+    except (ValueError, TypeError):
+        return str(date_str)
+
+
 def parse_duration(duration_str):
     """Parse ISO 8601 duration (e.g., PT26M24S) to minutes string."""
     if not duration_str:
@@ -204,7 +215,7 @@ def fetch_box_score(match_id):
             'away_team': away_team,
             'home_score': home_score,
             'away_score': away_score,
-            'date': fixture.get('startTime'),
+            'date': format_game_date(fixture.get('startTimeLocal') or fixture.get('startTimeUTC') or fixture.get('startTime')),
             'venue': fixture.get('venue'),
             'status': fixture.get('status'),
             'home_players': [],

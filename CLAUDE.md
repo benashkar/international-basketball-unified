@@ -12,11 +12,11 @@ Track American basketball players across international leagues, with focus on fi
 | Liga ACB (Spain) | 28 | ACB.com scraping + TheSportsDB | Box scores from acb.com |
 | Turkish BSL | 32 | TBLStat.net + TheSportsDB | Uses TBLStat as primary source |
 | Lega Basket Serie A (Italy) | 43 | legabasket.it | Uses embedded JSON from Next.js |
+| LNB Pro A (France) | 17 | Atrium Sports API + TheSportsDB | Box scores via lnb.fr API, hometown via Wikipedia |
+| Greek Basket League (ESAKE) | 17 | esake.gr scraping + TheSportsDB | Greek name matching, hometown via Wikipedia |
+| Basketball Bundesliga (Germany) | ~20 | TheSportsDB + Wikipedia | Hometown/college via Wikipedia |
 
 ### Pending Leagues (Need Scrapers)
-- LNB Pro A (France) - lnb.fr
-- Basketball Bundesliga (Germany) - easycredit-bbl.de
-- Greek Basket League (ESAKE) - esake.gr
 - NBL Australia - nbl.com.au
 - CBA China - cbaleague.com
 

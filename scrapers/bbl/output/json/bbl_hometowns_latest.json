@@ -1,6 +1,6 @@
 {
-  "export_date": "2026-02-02T23:25:57.340410",
-  "count": 19,
+  "export_date": "2026-02-02T23:41:40.750981",
+  "count": 20,
   "players": [
     {
       "name": "Alonzo Verge Jr.",
@@ -166,6 +166,21 @@
       "college": "Boise State",
       "lookup_successful": true,
       "wiki_title": "Justinian Jessup"
+    },
+    {
+      "name": "Corey Davis",
+      "team": "NINERS Chemnitz",
+      "position": "Point Guard",
+      "ppg": 11.2,
+      "rpg": 1.8,
+      "apg": 7.8,
+      "games_played": 18,
+      "hometown_city": "Lafayette",
+      "hometown_state": "Louisiana",
+      "high_school": "Lafayette",
+      "college": "San Jacinto JC",
+      "lookup_successful": true,
+      "wiki_title": "Corey Davis Jr."
     },
     {
       "name": "Jeff Garrett Jr.",

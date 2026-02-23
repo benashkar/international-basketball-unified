@@ -1,5 +1,5 @@
 {
-  "export_date": "2026-02-01T22:28:15.671306",
+  "export_date": "2026-02-23T10:47:18.411552",
   "season": "2025-26",
   "league": "French Betclic Elite (Pro A)",
   "source": "lnb.fr",
@@ -11,7 +11,7 @@
       "away_team": "Saint-Quentin",
       "home_score": "90",
       "away_score": "74",
-      "date": null,
+      "date": "2025-12-26",
       "venue": "Antares",
       "status": "CONFIRMED",
       "home_players": [
@@ -597,7 +597,7 @@
       "away_team": "Rouen",
       "home_score": "74",
       "away_score": "76",
-      "date": null,
+      "date": "2026-01-30",
       "venue": "Palais des Sports Pierre de Coubertin",
       "status": "CONFIRMED",
       "home_players": [
@@ -1131,7 +1131,7 @@
       "away_team": "Le Mans",
       "home_score": "110",
       "away_score": "92",
-      "date": null,
+      "date": "2026-01-18",
       "venue": "Adidas Arena",
       "status": "CONFIRMED",
       "home_players": [
@@ -1769,7 +1769,7 @@
       "away_team": "Boulazac",
       "home_score": "94",
       "away_score": "77",
-      "date": null,
+      "date": "2026-01-13",
       "venue": "Astroballe",
       "status": "CONFIRMED",
       "home_players": [
@@ -2329,7 +2329,7 @@
       "away_team": "Strasbourg",
       "home_score": "77",
       "away_score": "80",
-      "date": null,
+      "date": "2026-01-10",
       "venue": "Ekinox",
       "status": "CONFIRMED",
       "home_players": [
@@ -2915,7 +2915,7 @@
       "away_team": "Denain",
       "home_score": "78",
       "away_score": "83",
-      "date": null,
+      "date": "2026-01-30",
       "venue": "La Trocardière",
       "status": "CONFIRMED",
       "home_players": [
@@ -3449,7 +3449,7 @@
       "away_team": "Nanterre",
       "home_score": "88",
       "away_score": "97",
-      "date": null,
+      "date": "2026-01-10",
       "venue": "Palais des Sports J.M. Geoffroy",
       "status": "CONFIRMED",
       "home_players": [
@@ -4035,7 +4035,7 @@
       "away_team": "Espoirs Antibes",
       "home_score": "65",
       "away_score": "63",
-      "date": null,
+      "date": "2026-01-30",
       "venue": "Halle André Vacheresse",
       "status": "CONFIRMED",
       "home_players": [
@@ -4569,7 +4569,7 @@
       "away_team": "Le Mans",
       "home_score": "103",
       "away_score": "96",
-      "date": null,
+      "date": "2026-01-31",
       "venue": "Rhénus Sport",
       "status": "CONFIRMED",
       "home_players": [
@@ -5155,7 +5155,7 @@
       "away_team": "Nancy",
       "home_score": "89",
       "away_score": "77",
-      "date": null,
+      "date": "2026-01-25",
       "venue": "Ekinox",
       "status": "CONFIRMED",
       "home_players": [
@@ -5741,7 +5741,7 @@
       "away_team": "Gravelines-Dunkerque",
       "home_score": "89",
       "away_score": "72",
-      "date": null,
+      "date": "2026-01-17",
       "venue": "Rhénus Sport",
       "status": "CONFIRMED",
       "home_players": [
@@ -6301,7 +6301,7 @@
       "away_team": "Lyon-Villeurbanne",
       "home_score": "99",
       "away_score": "90",
-      "date": null,
+      "date": "2026-02-01",
       "venue": "Palais des Sports J.M. Geoffroy",
       "status": "CONFIRMED",
       "home_players": [
@@ -6913,7 +6913,7 @@
       "away_team": "La Rochelle",
       "home_score": "83",
       "away_score": "72",
-      "date": null,
+      "date": "2026-01-30",
       "venue": "Halle André Vacheresse",
       "status": "CONFIRMED",
       "home_players": [
@@ -7499,7 +7499,7 @@
       "away_team": "Limoges",
       "home_score": "99",
       "away_score": "88",
-      "date": null,
+      "date": "2026-01-17",
       "venue": "Salle Gaston Médecin",
       "status": "CONFIRMED",
       "home_players": [
@@ -8111,7 +8111,7 @@
       "away_team": "Gravelines-Dunkerque",
       "home_score": "88",
       "away_score": "93",
-      "date": null,
+      "date": "2026-01-31",
       "venue": "Palais des Sports J. Weille-Espace J.J. Eisenbach",
       "status": "CONFIRMED",
       "home_players": [
@@ -8671,7 +8671,7 @@
       "away_team": "Strasbourg",
       "home_score": "96",
       "away_score": "67",
-      "date": null,
+      "date": "2026-01-13",
       "venue": "Adidas Arena",
       "status": "CONFIRMED",
       "home_players": [
@@ -9257,7 +9257,7 @@
       "away_team": "Strasbourg",
       "home_score": "82",
       "away_score": "86",
-      "date": null,
+      "date": "2026-01-23",
       "venue": "Palais des Sports de Beaublanc",
       "status": "CONFIRMED",
       "home_players": [
@@ -9817,7 +9817,7 @@
       "away_team": "Lyon-Villeurbanne",
       "home_score": "81",
       "away_score": "79",
-      "date": null,
+      "date": "2025-12-26",
       "venue": "Ekinox",
       "status": "CONFIRMED",
       "home_players": [
@@ -10455,7 +10455,7 @@
       "away_team": "Chalon/Saône",
       "home_score": "94",
       "away_score": "91",
-      "date": null,
+      "date": "2026-01-17",
       "venue": "Palais des Sports J.M. Geoffroy",
       "status": "CONFIRMED",
       "home_players": [
@@ -11093,7 +11093,7 @@
       "away_team": "Paris",
       "home_score": "93",
       "away_score": "98",
-      "date": null,
+      "date": "2026-01-11",
       "venue": "Astroballe",
       "status": "CONFIRMED",
       "home_players": [
@@ -11731,7 +11731,7 @@
       "away_team": "Cholet",
       "home_score": "97",
       "away_score": "98",
-      "date": null,
+      "date": "2026-01-11",
       "venue": "Stade des Flandres",
       "status": "CONFIRMED",
       "home_players": [
@@ -12291,7 +12291,7 @@
       "away_team": "Chalon/Saône",
       "home_score": "95",
       "away_score": "83",
-      "date": null,
+      "date": "2026-01-10",
       "venue": "Palais des Sports de Beaublanc",
       "status": "CONFIRMED",
       "home_players": [
@@ -12851,7 +12851,7 @@
       "away_team": "Hyères-Toulon",
       "home_score": "113",
       "away_score": "87",
-      "date": null,
+      "date": "2026-01-30",
       "venue": "Halle Marlioz",
       "status": "CONFIRMED",
       "home_players": [
@@ -13385,7 +13385,7 @@
       "away_team": "Nanterre",
       "home_score": "84",
       "away_score": "95",
-      "date": null,
+      "date": "2026-01-24",
       "venue": "Le Palio",
       "status": "CONFIRMED",
       "home_players": [
@@ -13971,7 +13971,7 @@
       "away_team": "Limoges",
       "home_score": "100",
       "away_score": "82",
-      "date": null,
+      "date": "2025-12-26",
       "venue": "Rhénus Sport",
       "status": "CONFIRMED",
       "home_players": [
@@ -14557,7 +14557,7 @@
       "away_team": "Bourg-en-Bresse",
       "home_score": "101",
       "away_score": "93",
-      "date": null,
+      "date": "2026-01-17",
       "venue": "Palais des Sports Maurice Thorez",
       "status": "CONFIRMED",
       "home_players": [
@@ -15143,7 +15143,7 @@
       "away_team": "Limoges",
       "home_score": "77",
       "away_score": "86",
-      "date": null,
+      "date": "2026-01-30",
       "venue": "Palais des Sports Pierre Ratte",
       "status": "CONFIRMED",
       "home_players": [
@@ -15703,7 +15703,7 @@
       "away_team": "Paris",
       "home_score": "57",
       "away_score": "120",
-      "date": null,
+      "date": "2026-01-24",
       "venue": "Le Chaudron",
       "status": "CONFIRMED",
       "home_players": [
@@ -16289,7 +16289,7 @@
       "away_team": "Cholet",
       "home_score": "87",
       "away_score": "77",
-      "date": null,
+      "date": "2026-01-24",
       "venue": "Le Colisée",
       "status": "CONFIRMED",
       "home_players": [
@@ -16927,7 +16927,7 @@
       "away_team": "Paris",
       "home_score": "99",
       "away_score": "83",
-      "date": null,
+      "date": "2025-12-26",
       "venue": "Palais des Sports Maurice Thorez",
       "status": "CONFIRMED",
       "home_players": [
@@ -17513,7 +17513,7 @@
       "away_team": "Antibes",
       "home_score": "67",
       "away_score": "91",
-      "date": null,
+      "date": "2026-01-30",
       "venue": "Salle Michel Vrignaud",
       "status": "CONFIRMED",
       "home_players": [
@@ -18047,7 +18047,7 @@
       "away_team": "Monaco",
       "home_score": "73",
       "away_score": "98",
-      "date": null,
+      "date": "2026-01-25",
       "venue": "Palais des Sports Pierre Ratte",
       "status": "CONFIRMED",
       "home_players": [
@@ -18581,7 +18581,7 @@
       "away_team": "Saint-Quentin",
       "home_score": "93",
       "away_score": "80",
-      "date": null,
+      "date": "2026-01-17",
       "venue": "La Meilleraie",
       "status": "CONFIRMED",
       "home_players": [
@@ -19167,7 +19167,7 @@
       "away_team": "Le Portel",
       "home_score": "113",
       "away_score": "86",
-      "date": null,
+      "date": "2026-02-01",
       "venue": "Salle Gaston Médecin",
       "status": "CONFIRMED",
       "home_players": [
@@ -19727,7 +19727,7 @@
       "away_team": "Nancy",
       "home_score": "93",
       "away_score": "84",
-      "date": null,
+      "date": "2025-12-26",
       "venue": "Le Colisée",
       "status": "CONFIRMED",
       "home_players": [
@@ -20313,7 +20313,7 @@
       "away_team": "Dijon",
       "home_score": "79",
       "away_score": "78",
-      "date": null,
+      "date": "2025-12-26",
       "venue": "Le Palio",
       "status": "CONFIRMED",
       "home_players": [
@@ -20873,7 +20873,7 @@
       "away_team": "Boulazac",
       "home_score": "83",
       "away_score": "72",
-      "date": null,
+      "date": "2026-01-16",
       "venue": "Palais des Sports J. Weille-Espace J.J. Eisenbach",
       "status": "CONFIRMED",
       "home_players": [
@@ -21459,7 +21459,7 @@
       "away_team": "Dijon",
       "home_score": "93",
       "away_score": "85",
-      "date": null,
+      "date": "2026-01-24",
       "venue": "Stade des Flandres",
       "status": "CONFIRMED",
       "home_players": [
@@ -22019,7 +22019,7 @@
       "away_team": "Blois",
       "home_score": "77",
       "away_score": "79",
-      "date": null,
+      "date": "2026-01-30",
       "venue": "Salle Saint-Eloi",
       "status": "CONFIRMED",
       "home_players": [
@@ -22657,7 +22657,7 @@
       "away_team": "Le Portel",
       "home_score": "104",
       "away_score": "58",
-      "date": null,
+      "date": "2026-01-18",
       "venue": "Astroballe",
       "status": "CONFIRMED",
       "home_players": [
@@ -23243,7 +23243,7 @@
       "away_team": "Cholet",
       "home_score": "84",
       "away_score": "94",
-      "date": null,
+      "date": "2025-12-26",
       "venue": "Le Chaudron",
       "status": "CONFIRMED",
       "home_players": [
@@ -23881,7 +23881,7 @@
       "away_team": "Boulazac",
       "home_score": "87",
       "away_score": "103",
-      "date": null,
+      "date": "2026-02-01",
       "venue": "Adidas Arena",
       "status": "CONFIRMED",
       "home_players": [
@@ -24467,7 +24467,7 @@
       "away_team": "Monaco",
       "home_score": "79",
       "away_score": "93",
-      "date": null,
+      "date": "2026-01-10",
       "venue": "Palais des Sports J. Weille-Espace J.J. Eisenbach",
       "status": "CONFIRMED",
       "home_players": [
@@ -25027,7 +25027,7 @@
       "away_team": "Le Mans",
       "home_score": "86",
       "away_score": "97",
-      "date": null,
+      "date": "2026-01-10",
       "venue": "Le Palio",
       "status": "CONFIRMED",
       "home_players": [
@@ -25639,7 +25639,7 @@
       "away_team": "Quimper",
       "home_score": "103",
       "away_score": "79",
-      "date": null,
+      "date": "2026-01-30",
       "venue": "Espace Sport La Forêt",
       "status": "CONFIRMED",
       "home_players": [
@@ -26173,7 +26173,7 @@
       "away_team": "Orléans",
       "home_score": "61",
       "away_score": "83",
-      "date": null,
+      "date": "2026-01-30",
       "venue": "Centre Omnisports - Salle Jean Fourré",
       "status": "CONFIRMED",
       "home_players": [
@@ -26759,7 +26759,7 @@
       "away_team": "Gravelines-Dunkerque",
       "home_score": "101",
       "away_score": "82",
-      "date": null,
+      "date": "2026-01-13",
       "venue": "Salle Gaston Médecin",
       "status": "CONFIRMED",
       "home_players": [
@@ -27319,7 +27319,7 @@
       "away_team": "Bourg-en-Bresse",
       "home_score": "102",
       "away_score": "96",
-      "date": null,
+      "date": "2026-01-31",
       "venue": "La Meilleraie",
       "status": "CONFIRMED",
       "home_players": [
@@ -27957,7 +27957,7 @@
       "away_team": "Le Portel",
       "home_score": "97",
       "away_score": "81",
-      "date": null,
+      "date": "2026-01-10",
       "venue": "Palais des Sports Pierre Ratte",
       "status": "CONFIRMED",
       "home_players": [
@@ -28517,7 +28517,7 @@
       "away_team": "Chalon/Saône",
       "home_score": "88",
       "away_score": "82",
-      "date": null,
+      "date": "2026-01-31",
       "venue": "Palais des Sports Maurice Thorez",
       "status": "CONFIRMED",
       "home_players": [
@@ -29077,7 +29077,7 @@
       "away_team": "Lyon-Villeurbanne",
       "home_score": "88",
       "away_score": "91",
-      "date": null,
+      "date": "2026-01-25",
       "venue": "Antares",
       "status": "CONFIRMED",
       "home_players": [

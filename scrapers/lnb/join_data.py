@@ -68,6 +68,16 @@ def main():
             teams_lookup[team.get('id')] = team
             teams_lookup[team.get('name')] = team
 
+    # Load hometown data from Wikipedia lookups
+    hometown_data = load_json('lnb_hometowns_latest.json')
+    hometown_lookup = {}
+    if hometown_data:
+        for p in hometown_data.get('players', []):
+            name = p.get('name', '').lower()
+            if name and p.get('lookup_successful'):
+                hometown_lookup[name] = p
+        logger.info(f"Loaded hometown data for {len(hometown_lookup)} players")
+
     # Load box scores to build game logs
     boxscores_data = load_json('lnb_boxscores_latest.json')
     player_games = {}  # player_name -> list of game performances
@@ -173,6 +183,12 @@ def main():
         rpg = sum(g.get('rebounds', 0) for g in game_log) / games_played if games_played > 0 else 0
         apg = sum(g.get('assists', 0) for g in game_log) / games_played if games_played > 0 else 0
 
+        # Get hometown data from Wikipedia lookup
+        hometown_info = hometown_lookup.get(player_name.lower(), {})
+        hometown_city = hometown_info.get('hometown_city')
+        hometown_state = hometown_info.get('hometown_state')
+        hometown = f"{hometown_city}, {hometown_state}" if hometown_city and hometown_state else None
+
         unified = {
             # Basic info
             'code': player.get('id'),
@@ -190,6 +206,13 @@ def main():
             # Personal
             'birthdate': player.get('birthdate'),
             'birthplace': player.get('birthplace'),
+
+            # Hometown/Education (from Wikipedia)
+            'hometown': hometown,
+            'hometown_city': hometown_city,
+            'hometown_state': hometown_state,
+            'high_school': hometown_info.get('high_school'),
+            'college': hometown_info.get('college'),
 
             # Images
             'headshot_url': player.get('cutout') or player.get('thumb'),

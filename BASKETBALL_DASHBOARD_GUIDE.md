@@ -783,9 +783,9 @@ The unified dashboard at https://github.com/benashkar/international-basketball-u
 | Liga ACB | acb | Spain | ✅ Active |
 | Turkish BSL | bsl | Turkey | ✅ Active |
 | Lega Basket | lba | Italy | ✅ Active |
-| Greek League | esake | Greece | 🔄 Planned |
-| BBL | bbl | Germany | 🔄 Planned |
-| LNB Pro A | lnb | France | 🔄 Planned |
+| Greek League | esake | Greece | ✅ Active |
+| BBL | bbl | Germany | ✅ Active |
+| LNB Pro A | lnb | France | ✅ Active |
 
 **Adding a New League:**
 1. Create scraper in `scrapers/{league_code}/`
