@@ -1,8 +1,8 @@
 {
-  "export_date": "2026-02-23T06:41:01.343265",
+  "export_date": "2026-02-24T06:37:51.903213",
   "league": "EuroLeague",
   "season": "2025-26",
-  "total_players": 100,
+  "total_players": 101,
   "total_games_in_season": 380,
   "clubs": [
     {
@@ -42674,10 +42674,10 @@
       "birth_country": "United States of America",
       "headshot_url": "https://media-cdn.cortextech.io/fe45bbed-041c-4077-a770-db8d3c0946f0.png",
       "action_url": "https://media-cdn.cortextech.io/fe45bbed-041c-4077-a770-db8d3c0946f0.png",
-      "hometown_city": null,
-      "hometown_state": null,
-      "hometown": null,
-      "college": null,
+      "hometown_city": "Montross",
+      "hometown_state": "Virginia",
+      "hometown": "Montross, Virginia",
+      "college": "Virginia",
       "high_school": null,
       "games_played": 24,
       "ppg": 5.5,
@@ -56760,6 +56760,108 @@
           "home_away": "Home",
           "round": 38,
           "venue": "COCA-COLA ARENA"
+        }
+      ]
+    },
+    {
+      "code": "008962",
+      "name": "Nigel Hayes-Davis",
+      "team": "Panathinaikos AKTOR Athens",
+      "team_code": "PAN",
+      "position": "Shooting Guard",
+      "jersey": "11",
+      "height_cm": 203,
+      "height_feet": 6,
+      "height_inches": 8,
+      "birth_date": "1994-12-16",
+      "nationality": "United States of America",
+      "birth_country": "United States of America",
+      "headshot_url": null,
+      "action_url": null,
+      "hometown_city": "Westerville",
+      "hometown_state": "Ohio",
+      "hometown": "Westerville, Ohio",
+      "college": "Wisconsin",
+      "high_school": "Whitmer",
+      "games_played": 0,
+      "ppg": 0,
+      "rpg": 0,
+      "apg": 0,
+      "total_points": 0,
+      "total_rebounds": 0,
+      "total_assists": 0,
+      "recent_games": [],
+      "all_games": [],
+      "upcoming_games": [
+        {
+          "date": "2026-02-26",
+          "opponent": "Paris Basketball",
+          "home_away": "Home",
+          "round": 29,
+          "venue": "TELEKOM CENTER ATHENS"
+        },
+        {
+          "date": "2026-03-06",
+          "opponent": "Olympiacos Piraeus",
+          "home_away": "Away",
+          "round": 30,
+          "venue": "PEACE AND FRIENDSHIP STADIUM"
+        },
+        {
+          "date": "2026-03-12",
+          "opponent": "Zalgiris Kaunas",
+          "home_away": "Home",
+          "round": 31,
+          "venue": "TELEKOM CENTER ATHENS"
+        },
+        {
+          "date": "2026-03-20",
+          "opponent": "Crvena Zvezda Meridianbet Belgrade",
+          "home_away": "Home",
+          "round": 32,
+          "venue": "TELEKOM CENTER ATHENS"
+        },
+        {
+          "date": "2026-03-24",
+          "opponent": "Dubai Basketball",
+          "home_away": "Away",
+          "round": 33,
+          "venue": "COCA-COLA ARENA"
+        },
+        {
+          "date": "2026-03-27",
+          "opponent": "AS Monaco",
+          "home_away": "Home",
+          "round": 34,
+          "venue": "TELEKOM CENTER ATHENS"
+        },
+        {
+          "date": "2026-04-02",
+          "opponent": "Hapoel IBI Tel Aviv",
+          "home_away": "Away",
+          "round": 35,
+          "venue": "MENORA MIVTACHIM ARENA"
+        },
+        {
+          "date": "2026-04-07",
+          "opponent": "FC Barcelona",
+          "home_away": "Away",
+          "round": 36,
+          "venue": "PALAU BLAUGRANA"
+        },
+        {
+          "date": "2026-04-09",
+          "opponent": "Valencia Basket",
+          "home_away": "Away",
+          "round": 37,
+          "venue": "ROIG ARENA"
+        },
+        {
+          "date": "2026-04-17",
+          "opponent": "Anadolu Efes Istanbul",
+          "home_away": "Home",
+          "round": 38,
+          "venue": "TELEKOM CENTER ATHENS"
         }
       ]
     },
