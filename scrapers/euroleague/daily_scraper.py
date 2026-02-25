@@ -687,7 +687,7 @@ def main():
             'weight': person.get('weight'),
             'team_code': club.get('code') if club else None,
             'team_name': club.get('name') if club else None,
-            'position': record.get('position'),
+            'position': record.get('positionName') or record.get('position'),
             'jersey': record.get('dorsal'),
             'headshot_url': images.get('headshot'),
             'action_url': images.get('action'),

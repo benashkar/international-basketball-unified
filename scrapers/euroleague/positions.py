@@ -8,16 +8,12 @@ Used across all leagues for consistent position display.
 
 # Position number to name mapping
 POSITION_MAP = {
-    1: 'Point Guard',
-    2: 'Shooting Guard',
-    3: 'Small Forward',
-    4: 'Power Forward',
-    5: 'Center',
-    '1': 'Point Guard',
-    '2': 'Shooting Guard',
-    '3': 'Small Forward',
-    '4': 'Power Forward',
-    '5': 'Center',
+    1: 'Guard',
+    2: 'Forward',
+    3: 'Center',
+    '1': 'Guard',
+    '2': 'Forward',
+    '3': 'Center',
     # Common abbreviations
     'PG': 'Point Guard',
     'SG': 'Shooting Guard',
