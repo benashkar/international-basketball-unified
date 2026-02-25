@@ -48,15 +48,19 @@ Track American basketball players across international leagues, with focus on fi
 ```
 unified/
 ├── dashboard.py              # Main Flask application
-├── positions.py              # Position number-to-name lookup (shared)
+├── positions.py              # Position lookup - NBA convention (shared by ACB, BSL, LBA)
+├── requirements.txt          # Includes pytest>=7.0.0
 ├── output/json/              # Data files dashboard reads from
 │   ├── euroleague_american_players_latest.json
 │   ├── acb_american_players_latest.json
 │   └── bsl_american_players_latest.json
+├── tests/
+│   ├── test_positions.py     # Position mapping unit tests (20 tests)
+│   └── test_data_quality.py  # Scraped data validation (skips without data)
 └── scrapers/
     ├── euroleague/
-    │   ├── euroleague_scraper.py   # Fetches from EuroLeague API
-    │   ├── daily_scraper.py        # TheSportsDB + Wikipedia
+    │   ├── daily_scraper.py        # EuroLeague API (prefers positionName over integer)
+    │   ├── positions.py            # EuroLeague 3-category (1=Guard, 2=Forward, 3=Center)
     │   └── join_data.py            # Combines all sources
     ├── acb/
     │   ├── acb_scraper.py          # Scrapes ACB.com box scores
@@ -156,11 +160,21 @@ name_norm = name_norm.lower().strip()
 ```
 
 ### 4. Position Conversion
-Some sources use numbers (1-5), others use names. Use shared positions.py:
+**IMPORTANT**: Position integer mappings differ by league!
+
+- **Root `positions.py`**: NBA 5-position convention (1=PG, 2=SG, 3=SF, 4=PF, 5=C)
+  - Used by ACB, BSL, LBA (via their local copies)
+- **`scrapers/euroleague/positions.py`**: EuroLeague 3-category system (1=Guard, 2=Forward, 3=Center)
+  - EuroLeague API returns integers 1-3, NOT 1-5
+  - `daily_scraper.py` prefers `positionName` string from API over integer `position`
+- **LNB, ESAKE, BBL**: Don't use positions.py at all (raw strings pass through from TheSportsDB/scrape)
+
 ```python
 from positions import get_position_name
 position = get_position_name(player.get('position'))  # Handles 1, "1", "PG", "Point Guard"
 ```
+
+**Never assume all leagues use the same integer-to-position mapping.** Always check the API docs for the league's position system before adding integer mappings.
 
 ### 5. File Naming Convention
 - Timestamped files: `{prefix}_{YYYYMMDD_HHMMSS}.json` (for history)
@@ -285,7 +299,7 @@ git push origin master
   "name": "John Smith",
   "team": "Team Name",
   "team_code": "TEAM",
-  "position": "Point Guard",    // Full name, not number
+  "position": "Guard",           // Full name, not number (EuroLeague: Guard/Forward/Center)
   "jersey": "23",
   "height_cm": 195,
   "height_feet": 6,
@@ -373,10 +387,11 @@ mcp__render__update_environment_variables(
 
 ## GitHub Actions (Daily Scraping)
 File: `.github/workflows/daily-scrape.yml`
-- Runs daily at midnight UTC
-- Executes all league scrapers
+- Runs daily at 6 AM UTC + manual trigger (workflow_dispatch)
+- **`test` job runs first** (`pytest tests/test_positions.py -v`) — gates all scrapers
+- All 7 scraper jobs have `needs: [test]` so bad mappings fail fast
 - Commits and pushes updated data
-- Render auto-deploys on push
+- Render auto-deploys on push (but may need manual API trigger)
 
 ---
 
@@ -392,11 +407,14 @@ File: `.github/workflows/daily-scrape.yml`
 
 ---
 
+## Completed Fixes
+
+### EuroLeague Position Mapping (Feb 2026, PR #1)
+- **Problem**: EuroLeague API returns position integers 1-3 (Guard/Forward/Center), but positions.py assumed NBA's 1-5 convention, causing ~100 players to have wrong positions
+- **Fix**: `daily_scraper.py` now prefers `positionName` string; `scrapers/euroleague/positions.py` maps 1→Guard, 2→Forward, 3→Center
+- **Verification**: All 103 EuroLeague players show Guard/Forward/Center (zero NBA-specific positions)
+
 ## Next Steps (Priority Order)
 
-1. **Italian LBA** - Large league, many Americans, good data at legabasket.it
-2. **French LNB** - Strong league, lnb.fr has good data
-3. **German BBL** - Growing destination, easycredit-bbl.de
-4. **Greek ESAKE** - Traditional destination, esake.gr
-5. **Australian NBL** - English-language, easier to scrape
-6. **Chinese CBA** - Fewer Americans recently, cbaleague.com
+1. **Australian NBL** - nbl.com.au, English-language, easier to scrape
+2. **Chinese CBA** - cbaleague.com, fewer Americans recently
