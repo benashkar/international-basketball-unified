@@ -414,6 +414,14 @@ File: `.github/workflows/daily-scrape.yml`
 - **Fix**: `daily_scraper.py` now prefers `positionName` string; `scrapers/euroleague/positions.py` maps 1→Guard, 2→Forward, 3→Center
 - **Verification**: All 103 EuroLeague players show Guard/Forward/Center (zero NBA-specific positions)
 
+## CI / Branch Protection Rules
+- **Every repo must have a PR-check workflow** that runs on `pull_request` to the default branch
+- **Never push directly to master/main** — always use feature branches + PRs
+- **Use `python -m pip`** instead of bare `pip` in CI workflows
+- **Test job must gate all other jobs** via `needs: [test]` in GitHub Actions
+- **When a bug reaches master, write a test that catches it BEFORE fixing the code** — commit the failing test first, then fix. This ensures the regression test actually works.
+- **Whenever you make a mistake, commit the mistake as a test so it never happens again**
+
 ## Next Steps (Priority Order)
 
 1. **Australian NBL** - nbl.com.au, English-language, easier to scrape

@@ -1,0 +1,22 @@
+name: PR Check
+on:
+  pull_request:
+    branches: [master]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+      - name: Install dependencies
+        run: python -m pip install --upgrade pip && python -m pip install pytest flask gunicorn requests beautifulsoup4
+      - name: Syntax check (all .py files)
+        run: python -m py_compile dashboard.py && find . -name "*.py" -not -path "./.git/*" | xargs -I{} python -m py_compile {}
+      - name: Run tests
+        run: pytest tests/ -v
+      - name: Verify Flask app starts
+        run: python -c "from dashboard import app; assert len(app.url_map._rules) > 1, 'No routes registered'"
