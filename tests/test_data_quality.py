@@ -12,7 +12,6 @@ import pytest
 
 PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 EUROLEAGUE_OUTPUT = os.path.join(PROJECT_ROOT, 'scrapers', 'euroleague', 'output', 'json')
-MAIN_OUTPUT = os.path.join(PROJECT_ROOT, 'output', 'json')
 
 # Positions that only exist due to the wrong NBA integer mapping
 INVALID_EUROLEAGUE_POSITIONS = {'Shooting Guard', 'Small Forward', 'Power Forward', 'Point Guard'}
@@ -46,13 +45,15 @@ class TestEuroLeagueDataQuality:
     """Validate EuroLeague output data has correct positions."""
 
     def _get_euroleague_players(self):
-        """Try to find EuroLeague player data from either output location."""
-        for directory in [EUROLEAGUE_OUTPUT, MAIN_OUTPUT]:
-            for pattern in ['american_players_*.json', 'euroleague_american_players_*.json',
-                            'unified_american_players_*.json', 'euroleague_unified_players_*.json']:
-                filepath = _find_latest_file(directory, pattern)
-                if filepath:
-                    return _load_players(filepath)
+        """Try to find freshly scraped EuroLeague player data.
+
+        Only checks the scraper output directory (populated during scraping),
+        NOT output/json/ which may contain stale committed data from before fixes.
+        """
+        for pattern in ['unified_american_players_*.json', 'american_players_*.json']:
+            filepath = _find_latest_file(EUROLEAGUE_OUTPUT, pattern)
+            if filepath:
+                return _load_players(filepath)
         return None
 
     def test_no_wrong_integer_mapped_positions(self):

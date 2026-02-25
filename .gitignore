@@ -16,5 +16,8 @@ venv/
 .DS_Store
 Thumbs.db
 
-# Keep JSON data files (they are tracked)
+# Scraper intermediate output (generated fresh each CI run)
+scrapers/*/output/
+
+# Keep top-level JSON data files (they are tracked)
 # !output/json/*_latest.json

@@ -26,10 +26,10 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install pytest
+          python -m pip install pytest
 
       - name: Run tests
-        run: pytest tests/test_positions.py -v
+        run: pytest tests/ -v
 
   scrape-euroleague:
     needs: [test]
@@ -47,7 +47,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests euroleague-api beautifulsoup4
+          python -m pip install requests euroleague-api beautifulsoup4
 
       - name: Run EuroLeague scraper
         run: |
@@ -86,7 +86,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests beautifulsoup4 flask
+          python -m pip install requests beautifulsoup4 flask
 
       - name: Run Liga ACB scrapers
         run: |
@@ -127,7 +127,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests beautifulsoup4 flask
+          python -m pip install requests beautifulsoup4 flask
 
       - name: Run Turkish BSL scrapers
         run: |
@@ -166,11 +166,11 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests beautifulsoup4
+          python -m pip install requests beautifulsoup4
 
       - name: Install Selenium dependencies
         run: |
-          pip install selenium webdriver-manager
+          python -m pip install selenium webdriver-manager
 
       - name: Run French LNB scrapers
         run: |
@@ -211,7 +211,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests beautifulsoup4
+          python -m pip install requests beautifulsoup4
 
       - name: Run Greek ESAKE scrapers
         run: |
@@ -253,7 +253,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests beautifulsoup4
+          python -m pip install requests beautifulsoup4
 
       - name: Run Italian LBA scrapers
         run: |
@@ -295,7 +295,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests beautifulsoup4
+          python -m pip install requests beautifulsoup4
 
       - name: Run German BBL scrapers
         run: |
