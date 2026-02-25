@@ -1,5 +1,5 @@
 {
-  "export_date": "2026-02-24T06:35:33.204338",
+  "export_date": "2026-02-25T02:29:53.487259",
   "season": "2025-26",
   "league": "Lega Basket Serie A (LBA)",
   "source": "legabasket.it",
@@ -2184,19 +2184,8 @@
       "played": true
     },
     {
-      "game_id": "25182",
-      "date": "2026-03-15",
-      "round": "22° Giornata",
-      "home_team": "Virtus Olidata Bologna",
-      "away_team": "EA7 Emporio Armani Milano",
-      "home_score": 0,
-      "away_score": 0,
-      "venue": "Virtus Arena",
-      "played": true
-    },
-    {
       "game_id": "25184",
-      "date": "2026-03-15",
+      "date": "2026-03-14",
       "round": "22° Giornata",
       "home_team": "Pallacanestro Trieste",
       "away_team": "Dolomiti Energia Trentino",
@@ -2207,13 +2196,24 @@
     },
     {
       "game_id": "25185",
-      "date": "2026-03-15",
+      "date": "2026-03-14",
       "round": "22° Giornata",
       "home_team": "Umana Reyer Venezia",
       "away_team": "APU Old Wild West Udine",
       "home_score": 0,
       "away_score": 0,
       "venue": "Palasport Taliercio",
+      "played": true
+    },
+    {
+      "game_id": "25182",
+      "date": "2026-03-15",
+      "round": "22° Giornata",
+      "home_team": "Virtus Olidata Bologna",
+      "away_team": "EA7 Emporio Armani Milano",
+      "home_score": 0,
+      "away_score": 0,
+      "venue": "Virtus Arena",
       "played": true
     },
     {
