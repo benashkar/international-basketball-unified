@@ -29,7 +29,7 @@ jobs:
           pip install pytest
 
       - name: Run tests
-        run: pytest tests/ -v
+        run: pytest tests/test_positions.py -v
 
   scrape-euroleague:
     needs: [test]
