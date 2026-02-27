@@ -7,6 +7,7 @@ Combines TheSportsDB player data into unified format for the dashboard.
 
 import json
 import os
+import shutil
 import logging
 from datetime import datetime
 
@@ -181,6 +182,18 @@ def main():
                     game_log = games
                     break
 
+        # Try last-name + first-initial match as final fallback
+        if not game_log:
+            parts = player_name.lower().split()
+            if len(parts) >= 2:
+                last = parts[-1]
+                first_initial = parts[0][0]
+                for box_name, games in player_games.items():
+                    box_parts = box_name.lower().split()
+                    if len(box_parts) >= 2 and box_parts[-1] == last and box_parts[0][0] == first_initial:
+                        game_log = games
+                        break
+
         # Use stats from source file, fall back to calculating from game log
         games_played = player.get('games_played') or len(game_log)
 
@@ -206,7 +219,7 @@ def main():
 
         unified = {
             # Basic info
-            'code': player.get('id'),
+            'code': player.get('code') or player.get('id'),
             'name': player.get('name'),
             'team': player.get('team'),
             'team_logo': player.get('team_logo') or team_info.get('logo_url') or team_info.get('badge_url'),
@@ -259,6 +272,20 @@ def main():
 
     save_json(output, f'unified_american_players_{timestamp}.json')
     save_json(output, 'unified_american_players_latest.json')
+
+    # Copy games and boxscores to main output directory
+    bbl_output_dir = os.path.join(os.path.dirname(__file__), 'output', 'json')
+    main_output_dir = os.path.join(os.path.dirname(__file__), '..', '..', 'output', 'json')
+    os.makedirs(main_output_dir, exist_ok=True)
+
+    for fname in ['bbl_games_latest.json', 'bbl_boxscores_latest.json']:
+        src = os.path.join(bbl_output_dir, fname)
+        if os.path.exists(src):
+            dst = os.path.join(main_output_dir, fname)
+            shutil.copy2(src, dst)
+            logger.info(f"Copied {fname} to main output directory")
+        else:
+            logger.warning(f"{fname} not found in BBL output, skipping copy")
 
     # Summary
     logger.info("\n" + "=" * 60)
